@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechTidy | AI News & Tools</title>
+    <title>TechTidy | AI Stack Strategy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -16,7 +16,6 @@
             --header-bg: #0f172a;
             --border: #e2e8f0;
         }
-
         [data-theme="dark"] {
             --bg: #0b0f1a;
             --card-bg: #161e2e;
@@ -25,106 +24,43 @@
             --border: #1f2937;
         }
 
-        body { 
-            font-family: 'Inter', sans-serif; 
-            background: var(--bg); 
-            color: var(--text); 
-            margin: 0; 
-            transition: background 0.3s, color 0.3s;
-        }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); margin: 0; transition: 0.3s; padding-bottom: 5rem; }
+        
+        /* UI Elements */
+        .theme-toggle { position: fixed; top: 20px; right: 20px; z-index: 1000; background: var(--primary); border: none; padding: 12px; border-radius: 50%; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        
+        header { background: var(--header-bg); color: white; padding: 6rem 1rem; text-align: center; }
+        header h1 { font-size: 3.5rem; margin: 0; color: var(--primary); letter-spacing: -2px; }
+        #update-tag { opacity: 0.6; font-size: 0.9rem; margin-top: 10px; display: block; }
 
-        /* --- THEME TOGGLE --- */
-        .theme-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: var(--primary);
-            border: none;
-            padding: 10px;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 1.2rem;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+        .section-title { text-align: center; margin: 5rem 0 2rem; font-size: 2.2rem; font-weight: 800; }
 
-        header { 
-            background: var(--header-bg); 
-            color: white; 
-            padding: 5rem 1rem; 
-            text-align: center; 
-        }
+        /* --- THE REPLACEMENT BOARD --- */
+        .board { background: var(--card-bg); border-radius: 24px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 4rem; }
+        .board-row { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--border); }
+        .board-header { background: var(--primary); color: #0f172a; font-weight: 800; text-transform: uppercase; font-size: 0.8rem; padding: 1rem; }
+        .board-cell { padding: 1.5rem; display: flex; align-items: center; gap: 10px; }
+        .old { opacity: 0.6; text-decoration: line-through; }
+        .new { font-weight: 700; color: var(--primary); }
 
-        header h1 { font-size: 3rem; margin: 0; font-weight: 800; color: var(--primary); }
-
-        .section-title {
-            text-align: center;
-            margin: 4rem 0 2rem;
-            font-size: 2rem;
-            font-weight: 800;
-        }
-
-        /* --- TOOLS SECTION --- */
-        .tools-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-
-        .tool-card {
-            background: var(--primary);
-            color: #0f172a;
-            padding: 1.5rem;
-            border-radius: 16px;
-            font-weight: 600;
-            text-align: center;
-            text-decoration: none;
-            transition: transform 0.2s;
-        }
-
-        .tool-card:hover { transform: scale(1.05); }
+        /* --- SEARCH BAR --- */
+        .search-wrap { text-align: center; margin-bottom: 3rem; }
+        #search { padding: 1rem 1.5rem; width: 100%; max-width: 400px; border-radius: 50px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); font-size: 1rem; outline: none; transition: 0.3s; }
+        #search:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(46, 204, 113, 0.1); }
 
         /* --- NEWS GRID --- */
-        #news-container { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
-            gap: 2rem; 
-            max-width: 1200px; 
-            margin: 2rem auto; 
-            padding: 0 1.5rem;
-        }
+        #news-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { background: var(--card-bg); border-radius: 20px; overflow: hidden; border: 1px solid var(--border); transition: 0.3s; height: 100%; }
+        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
+        .card-img { width: 100%; height: 160px; object-fit: cover; }
+        .card-content { padding: 1.5rem; }
+        .card h3 { margin: 0; font-size: 1.1rem; line-height: 1.4; }
+        .card a { display: block; margin-top: 1rem; color: var(--primary); text-decoration: none; font-weight: 700; font-size: 0.8rem; }
 
-        .card { 
-            background: var(--card-bg); 
-            border-radius: 20px; 
-            overflow: hidden;
-            border: 1px solid var(--border);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .card-img { width: 100%; height: 180px; object-fit: cover; }
-        .card-content { padding: 1.5rem; flex-grow: 1; }
-        .card h3 { margin: 0.5rem 0; font-size: 1.2rem; }
-        .card p { font-size: 0.9rem; opacity: 0.8; }
-        .card a { color: var(--primary); text-decoration: none; font-weight: bold; font-size: 0.8rem; }
-
-        #subscribe { 
-            max-width: 500px; 
-            margin: 5rem auto; 
-            padding: 3rem; 
-            background: var(--header-bg); 
-            color: white; 
-            border-radius: 24px; 
-            text-align: center;
-        }
-
-        input { padding: 10px; border-radius: 8px; border: none; width: 70%; margin-bottom: 10px; }
-        .sub-btn { background: var(--primary); padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; font-weight: bold; }
-
+        #subscribe { background: var(--header-bg); color: white; padding: 4rem 2rem; border-radius: 30px; text-align: center; margin-top: 6rem; }
+        .sub-input { padding: 12px; border-radius: 8px; border: none; width: 250px; margin-right: 10px; }
+        .sub-btn { background: var(--primary); padding: 12px 24px; border-radius: 8px; border: none; font-weight: 800; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -133,67 +69,94 @@
 
     <header>
         <h1>✨ TechTidy</h1>
-        <p>Your AI command center: Archive, Tools, and Trends.</p>
+        <p>Strategic AI updates to declutter your tech stack.</p>
+        <span id="update-tag">Syncing with AI archives...</span>
     </header>
 
-    <h2 class="section-title">Essential AI Tools</h2>
-    <div class="tools-grid">
-        <a href="https://chatgpt.com" class="tool-card" target="_blank">ChatGPT (The All-Rounder)</a>
-        <a href="https://claude.ai" class="tool-card" target="_blank">Claude (Better Writing)</a>
-        <a href="https://perplexity.ai" class="tool-card" target="_blank">Perplexity (AI Search)</a>
-        <a href="https://gamma.app" class="tool-card" target="_blank">Gamma (AI Slides)</a>
+    <div class="container">
+        <h2 class="section-title">The Tidy Swap</h2>
+        <div class="board">
+            <div class="board-row">
+                <div class="board-header">Legacy Workflow</div>
+                <div class="board-header">Tidy AI Upgrade</div>
+            </div>
+            <div class="board-row">
+                <div class="board-cell old">Google Search / Blue Links</div>
+                <div class="board-cell new">➔ Perplexity AI</div>
+            </div>
+            <div class="board-row">
+                <div class="board-cell old">Stock Photo Hunting</div>
+                <div class="board-cell new">➔ Midjourney / DALL-E</div>
+            </div>
+            <div class="board-row">
+                <div class="board-cell old">Manual Meeting Notes</div>
+                <div class="board-cell new">➔ Fireflies / Otter.ai</div>
+            </div>
+        </div>
+
+        <div class="search-wrap">
+            <input type="text" id="search" placeholder="Search the AI archive...">
+        </div>
+
+        <main id="news-container">
+            <p style="text-align: center; grid-column: 1/-1;">Tidying up the articles...</p>
+        </main>
+
+        <section id="subscribe">
+            <h2>Get the Friday Digest</h2>
+            <form action="https://formspree.io/f/YOUR_ID" method="POST">
+                <input type="email" class="sub-input" placeholder="you@example.com" required>
+                <button type="submit" class="sub-btn">Join TechTidy</button>
+            </form>
+        </section>
     </div>
 
-    <h2 class="section-title">Latest AI Archive</h2>
-    <main id="news-container">
-        <p style="text-align: center; grid-column: 1/-1;">Checking the archive...</p>
-    </main>
-
-    <section id="subscribe">
-        <h2>Don't Miss Next Friday</h2>
-        <form action="https://formspree.io/f/YOUR_ID" method="POST">
-            <input type="email" name="email" placeholder="email@example.com" required>
-            <button type="submit" class="sub-btn">Subscribe</button>
-        </form>
-    </section>
-
     <script>
-        // --- THEME LOGIC ---
         function toggleTheme() {
             const body = document.documentElement;
-            const current = body.getAttribute('data-theme');
-            const target = current === 'dark' ? 'light' : 'dark';
+            const target = body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
             body.setAttribute('data-theme', target);
             localStorage.setItem('theme', target);
         }
+        if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
 
-        if (localStorage.getItem('theme') === 'dark') {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        }
-
-        // --- NEWS LOGIC ---
         async function loadNews() {
             const container = document.getElementById('news-container');
+            const updateTag = document.getElementById('update-tag');
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
-                const news = await response.json();
+                const data = await response.json();
+                
+                // Set the date
+                if(data.last_updated) updateTag.innerText = "Last Stack Cleanup: " + data.last_updated;
+                
+                const articles = data.articles || [];
                 container.innerHTML = ''; 
 
-                news.forEach(article => {
+                articles.forEach(article => {
                     const card = document.createElement('div');
                     card.className = 'card';
                     card.innerHTML = `
                         ${article.urlToImage ? `<img src="${article.urlToImage}" class="card-img">` : ''}
                         <div class="card-content">
                             <h3>${article.title}</h3>
-                            <p>${article.description || 'Check the full article for details.'}</p>
-                            <a href="${article.url}" target="_blank">READ MORE →</a>
+                            <a href="${article.url}" target="_blank">DEPLOY UPDATE →</a>
                         </div>
                     `;
                     container.appendChild(card);
                 });
+
+                // LIVE SEARCH LOGIC
+                document.getElementById('search').addEventListener('input', (e) => {
+                    const term = e.target.value.toLowerCase();
+                    document.querySelectorAll('.card').forEach(card => {
+                        const text = card.innerText.toLowerCase();
+                        card.style.display = text.includes(term) ? 'block' : 'none';
+                    });
+                });
+
             } catch (e) {
-                container.innerHTML = '<p>The archive is currently updating...</p>';
+                container.innerHTML = '<p>The bot is currently tidying the archive. Refresh in a moment!</p>';
             }
         }
         window.onload = loadNews;
