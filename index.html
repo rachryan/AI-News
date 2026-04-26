@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechTidy | AI Learning & News Hub</title>
+    <title>TechTidy | Your Calm Path to AI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
@@ -16,6 +16,7 @@
             --text-main: #1e293b;
             --text-muted: #64748b;
             --border: #f1f5f9;
+            --accent: #6366f1; /* Soft purple for 'Start Here' */
         }
 
         [data-theme="dark"] {
@@ -36,35 +37,20 @@
             line-height: 1.6;
         }
 
-        /* Navigation & Header */
-        nav {
-            padding: 1.5rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            position: sticky;
-            top: 0;
-            background: var(--bg);
-            z-index: 100;
-        }
-
-        .logo { font-weight: 800; font-size: 1.4rem; color: var(--text-main); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+        nav { padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; position: sticky; top: 0; background: var(--bg); z-index: 100; }
+        .logo { font-weight: 800; font-size: 1.4rem; color: var(--text-main); text-decoration: none; }
         .logo span { color: var(--primary); }
 
-        header { text-align: center; padding: 4rem 1rem; }
-        header h1 { font-size: 3rem; margin: 0; letter-spacing: -2px; }
-        header p { color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 1rem auto; }
+        header { text-align: center; padding: 5rem 1rem; }
+        header h1 { font-size: 3.2rem; margin: 0; letter-spacing: -2px; line-height: 1.1; }
+        .curator-note { max-width: 650px; margin: 2rem auto; padding: 1.5rem; background: var(--primary-soft); border-radius: 20px; border-left: 5px solid var(--primary); font-size: 0.95rem; text-align: left; position: relative; }
+        .curator-note b { color: var(--text-main); display: block; margin-bottom: 5px; }
 
         .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-
-        /* Sections Styling */
         section { margin-bottom: 6rem; }
         .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
         .section-header h2 { font-size: 1.8rem; margin: 0; }
 
-        /* Training & Tools Cards */
         .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
         
         .action-card {
@@ -75,28 +61,20 @@
             text-decoration: none;
             color: inherit;
             transition: all 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            position: relative;
         }
         .action-card:hover { transform: translateY(-5px); border-color: var(--primary); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
-        .action-card h3 { margin: 0 0 0.5rem 0; font-size: 1.25rem; }
-        .action-card p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; }
-        .badge { background: var(--primary-soft); color: var(--primary); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; width: fit-content; }
+        .start-badge { position: absolute; top: -10px; right: 20px; background: var(--accent); color: white; padding: 4px 12px; border-radius: 50px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; }
 
-        /* News Section specific */
-        .search-bar { width: 100%; max-width: 400px; padding: 0.8rem 1.2rem; border-radius: 12px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-main); margin-bottom: 2rem; font-family: inherit; }
+        .search-bar { width: 100%; max-width: 400px; padding: 0.8rem 1.2rem; border-radius: 50px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-main); font-family: inherit; outline: none; }
 
         #news-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
-        .news-card { background: var(--card-bg); border-radius: 20px; border: 1px solid var(--border); overflow: hidden; display: flex; flex-direction: column; }
-        .news-img { width: 100%; height: 180px; object-fit: cover; }
+        .news-card { background: var(--card-bg); border-radius: 20px; border: 1px solid var(--border); overflow: hidden; display: flex; flex-direction: column; transition: 0.3s; }
+        .news-card:hover { border-color: var(--primary); }
         .news-content { padding: 1.5rem; }
-        .news-content h3 { font-size: 1.1rem; margin: 0; line-height: 1.4; }
         .news-link { margin-top: 1rem; display: inline-block; color: var(--primary); font-weight: 700; font-size: 0.8rem; text-decoration: none; text-transform: uppercase; }
 
         .theme-btn { background: none; border: none; cursor: pointer; font-size: 1.2rem; }
-
-        /* Footer */
         footer { background: var(--primary-soft); padding: 4rem 1rem; border-radius: 40px 40px 0 0; text-align: center; margin-top: 4rem; }
     </style>
 </head>
@@ -104,98 +82,88 @@
 
     <nav>
         <a href="#" class="logo">Tech<span>Tidy</span></a>
-        <div>
-            <button class="theme-btn" onclick="toggleTheme()">🌓</button>
-        </div>
+        <button class="theme-btn" onclick="toggleTheme()">🌓</button>
     </nav>
 
     <header>
-        <h1>Master the AI Wave.</h1>
-        <p>Curated news, tools, and training to modernize your tech stack without the clutter.</p>
+        <h1>AI doesn't have to be loud.</h1>
+        <div class="curator-note">
+            <b>👋 A Note from Rach</b>
+            "The AI world moves fast, and it's okay to feel overwhelmed. I built TechTidy to be your filter. Below, you'll find only what's necessary to help you work better, not harder. No hype, just the essentials."
+        </div>
     </header>
 
     <div class="container">
         
         <section id="tools">
             <div class="section-header">
-                <h2>Direct Access</h2>
-                <span class="badge">Latest Models</span>
+                <h2>The Toolbox</h2>
+                <span id="update-tag" style="font-size: 0.8rem; opacity: 0.6;">Syncing...</span>
             </div>
             <div class="grid-3">
+                <a href="https://perplexity.ai" target="_blank" class="action-card">
+                    <span class="start-badge">Start Here</span>
+                    <h3>Perplexity</h3>
+                    <p>The best way to replace Google. Ask a question, get an answer with real sources.</p>
+                    <span class="news-link">Open Tool ➔</span>
+                </a>
                 <a href="https://chat.openai.com" target="_blank" class="action-card">
-                    <div>
-                        <h3>ChatGPT</h3>
-                        <p>The standard for conversational AI and reasoning.</p>
-                    </div>
-                    <span class="news-link">Open OpenAI ➔</span>
+                    <h3>ChatGPT</h3>
+                    <p>Your creative partner. Use it for drafting emails or brainstorming ideas.</p>
+                    <span class="news-link">Open Tool ➔</span>
                 </a>
                 <a href="https://claude.ai" target="_blank" class="action-card">
-                    <div>
-                        <h3>Claude</h3>
-                        <p>Advanced coding and long-form document analysis.</p>
-                    </div>
-                    <span class="news-link">Open Anthropic ➔</span>
-                </a>
-                <a href="https://perplexity.ai" target="_blank" class="action-card">
-                    <div>
-                        <h3>Perplexity</h3>
-                        <p>Real-time AI search engine for cited information.</p>
-                    </div>
-                    <span class="news-link">Open Perplexity ➔</span>
+                    <h3>Claude</h3>
+                    <p>Highly ethical and incredible at analyzing long documents or writing code.</p>
+                    <span class="news-link">Open Tool ➔</span>
                 </a>
             </div>
         </section>
 
         <section id="training">
             <div class="section-header">
-                <h2>Skill Up</h2>
-                <span class="badge">Free Certificates</span>
+                <h2>The Academy</h2>
             </div>
             <div class="grid-3">
                 <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="action-card">
-                    <div>
-                        <h3>Google AI Learning</h3>
-                        <p>Foundational generative AI courses from Google Cloud.</p>
-                    </div>
-                    <span class="news-link">Start Learning ➔</span>
+                    <span class="start-badge">Start Here</span>
+                    <h3>Google: Intro to GenAI</h3>
+                    <p>A 1-day path to understanding the basics. Perfectly explained for non-techies.</p>
+                    <span class="news-link">Free Course ➔</span>
                 </a>
                 <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="action-card">
-                    <div>
-                        <h3>Microsoft Azure AI</h3>
-                        <p>Comprehensive paths for Azure AI and Copilot implementation.</p>
-                    </div>
-                    <span class="news-link">Start Learning ➔</span>
+                    <h3>Microsoft: AI for All</h3>
+                    <p>Understand how AI will change your office apps (Word, Excel, PPT).</p>
+                    <span class="news-link">Free Course ➔</span>
                 </a>
                 <a href="https://www.anthropic.com/news/introducing-claude-3-5-sonnet" target="_blank" class="action-card">
-                    <div>
-                        <h3>Anthropic Guide</h3>
-                        <p>Technical prompts and best practices for Claude models.</p>
-                    </div>
-                    <span class="news-link">Start Learning ➔</span>
+                    <h3>Anthropic: Prompting</h3>
+                    <p>Learn the 'magic words' to get the best results out of any AI model.</p>
+                    <span class="news-link">Learn Skills ➔</span>
                 </a>
             </div>
         </section>
 
         <section id="news">
             <div class="section-header">
-                <h2>Latest Insights</h2>
+                <h2>The Weekly Filter</h2>
                 <input type="text" id="search" class="search-bar" placeholder="Search the archive...">
             </div>
             <div id="news-container">
-                <p>Syncing AI news...</p>
+                <p>Loading news...</p>
             </div>
         </section>
 
     </div>
 
     <footer>
-        <h2>Join TechTidy</h2>
-        <p>A cleaner inbox for a cleaner tech stack.</p>
+        <h2>Weekly Clarity</h2>
+        <p>Get the curated 'Tidy' update every Friday.</p>
         <form action="https://formspree.io/f/YOUR_ID" method="POST" style="margin: 2rem 0;">
             <input type="email" placeholder="you@example.com" style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); width: 250px;">
-            <button type="submit" style="background: var(--text-main); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: 700; cursor: pointer;">Join Newsletter</button>
+            <button type="submit" style="background: var(--text-main); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: 700; cursor: pointer;">Join Us</button>
         </form>
-        <p style="font-size: 0.8rem; color: var(--text-muted);">© 2026 TechTidy Hub • Handcrafted for AI Learners.</p>
+        <p style="font-size: 0.8rem; color: var(--text-muted);">Stay Tidy. Stay curious.</p>
     </footer>
 
     <script>
@@ -209,9 +177,13 @@
 
         async function loadNews() {
             const container = document.getElementById('news-container');
+            const updateTag = document.getElementById('update-tag');
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
+                
+                if(data.last_updated) updateTag.innerText = "Updated: " + data.last_updated;
+                
                 const articles = data.articles || [];
                 container.innerHTML = ''; 
 
@@ -219,10 +191,12 @@
                     const card = document.createElement('div');
                     card.className = 'news-card';
                     card.innerHTML = `
-                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="news-img" onerror="this.style.display='none'">` : ''}
                         <div class="news-content">
                             <h3>${article.title}</h3>
-                            <a href="${article.url}" class="news-link" target="_blank">Full Story ➔</a>
+                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">
+                                ${article.description ? article.description.substring(0, 100) + '...' : 'Dive into the details of this AI update.'}
+                            </p>
+                            <a href="${article.url}" class="news-link" target="_blank">Why it matters ➔</a>
                         </div>
                     `;
                     container.appendChild(card);
@@ -236,7 +210,7 @@
                     });
                 });
             } catch (e) {
-                container.innerHTML = '<p>Archive updating...</p>';
+                container.innerHTML = '<p>Preparing news...</p>';
             }
         }
         window.onload = loadNews;
