@@ -4,38 +4,46 @@ import json
 
 def fetch_ai_news():
     api_key = os.getenv("NEWS_API_KEY")
-    
     if not api_key:
         print("Missing API Key")
         return
 
-    # Specifically searching for tools, workflows, and stacks to fit your brand
-    # language=en ensures no more foreign results
     url = "https://newsapi.org/v2/everything"
     params = {
-        "q": "artificial intelligence (tools OR stack OR productivity OR software)",
+        "q": "artificial intelligence (tools OR productivity OR software)",
         "language": "en",
-        "sortBy": "relevancy", # Relevancy often yields better quality than just "newest"
-        "pageSize": 9,           # 9 articles fills a 3x3 grid perfectly
+        "sortBy": "publishedAt",
+        "pageSize": 6, 
         "apiKey": api_key
     }
 
     try:
         response = requests.get(url, params=params)
         response.raise_for_status()
-        data = response.json()
-        articles = data.get('articles', [])
+        new_articles = response.json().get('articles', [])
 
-        # We filter out articles that are missing titles or links
-        filtered_articles = [
-            a for a in articles 
-            if a.get('title') and a.get('url') and "Removed" not in a['title']
-        ]
+        # --- ARCHIVING LOGIC ---
+        # 1. Load existing news if the file exists
+        if os.path.exists("news.json"):
+            with open("news.json", "r", encoding="utf-8") as f:
+                try:
+                    old_news = json.load(f)
+                except json.JSONDecodeError:
+                    old_news = []
+        else:
+            old_news = []
+
+        # 2. Combine and remove duplicates based on URL
+        existing_urls = {article['url'] for article in old_news}
+        unique_new = [a for a in new_articles if a['url'] not in existing_urls and "Removed" not in a['title']]
+        
+        # 3. Keep the most recent 20 articles total
+        combined_news = (unique_new + old_news)[:20]
 
         with open("news.json", "w", encoding="utf-8") as f:
-            json.dump(filtered_articles, f, indent=4)
+            json.dump(combined_news, f, indent=4)
             
-        print(f"Success! {len(filtered_articles)} articles captured.")
+        print(f"Archived! {len(unique_new)} new articles added.")
 
     except Exception as e:
         print(f"Error: {e}")
