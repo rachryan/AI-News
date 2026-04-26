@@ -16,7 +16,7 @@
     <nav class="pathfinder-nav">
         <div class="logo" style="font-weight:900; letter-spacing:-1px;">TECH<span style="color:var(--accent-color)">TIDY</span></div>
         <div style="display: flex; gap: 15px; align-items: center;">
-            <select class="nav-select" onchange="const el = document.getElementById(this.value); if(el) el.scrollIntoView({behavior:'smooth'})">
+            <select class="nav-select" onchange="if(this.value) document.getElementById(this.value).scrollIntoView({behavior:'smooth'})">
                 <option value="">PATHFINDER_MENU</option>
                 <option value="tools">01: THE_TOOLBOX</option>
                 <option value="training">02: THE_ACADEMY</option>
@@ -27,14 +27,14 @@
         </div>
     </nav>
 
-    <main class="container" id="top">
+    <main class="container">
         <header style="text-align: center; padding: 6rem 0 4rem;">
             <div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 2rem;">
                 <span style="font-family:'JetBrains Mono'; font-size:0.7rem; color:var(--text-dim);">SENTIMENT</span>
                 <div class="meter"><div class="fill" id="sentiment-fill"></div></div>
             </div>
             <h1 style="font-size: clamp(2.5rem, 8vw, 4.5rem); font-weight: 900; letter-spacing: -3px; margin-bottom: 1.5rem;">The Intelligence Briefing.</h1>
-            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">From anxiety to agency. Automated intelligence for the curious, bespoke empowerment for the ambitious.</p>
+            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">Bridging the gap between AI anxiety and agency. Automated intelligence for the curious, bespoke coaching for the ambitious.</p>
         </header>
 
         <section id="tools">
@@ -43,18 +43,18 @@
                 <a href="https://perplexity.ai" target="_blank" class="news-card">
                     <div class="badge">START HERE</div>
                     <h2 class="headline">Perplexity</h2>
-                    <p class="summary">Source-backed AI search. The modern alternative to traditional browsing.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">INITIALIZE ➔</div>
+                    <p class="summary">Verified AI search engine. The modern alternative to traditional browsing with real-time sources.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">INITIALIZE ➔</div>
                 </a>
                 <a href="https://chat.openai.com" target="_blank" class="news-card">
                     <h2 class="headline">ChatGPT</h2>
-                    <p class="summary">The industry leader for drafting, logic, and general problem solving.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">INITIALIZE ➔</div>
+                    <p class="summary">The industry standard for logic, creative drafting, and general problem solving across workflows.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">INITIALIZE ➔</div>
                 </a>
                 <a href="https://claude.ai" target="_blank" class="news-card">
                     <h2 class="headline">Claude</h2>
-                    <p class="summary">Advanced long-form analysis and human-centric writing styles.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">INITIALIZE ➔</div>
+                    <p class="summary">Advanced document analysis and human-centric writing styles. Exceptional for complex data parsing.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">INITIALIZE ➔</div>
                 </a>
             </div>
         </section>
@@ -64,13 +64,13 @@
             <div class="news-grid">
                 <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="news-card">
                     <h2 class="headline">Google AI Essentials</h2>
-                    <p class="summary">Free foundation courses designed for non-technical users.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">FREE_ACCESS ➔</div>
+                    <p class="summary">Foundational training designed specifically for non-technical professionals entering the AI space.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
                 <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="news-card">
                     <h2 class="headline">Microsoft Azure AI</h2>
-                    <p class="summary">Mastering AI implementation in a professional ecosystem.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">FREE_ACCESS ➔</div>
+                    <p class="summary">Strategic implementation of AI solutions within professional office environments and ecosystems.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
             </div>
         </section>
@@ -95,7 +95,7 @@
         <section id="news">
             <div class="card-tag">// SECTION_04: INTEL_ARCHIVE</div>
             <div style="margin-bottom: 2rem;">
-                <input type="text" id="search" placeholder="FILTER_BRIEFINGS..." 
+                <input type="text" id="search" placeholder="FILTER_FULL_ARCHIVE..." 
                     style="background:transparent; border:none; border-bottom:1px solid var(--glass-border); color:var(--text-main); font-family:'JetBrains Mono'; padding:10px; width:100%; max-width:400px; outline:none;">
             </div>
             <div id="news-container" class="news-grid">
@@ -104,10 +104,12 @@
     </main>
 
     <footer style="text-align:center; padding: 6rem 4rem; color: var(--text-dim); font-size: 0.8rem; border-top: 1px solid var(--glass-border);">
-        © 2026 TechTidy • Automated Intel Briefing • Stay Curious
+        © 2026 TechTidy • Automated Intel Briefing • From Fear to Agency
     </footer>
 
     <script>
+        let fullArchive = [];
+
         function toggleTheme() {
             const current = document.documentElement.getAttribute('data-theme');
             const target = current === 'light' ? 'dark' : 'light';
@@ -120,33 +122,40 @@
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
-                const articles = data.articles || [];
-                container.innerHTML = ''; 
-                
-                // Show 6 latest articles
-                articles.slice(0, 6).forEach((article, index) => {
-                    const card = document.createElement('a');
-                    card.href = article.url; card.target = "_blank"; card.className = 'news-card';
-                    card.innerHTML = `
-                        <div class="card-tag">ARCHIVE_INTEL_${index + 1}</div>
-                        ${article.urlToImage ? `<img src="${article.urlToImage}" style="width:100%; height:180px; object-fit:cover; border-radius:15px; margin-bottom:1rem; border:1px solid var(--glass-border);">` : ''}
-                        <h2 class="headline">${article.title}</h2>
-                        <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top:auto;">READ_FULL ➔</div>
-                    `;
-                    container.appendChild(card);
-                });
-
-                // Search Filter Logic
-                document.getElementById('search').addEventListener('input', (e) => {
-                    const term = e.target.value.toLowerCase();
-                    document.querySelectorAll('#news-container .news-card').forEach(card => {
-                        const title = card.querySelector('.headline').innerText.toLowerCase();
-                        card.style.display = title.includes(term) ? 'flex' : 'none';
-                    });
-                });
-
+                fullArchive = data.articles || [];
+                renderNews(fullArchive.slice(0, 6)); // Default view: 6 latest
             } catch (e) { console.log(e); }
         }
+
+        function renderNews(articles) {
+            const container = document.getElementById('news-container');
+            container.innerHTML = ''; 
+            articles.forEach((article, index) => {
+                const card = document.createElement('a');
+                card.href = article.url; card.target = "_blank"; card.className = 'news-card';
+                card.innerHTML = `
+                    <div class="card-tag">ARCHIVE_INTEL_${index + 1}</div>
+                    ${article.urlToImage ? `<img src="${article.urlToImage}" style="width:100%; height:180px; object-fit:cover; border-radius:15px; margin-bottom:1rem; border:1px solid var(--glass-border);">` : ''}
+                    <h2 class="headline">${article.title}</h2>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top:auto;">READ_FULL ➔</div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Search logic that scans the ENTIRE archive
+        document.getElementById('search').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            if (!term) {
+                renderNews(fullArchive.slice(0, 6));
+                return;
+            }
+            const filtered = fullArchive.filter(art => 
+                art.title.toLowerCase().includes(term) || 
+                (art.description && art.description.toLowerCase().includes(term))
+            );
+            renderNews(filtered);
+        });
 
         window.onload = () => {
             loadNews();
