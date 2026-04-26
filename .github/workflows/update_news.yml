@@ -2,19 +2,22 @@ name: Weekly AI News Update
 
 on:
   schedule:
-    - cron: '0 0 * * 5' # This runs every Friday at midnight
-  workflow_dispatch:      # This allows you to click "Run workflow" manually
+    - cron: '0 0 * * 5' # Every Friday at midnight
+  workflow_dispatch:      # Manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # This line tells GitHub to use the newer Node version immediately
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Updated to v5
         with:
           python-version: '3.x'
 
@@ -32,7 +35,6 @@ jobs:
           git config --global user.email 'bot@techtidy.com'
           git add news.json
           
-          # Check if there are actually changes to commit
           if git diff --quiet && git diff --staged --quiet; then
             echo "No new news found today. Skipping commit."
           else
