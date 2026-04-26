@@ -4,183 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechTidy | The Intelligence Briefing</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg: #050505;
-            --surface: #0f0f0f;
-            --primary: #4ade80;
-            --text: #ffffff;
-            --text-dim: #a1a1aa;
-            --border: #27272a;
-        }
-
-        body { 
-            font-family: 'Inter', sans-serif; 
-            background-color: var(--bg); 
-            color: var(--text); 
-            margin: 0; 
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        /* Hero Section */
-        header { 
-            height: 80vh; 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: center; 
-            align-items: center; 
-            text-align: center;
-            background: radial-gradient(circle at center, #111827 0%, #050505 100%);
-            padding: 0 1rem;
-        }
-
-        .status-pill { 
-            background: rgba(74, 222, 128, 0.1); 
-            color: var(--primary); 
-            padding: 6px 12px; 
-            border-radius: 50px; 
-            font-size: 0.7rem; 
-            font-weight: 700; 
-            text-transform: uppercase; 
-            letter-spacing: 1px;
-            border: 1px solid var(--primary);
-            margin-bottom: 2rem;
-        }
-
-        h1 { font-size: clamp(3rem, 10vw, 5rem); margin: 0; font-weight: 900; letter-spacing: -2px; }
-        .hero-desc { color: var(--text-dim); max-width: 500px; font-size: 1.1rem; margin-top: 1rem; }
-
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
-
-        /* Section Headings */
-        section { padding: 4rem 0; border-top: 1px solid var(--border); }
-        .section-nav { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3rem; }
-        .section-nav h2 { font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; margin: 0; }
-        
-        /* Grid Layouts */
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
-
-        /* Cards */
-        .card { 
-            background: var(--surface); 
-            padding: 2rem; 
-            border-radius: 12px; 
-            border: 1px solid var(--border); 
-            text-decoration: none; 
-            color: inherit; 
-            transition: 0.3s ease; 
-            display: flex; 
-            flex-direction: column;
-        }
-        .card:hover { border-color: var(--primary); background: #141414; transform: translateY(-5px); }
-        .card h3 { margin: 0 0 0.5rem 0; font-size: 1.3rem; }
-        .card p { color: var(--text-dim); font-size: 0.9rem; margin-bottom: 1.5rem; flex-grow: 1; }
-        .card-link { color: var(--primary); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
-
-        /* News Cards */
-        .news-card { background: var(--surface); border-radius: 12px; border: 1px solid var(--border); overflow: hidden; transition: 0.3s; }
-        .news-img { width: 100%; height: 200px; object-fit: cover; opacity: 0.7; filter: grayscale(100%); transition: 0.3s; }
-        .news-card:hover .news-img { opacity: 1; filter: grayscale(0%); }
-        .news-body { padding: 1.5rem; }
-
-        /* Search */
-        #search { 
-            background: transparent; 
-            border: none; 
-            border-bottom: 2px solid var(--border); 
-            color: white; 
-            padding: 10px 0; 
-            font-size: 1rem; 
-            width: 250px; 
-            outline: none; 
-        }
-        #search:focus { border-color: var(--primary); }
-
-        footer { padding: 6rem 1rem; text-align: center; background: #000; color: var(--text-dim); }
-        .sub-form { margin-top: 2rem; }
-        .sub-form input { background: #111; border: 1px solid var(--border); color: white; padding: 12px; border-radius: 4px; width: 250px; }
-        .sub-form button { background: var(--primary); color: #000; border: none; padding: 12px 24px; border-radius: 4px; font-weight: 900; cursor: pointer; margin-left: 10px; }
-
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <div class="glow-bg"></div>
+
     <header>
-        <div class="status-pill" id="update-tag">Scanning the neural networks...</div>
-        <h1>The Intelligence<br>Briefing.</h1>
-        <p class="hero-desc">Cutting through the noise. AI news and training for people who value time.</p>
+        <nav>
+            <div class="logo">TECH<span>TIDY</span></div>
+            <div class="nav-right">
+                <div class="sentiment-tracker">
+                    <span class="label">SENTIMENT</span>
+                    <div class="meter"><div class="fill" style="width: 75%;"></div></div>
+                </div>
+                <div class="toggle-wrapper">
+                    <span class="label">ELI5</span>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <div class="container">
-        
-        <section id="tools">
-            <div class="section-nav">
-                <h2>Direct Tools</h2>
-            </div>
-            <div class="grid">
-                <a href="https://perplexity.ai" target="_blank" class="card">
-                    <h3>Perplexity</h3>
-                    <p>Verified AI search engine. Source-backed intelligence.</p>
-                    <span class="card-link">Initialize Tool ➔</span>
-                </a>
-                <a href="https://chat.openai.com" target="_blank" class="card">
-                    <h3>ChatGPT</h3>
-                    <p>General purpose reasoning and logic automation.</p>
-                    <span class="card-link">Initialize Tool ➔</span>
-                </a>
-                <a href="https://claude.ai" target="_blank" class="card">
-                    <h3>Claude</h3>
-                    <p>High-fidelity writing and advanced document parsing.</p>
-                    <span class="card-link">Initialize Tool ➔</span>
-                </a>
-            </div>
+    <main>
+        <section class="hero">
+            <div class="badge" id="update-tag">SCANNING THE NEURAL NETWORKS...</div>
+            <h1 class="gradient-text">The Intelligence Briefing.</h1>
+            <p class="subtitle">Cutting through the noise. AI news and training for people who value time.</p>
         </section>
 
-        <section id="training">
-            <div class="section-nav">
-                <h2>Training Paths</h2>
-            </div>
-            <div class="grid">
-                <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="card">
-                    <h3>Google Cloud</h3>
-                    <p>Foundational generative AI courses and certification.</p>
-                    <span class="card-link">Begin Training ➔</span>
-                </a>
-                <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="card">
-                    <h3>Azure Intelligence</h3>
-                    <p>Implementing AI solutions across enterprise ecosystems.</p>
-                    <span class="card-link">Begin Training ➔</span>
-                </a>
-                <a href="https://www.anthropic.com/news/introducing-claude-3-5-sonnet" target="_blank" class="card">
-                    <h3>Prompt Logic</h3>
-                    <p>Mastering structural communication with LLMs.</p>
-                    <span class="card-link">Begin Training ➔</span>
-                </a>
-            </div>
-        </section>
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <input type="text" id="search" placeholder="SEARCH PARAMETERS..." 
+                style="background: transparent; border: none; border-bottom: 1px solid var(--glass-border); color: white; font-family: 'JetBrains Mono'; padding: 10px; width: 300px; outline: none; text-align: center;">
+        </div>
 
-        <section id="news">
-            <div class="section-nav">
-                <h2>Latest Archive</h2>
-                <input type="text" id="search" placeholder="Search parameters...">
-            </div>
-            <div id="news-container" class="grid">
-                </div>
-        </section>
-
-    </div>
+        <div id="news-container" class="news-grid">
+            <p style="text-align: center; grid-column: 1/-1;">Establishing connection...</p>
+        </div>
+    </main>
 
     <footer>
-        <p>TechTidy Briefing. No fluff. Just Intel.</p>
-        <form class="sub-form" action="https://formspree.io/f/YOUR_ID" method="POST">
-            <input type="email" placeholder="Enter Email" required>
-            <button type="submit">SUBSCRIBE</button>
-        </form>
-        <p style="margin-top: 3rem; font-size: 0.7rem;">&copy; 2026 TechTidy. Handcrafted for the intelligence-first community.</p>
+        <div class="footer-content">
+            <p>TechTidy Briefing. No fluff. Just Intel.</p>
+            <form action="https://formspree.io/f/YOUR_ID" method="POST" style="margin: 2rem 0;">
+                <input type="email" name="email" placeholder="ENTER EMAIL" required 
+                    style="background: #111; border: 1px solid var(--glass-border); color: white; padding: 12px; border-radius: 8px;">
+                <button type="submit" class="share-btn" style="padding: 12px 24px; margin-left: 10px;">SUBSCRIBE</button>
+            </form>
+            <div class="footer-links">
+                <a href="https://chat.openai.com" target="_blank">CHATGPT</a>
+                <a href="https://claude.ai" target="_blank">CLAUDE</a>
+                <a href="https://perplexity.ai" target="_blank">PERPLEXITY</a>
+            </div>
+        </div>
     </footer>
 
     <script>
@@ -196,28 +78,32 @@
                 const articles = data.articles || [];
                 container.innerHTML = ''; 
 
-                articles.forEach(article => {
+                articles.forEach((article, index) => {
                     const card = document.createElement('div');
-                    card.className = 'news-card';
+                    // This uses your specific .news-card class from CSS
+                    card.className = index === 0 ? 'news-card featured' : 'news-card';
                     card.innerHTML = `
-                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="news-img" onerror="this.style.display='none'">` : ''}
-                        <div class="news-body">
-                            <h3>${article.title}</h3>
-                            <a href="${article.url}" class="card-link" target="_blank">Full Intel ➔</a>
+                        <div class="card-tag">INTEL_LOG_${index + 1}</div>
+                        <h2 class="headline">${article.title}</h2>
+                        <p class="summary">${article.description || 'System scan complete. No summary provided.'}</p>
+                        <div class="card-footer">
+                            <span class="date">SOURCE: AI_FEED</span>
+                            <a href="${article.url}" target="_blank" class="share-btn" style="text-decoration: none;">FULL INTEL</a>
                         </div>
                     `;
                     container.appendChild(card);
                 });
 
+                // Live Search Logic
                 document.getElementById('search').addEventListener('input', (e) => {
                     const term = e.target.value.toLowerCase();
                     document.querySelectorAll('.news-card').forEach(card => {
                         const text = card.innerText.toLowerCase();
-                        card.style.display = text.includes(term) ? 'block' : 'none';
+                        card.style.display = text.includes(term) ? 'flex' : 'none';
                     });
                 });
             } catch (e) {
-                container.innerHTML = '<p>Establishing connection to news server...</p>';
+                container.innerHTML = '<p>Error: Connection lost.</p>';
             }
         }
         window.onload = loadNews;
