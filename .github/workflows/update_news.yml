@@ -19,10 +19,15 @@ jobs:
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: python fetch_news.py
-      - name: Commit and Push changes
+ - name: Commit and Push changes
         run: |
           git config --global user.name 'TechTidyBot'
           git config --global user.email 'bot@techtidy.com'
           git add news.json
-          git commit -m "Weekly News Update"
-          git push
+          # The next line checks if there are changes before committing
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to news.json, skipping commit."
+          else
+            git commit -m "Weekly News Update"
+            git push
+          fi
