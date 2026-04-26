@@ -1,6 +1,84 @@
 {
-    "last_updated": "April 26, 2026",
+    "last_updated": "26 APR 2026",
     "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Livemint"
+            },
+            "author": "Jas Bardia",
+            "title": "Sonata Software CEO Samir Dhir steps down",
+            "description": "Rajsekhar Datta Roy has been named the successor as mid-tier IT firm executes planned leadership transition",
+            "url": "https://www.livemint.com/companies/news/sonata-software-ceo-samir-dhir-steps-down-11777131172133.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2026/04/25/1600x900/logo/raj_1777132507576_1777132523534.png",
+            "publishedAt": "2026-04-25T16:00:13Z",
+            "content": "MUMBAI: Samir Dhir will step down as chief executive officer of Sonata Software Ltd, the company said on Saturday, marking the first leadership change at a large Indian IT services firm in over a yea\u2026 [+1552 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Cindy Zackney",
+            "title": "Why Tokyo is the most important tech destination of 2026 | TechCrunch",
+            "description": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally.",
+            "url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2026/04/sushitech-3-hero.webp?resize=1200,835",
+            "publishedAt": "2026-04-25T15:07:32Z",
+            "content": "Every major tech conference has themes. Most are vague enough to mean everything and nothing at the same time. SusHi Tech Tokyo 2026 is doing something different four tightly defined technology domai\u2026 [+3400 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ETtech",
+            "title": "Salesforce to hire 1,000 graduates in AI push: CEO Marc Benioff",
+            "description": "Salesforce CEO Marc Benioff announced plans to hire 1,000 graduates and interns to support expanding AI products, countering concerns about AI eliminating entry-level jobs. This hiring initiative follows news of fewer than 1,000 job cuts in February, impactin\u2026",
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/salesforce-to-hire-1000-graduates-in-ai-push-ceo-marc-benioff/articleshow/130517522.cms",
+            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-55290,resizemode-75,msid-130517522/tech/artificial-intelligence/salesforce-to-hire-1000-graduates-in-ai-push-ceo-marc-benioff.jpg",
+            "publishedAt": "2026-04-25T15:00:19Z",
+            "content": "Salesforce will hire 1,000 graduates and interns, its chief executive Marc Benioff announced in a post on X. He said the recruits would support its expanding artificial intelligence (AI) products, in\u2026 [+1427 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ETtech",
+            "title": "Salesforce to hire 1,000 graduates in AI push: CEO Marc Benioff",
+            "description": "Salesforce CEO Marc Benioff announced plans to hire 1,000 graduates and interns to support expanding AI products, countering concerns about AI eliminating entry-level jobs. This hiring initiative follows news of fewer than 1,000 job cuts in February, impactin\u2026",
+            "url": "https://economictimes.indiatimes.com/tech/technology/salesforce-to-hire-1000-graduates-in-ai-push-ceo-marc-benioff/articleshow/130517560.cms",
+            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-55290,resizemode-75,msid-130517560/tech/technology/salesforce-to-hire-1000-graduates-in-ai-push-ceo-marc-benioff.jpg",
+            "publishedAt": "2026-04-25T15:00:19Z",
+            "content": "Salesforce will hire 1,000 graduates and interns, its chief executive Marc Benioff announced in a post on X. He said the recruits would support its expanding artificial intelligence (AI) products, in\u2026 [+1427 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Peoplesreview.com.np"
+            },
+            "author": "People's Review",
+            "title": "Machhapuchchhre Bank Ltd. expands MBL IT loan service",
+            "description": "Kathmandu, April 25: With the objective of promoting digital transformation, Machhapuchchhre Bank has introduced a new loan scheme called the MBL IT Loan. Launched with the goal of empowering businesses and entrepreneurs engaged in the information technology \u2026",
+            "url": "https://peoplesreview.com.np/2026/04/25/machhapuchchhre-bank-ltd-expands-mbl-it-loan-service/",
+            "urlToImage": "https://peoplesreview.com.np/wp-content/uploads/2026/04/Machhapuchchhre-Bank.png",
+            "publishedAt": "2026-04-25T14:26:59Z",
+            "content": "Kathmandu, April 25: With the objective of promoting digital transformation, Machhapuchchhre Bank has introduced a new loan scheme called the MBL IT Loan.\r\nLaunched with the goal of empowering busine\u2026 [+938 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Barchart.com"
+            },
+            "author": "Anushka Mukherji",
+            "title": "Roth Capital Analysts: What Matters Most for Tesla Stock Now Isn\u2019t Tesla\u2026 It\u2019s SpaceX",
+            "description": "Analysts at Roth Capital believe Tesla\u2019s narrative is shifting. Right now, it\u2019s SpaceX that\u2019s commanding the spotlight.",
+            "url": "https://www.barchart.com/story/news/1517682/roth-capital-analysts-what-matters-most-for-tesla-stock-now-isnt-tesla-its-spacex",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/6AaxhEu4wHL5k1eZvmIfPA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/barchart_com_477/d359d8594ff0023d477e0873b4f785ef",
+            "publishedAt": "2026-04-25T14:00:02Z",
+            "content": "Tesla (TSLA) is back under the spotlight, though not quite for the reasons optimists would have scripted. Shares dipped following the company's Q1 earnings release on April 22, as a steeper-than-anti\u2026 [+6998 chars]"
+        },
         {
             "source": {
                 "id": "breitbart-news",
