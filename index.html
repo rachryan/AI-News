@@ -34,7 +34,7 @@
                 <div class="meter"><div class="fill" id="sentiment-fill"></div></div>
             </div>
             <h1 style="font-size: clamp(2.5rem, 8vw, 4.5rem); font-weight: 900; letter-spacing: -3px; margin-bottom: 1.5rem;">The Intelligence Briefing.</h1>
-            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">Bridging the gap between AI anxiety and agency. Automated intelligence for the curious, bespoke coaching for the ambitious.</p>
+            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">From anxiety to agency. Automated intelligence for the curious, bespoke coaching for the ambitious.</p>
         </header>
 
         <section id="tools">
@@ -72,13 +72,18 @@
                     <p class="summary">Strategic implementation of AI solutions within professional office environments and ecosystems.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
+                <a href="https://www.anthropic.com/news/introducing-claude-3-5-sonnet" target="_blank" class="news-card">
+                    <h2 class="headline">Anthropic Guide</h2>
+                    <p class="summary">Technical prompting and implementation guides for high-performance LLM deployment.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
+                </a>
             </div>
         </section>
 
         <section id="empowerment" class="empower-section">
             <div class="card-tag">// SECTION_03: HUMAN_EMPOWERMENT</div>
             <h2 style="font-size: clamp(1.8rem, 5vw, 2.5rem); margin-bottom: 1rem; font-weight: 900;">Out of Fear. Into Agency.</h2>
-            <p>I provide private, 1-1 guidance to help you master AI tools and secure your workflow. No hype, just mastery.</p>
+            <p>I provide private, 1-1 guidance to help you master AI tools and secure your professional future. No hype, just mastery.</p>
             
             <form class="inquiry-form" action="https://formspree.io/f/YOUR_ID" method="POST">
                 <input type="email" name="email" placeholder="EMAIL_ADDRESS" required>
@@ -123,8 +128,13 @@
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
                 fullArchive = data.articles || [];
-                renderNews(fullArchive.slice(0, 6)); 
-            } catch (e) { console.log(e); }
+                // Filtering out any broken entries from the API
+                const cleanArchive = fullArchive.filter(art => art.title && art.url);
+                renderNews(cleanArchive.slice(0, 6)); 
+            } catch (e) { 
+                console.log(e);
+                container.innerHTML = "<p style='color:var(--text-dim)'>Recalibrating neural link...</p>";
+            }
         }
 
         function renderNews(articles) {
@@ -135,7 +145,13 @@
                 card.href = article.url; card.target = "_blank"; card.className = 'news-card';
                 card.innerHTML = `
                     <div class="card-tag">ARCHIVE_INTEL_${index + 1}</div>
-                    ${article.urlToImage ? `<img src="${article.urlToImage}" style="width:100%; height:180px; object-fit:cover; border-radius:15px; margin-bottom:1rem; border:1px solid var(--glass-border);">` : ''}
+                    ${article.urlToImage ? `
+                        <div style="width:100%; height:180px; overflow:hidden; border-radius:15px; margin-bottom:1rem; border:1px solid var(--glass-border);">
+                            <img src="${article.urlToImage}" 
+                                 style="width:100%; height:100%; object-fit:cover;" 
+                                 onerror="this.parentElement.style.display='none'">
+                        </div>
+                    ` : ''}
                     <h2 class="headline">${article.title}</h2>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top:auto;">READ_FULL ➔</div>
                 `;
@@ -150,7 +166,7 @@
                 return;
             }
             const filtered = fullArchive.filter(art => 
-                art.title.toLowerCase().includes(term) || 
+                (art.title && art.title.toLowerCase().includes(term)) || 
                 (art.description && art.description.toLowerCase().includes(term))
             );
             renderNews(filtered);
