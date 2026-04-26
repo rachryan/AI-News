@@ -14,7 +14,7 @@ def fetch_ai_news():
         "q": "artificial intelligence (tools OR productivity OR workflow)",
         "language": "en",
         "sortBy": "publishedAt",
-        "pageSize": 12, 
+        "pageSize": 10, 
         "apiKey": api_key
     }
 
@@ -36,6 +36,7 @@ def fetch_ai_news():
         existing_urls = {article['url'] for article in old_news}
         unique_new = [a for a in new_articles if a['url'] not in existing_urls and "Removed" not in a['title']]
         
+        # Keep 24 articles for a deep searchable archive
         combined_news = (unique_new + old_news)[:12]
 
         output = {
