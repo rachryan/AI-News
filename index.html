@@ -39,6 +39,13 @@
 
         <section id="tools">
             <div class="card-tag">// SECTION_01: THE_TOOLBOX</div>
+            
+            <div id="weekly-prompt-card" class="news-card" style="grid-column: 1 / -1; border: 1px dashed var(--accent-color); background: rgba(112, 0, 255, 0.02); display: none; margin-bottom: 1.5rem;">
+                <div class="card-tag">// WEEKLY_POWER_PROMPT</div>
+                <div id="weekly-prompt-content">
+                    </div>
+            </div>
+
             <div class="news-grid">
                 <a href="https://perplexity.ai" target="_blank" class="news-card">
                     <div class="badge">START HERE</div>
@@ -64,17 +71,17 @@
             <div class="news-grid">
                 <a href="https://www.skills.google/paths/2336" target="_blank" class="news-card">
                     <h2 class="headline">Google AI Essentials</h2>
-                    <p class="summary">A practical course to help you use AI to save time, clear your inbox, and boost productivity.</p>
+                    <p class="summary">Practical course designed by Google to help you use AI to save time and boost professional productivity.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
-                <a href="https://learn.microsoft.com/en-us/training/paths/craft-effective-prompts-copilot-microsoft-365/" target="_blank" class="news-card">
-                    <h2 class="headline">Microsoft AI Training</h2>
-                    <p class="summary">Strategic implementation of AI solutions within professional office environments and ecosystems.</p>
+                <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="news-card">
+                    <h2 class="headline">Microsoft Azure AI</h2>
+                    <p class="summary">Mastering AI implementation within the modern professional office ecosystem.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
                 <a href="https://www.anthropic.com/learn" target="_blank" class="news-card">
-                    <h2 class="headline">Anthropic AI Training</h2>
-                    <p class="summary">Educational resources and guides on the responsible deployment of Claude and LLM logic.</p>
+                    <h2 class="headline">Anthropic Learn</h2>
+                    <p class="summary">Educational resources and high-level guides on the responsible deployment of Claude and LLM logic.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
             </div>
@@ -121,6 +128,27 @@
             const target = current === 'light' ? 'dark' : 'light';
             document.documentElement.setAttribute('data-theme', target);
             localStorage.setItem('theme', target);
+        }
+
+        async function loadWeeklyPrompt() {
+            try {
+                const response = await fetch('./prompt.json?t=' + Date.now());
+                if (!response.ok) return;
+                const data = await response.json();
+                
+                const card = document.getElementById('weekly-prompt-card');
+                const content = document.getElementById('weekly-prompt-content');
+                
+                if (data && card && content) {
+                    content.innerHTML = `
+                        <h2 class="headline">${data.title}</h2>
+                        <p class="summary">"${data.text}" — <strong>${data.benefit}</strong></p>
+                    `;
+                    card.style.display = 'block';
+                }
+            } catch (e) {
+                console.log("Prompt system offline.");
+            }
         }
 
         async function loadNews() {
@@ -173,6 +201,7 @@
 
         window.onload = () => {
             loadNews();
+            loadWeeklyPrompt();
             setTimeout(() => {
                 const bar = document.getElementById('sentiment-fill');
                 if(bar) bar.style.width = "82%";
