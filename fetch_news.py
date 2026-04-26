@@ -1,6 +1,7 @@
 import requests
 import os
 import json
+from datetime import datetime
 
 def fetch_ai_news():
     api_key = os.getenv("NEWS_API_KEY")
@@ -13,7 +14,7 @@ def fetch_ai_news():
         "q": "artificial intelligence (tools OR productivity OR software)",
         "language": "en",
         "sortBy": "publishedAt",
-        "pageSize": 6, 
+        "pageSize": 8, 
         "apiKey": api_key
     }
 
@@ -22,28 +23,34 @@ def fetch_ai_news():
         response.raise_for_status()
         new_articles = response.json().get('articles', [])
 
-        # --- ARCHIVING LOGIC ---
-        # 1. Load existing news if the file exists
+        # Load existing news
         if os.path.exists("news.json"):
             with open("news.json", "r", encoding="utf-8") as f:
                 try:
-                    old_news = json.load(f)
-                except json.JSONDecodeError:
+                    data = json.load(f)
+                    # Support both old list format and new dict format
+                    old_news = data.get('articles', []) if isinstance(data, dict) else data
+                except:
                     old_news = []
         else:
             old_news = []
 
-        # 2. Combine and remove duplicates based on URL
+        # Combine and remove duplicates
         existing_urls = {article['url'] for article in old_news}
         unique_new = [a for a in new_articles if a['url'] not in existing_urls and "Removed" not in a['title']]
         
-        # 3. Keep the most recent 20 articles total
-        combined_news = (unique_new + old_news)[:20]
+        combined_news = (unique_new + old_news)[:24] # Keep a healthy archive
+
+        # Save with a timestamp
+        output = {
+            "last_updated": datetime.now().strftime("%b %d, %Y"),
+            "articles": combined_news
+        }
 
         with open("news.json", "w", encoding="utf-8") as f:
-            json.dump(combined_news, f, indent=4)
+            json.dump(output, f, indent=4)
             
-        print(f"Archived! {len(unique_new)} new articles added.")
+        print(f"Archive updated at {output['last_updated']}")
 
     except Exception as e:
         print(f"Error: {e}")
