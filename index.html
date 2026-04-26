@@ -3,224 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechTidy | Clean Up Your Tech Stack</title>
+    <title>TechTidy | AI News & Tools</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #2ecc71;
-            --dark: #0f172a;
-            --light: #f8fafc;
-            --accent: #22c55e;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --header-bg: #0f172a;
+            --border: #e2e8f0;
+        }
+
+        [data-theme="dark"] {
+            --bg: #0b0f1a;
+            --card-bg: #161e2e;
+            --text: #f1f5f9;
+            --header-bg: #000000;
+            --border: #1f2937;
         }
 
         body { 
             font-family: 'Inter', sans-serif; 
-            line-height: 1.6; 
+            background: var(--bg); 
+            color: var(--text); 
             margin: 0; 
-            background: var(--light); 
-            color: #334155; 
+            transition: background 0.3s, color 0.3s;
+        }
+
+        /* --- THEME TOGGLE --- */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: var(--primary);
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
         header { 
-            background: var(--dark); 
+            background: var(--header-bg); 
             color: white; 
-            padding: 6rem 1rem 8rem; 
+            padding: 5rem 1rem; 
             text-align: center; 
-            background-image: radial-gradient(circle at 2px 2px, #334155 1px, transparent 0);
-            background-size: 40px 40px;
         }
 
-        header h1 { 
-            font-size: 3.5rem; 
-            margin: 0; 
+        header h1 { font-size: 3rem; margin: 0; font-weight: 800; color: var(--primary); }
+
+        .section-title {
+            text-align: center;
+            margin: 4rem 0 2rem;
+            font-size: 2rem;
             font-weight: 800;
-            letter-spacing: -0.05em;
-            background: linear-gradient(to right, #2ecc71, #a7f3d0);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
         }
 
-        header p { 
-            opacity: 0.9; 
-            font-size: 1.25rem; 
-            max-width: 600px; 
-            margin: 1.5rem auto 0;
-            color: #cbd5e1;
+        /* --- TOOLS SECTION --- */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
         }
 
+        .tool-card {
+            background: var(--primary);
+            color: #0f172a;
+            padding: 1.5rem;
+            border-radius: 16px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+
+        .tool-card:hover { transform: scale(1.05); }
+
+        /* --- NEWS GRID --- */
         #news-container { 
             display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); 
-            gap: 2.5rem; 
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+            gap: 2rem; 
             max-width: 1200px; 
-            margin: -4rem auto 4rem; 
+            margin: 2rem auto; 
             padding: 0 1.5rem;
         }
 
         .card { 
-            background: white; 
-            border-radius: 24px; 
+            background: var(--card-bg); 
+            border-radius: 20px; 
             overflow: hidden;
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 1px solid #e2e8f0;
+            border: 1px solid var(--border);
             display: flex;
             flex-direction: column;
         }
 
-        .card:hover { 
-            transform: translateY(-12px); 
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-            border-color: var(--primary);
-        }
-
-        .card-img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            background: #e2e8f0;
-        }
-
-        .card-content {
-            padding: 1.75rem;
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-        }
-
-        .card small { 
-            color: var(--accent); 
-            font-weight: 700; 
-            text-transform: uppercase; 
-            font-size: 0.75rem;
-            letter-spacing: 0.05em;
-        }
-
-        .card h3 { 
-            margin: 0.75rem 0; 
-            color: var(--dark); 
-            font-size: 1.25rem;
-            line-height: 1.4;
-            font-weight: 700;
-        }
-
-        .card p { 
-            font-size: 0.95rem; 
-            color: #64748b; 
-            margin-bottom: 1.5rem;
-            flex-grow: 1;
-        }
-
-        .card a { 
-            text-decoration: none; 
-            color: var(--dark);
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: color 0.2s;
-        }
-
-        .card a:hover { color: var(--primary); }
+        .card-img { width: 100%; height: 180px; object-fit: cover; }
+        .card-content { padding: 1.5rem; flex-grow: 1; }
+        .card h3 { margin: 0.5rem 0; font-size: 1.2rem; }
+        .card p { font-size: 0.9rem; opacity: 0.8; }
+        .card a { color: var(--primary); text-decoration: none; font-weight: bold; font-size: 0.8rem; }
 
         #subscribe { 
-            max-width: 600px; 
-            margin: 6rem auto; 
-            padding: 4rem 2rem; 
-            background: var(--dark); 
-            color: white;
-            border-radius: 32px; 
+            max-width: 500px; 
+            margin: 5rem auto; 
+            padding: 3rem; 
+            background: var(--header-bg); 
+            color: white; 
+            border-radius: 24px; 
             text-align: center;
-            position: relative;
-            overflow: hidden;
         }
 
-        #subscribe h2 { font-size: 2rem; margin-top: 0; }
+        input { padding: 10px; border-radius: 8px; border: none; width: 70%; margin-bottom: 10px; }
+        .sub-btn { background: var(--primary); padding: 10px 20px; border-radius: 8px; border: none; cursor: pointer; font-weight: bold; }
 
-        input[type="email"] { 
-            padding: 1.25rem; 
-            width: 80%; 
-            max-width: 320px;
-            border: none;
-            border-radius: 12px; 
-            margin-bottom: 1rem;
-            font-size: 1rem;
-            outline: none;
-        }
-
-        button { 
-            padding: 1.25rem 2.5rem; 
-            background: var(--primary); 
-            color: var(--dark); 
-            border: none; 
-            border-radius: 12px; 
-            font-weight: 800; 
-            cursor: pointer; 
-            transition: all 0.2s;
-        }
-
-        button:hover { transform: scale(1.05); background: #58f09b; }
-
-        footer { text-align: center; padding: 4rem 2rem; color: #94a3b8; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
+    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+
     <header>
         <h1>✨ TechTidy</h1>
-        <p>Curated AI news to help you declutter your workflow and optimize your tech stack.</p>
+        <p>Your AI command center: Archive, Tools, and Trends.</p>
     </header>
 
+    <h2 class="section-title">Essential AI Tools</h2>
+    <div class="tools-grid">
+        <a href="https://chatgpt.com" class="tool-card" target="_blank">ChatGPT (The All-Rounder)</a>
+        <a href="https://claude.ai" class="tool-card" target="_blank">Claude (Better Writing)</a>
+        <a href="https://perplexity.ai" class="tool-card" target="_blank">Perplexity (AI Search)</a>
+        <a href="https://gamma.app" class="tool-card" target="_blank">Gamma (AI Slides)</a>
+    </div>
+
+    <h2 class="section-title">Latest AI Archive</h2>
     <main id="news-container">
-        <p style="grid-column: 1/-1; text-align: center; padding: 5rem;">Loading this week's essentials...</p>
+        <p style="text-align: center; grid-column: 1/-1;">Checking the archive...</p>
     </main>
 
     <section id="subscribe">
-        <h2>Join the Tidiest Inbox</h2>
-        <p>Get the Friday AI toolkit delivered straight to you.</p>
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <input type="email" name="email" placeholder="you@example.com" required>
-            <button type="submit">Subscribe</button>
+        <h2>Don't Miss Next Friday</h2>
+        <form action="https://formspree.io/f/YOUR_ID" method="POST">
+            <input type="email" name="email" placeholder="email@example.com" required>
+            <button type="submit" class="sub-btn">Subscribe</button>
         </form>
     </section>
 
-    <footer>
-        &copy; 2026 TechTidy • Built for a cleaner tech stack.
-    </footer>
-
     <script>
+        // --- THEME LOGIC ---
+        function toggleTheme() {
+            const body = document.documentElement;
+            const current = body.getAttribute('data-theme');
+            const target = current === 'dark' ? 'light' : 'dark';
+            body.setAttribute('data-theme', target);
+            localStorage.setItem('theme', target);
+        }
+
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+
+        // --- NEWS LOGIC ---
         async function loadNews() {
             const container = document.getElementById('news-container');
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
                 const news = await response.json();
-                
-                if (!news || news.length === 0) {
-                    container.innerHTML = '<p style="grid-column: 1/-1; text-align: center;">Everything is tidy. Check back Friday!</p>';
-                    return;
-                }
-
                 container.innerHTML = ''; 
 
                 news.forEach(article => {
                     const card = document.createElement('div');
                     card.className = 'card';
                     card.innerHTML = `
-                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="card-img" alt="news">` : ''}
+                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="card-img">` : ''}
                         <div class="card-content">
-                            <small>Tool Update</small>
                             <h3>${article.title}</h3>
-                            <p>${article.description || 'No description available.'}</p>
-                            <a href="${article.url}" target="_blank">Read Summary ➔</a>
+                            <p>${article.description || 'Check the full article for details.'}</p>
+                            <a href="${article.url}" target="_blank">READ MORE →</a>
                         </div>
                     `;
                     container.appendChild(card);
                 });
-            } catch (error) {
-                container.innerHTML = '<p style="grid-column: 1/-1; text-align: center;">Updates are arriving soon...</p>';
+            } catch (e) {
+                container.innerHTML = '<p>The archive is currently updating...</p>';
             }
         }
         window.onload = loadNews;
