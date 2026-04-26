@@ -16,7 +16,7 @@
             --text-main: #1e293b;
             --text-muted: #64748b;
             --border: #f1f5f9;
-            --accent: #6366f1; /* Soft purple for 'Start Here' */
+            --accent: #6366f1;
         }
 
         [data-theme="dark"] {
@@ -41,9 +41,9 @@
         .logo { font-weight: 800; font-size: 1.4rem; color: var(--text-main); text-decoration: none; }
         .logo span { color: var(--primary); }
 
-        header { text-align: center; padding: 5rem 1rem; }
+        header { text-align: center; padding: 4rem 1rem; }
         header h1 { font-size: 3.2rem; margin: 0; letter-spacing: -2px; line-height: 1.1; }
-        .curator-note { max-width: 650px; margin: 2rem auto; padding: 1.5rem; background: var(--primary-soft); border-radius: 20px; border-left: 5px solid var(--primary); font-size: 0.95rem; text-align: left; position: relative; }
+        .curator-note { max-width: 650px; margin: 2rem auto; padding: 1.5rem; background: var(--primary-soft); border-radius: 20px; border-left: 5px solid var(--primary); font-size: 0.95rem; text-align: left; }
         .curator-note b { color: var(--text-main); display: block; margin-bottom: 5px; }
 
         .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
@@ -63,16 +63,28 @@
             transition: all 0.3s ease;
             position: relative;
         }
-        .action-card:hover { transform: translateY(-5px); border-color: var(--primary); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
-        .start-badge { position: absolute; top: -10px; right: 20px; background: var(--accent); color: white; padding: 4px 12px; border-radius: 50px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; }
+        .action-card:hover { transform: translateY(-5px); border-color: var(--primary); box-shadow: 0 15px 30px rgba(0,0,0,0.05); }
+        .start-badge { position: absolute; top: -10px; right: 20px; background: var(--accent); color: white; padding: 4px 12px; border-radius: 50px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3); }
 
         .search-bar { width: 100%; max-width: 400px; padding: 0.8rem 1.2rem; border-radius: 50px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-main); font-family: inherit; outline: none; }
 
         #news-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
-        .news-card { background: var(--card-bg); border-radius: 20px; border: 1px solid var(--border); overflow: hidden; display: flex; flex-direction: column; transition: 0.3s; }
-        .news-card:hover { border-color: var(--primary); }
-        .news-content { padding: 1.5rem; }
-        .news-link { margin-top: 1rem; display: inline-block; color: var(--primary); font-weight: 700; font-size: 0.8rem; text-decoration: none; text-transform: uppercase; }
+        
+        /* NEWS CARDS WITH IMAGES RESTORED */
+        .news-card { 
+            background: var(--card-bg); 
+            border-radius: 24px; 
+            border: 1px solid var(--border); 
+            overflow: hidden; 
+            display: flex; 
+            flex-direction: column; 
+            transition: 0.3s; 
+        }
+        .news-card:hover { border-color: var(--primary); transform: translateY(-3px); }
+        .news-img { width: 100%; height: 180px; object-fit: cover; background: var(--primary-soft); }
+        .news-content { padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1; }
+        .news-content h3 { font-size: 1.1rem; margin: 0; line-height: 1.4; flex-grow: 1; }
+        .news-link { margin-top: 1.2rem; display: inline-block; color: var(--primary); font-weight: 700; font-size: 0.8rem; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; }
 
         .theme-btn { background: none; border: none; cursor: pointer; font-size: 1.2rem; }
         footer { background: var(--primary-soft); padding: 4rem 1rem; border-radius: 40px 40px 0 0; text-align: center; margin-top: 4rem; }
@@ -89,7 +101,7 @@
         <h1>AI doesn't have to be loud.</h1>
         <div class="curator-note">
             <b>👋 A Note from Rach</b>
-            "The AI world moves fast, and it's okay to feel overwhelmed. I built TechTidy to be your filter. Below, you'll find only what's necessary to help you work better, not harder. No hype, just the essentials."
+            "The AI world moves fast, and it's okay to feel overwhelmed. I built TechTidy to be your filter. Below, you'll find only what's necessary to help you work better, not harder."
         </div>
     </header>
 
@@ -127,18 +139,18 @@
             <div class="grid-3">
                 <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="action-card">
                     <span class="start-badge">Start Here</span>
-                    <h3>Google: Intro to GenAI</h3>
+                    <h3>Google AI Course</h3>
                     <p>A 1-day path to understanding the basics. Perfectly explained for non-techies.</p>
                     <span class="news-link">Free Course ➔</span>
                 </a>
                 <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="action-card">
-                    <h3>Microsoft: AI for All</h3>
-                    <p>Understand how AI will change your office apps (Word, Excel, PPT).</p>
+                    <h3>Microsoft AI Path</h3>
+                    <p>Understand how AI will change your office apps like Word and Excel.</p>
                     <span class="news-link">Free Course ➔</span>
                 </a>
                 <a href="https://www.anthropic.com/news/introducing-claude-3-5-sonnet" target="_blank" class="action-card">
-                    <h3>Anthropic: Prompting</h3>
-                    <p>Learn the 'magic words' to get the best results out of any AI model.</p>
+                    <h3>Anthropic Guide</h3>
+                    <p>Learn how to talk to AI to get the exact results you're looking for.</p>
                     <span class="news-link">Learn Skills ➔</span>
                 </a>
             </div>
@@ -150,7 +162,7 @@
                 <input type="text" id="search" class="search-bar" placeholder="Search the archive...">
             </div>
             <div id="news-container">
-                <p>Loading news...</p>
+                <p>Curating your news feed...</p>
             </div>
         </section>
 
@@ -191,11 +203,9 @@
                     const card = document.createElement('div');
                     card.className = 'news-card';
                     card.innerHTML = `
+                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="news-img" alt="news" onerror="this.style.display='none'">` : ''}
                         <div class="news-content">
                             <h3>${article.title}</h3>
-                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">
-                                ${article.description ? article.description.substring(0, 100) + '...' : 'Dive into the details of this AI update.'}
-                            </p>
                             <a href="${article.url}" class="news-link" target="_blank">Why it matters ➔</a>
                         </div>
                     `;
