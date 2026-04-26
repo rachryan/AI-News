@@ -39,7 +39,7 @@ def fetch_ai_news():
         existing_urls = {article['url'] for article in old_news}
         unique_new = [a for a in new_articles if a['url'] not in existing_urls and "Removed" not in a['title']]
         
-        combined_news = (unique_new + old_news)[:24] # Keep a healthy archive
+        combined_news = (unique_new + old_news)[:10] # Keep a healthy archive
 
         # Save with a timestamp
         output = {
