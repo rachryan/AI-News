@@ -112,15 +112,16 @@ body {
 .fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent-color), #00f2ff); transition: width 2s ease; }
 .badge { display: inline-block; padding: 4px 12px; border: 1px solid var(--accent-color); border-radius: 100px; font-size: 0.7rem; font-weight: 700; color: var(--accent-color); margin-bottom: 1rem; }
 
-/* Add this to your style.css */
-.logo {
-    font-weight: 900 !important; /* Force the weight */
+/* Forces the logo in the nav bar to always stay visible on the dark background */
+.nav-logo {
+    color: #ffffff !important; 
+    font-weight: 900;
     letter-spacing: -1px;
     font-size: 1.5rem;
-    color: var(--text-main) !important; /* Forces it to use the theme-switching variable */
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
-.logo span {
-    color: var(--accent-color) !important; /* Keeps 'TIDY' purple */
+.nav-logo span {
+    color: #7000ff !important; /* This keeps 'TIDY' purple even in light mode */
 }
