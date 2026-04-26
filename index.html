@@ -65,48 +65,53 @@
         </div>
     </footer>
 
-    <script>
-        async function loadNews() {
+    async function loadNews() {
             const container = document.getElementById('news-container');
             const updateTag = document.getElementById('update-tag');
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
                 
-                if(data.last_updated) updateTag.innerText = "UPDATED: " + data.last_updated;
+                if(data.last_updated) updateTag.innerText = "LAST_SYNC: " + data.last_updated;
                 
                 const articles = data.articles || [];
                 container.innerHTML = ''; 
 
                 articles.forEach((article, index) => {
                     const card = document.createElement('div');
-                    // This uses your specific .news-card class from CSS
-                    card.className = index === 0 ? 'news-card featured' : 'news-card';
+                    card.className = 'news-card';
                     card.innerHTML = `
-                        <div class="card-tag">INTEL_LOG_${index + 1}</div>
+                        <div class="card-tag">ARCHIVE_INTEL_${index + 1}</div>
+                        
+                        ${article.urlToImage ? `
+                            <div style="width: 100%; height: 160px; overflow: hidden; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid var(--glass-border);">
+                                <img src="${article.urlToImage}" 
+                                     style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6; filter: grayscale(100%); transition: 0.4s;" 
+                                     onmouseover="this.style.opacity='1'; this.style.filter='grayscale(0%)'" 
+                                     onmouseout="this.style.opacity='0.6'; this.style.filter='grayscale(100%)'"
+                                     onerror="this.parentElement.style.display='none'">
+                            </div>
+                        ` : ''}
+
                         <h2 class="headline">${article.title}</h2>
-                        <p class="summary">${article.description || 'System scan complete. No summary provided.'}</p>
+                        <p class="summary">${article.description || 'Raw data processed. Access full report for details.'}</p>
                         <div class="card-footer">
-                            <span class="date">SOURCE: AI_FEED</span>
-                            <a href="${article.url}" target="_blank" class="share-btn" style="text-decoration: none;">FULL INTEL</a>
+                            <span class="date">FREQ: WEEKLY</span>
+                            <a href="${article.url}" target="_blank" class="share-btn" style="text-decoration: none;">READ_FULL</a>
                         </div>
                     `;
                     container.appendChild(card);
                 });
 
-                // Live Search Logic
                 document.getElementById('search').addEventListener('input', (e) => {
                     const term = e.target.value.toLowerCase();
-                    document.querySelectorAll('.news-card').forEach(card => {
+                    document.querySelectorAll('#news-container .news-card').forEach(card => {
                         const text = card.innerText.toLowerCase();
                         card.style.display = text.includes(term) ? 'flex' : 'none';
                     });
                 });
             } catch (e) {
-                container.innerHTML = '<p>Error: Connection lost.</p>';
+                container.innerHTML = '<p>Error: Neural link unstable.</p>';
             }
         }
         window.onload = loadNews;
-    </script>
-</body>
-</html>
