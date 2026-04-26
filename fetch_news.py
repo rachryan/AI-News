@@ -2,7 +2,7 @@ import requests
 import os
 
 def fetch_ai_news():
-    api_key = os.getenv("NEWS_API_KEY")
+    api_key = os.getenv("1ae5e620508740b28fd9a0e85c31eaec")
     url = f"https://newsapi.org/v2/everything?q=artificial+intelligence&sortBy=publishedAt&apiKey={api_key}"
     
     response = requests.get(url)
