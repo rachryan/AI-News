@@ -4,6 +4,32 @@
         {
             "source": {
                 "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "Bits Strategy",
+            "title": "BitsStrategy Launches Free Day Trading Bot App for Fully Automated Quantitative Trading",
+            "description": "\u2014 A Three-Step Process Makes Intelligent Day Trading More Accessible to Modern Market Participants  NEW YORK, April  25, 2026  (GLOBE NEWSWIRE) -- As...",
+            "url": "https://www.globenewswire.com/news-release/2026/04/25/3281158/0/en/BitsStrategy-Launches-Free-Day-Trading-Bot-App-for-Fully-Automated-Quantitative-Trading.html",
+            "urlToImage": "https://ml.globenewswire.com/Resource/Download/c2ba3cbf-ac7e-4602-8a05-f23aa43dbce9",
+            "publishedAt": "2026-04-25T18:00:00Z",
+            "content": "A Three-Step Process Makes Intelligent Day Trading More Accessible to Modern Market Participants\r\nNEW YORK, April 25, 2026 (GLOBE NEWSWIRE) -- As financial markets continue to evolve at a rapid pace,\u2026 [+7686 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ET Bureau",
+            "title": "FM Nirmala Sitharaman pushes unified KYC framework, asks Sebi to lead",
+            "description": "Finance Minister Nirmala Sitharaman called for a single know-your-customer system across the financial sector. She asked the Securities and Exchange Board of India to lead this initiative. The minister also urged Sebi to focus on future risks. These include a\u2026",
+            "url": "https://economictimes.indiatimes.com/news/economy/finance/fm-nirmala-sitharaman-pushes-unified-kyc-framework-asks-sebi-to-lead/articleshow/130520459.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-130520540,width-1200,height-630,imgsize-206354,overlay-economictimes/articleshow.jpg",
+            "publishedAt": "2026-04-25T17:52:45Z",
+            "content": "Mumbai: Finance minister Nirmala Sitharaman on Saturday called for a unified know-your-customer (KYC) system across the financial sector to eliminate repeated verification for users, and urged the Se\u2026 [+2265 chars]"
+        },
+        {
+            "source": {
+                "id": null,
                 "name": "Yahoo Entertainment"
             },
             "author": "Kevin George",
