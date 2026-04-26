@@ -112,16 +112,15 @@ body {
 .fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent-color), #00f2ff); transition: width 2s ease; }
 .badge { display: inline-block; padding: 4px 12px; border: 1px solid var(--accent-color); border-radius: 100px; font-size: 0.7rem; font-weight: 700; color: var(--accent-color); margin-bottom: 1rem; }
 
-/* --- LOGO THEMING --- */
+/* Add this to your style.css */
 .logo {
-    font-weight: 900;
+    font-weight: 900 !important; /* Force the weight */
     letter-spacing: -1px;
-    color: var(--text-main); /* This is the magic line */
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
+    font-size: 1.5rem;
+    color: var(--text-main) !important; /* Forces it to use the theme-switching variable */
+    display: inline-block;
 }
 
 .logo span {
-    color: var(--accent-color); /* Keeps 'TIDY' purple/indigo */
+    color: var(--accent-color) !important; /* Keeps 'TIDY' purple */
 }
