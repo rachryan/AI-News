@@ -3,186 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechTidy | AI News & Strategy</title>
+    <title>TechTidy | AI Learning & News Hub</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #2ecc71;
-            --bg: #f8fafc;
+            --primary: #4ade80;
+            --primary-soft: #f0fdf4;
+            --bg: #fcfdfd;
             --card-bg: #ffffff;
-            --text: #1e293b;
-            --header-bg: #0f172a;
-            --border: #e2e8f0;
-            --sidebar-width: 320px;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #f1f5f9;
         }
 
         [data-theme="dark"] {
-            --bg: #0b0f1a;
-            --card-bg: #161e2e;
-            --text: #f1f5f9;
-            --header-bg: #000000;
-            --border: #1f2937;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --primary-soft: #14532d;
         }
 
         body { 
-            font-family: 'Inter', sans-serif; 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
             background: var(--bg); 
-            color: var(--text); 
+            color: var(--text-main); 
             margin: 0; 
             transition: 0.3s;
+            line-height: 1.6;
         }
 
-        /* --- THEME TOGGLE --- */
-        .theme-toggle { position: fixed; bottom: 20px; right: 20px; z-index: 1000; background: var(--primary); border: none; padding: 12px; border-radius: 50%; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-
-        /* --- TOP HEADER --- */
-        header { 
-            background: var(--header-bg); 
-            color: white; 
-            padding: 3rem 1.5rem; 
-            text-align: left;
-            border-bottom: 4px solid var(--primary);
-        }
-        .header-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-        header h1 { font-size: 2.2rem; margin: 0; font-weight: 800; letter-spacing: -1.5px; color: var(--primary); }
-        #update-tag { opacity: 0.6; font-size: 0.8rem; }
-
-        /* --- MAIN LAYOUT --- */
-        .layout { 
-            display: grid; 
-            grid-template-columns: 1fr var(--sidebar-width); 
-            gap: 2rem; 
-            max-width: 1200px; 
-            margin: 2rem auto; 
-            padding: 0 1.5rem; 
+        /* Navigation & Header */
+        nav {
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
         }
 
-        /* --- SEARCH --- */
-        .search-wrap { margin-bottom: 2rem; }
-        #search { 
-            width: 100%; 
-            padding: 1rem; 
-            border-radius: 12px; 
-            border: 1px solid var(--border); 
-            background: var(--card-bg); 
-            color: var(--text); 
-            font-size: 1rem;
-            box-sizing: border-box;
-        }
+        .logo { font-weight: 800; font-size: 1.4rem; color: var(--text-main); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+        .logo span { color: var(--primary); }
 
-        /* --- NEWS GRID --- */
-        #news-container { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-            gap: 1.5rem; 
-        }
+        header { text-align: center; padding: 4rem 1rem; }
+        header h1 { font-size: 3rem; margin: 0; letter-spacing: -2px; }
+        header p { color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 1rem auto; }
 
-        .card { 
-            background: var(--card-bg); 
-            border-radius: 16px; 
-            overflow: hidden; 
-            border: 1px solid var(--border); 
-            transition: transform 0.2s;
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Sections Styling */
+        section { margin-bottom: 6rem; }
+        .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+        .section-header h2 { font-size: 1.8rem; margin: 0; }
+
+        /* Training & Tools Cards */
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        
+        .action-card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 24px;
+            border: 1px solid var(--border);
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
         }
-        .card:hover { transform: translateY(-4px); border-color: var(--primary); }
-        .card-img { width: 100%; height: 160px; object-fit: cover; }
-        .card-content { padding: 1.25rem; flex-grow: 1; }
-        .card h3 { margin: 0; font-size: 1.1rem; line-height: 1.3; font-weight: 700; }
-        .card a { display: block; margin-top: 1rem; color: var(--primary); text-decoration: none; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; }
+        .action-card:hover { transform: translateY(-5px); border-color: var(--primary); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
+        .action-card h3 { margin: 0 0 0.5rem 0; font-size: 1.25rem; }
+        .action-card p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; }
+        .badge { background: var(--primary-soft); color: var(--primary); padding: 4px 12px; border-radius: 50px; font-size: 0.75rem; font-weight: 700; width: fit-content; }
 
-        /* --- SIDEBAR / SWAP BOARD --- */
-        aside { position: sticky; top: 20px; align-self: start; }
-        .sidebar-box { 
-            background: var(--card-bg); 
-            border: 1px solid var(--border); 
-            border-radius: 16px; 
-            padding: 1.5rem; 
-            margin-bottom: 1.5rem; 
-        }
-        .sidebar-box h4 { margin-top: 0; font-size: 1rem; text-transform: uppercase; color: var(--primary); letter-spacing: 1px; }
-        
-        .swap-item { margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
-        .swap-old { opacity: 0.5; text-decoration: line-through; display: block; font-size: 0.8rem; }
-        .swap-new { font-weight: 700; display: block; color: var(--text); }
+        /* News Section specific */
+        .search-bar { width: 100%; max-width: 400px; padding: 0.8rem 1.2rem; border-radius: 12px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-main); margin-bottom: 2rem; font-family: inherit; }
 
-        /* --- FOOTER & SUBSCRIBE --- */
-        .footer-cta { background: var(--header-bg); color: white; padding: 3rem; border-radius: 20px; text-align: center; margin-top: 4rem; grid-column: 1 / -1; }
-        .sub-input { padding: 12px; border-radius: 8px; border: none; width: 220px; margin-right: 10px; margin-bottom: 10px; }
-        .sub-btn { background: var(--primary); padding: 12px 24px; border-radius: 8px; border: none; font-weight: 800; cursor: pointer; }
+        #news-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+        .news-card { background: var(--card-bg); border-radius: 20px; border: 1px solid var(--border); overflow: hidden; display: flex; flex-direction: column; }
+        .news-img { width: 100%; height: 180px; object-fit: cover; }
+        .news-content { padding: 1.5rem; }
+        .news-content h3 { font-size: 1.1rem; margin: 0; line-height: 1.4; }
+        .news-link { margin-top: 1rem; display: inline-block; color: var(--primary); font-weight: 700; font-size: 0.8rem; text-decoration: none; text-transform: uppercase; }
 
-        /* --- MOBILE RESPONSIVENESS --- */
-        @media (max-width: 900px) {
-            .layout { grid-template-columns: 1fr; }
-            aside { position: static; order: -1; }
-            header h1 { font-size: 1.8rem; }
-        }
+        .theme-btn { background: none; border: none; cursor: pointer; font-size: 1.2rem; }
+
+        /* Footer */
+        footer { background: var(--primary-soft); padding: 4rem 1rem; border-radius: 40px 40px 0 0; text-align: center; margin-top: 4rem; }
     </style>
 </head>
 <body>
 
-    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    <nav>
+        <a href="#" class="logo">Tech<span>Tidy</span></a>
+        <div>
+            <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+        </div>
+    </nav>
 
     <header>
-        <div class="header-content">
-            <div>
-                <h1>✨ TechTidy</h1>
-                <span id="update-tag">Checking AI pulse...</span>
-            </div>
-        </div>
+        <h1>Master the AI Wave.</h1>
+        <p>Curated news, tools, and training to modernize your tech stack without the clutter.</p>
     </header>
 
-    <div class="layout">
-        <main>
-            <div class="search-wrap">
-                <input type="text" id="search" placeholder="🔍 Search AI archive...">
+    <div class="container">
+        
+        <section id="tools">
+            <div class="section-header">
+                <h2>Direct Access</h2>
+                <span class="badge">Latest Models</span>
             </div>
-            
-            <div id="news-container">
-                <p style="text-align:center;">Organizing the latest updates...</p>
+            <div class="grid-3">
+                <a href="https://chat.openai.com" target="_blank" class="action-card">
+                    <div>
+                        <h3>ChatGPT</h3>
+                        <p>The standard for conversational AI and reasoning.</p>
+                    </div>
+                    <span class="news-link">Open OpenAI ➔</span>
+                </a>
+                <a href="https://claude.ai" target="_blank" class="action-card">
+                    <div>
+                        <h3>Claude</h3>
+                        <p>Advanced coding and long-form document analysis.</p>
+                    </div>
+                    <span class="news-link">Open Anthropic ➔</span>
+                </a>
+                <a href="https://perplexity.ai" target="_blank" class="action-card">
+                    <div>
+                        <h3>Perplexity</h3>
+                        <p>Real-time AI search engine for cited information.</p>
+                    </div>
+                    <span class="news-link">Open Perplexity ➔</span>
+                </a>
             </div>
-        </main>
-
-        <aside>
-            <div class="sidebar-box">
-                <h4>🔄 The Tidy Swap</h4>
-                <div class="swap-item">
-                    <span class="swap-old">Google Search</span>
-                    <span class="swap-new">➔ Perplexity AI</span>
-                </div>
-                <div class="swap-item">
-                    <span class="swap-old">Stock Images</span>
-                    <span class="swap-new">➔ Midjourney / DALL-E</span>
-                </div>
-                <div class="swap-item">
-                    <span class="swap-old">Meeting Minutes</span>
-                    <span class="swap-new">➔ Fireflies.ai</span>
-                </div>
-                <div class="swap-item" style="border:none;">
-                    <span class="swap-old">Manual Coding</span>
-                    <span class="swap-new">➔ Cursor / GitHub Copilot</span>
-                </div>
-            </div>
-
-            <div class="sidebar-box" style="background: var(--header-bg); color: white;">
-                <h4>⚡ Quick Tip</h4>
-                <p style="font-size: 0.85rem; opacity: 0.8;">"Clean up your browser tabs using AI extensions like Workona or OneTab to save 2GB of RAM."</p>
-            </div>
-        </aside>
-
-        <section class="footer-cta">
-            <h2>Weekly Tech Cleanup</h2>
-            <p>Get the curated AI toolkit in your inbox every Friday.</p>
-            <form action="https://formspree.io/f/YOUR_ID" method="POST">
-                <input type="email" class="sub-input" placeholder="you@example.com" required>
-                <button type="submit" class="sub-btn">Join TechTidy</button>
-            </form>
-            <p style="font-size: 0.7rem; opacity: 0.5; margin-top: 2rem;">© 2026 TechTidy • Stay Tidy</p>
         </section>
+
+        <section id="training">
+            <div class="section-header">
+                <h2>Skill Up</h2>
+                <span class="badge">Free Certificates</span>
+            </div>
+            <div class="grid-3">
+                <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="action-card">
+                    <div>
+                        <h3>Google AI Learning</h3>
+                        <p>Foundational generative AI courses from Google Cloud.</p>
+                    </div>
+                    <span class="news-link">Start Learning ➔</span>
+                </a>
+                <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="action-card">
+                    <div>
+                        <h3>Microsoft Azure AI</h3>
+                        <p>Comprehensive paths for Azure AI and Copilot implementation.</p>
+                    </div>
+                    <span class="news-link">Start Learning ➔</span>
+                </a>
+                <a href="https://www.anthropic.com/news/introducing-claude-3-5-sonnet" target="_blank" class="action-card">
+                    <div>
+                        <h3>Anthropic Guide</h3>
+                        <p>Technical prompts and best practices for Claude models.</p>
+                    </div>
+                    <span class="news-link">Start Learning ➔</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="section-header">
+                <h2>Latest Insights</h2>
+                <input type="text" id="search" class="search-bar" placeholder="Search the archive...">
+            </div>
+            <div id="news-container">
+                <p>Syncing AI news...</p>
+            </div>
+        </section>
+
     </div>
+
+    <footer>
+        <h2>Join TechTidy</h2>
+        <p>A cleaner inbox for a cleaner tech stack.</p>
+        <form action="https://formspree.io/f/YOUR_ID" method="POST" style="margin: 2rem 0;">
+            <input type="email" placeholder="you@example.com" style="padding: 12px; border-radius: 8px; border: 1px solid var(--border); width: 250px;">
+            <button type="submit" style="background: var(--text-main); color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: 700; cursor: pointer;">Join Newsletter</button>
+        </form>
+        <p style="font-size: 0.8rem; color: var(--text-muted);">© 2026 TechTidy Hub • Handcrafted for AI Learners.</p>
+    </footer>
 
     <script>
         function toggleTheme() {
@@ -195,24 +209,20 @@
 
         async function loadNews() {
             const container = document.getElementById('news-container');
-            const updateTag = document.getElementById('update-tag');
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
-                
-                if(data.last_updated) updateTag.innerText = "Cleaned: " + data.last_updated;
-                
                 const articles = data.articles || [];
                 container.innerHTML = ''; 
 
                 articles.forEach(article => {
                     const card = document.createElement('div');
-                    card.className = 'card';
+                    card.className = 'news-card';
                     card.innerHTML = `
-                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="card-img" onerror="this.style.display='none'">` : ''}
-                        <div class="card-content">
+                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="news-img" onerror="this.style.display='none'">` : ''}
+                        <div class="news-content">
                             <h3>${article.title}</h3>
-                            <a href="${article.url}" target="_blank">View Article →</a>
+                            <a href="${article.url}" class="news-link" target="_blank">Full Story ➔</a>
                         </div>
                     `;
                     container.appendChild(card);
@@ -220,14 +230,13 @@
 
                 document.getElementById('search').addEventListener('input', (e) => {
                     const term = e.target.value.toLowerCase();
-                    document.querySelectorAll('.card').forEach(card => {
+                    document.querySelectorAll('.news-card').forEach(card => {
                         const text = card.innerText.toLowerCase();
                         card.style.display = text.includes(term) ? 'block' : 'none';
                     });
                 });
-
             } catch (e) {
-                container.innerHTML = '<p>Building the archive...</p>';
+                container.innerHTML = '<p>Archive updating...</p>';
             }
         }
         window.onload = loadNews;
