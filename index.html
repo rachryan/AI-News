@@ -14,47 +14,47 @@
     <div class="glow-bg"></div>
 
     <nav class="pathfinder-nav">
-        <div class="logo">TECH<span>TIDY</span></div>
+        <div class="logo" style="font-weight:900; letter-spacing:-1px;">TECH<span style="color:var(--accent-color)">TIDY</span></div>
         <div style="display: flex; gap: 15px; align-items: center;">
-            <select class="nav-select" onchange="location = this.value;">
-                <option value="#">CHOOSE YOUR PATH</option>
-                <option value="#tools">SECTION_01: THE_TOOLBOX</option>
-                <option value="#training">SECTION_02: THE_ACADEMY</option>
-                <option value="#news">SECTION_03: THE_ARCHIVE</option>
-                <option value="#empowerment">SECTION_04: 1-1_EMPOWERMENT</option>
+            <select class="nav-select" onchange="document.getElementById(this.value.substring(1)).scrollIntoView({behavior:'smooth'})">
+                <option value="#top">PATHFINDER_MENU</option>
+                <option value="#tools">01: THE_TOOLBOX</option>
+                <option value="#training">02: THE_ACADEMY</option>
+                <option value="#empowerment">03: 1-1_EMPOWERMENT</option>
+                <option value="#news">04: THE_ARCHIVE</option>
             </select>
-            <button class="theme-btn" onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌓</button>
+            <button onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌓</button>
         </div>
     </nav>
 
-    <main class="container">
-        <header class="hero">
-            <div class="sentiment-tracker" style="margin-bottom: 2rem; justify-content: center;">
-                <span class="label">SENTIMENT</span>
+    <main class="container" id="top">
+        <header style="text-align: center; padding: 4rem 0;">
+            <div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 2rem;">
+                <span style="font-family:'JetBrains Mono'; font-size:0.7rem; color:var(--text-dim);">SENTIMENT</span>
                 <div class="meter"><div class="fill" id="sentiment-fill"></div></div>
             </div>
-            <h1 class="gradient-text">The Intelligence Briefing.</h1>
-            <p class="subtitle">From anxiety to agency. Automated intelligence for the curious, custom empowerment for the ambitious.</p>
+            <h1 style="font-size: clamp(2.5rem, 8vw, 4.5rem); font-weight: 900; letter-spacing: -3px; margin-bottom: 1.5rem;">The Intelligence Briefing.</h1>
+            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto;">Automated intelligence for the curious. Bespoke empowerment for the ambitious.</p>
         </header>
 
         <section id="tools">
             <div class="card-tag">// SECTION_01: DIRECT_MODELS</div>
             <div class="news-grid">
                 <a href="https://perplexity.ai" target="_blank" class="news-card">
-                    <div class="badge" style="position: absolute; top: -10px; right: 20px; background: #7000ff; color: white;">START HERE</div>
+                    <div class="badge">START HERE</div>
                     <h2 class="headline">Perplexity</h2>
-                    <p class="summary">Verified AI search. The ultimate cognitive upgrade for research.</p>
-                    <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">INITIALIZE ➔</span></div>
+                    <p class="summary">Source-backed AI search. The modern alternative to traditional browsing.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">INITIALIZE ➔</div>
                 </a>
                 <a href="https://chat.openai.com" target="_blank" class="news-card">
                     <h2 class="headline">ChatGPT</h2>
-                    <p class="summary">Advanced reasoning. Your creative and logical partner.</p>
-                    <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">INITIALIZE ➔</span></div>
+                    <p class="summary">The industry leader for drafting, logic, and general problem solving.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">INITIALIZE ➔</div>
                 </a>
                 <a href="https://claude.ai" target="_blank" class="news-card">
                     <h2 class="headline">Claude</h2>
-                    <p class="summary">Nuanced writing and deep document parsing capabilities.</p>
-                    <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">INITIALIZE ➔</span></div>
+                    <p class="summary">Advanced long-form analysis and exceptionally human-like writing.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">INITIALIZE ➔</div>
                 </a>
             </div>
         </section>
@@ -64,54 +64,50 @@
             <div class="news-grid">
                 <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="news-card">
                     <h2 class="headline">Google AI Essentials</h2>
-                    <p class="summary">Foundation courses for understanding Generative AI basics.</p>
-                    <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">FREE_ACCESS ➔</span></div>
+                    <p class="summary">Foundational training designed for non-technical users.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">FREE_ACCESS ➔</div>
                 </a>
                 <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="news-card">
                     <h2 class="headline">Microsoft Azure AI</h2>
-                    <p class="summary">Mastering AI implementation in professional ecosystems.</p>
-                    <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">FREE_ACCESS ➔</span></div>
+                    <p class="summary">Learning to implement AI solutions in a professional environment.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">FREE_ACCESS ➔</div>
                 </a>
             </div>
         </section>
 
         <section id="empowerment" class="empower-section">
-            <div class="card-tag">// SECTION_04: HUMAN_EMPOWERMENT</div>
-            <h2>Out of Fear. Into Agency.</h2>
-            <p>AI is moving fast, but you don't have to be left behind. I offer private, 1-1 guidance to help you master these tools and secure your workflow.</p>
+            <div class="card-tag">// SECTION_03: HUMAN_EMPOWERMENT</div>
+            <h2 style="font-size: 2.5rem; margin-bottom: 1rem; font-weight: 900;">Out of Fear. Into Agency.</h2>
+            <p>I provide private, 1-1 guidance to help you master AI tools and secure your professional future. No hype, just mastery.</p>
             
             <form class="inquiry-form" action="https://formspree.io/f/YOUR_ID" method="POST">
-                <input type="email" name="email" placeholder="YOUR_EMAIL@DOMAIN.COM" required>
-                <select name="service-type" required>
+                <input type="email" name="email" placeholder="EMAIL_ADDRESS" required>
+                <select name="type" required>
                     <option value="">HOW CAN I HELP?</option>
                     <option value="1-1 Training">REQUEST 1-1 EMPOWERMENT TRAINING</option>
-                    <option value="General Query">GENERAL SYSTEM QUERY</option>
-                    <option value="Speaker/Workshop">WORKSHOP OR SPEAKING INQUIRY</option>
+                    <option value="Query">GENERAL SYSTEM QUERY</option>
                 </select>
-                <textarea name="message" placeholder="TELL ME ABOUT YOUR CHALLENGE..." rows="4"></textarea>
+                <textarea name="msg" placeholder="YOUR CHALLENGE..." rows="4"></textarea>
                 <button type="submit" class="submit-btn">SUBMIT INQUIRY</button>
             </form>
         </section>
 
-        <section id="news" style="margin-top: 4rem;">
-            <div class="card-tag">// SECTION_03: INTEL_ARCHIVE</div>
+        <section id="news">
+            <div class="card-tag">// SECTION_04: INTEL_ARCHIVE</div>
             <div style="margin-bottom: 2rem;">
-                <input type="text" id="search" placeholder="SEARCH_BRIEFINGS..." 
-                    style="background: transparent; border: none; border-bottom: 1px solid var(--glass-border); color: var(--text-main); font-family: 'JetBrains Mono'; padding: 10px; width: 100%; max-width: 400px; outline: none;">
+                <input type="text" id="search" placeholder="FILTER_BRIEFINGS..." 
+                    style="background:transparent; border:none; border-bottom:1px solid var(--glass-border); color:var(--text-main); font-family:'JetBrains Mono'; padding:10px; width:100%; max-width:400px; outline:none;">
             </div>
             <div id="news-container" class="news-grid">
                 </div>
         </section>
     </main>
 
-    <footer>
-        <p>© 2026 TechTidy • Human Intel x Machine Speed</p>
+    <footer style="text-align:center; padding: 4rem; color: var(--text-dim); font-size: 0.8rem;">
+        © 2026 TechTidy • Automated Intel Briefing
     </footer>
 
     <script>
-        const themeToggle = document.querySelector('.theme-btn');
-        const fill = document.getElementById('sentiment-fill');
-
         function toggleTheme() {
             const current = document.documentElement.getAttribute('data-theme');
             const target = current === 'light' ? 'dark' : 'light';
@@ -130,10 +126,10 @@
                     const card = document.createElement('a');
                     card.href = article.url; card.target = "_blank"; card.className = 'news-card';
                     card.innerHTML = `
-                        <div class="card-tag">INTEL_LOG_${index + 1}</div>
-                        ${article.urlToImage ? `<img src="${article.urlToImage}" style="width:100%; height:180px; object-fit:cover; border-radius:15px; margin-bottom:1rem; opacity:0.8;">` : ''}
+                        <div class="card-tag">ARCHIVE_INTEL_${index + 1}</div>
+                        ${article.urlToImage ? `<img src="${article.urlToImage}" style="width:100%; height:180px; object-fit:cover; border-radius:15px; margin-bottom:1rem; border:1px solid var(--glass-border);">` : ''}
                         <h2 class="headline">${article.title}</h2>
-                        <div class="card-footer"><span class="share-btn">READ_FULL</span></div>
+                        <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">READ_FULL ➔</div>
                     `;
                     container.appendChild(card);
                 });
@@ -142,10 +138,8 @@
 
         window.onload = () => {
             loadNews();
-            setTimeout(() => fill.style.width = "82%", 500);
-            if (localStorage.getItem('theme') === 'light') {
-                document.documentElement.setAttribute('data-theme', 'light');
-            }
+            setTimeout(() => document.getElementById('sentiment-fill').style.width = "82%", 500);
+            if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light');
         };
     </script>
 </body>
