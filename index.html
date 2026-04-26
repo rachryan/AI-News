@@ -16,7 +16,7 @@
     <nav class="pathfinder-nav">
         <div class="logo" style="font-weight:900; letter-spacing:-1px;">TECH<span style="color:var(--accent-color)">TIDY</span></div>
         <div style="display: flex; gap: 15px; align-items: center;">
-            <select class="nav-select" onchange="const el = document.getElementById(this.value); if(el) el.scrollIntoView({behavior:'smooth'})">
+            <select class="nav-select" onchange="if(this.value) { const target = document.getElementById(this.value); if(target) { target.scrollIntoView({behavior:'smooth', block:'start'}); } }">
                 <option value="">PATHFINDER_MENU</option>
                 <option value="tools">01: THE_TOOLBOX</option>
                 <option value="training">02: THE_ACADEMY</option>
@@ -28,7 +28,7 @@
     </nav>
 
     <main class="container">
-        <header style="text-align: center; padding: 6rem 0 4rem;">
+        <header id="top" style="text-align: center; padding: 6rem 0 4rem;">
             <div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 2rem;">
                 <span style="font-family:'JetBrains Mono'; font-size:0.7rem; color:var(--text-dim);">SENTIMENT</span>
                 <div class="meter"><div class="fill" id="sentiment-fill"></div></div>
@@ -38,7 +38,7 @@
         </header>
 
         <section id="tools">
-            <div class="card-tag">// SECTION_01: DIRECT_MODELS</div>
+            <div class="card-tag">// SECTION_01: THE_TOOLBOX</div>
             <div class="news-grid">
                 <a href="https://perplexity.ai" target="_blank" class="news-card">
                     <div class="badge">START HERE</div>
@@ -60,7 +60,7 @@
         </section>
 
         <section id="training" style="margin-top: 4rem;">
-            <div class="card-tag">// SECTION_02: TRAINING_VAULT</div>
+            <div class="card-tag">// SECTION_02: THE_ACADEMY</div>
             <div class="news-grid">
                 <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="news-card">
                     <h2 class="headline">Google AI Essentials</h2>
@@ -158,7 +158,10 @@
 
         window.onload = () => {
             loadNews();
-            setTimeout(() => document.getElementById('sentiment-fill').style.width = "82%", 500);
+            setTimeout(() => {
+                const bar = document.getElementById('sentiment-fill');
+                if(bar) bar.style.width = "82%";
+            }, 500);
             if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light');
         };
     </script>
