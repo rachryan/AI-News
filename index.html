@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Intelligence Briefing | TechTidy</title>
+    <title>TechTidy | Intelligence Hub</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-theme="dark">
 
     <div class="glow-bg"></div>
 
@@ -32,120 +32,125 @@
         </nav>
     </header>
 
-    <main>
+    <main class="container">
         <section class="hero">
-            <div class="badge" id="update-tag">SCANNING THE NEURAL NETWORKS...</div>
             <h1 class="gradient-text">The Intelligence Briefing.</h1>
-            <p class="subtitle">Cutting through the noise. Automated intelligence, essential tools, and foundational training.</p>
+            <p class="subtitle">Cutting through the noise. AI news for people who value time.</p>
         </section>
 
-        <div class="container">
-            <div class="card-tag">// SECTION_01: DIRECT_MODELS</div>
-            <div class="news-grid">
-                <a href="https://perplexity.ai" target="_blank" class="news-card">
-                    <div class="badge" style="margin-bottom: 10px; width: fit-content;">START HERE</div>
-                    <h2 class="headline">Perplexity</h2>
-                    <p class="summary">AI-powered search engine that provides cited, real-time answers.</p>
-                    <div class="card-footer"><span class="share-btn">INITIALIZE ➔</span></div>
-                </a>
-                <a href="https://chat.openai.com" target="_blank" class="news-card">
-                    <h2 class="headline">ChatGPT</h2>
-                    <p class="summary">The industry standard for reasoning, drafting, and problem solving.</p>
-                    <div class="card-footer"><span class="share-btn">INITIALIZE ➔</span></div>
-                </a>
-                <a href="https://claude.ai" target="_blank" class="news-card">
-                    <h2 class="headline">Claude</h2>
-                    <p class="summary">Superior for long-form writing and complex document analysis.</p>
-                    <div class="card-footer"><span class="share-btn">INITIALIZE ➔</span></div>
-                </a>
-            </div>
+        <div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-top: 4rem;">
+            <h2 class="headline" style="font-size: 2rem;">The Toolbox</h2>
+            <span class="label" id="update-tag">Updated: April 26, 2026</span>
+        </div>
+        <div class="news-grid">
+            <a href="https://perplexity.ai" target="_blank" class="news-card">
+                <div class="badge" style="position: absolute; top: -10px; right: 20px; background: #7000ff; color: white;">START HERE</div>
+                <h2 class="headline">Perplexity</h2>
+                <p class="summary">The best way to replace Google. Ask a question, get an answer with real sources.</p>
+                <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">OPEN TOOL ➔</span></div>
+            </a>
+            <a href="https://chat.openai.com" target="_blank" class="news-card">
+                <h2 class="headline">ChatGPT</h2>
+                <p class="summary">Your creative partner. Use it for drafting emails or brainstorming ideas.</p>
+                <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">OPEN TOOL ➔</span></div>
+            </a>
+            <a href="https://claude.ai" target="_blank" class="news-card">
+                <h2 class="headline">Claude</h2>
+                <p class="summary">Highly ethical and incredible at analyzing long documents or writing code.</p>
+                <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">OPEN TOOL ➔</span></div>
+            </a>
         </div>
 
-        <div class="container">
-            <div class="card-tag">// SECTION_02: TRAINING_VAULT</div>
-            <div class="news-grid">
-                <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="news-card">
-                    <div class="badge" style="margin-bottom: 10px; width: fit-content;">FREE</div>
-                    <h2 class="headline">Google AI Essentials</h2>
-                    <p class="summary">Master the basics of Generative AI with Google's foundational path.</p>
-                    <div class="card-footer"><span class="share-btn">ACCESS ➔</span></div>
-                </a>
-                <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="news-card">
-                    <h2 class="headline">Microsoft Azure AI</h2>
-                    <p class="summary">Learn to implement AI within the modern office ecosystem.</p>
-                    <div class="card-footer"><span class="share-btn">ACCESS ➔</span></div>
-                </a>
-            </div>
+        <h2 class="headline" style="font-size: 2rem; margin-top: 4rem;">The Academy</h2>
+        <div class="news-grid">
+            <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="news-card">
+                <div class="badge" style="position: absolute; top: -10px; right: 20px; background: #7000ff; color: white;">START HERE</div>
+                <h2 class="headline">Google AI Course</h2>
+                <p class="summary">A 1–day path to understanding the basics. Perfectly explained for non-techies.</p>
+                <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">FREE COURSE ➔</span></div>
+            </a>
+            <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="news-card">
+                <h2 class="headline">Microsoft AI Path</h2>
+                <p class="summary">Understand how AI will change your office apps like Word and Excel.</p>
+                <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">FREE COURSE ➔</span></div>
+            </a>
+            <a href="https://www.anthropic.com/news/introducing-claude-3-5-sonnet" target="_blank" class="news-card">
+                <h2 class="headline">Anthropic Guide</h2>
+                <p class="summary">Learn how to talk to AI to get the exact results you're looking for.</p>
+                <div class="card-footer"><span style="color: #4ade80; font-weight: bold; font-size: 0.8rem;">LEARN SKILLS ➔</span></div>
+            </a>
         </div>
 
-        <div class="container">
-            <div class="card-tag">// SECTION_03: INTEL_ARCHIVE</div>
-            <div style="text-align: center; margin-bottom: 2rem;">
-                <input type="text" id="search" placeholder="FILTER_INTEL..." 
-                    style="background: transparent; border: none; border-bottom: 1px solid var(--glass-border); color: var(--text-main); font-family: 'JetBrains Mono'; padding: 10px; width: 100%; max-width: 400px; outline: none;">
-            </div>
-            <div id="news-container" class="news-grid">
-                </div>
+        <h2 class="headline" style="font-size: 2rem; margin-top: 4rem;">The Intel Archive</h2>
+        <div style="margin-bottom: 2rem;">
+            <input type="text" id="search" placeholder="SEARCH ARCHIVE..." 
+                style="background: transparent; border: none; border-bottom: 1px solid var(--glass-border); color: var(--text-main); font-family: 'JetBrains Mono'; padding: 10px; width: 100%; max-width: 400px; outline: none;">
         </div>
+        <div id="news-container" class="news-grid">
+            </div>
     </main>
 
     <footer>
-        <p>TechTidy Briefing. No fluff. Just Intel.</p>
-        <p style="margin-top: 1rem; font-size: 0.7rem; color: var(--text-dim);">© 2026 TechTidy • Strategic Automation Active</p>
+        <p>© 2026 TechTidy • Strategic Intelligence Briefing</p>
     </footer>
 
     <script>
         const themeToggle = document.getElementById('theme-toggle');
-        const fill = id = document.getElementById('sentiment-fill');
+        const fill = document.getElementById('sentiment-fill');
 
-        // Theme Toggle Logic
         themeToggle.addEventListener('change', () => {
             const theme = themeToggle.checked ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', theme);
             localStorage.setItem('theme', theme);
         });
 
-        // Load News Logic
         async function loadNews() {
             const container = document.getElementById('news-container');
             const updateTag = document.getElementById('update-tag');
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
-                if(data.last_updated) updateTag.innerText = "UPDATED: " + data.last_updated;
+                if(data.last_updated) updateTag.innerText = "Updated: " + data.last_updated;
+                
                 const articles = data.articles || [];
                 container.innerHTML = ''; 
 
-                articles.forEach((article, index) => {
+                // ONLY SHOW THE FIRST 6 ARTICLES ON LOAD
+                const displayArticles = articles.slice(0, 6);
+
+                displayArticles.forEach((article, index) => {
                     const card = document.createElement('a');
-                    card.href = article.url;
-                    card.target = "_blank";
-                    card.className = 'news-card';
+                    card.href = article.url; card.target = "_blank"; card.className = 'news-card';
                     card.innerHTML = `
-                        <div class="card-tag">ARCHIVE_INTEL_${index + 1}</div>
+                        <div class="card-tag">INTEL_LOG_${index + 1}</div>
                         ${article.urlToImage ? `<img src="${article.urlToImage}" style="width:100%; height:150px; object-fit:cover; border-radius:15px; margin-bottom:1rem; opacity:0.7; filter:grayscale(100%);">` : ''}
                         <h2 class="headline">${article.title}</h2>
-                        <div class="card-footer">
-                            <span class="share-btn">READ FULL</span>
-                        </div>
+                        <div class="card-footer"><span class="share-btn">READ FULL</span></div>
                     `;
                     container.appendChild(card);
                 });
 
+                // SEARCH LOGIC (Searches all 30 archived articles)
                 document.getElementById('search').addEventListener('input', (e) => {
                     const term = e.target.value.toLowerCase();
-                    document.querySelectorAll('#news-container .news-card').forEach(card => {
-                        card.style.display = card.innerText.toLowerCase().includes(term) ? 'flex' : 'none';
+                    if (term === "") { loadNews(); return; } // Reset to 6 if empty
+                    
+                    container.innerHTML = '';
+                    articles.forEach((article, index) => {
+                        if (article.title.toLowerCase().includes(term)) {
+                            const card = document.createElement('a');
+                            card.href = article.url; card.target = "_blank"; card.className = 'news-card';
+                            card.innerHTML = `<div class="card-tag">MATCH_FOUND</div><h2 class="headline">${article.title}</h2><div class="card-footer"><span class="share-btn">READ FULL</span></div>`;
+                            container.appendChild(card);
+                        }
                     });
                 });
-            } catch (e) { container.innerHTML = '<p>Connection unstable...</p>'; }
+            } catch (e) { console.log(e); }
         }
 
         window.onload = () => {
             loadNews();
-            // Animate sentiment bar on load
             setTimeout(() => fill.style.width = "82%", 500);
-            // Check saved theme
             if (localStorage.getItem('theme') === 'light') {
                 themeToggle.checked = true;
                 document.documentElement.setAttribute('data-theme', 'light');
