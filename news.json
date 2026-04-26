@@ -1,67 +1,93 @@
 [
     {
         "source": {
-            "id": "the-times-of-india",
-            "name": "The Times of India"
+            "id": null,
+            "name": "Gizmodo.com"
         },
-        "author": "ETtech",
-        "title": "Top five IT firms cut nearly 7,000 jobs in FY26",
-        "description": "India's top IT firms saw a hiring pullback in FY26, with the five major players reducing staff by nearly 7,000. This shift from expansion to efficiency, driven by AI and uncertain demand, sees a move towards specialised skills. Despite this, overall industry \u2026",
-        "url": "https://economictimes.indiatimes.com/tech/information-tech/top-five-it-firms-cut-nearly-7000-jobs-in-fy26/articleshow/130510007.cms",
-        "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-481232,resizemode-75,msid-130510007/tech/information-tech/top-five-it-firms-cut-nearly-7000-jobs-in-fy26.jpg",
-        "publishedAt": "2026-04-25T07:00:00Z",
-        "content": "India's major IT services companies pulled back on hiring in FY26, marking a shift from the modest recovery seen a year earlier.Combined, Tata Consultancy Services (TCS), Infosys, Wipro, HCLTech, and\u2026 [+2925 chars]"
+        "author": "Ece Yildirim",
+        "title": "Apple App Store Experiences Surge in New Apps Amid Vibe Coding Boom",
+        "description": "After years of gradual declines, the App Store finally saw a huge jump in new apps this past year.",
+        "url": "https://gizmodo.com/apple-app-store-experiences-surge-in-new-apps-amid-vibe-coding-boom-2000742653",
+        "urlToImage": "https://gizmodo.com/app/uploads/2026/04/shutterstock_2442151057-1200x675.jpg",
+        "publishedAt": "2026-04-06T10:00:39Z",
+        "content": "Apple\u2019s App Store saw 235,800 new apps in the first three months of 2026, according to new data published by The Information on Sunday, up 84% from the same time period last year.\r\nThe meteoric rise \u2026 [+2363 chars]"
     },
     {
         "source": {
-            "id": "the-times-of-india",
-            "name": "The Times of India"
+            "id": "wired",
+            "name": "Wired"
         },
-        "author": "Trending Desk",
-        "title": "US tech giant Microsoft announces voluntary retirement: What is it, who is eligible and what is the math used in calculation?",
-        "description": "Microsoft's voluntary retirement: US tech company Microsoft has announced its first-ever voluntary retirement program and the scheme is open to around 7% of its US workforce. If an employee's age and years of service must add up to 70, then he/she is eligible\u2026",
-        "url": "https://economictimes.indiatimes.com/news/new-updates/us-tech-giant-microsoft-announces-voluntary-retirement-what-is-it-who-are-eligible-and-what-is-the-math-used-in-calculation/articleshow/130509222.cms",
-        "urlToImage": "https://img.etimg.com/thumb/msid-130509297,width-1200,height-630,imgsize-55472,overlay-economictimes/articleshow.jpg",
-        "publishedAt": "2026-04-25T06:05:49Z",
-        "content": "Microsoft, co-founded by Bill Gates, is giving voluntary retirement to around 7 percent of its US workforce and these numbers come around 8,750 people out of 125,000 American employees. This is the f\u2026 [+3034 chars]"
-    },
-    {
-        "source": {
-            "id": "the-irish-times",
-            "name": "The Irish Times"
-        },
-        "author": "Mark O\u2019Connell",
-        "title": "Pope Leo is the religious leader non-believers needed",
-        "description": "His opposition to Donald Trump and the war on Iran is only a part of what makes Leo a unique and important figure in our time",
-        "url": "https://www.irishtimes.com/opinion/2026/04/25/pope-leo-is-the-religious-leader-non-believers-needed/",
-        "urlToImage": "https://www.irishtimes.com/resizer/v2/YN5FSWASMKDMOZI7DJ2LGSI7E4.jpg?smart=true&auth=14675a776722513f60978ea8466ad965ce6a7268767ca804fba7cf4be1fad55e&width=1200&height=630",
-        "publishedAt": "2026-04-25T06:02:00Z",
-        "content": "Its hard to overstate just how dire a situation we find ourselves in, politically and culturally. The problems we face are of such scale and complexity that the prospects for any kind of humane and l\u2026 [+6937 chars]"
+        "author": "Will Knight",
+        "title": "AI Could Democratize One of Tech's Most Valuable Resources",
+        "description": "AI is making it easier to design chips and optimize software for different silicon. Some startups envision a revolution in chipmaking.",
+        "url": "https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/",
+        "urlToImage": "https://media.wired.com/photos/69dea084bbe4a9ff56b3014b/191:100/w_1280,c_limit/AL-Lab-AI-Could-Democratize-One-of-Techs-Most-Valuable-Resources-Business.jpg",
+        "publishedAt": "2026-04-15T18:00:00Z",
+        "content": "Nvidia is the undisputed king of AI chips. But thanks to the AI it helped build, the champ could soon face growing competition.\r\nModern AI runs on Nvidia designs, a dynamic that has propelled the com\u2026 [+3700 chars]"
     },
     {
         "source": {
             "id": null,
-            "name": "Digital Journal"
+            "name": "NPR"
         },
-        "author": "AFP",
-        "title": "Billionaire Elon Musk enters courtroom showdown with OpenAI",
-        "description": "Jury selection is to begin Monday in a high-profile legal battle between billionaire Elon Musk and artificial intelligence startup OpenAI.\nThe post Billionaire Elon Musk enters courtroom showdown with OpenAI appeared first on Digital Journal.",
-        "url": "https://www.digitaljournal.com/business/billionaire-elon-musk-enters-courtroom-showdown-with-openai/article",
-        "urlToImage": "https://www.digitaljournal.com/wp-content/uploads/2025/12/ElonMusk-SpaceX-\u00a9AFP-1K-01.jpg",
-        "publishedAt": "2026-04-25T06:01:11Z",
-        "content": "Elon Musk. \u00a9 AFP Brendan SMIALOWSKI\r\nJury selection is to begin Monday in a high-profile legal battle between billionaire Elon Musk and artificial intelligence startup OpenAI, which he accuses of bet\u2026 [+3786 chars]"
+        "author": "Martin Kaste",
+        "title": "Penalties stack up as AI spreads through the legal system",
+        "description": "Early scandals have not slowed lawyers' adoption of AI tools, even as court sanctions over fake legal briefs continue to rise.",
+        "url": "https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system",
+        "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3240x1823+0+304/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5d%2Ff9%2F3041fb8e4ef0b2a64f2cdc8f9c42%2Fcopy-1.JPG",
+        "publishedAt": "2026-04-03T09:00:00Z",
+        "content": "When it comes to using AI, it seems some lawyers just can't help themselves.\r\nLast year saw a rapid increase in court sanctions against attorneys for filing briefs containing errors generated by arti\u2026 [+5442 chars]"
     },
     {
         "source": {
-            "id": "rte",
-            "name": "RTE"
+            "id": "wired",
+            "name": "Wired"
         },
-        "author": "Yvonne Murray",
-        "title": "Will this energy shock seal the deal for renewables?",
-        "description": "",
-        "url": "https://www.rte.ie/news/analysis-and-comment/2026/0425/1570090-oil-supplies-energy-renewables/",
-        "urlToImage": "https://www.rte.ie/images/0024465f-1600.jpg",
-        "publishedAt": "2026-04-25T06:00:01Z",
-        "content": "The US-Israeli attack on Iran and the subsequent blockade of the Strait of Hormuz have created the biggest oil supply disruption the world has ever faced, according to the International Energy Agency\u2026 [+23350 chars]"
+        "author": "Paresh Dave",
+        "title": "Anthropic Supply-Chain Risk Designation Halted By Judge",
+        "description": "A judge temporarily blocked the Trump administration's designation, clearing the way for Anthropic to keep doing business without the label starting next week.",
+        "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-injunction/",
+        "urlToImage": "https://media.wired.com/photos/69c5b0bd07d68ae7468ce59a/191:100/w_1280,c_limit/Apple-Supply-Chain-Risk-Business-2261514689.jpg",
+        "publishedAt": "2026-03-26T23:33:05Z",
+        "content": "Anthropic won a preliminary injunction barring the US Department of Defense from labeling it a supply-chain risk, potentially clearing the way for customers to resume working with the company. The ru\u2026 [+2867 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Gizmodo.com"
+        },
+        "author": "Ece Yildirim",
+        "title": "Some Locals Are Using AI to Protest Against Data Centers",
+        "description": "Advocacy against data centers isn't necessarily all about being anti-AI.",
+        "url": "https://gizmodo.com/some-locals-are-using-ai-to-protest-against-data-centers-2000744027",
+        "urlToImage": "https://gizmodo.com/app/uploads/2026/04/GettyImages-1739395288-e1775661899240-1200x675.jpg",
+        "publishedAt": "2026-04-15T14:10:43Z",
+        "content": "The United States is in the middle of an unprecedented data center buildout that has especially hit rural communities living near ample empty land where tech companies see fit to plop down these mega\u2026 [+5231 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Tom Carter",
+        "title": "Snap says it will lay off 16% of its global workforce. Read the memo it sent to staff.",
+        "description": "CEO Evan Spiegel said Snap would cut 1,000 employees, 16% of its global workforce, citing \"rapid advancements in artificial intelligence.\"",
+        "url": "https://www.businessinsider.com/snap-layoffs-ai-read-memo-snapchat-2026-4",
+        "urlToImage": "https://www.businessinsider.com/public/assets/logos/og-image-logo-social.png?v=2023-11",
+        "publishedAt": "2026-04-15T10:47:33Z",
+        "content": "Evan SpiegelBloomberg/Getty Images\r\n<ul><li>Snap is the latest tech company to announce layoffs.</li><li>The company behind Snapchat will cut 16% of its global workforce, according to a regulatory fi\u2026 [+3112 chars]"
+    },
+    {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Dell Cameron, Louise Matsakis",
+        "title": "Iran Threatens to Start Attacking Major US Tech Firms on April 1",
+        "description": "Tech giants like Apple, Google, and Microsoft are among those on a target list released by Iran\u2019s Islamic Revolutionary Guard Corps.",
+        "url": "https://www.wired.com/story/iran-threatens-to-start-attacking-major-us-tech-firms-on-april-1/",
+        "urlToImage": "https://media.wired.com/photos/69cbf5d389cbdc32deb6bcdf/191:100/w_1280,c_limit/Trump_Iran_Biz_GettyImages-2267975852.jpg",
+        "publishedAt": "2026-03-31T21:25:12Z",
+        "content": "Irans Islamic Revolutionary Guard Corps warned Tuesday that it plans to begin attacking more than a dozen American companies across the Middle East on Wednesday in retaliation for the killing of Iran\u2026 [+3382 chars]"
     }
 ]
