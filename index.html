@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechTidy | The Intelligence Briefing</title>
+    <title>The Intelligence Briefing | TechTidy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
             <div class="nav-right">
                 <div class="sentiment-tracker">
                     <span class="label">SENTIMENT</span>
-                    <div class="meter"><div class="fill" style="width: 75%;"></div></div>
+                    <div class="meter"><div class="fill" style="width: 85%;"></div></div>
                 </div>
                 <div class="toggle-wrapper">
                     <span class="label">ELI5</span>
@@ -36,43 +36,78 @@
         <section class="hero">
             <div class="badge" id="update-tag">SCANNING THE NEURAL NETWORKS...</div>
             <h1 class="gradient-text">The Intelligence Briefing.</h1>
-            <p class="subtitle">Cutting through the noise. AI news and training for people who value time.</p>
+            <p class="subtitle">A strategic hub for AI deployment. News, tools, and foundational training in one high-fidelity interface.</p>
         </section>
 
-        <div style="text-align: center; margin-bottom: 2rem;">
-            <input type="text" id="search" placeholder="SEARCH PARAMETERS..." 
-                style="background: transparent; border: none; border-bottom: 1px solid var(--glass-border); color: white; font-family: 'JetBrains Mono'; padding: 10px; width: 300px; outline: none; text-align: center;">
+        <div class="container">
+            <div class="card-tag">// SECTION_01: THE_TOOLBOX</div>
+            <div class="news-grid" style="padding-top: 1rem;">
+                <a href="https://perplexity.ai" target="_blank" class="news-card">
+                    <div class="badge" style="margin-bottom: 10px; width: fit-content;">START HERE</div>
+                    <h2 class="headline">Perplexity</h2>
+                    <p class="summary">The best way to replace Google. Ask a question, get an answer with real sources.</p>
+                    <div class="card-footer"><span class="share-btn">OPEN TOOL →</span></div>
+                </a>
+                <a href="https://chat.openai.com" target="_blank" class="news-card">
+                    <h2 class="headline">ChatGPT</h2>
+                    <p class="summary">Your creative partner. Use it for drafting emails, coding, or brainstorming ideas.</p>
+                    <div class="card-footer"><span class="share-btn">OPEN TOOL →</span></div>
+                </a>
+                <a href="https://claude.ai" target="_blank" class="news-card">
+                    <h2 class="headline">Claude</h2>
+                    <p class="summary">Highly ethical and incredible at analyzing long documents or complex writing tasks.</p>
+                    <div class="card-footer"><span class="share-btn">OPEN TOOL →</span></div>
+                </a>
+            </div>
         </div>
 
-        <div id="news-container" class="news-grid">
-            <p style="text-align: center; grid-column: 1/-1;">Establishing connection...</p>
+        <div class="container" style="margin-top: 4rem;">
+            <div class="card-tag">// SECTION_02: THE_ACADEMY</div>
+            <div class="news-grid" style="padding-top: 1rem;">
+                <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="news-card">
+                    <div class="badge" style="margin-bottom: 10px; width: fit-content;">START HERE</div>
+                    <h2 class="headline">Google AI</h2>
+                    <p class="summary">Foundational generative AI courses. Perfect for beginners seeking certification.</p>
+                    <div class="card-footer"><span class="share-btn">FREE COURSE →</span></div>
+                </a>
+                <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="news-card">
+                    <h2 class="headline">Microsoft</h2>
+                    <p class="summary">Learn to implement AI across Word, Excel, and the Azure ecosystem.</p>
+                    <div class="card-footer"><span class="share-btn">FREE COURSE →</span></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top: 4rem;">
+            <div class="card-tag">// SECTION_03: INTEL_ARCHIVE</div>
+            <div style="padding: 1rem 0;">
+                <input type="text" id="search" placeholder="SEARCH PARAMETERS..." 
+                    style="background: transparent; border: none; border-bottom: 1px solid var(--glass-border); color: white; font-family: 'JetBrains Mono'; padding: 10px; width: 100%; max-width: 400px; outline: none;">
+            </div>
+            <div id="news-container" class="news-grid">
+                </div>
         </div>
     </main>
 
     <footer>
         <div class="footer-content">
-            <p>TechTidy Briefing. No fluff. Just Intel.</p>
-            <form action="https://formspree.io/f/YOUR_ID" method="POST" style="margin: 2rem 0;">
-                <input type="email" name="email" placeholder="ENTER EMAIL" required 
-                    style="background: #111; border: 1px solid var(--glass-border); color: white; padding: 12px; border-radius: 8px;">
-                <button type="submit" class="share-btn" style="padding: 12px 24px; margin-left: 10px;">SUBSCRIBE</button>
-            </form>
+            <p>Handcrafted for the intelligence-first community. No noise. Just intel.</p>
             <div class="footer-links">
-                <a href="https://chat.openai.com" target="_blank">CHATGPT</a>
-                <a href="https://claude.ai" target="_blank">CLAUDE</a>
-                <a href="https://perplexity.ai" target="_blank">PERPLEXITY</a>
+                <a href="#">SYSTEM_STATUS: NOMINAL</a>
+                <a href="#">ENCRYPTION: ACTIVE</a>
             </div>
         </div>
     </footer>
 
-    async function loadNews() {
+    <script>
+        async function loadNews() {
             const container = document.getElementById('news-container');
             const updateTag = document.getElementById('update-tag');
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
                 
-                if(data.last_updated) updateTag.innerText = "LAST_SYNC: " + data.last_updated;
+                if(data.last_updated) updateTag.innerText = "LAST SYNC: " + data.last_updated;
                 
                 const articles = data.articles || [];
                 container.innerHTML = ''; 
@@ -81,23 +116,16 @@
                     const card = document.createElement('div');
                     card.className = 'news-card';
                     card.innerHTML = `
-                        <div class="card-tag">ARCHIVE_INTEL_${index + 1}</div>
-                        
+                        <div class="card-tag">ARCHIVE_FILE_${index + 1}</div>
                         ${article.urlToImage ? `
-                            <div style="width: 100%; height: 160px; overflow: hidden; border-radius: 12px; margin-bottom: 1.5rem; border: 1px solid var(--glass-border);">
-                                <img src="${article.urlToImage}" 
-                                     style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6; filter: grayscale(100%); transition: 0.4s;" 
-                                     onmouseover="this.style.opacity='1'; this.style.filter='grayscale(0%)'" 
-                                     onmouseout="this.style.opacity='0.6'; this.style.filter='grayscale(100%)'"
-                                     onerror="this.parentElement.style.display='none'">
+                            <div style="width: 100%; height: 150px; overflow: hidden; border-radius: 15px; margin-bottom: 1rem;">
+                                <img src="${article.urlToImage}" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.7; filter: grayscale(100%); transition: 0.4s;" onmouseover="this.style.opacity='1'; this.style.filter='grayscale(0%)'" onmouseout="this.style.opacity='0.7'; this.style.filter='grayscale(100%)'" onerror="this.parentElement.style.display='none'">
                             </div>
                         ` : ''}
-
                         <h2 class="headline">${article.title}</h2>
-                        <p class="summary">${article.description || 'Raw data processed. Access full report for details.'}</p>
                         <div class="card-footer">
-                            <span class="date">FREQ: WEEKLY</span>
-                            <a href="${article.url}" target="_blank" class="share-btn" style="text-decoration: none;">READ_FULL</a>
+                            <span class="date">INTEL REPORT</span>
+                            <a href="${article.url}" target="_blank" class="share-btn" style="text-decoration: none;">READ FULL</a>
                         </div>
                     `;
                     container.appendChild(card);
@@ -111,7 +139,10 @@
                     });
                 });
             } catch (e) {
-                container.innerHTML = '<p>Error: Neural link unstable.</p>';
+                container.innerHTML = '<p>Re-establishing connection to neural link...</p>';
             }
         }
         window.onload = loadNews;
+    </script>
+</body>
+</html>
