@@ -1,6 +1,71 @@
 [
     {
         "source": {
+            "id": "the-times-of-india",
+            "name": "The Times of India"
+        },
+        "author": "Trending Desk",
+        "title": "US tech giant Microsoft announces voluntary retirement: What is it, who is eligible and what is the math used in calculation?",
+        "description": "Microsoft's voluntary retirement: US tech company Microsoft has announced its first-ever voluntary retirement program and the scheme is open to around 7% of its US workforce. If an employee's age and years of service must add up to 70, then he/she is eligible\u2026",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/us-tech-giant-microsoft-announces-voluntary-retirement-what-is-it-who-are-eligible-and-what-is-the-math-used-in-calculation/articleshow/130509222.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130509297,width-1200,height-630,imgsize-55472,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-04-25T06:05:49Z",
+        "content": "Microsoft, co-founded by Bill Gates, is giving voluntary retirement to around 7 percent of its US workforce and these numbers come around 8,750 people out of 125,000 American employees. This is the f\u2026 [+3034 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Naturalnews.com"
+        },
+        "author": "Edison Reed",
+        "title": "Tesla Raises 2026 Capital Expenditure to Over $25 Billion, Shares Fall",
+        "description": "Introduction Tesla Inc. shares fell sharply Thursday, April 23, after the electric vehicle maker announced a significant increase in its capital expenditure plans for 2026 \u2013 raising investor concerns about its spending on unproven technology platforms. The co\u2026",
+        "url": "https://www.naturalnews.com/2026-04-25-tesla-raises-2026-capital-expenditure-shares-fall.html",
+        "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/04/tesla-capital-expenditure-stock-decline-1110-original.jpg",
+        "publishedAt": "2026-04-25T06:00:00Z",
+        "content": "Introduction\r\nTesla Inc. shares fell sharply Thursday, April 23, after the electric vehicle maker announced a significant increase in its capital expenditure plans for 2026 raising investor concerns \u2026 [+6020 chars]"
+    },
+    {
+        "source": {
+            "id": "the-times-of-india",
+            "name": "The Times of India"
+        },
+        "author": "ET Online",
+        "title": "Explained | Why Anthropic\u2019s Mythos is spooking bankers and what it means for global finance",
+        "description": "Anthropic\u2019s Mythos AI is triggering global concern as banks and regulators warn it could enable faster, large-scale cyberattacks on financial systems.",
+        "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/what-is-anthropic-mythos-ai-cybersecurity-risks-banks-finance-sector/articleshow/130508987.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130508987,width-1200,height-630,imgsize-49868,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-04-25T05:49:43Z",
+        "content": "For a sector used to stress-testing everything from oil shocks to geopolitical conflicts, its not often that a piece of software becomes the biggest unknown in the room.But thats exactly whats happen\u2026 [+7266 chars]"
+    },
+    {
+        "source": {
+            "id": "the-irish-times",
+            "name": "The Irish Times"
+        },
+        "author": "Jack Power",
+        "title": "Domestic jobs market facing artificial intelligence \u2018upheaval\u2019, says Taoiseach",
+        "description": "Miche\u00e1l Martin\u2019s comments come as Meta cuts 10% of global staff, about 8,000 workers",
+        "url": "https://www.irishtimes.com/politics/2026/04/25/domestic-jobs-market-facing-artificial-intelligence-upheaval-says-taoiseach/",
+        "urlToImage": "https://www.irishtimes.com/resizer/v2/CNYZLETBDYIJORVTY22T5XRE3Q.jpg?smart=true&auth=afa1dd48d3466503814d5bcdf8e78ba6fd95b0ee7fca66e19a47ebb136fa36d1&width=1200&height=630",
+        "publishedAt": "2026-04-25T05:00:00Z",
+        "content": "The Government is bracing for possible turbulence in the Republics tech sector as artificial intelligence (AI) threatens to cause significant upheaval to large parts of the Irish workforce in the com\u2026 [+3216 chars]"
+    },
+    {
+        "source": {
+            "id": "the-irish-times",
+            "name": "The Irish Times"
+        },
+        "author": "Mark Tighe",
+        "title": "Claims of tax evasion and wrongful use of athlete\u2019s bikini photos in \u2018toxic\u2019 Specsavers row",
+        "description": "Judge urges halt to \u2018war\u2019 between Ennis branch manager and Guernsey-based optician chain",
+        "url": "https://www.irishtimes.com/business/2026/04/25/claims-of-tax-evasion-and-wrongful-use-of-athletes-bikini-photos-in-toxic-specsavers-row/",
+        "urlToImage": "https://www.irishtimes.com/resizer/v2/AUZOESDQW5E7HPQBP23O5LGLC4.jpg?smart=true&auth=36146342b385d233aa6a2896527ee6e0f9ee9b75d3099a32ec4d1aede97058ed&width=1200&height=630",
+        "publishedAt": "2026-04-25T05:00:00Z",
+        "content": "A High Court judge has pleaded with Specsavers and the co-owner of its Ennis store to call off a war between the parties that involves a litany of legal cases. \r\nThe cases involve allegations of mult\u2026 [+7207 chars]"
+    },
+    {
+        "source": {
             "id": null,
             "name": "Gizmodo.com"
         },
