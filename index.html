@@ -16,25 +16,25 @@
     <nav class="pathfinder-nav">
         <div class="logo" style="font-weight:900; letter-spacing:-1px;">TECH<span style="color:var(--accent-color)">TIDY</span></div>
         <div style="display: flex; gap: 15px; align-items: center;">
-            <select class="nav-select" onchange="document.getElementById(this.value.substring(1)).scrollIntoView({behavior:'smooth'})">
-                <option value="#top">PATHFINDER_MENU</option>
-                <option value="#tools">01: THE_TOOLBOX</option>
-                <option value="#training">02: THE_ACADEMY</option>
-                <option value="#empowerment">03: 1-1_EMPOWERMENT</option>
-                <option value="#news">04: THE_ARCHIVE</option>
+            <select class="nav-select" onchange="const el = document.getElementById(this.value); if(el) el.scrollIntoView({behavior:'smooth'})">
+                <option value="">PATHFINDER_MENU</option>
+                <option value="tools">01: THE_TOOLBOX</option>
+                <option value="training">02: THE_ACADEMY</option>
+                <option value="empowerment">03: 1-1_EMPOWERMENT</option>
+                <option value="news">04: THE_ARCHIVE</option>
             </select>
             <button onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌓</button>
         </div>
     </nav>
 
     <main class="container" id="top">
-        <header style="text-align: center; padding: 4rem 0;">
+        <header style="text-align: center; padding: 6rem 0 4rem;">
             <div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 2rem;">
                 <span style="font-family:'JetBrains Mono'; font-size:0.7rem; color:var(--text-dim);">SENTIMENT</span>
                 <div class="meter"><div class="fill" id="sentiment-fill"></div></div>
             </div>
             <h1 style="font-size: clamp(2.5rem, 8vw, 4.5rem); font-weight: 900; letter-spacing: -3px; margin-bottom: 1.5rem;">The Intelligence Briefing.</h1>
-            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto;">Automated intelligence for the curious. Bespoke empowerment for the ambitious.</p>
+            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">From anxiety to agency. Automated intelligence for the curious, bespoke empowerment for the ambitious.</p>
         </header>
 
         <section id="tools">
@@ -53,7 +53,7 @@
                 </a>
                 <a href="https://claude.ai" target="_blank" class="news-card">
                     <h2 class="headline">Claude</h2>
-                    <p class="summary">Advanced long-form analysis and exceptionally human-like writing.</p>
+                    <p class="summary">Advanced long-form analysis and human-centric writing styles.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">INITIALIZE ➔</div>
                 </a>
             </div>
@@ -64,12 +64,12 @@
             <div class="news-grid">
                 <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="news-card">
                     <h2 class="headline">Google AI Essentials</h2>
-                    <p class="summary">Foundational training designed for non-technical users.</p>
+                    <p class="summary">Free foundation courses designed for non-technical users.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">FREE_ACCESS ➔</div>
                 </a>
                 <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="news-card">
                     <h2 class="headline">Microsoft Azure AI</h2>
-                    <p class="summary">Learning to implement AI solutions in a professional environment.</p>
+                    <p class="summary">Mastering AI implementation in a professional ecosystem.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">FREE_ACCESS ➔</div>
                 </a>
             </div>
@@ -77,8 +77,8 @@
 
         <section id="empowerment" class="empower-section">
             <div class="card-tag">// SECTION_03: HUMAN_EMPOWERMENT</div>
-            <h2 style="font-size: 2.5rem; margin-bottom: 1rem; font-weight: 900;">Out of Fear. Into Agency.</h2>
-            <p>I provide private, 1-1 guidance to help you master AI tools and secure your professional future. No hype, just mastery.</p>
+            <h2 style="font-size: clamp(1.8rem, 5vw, 2.5rem); margin-bottom: 1rem; font-weight: 900;">Out of Fear. Into Agency.</h2>
+            <p>I provide private, 1-1 guidance to help you master AI tools and secure your workflow. No hype, just mastery.</p>
             
             <form class="inquiry-form" action="https://formspree.io/f/YOUR_ID" method="POST">
                 <input type="email" name="email" placeholder="EMAIL_ADDRESS" required>
@@ -103,8 +103,8 @@
         </section>
     </main>
 
-    <footer style="text-align:center; padding: 4rem; color: var(--text-dim); font-size: 0.8rem;">
-        © 2026 TechTidy • Automated Intel Briefing
+    <footer style="text-align:center; padding: 6rem 4rem; color: var(--text-dim); font-size: 0.8rem; border-top: 1px solid var(--glass-border);">
+        © 2026 TechTidy • Automated Intel Briefing • Stay Curious
     </footer>
 
     <script>
@@ -122,6 +122,8 @@
                 const data = await response.json();
                 const articles = data.articles || [];
                 container.innerHTML = ''; 
+                
+                // Show 6 latest articles
                 articles.slice(0, 6).forEach((article, index) => {
                     const card = document.createElement('a');
                     card.href = article.url; card.target = "_blank"; card.className = 'news-card';
@@ -129,10 +131,20 @@
                         <div class="card-tag">ARCHIVE_INTEL_${index + 1}</div>
                         ${article.urlToImage ? `<img src="${article.urlToImage}" style="width:100%; height:180px; object-fit:cover; border-radius:15px; margin-bottom:1rem; border:1px solid var(--glass-border);">` : ''}
                         <h2 class="headline">${article.title}</h2>
-                        <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem;">READ_FULL ➔</div>
+                        <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top:auto;">READ_FULL ➔</div>
                     `;
                     container.appendChild(card);
                 });
+
+                // Search Filter Logic
+                document.getElementById('search').addEventListener('input', (e) => {
+                    const term = e.target.value.toLowerCase();
+                    document.querySelectorAll('#news-container .news-card').forEach(card => {
+                        const title = card.querySelector('.headline').innerText.toLowerCase();
+                        card.style.display = title.includes(term) ? 'flex' : 'none';
+                    });
+                });
+
             } catch (e) { console.log(e); }
         }
 
