@@ -3,43 +3,42 @@ import os
 import json
 
 def fetch_ai_news():
-    # 1. Get the API Key from GitHub Secrets
     api_key = os.getenv("NEWS_API_KEY")
     
     if not api_key:
-        print("Error: NEWS_API_KEY not found. Make sure it is set in GitHub Secrets.")
+        print("Missing API Key")
         return
 
-    # 2. Define the search parameters
-    # We focus on AI tools and tech stacks in English, sorted by newest
-    query = "artificial intelligence AND (tools OR 'tech stack' OR software)"
+    # Specifically searching for tools, workflows, and stacks to fit your brand
+    # language=en ensures no more foreign results
     url = "https://newsapi.org/v2/everything"
-    
     params = {
-        "q": query,
-        "language": "en",        # Strictly English news
-        "sortBy": "publishedAt", # Get the latest updates
-        "pageSize": 6,           # Top 6 articles for a clean grid
+        "q": "artificial intelligence (tools OR stack OR productivity OR software)",
+        "language": "en",
+        "sortBy": "relevancy", # Relevancy often yields better quality than just "newest"
+        "pageSize": 9,           # 9 articles fills a 3x3 grid perfectly
         "apiKey": api_key
     }
 
     try:
-        print(f"Fetching news for TechTidy...")
         response = requests.get(url, params=params)
-        response.raise_for_status() # Check for HTTP errors
-        
+        response.raise_for_status()
         data = response.json()
         articles = data.get('articles', [])
 
-        # 3. Save the results to news.json
-        # This is the file your index.html reads from
+        # We filter out articles that are missing titles or links
+        filtered_articles = [
+            a for a in articles 
+            if a.get('title') and a.get('url') and "Removed" not in a['title']
+        ]
+
         with open("news.json", "w", encoding="utf-8") as f:
-            json.dump(articles, f, indent=4)
+            json.dump(filtered_articles, f, indent=4)
             
-        print(f"Successfully saved {len(articles)} articles to news.json")
+        print(f"Success! {len(filtered_articles)} articles captured.")
 
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"Error: {e}")
 
 if __name__ == "__main__":
     fetch_ai_news()
