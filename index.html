@@ -34,7 +34,7 @@
                 <div class="meter"><div class="fill" id="sentiment-fill"></div></div>
             </div>
             <h1 style="font-size: clamp(2.5rem, 8vw, 4.5rem); font-weight: 900; letter-spacing: -3px; margin-bottom: 1.5rem;">The Intelligence Briefing.</h1>
-            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">From anxiety to agency. Automated intelligence for the curious, bespoke coaching for the ambitious.</p>
+            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">Bridging the gap between AI anxiety and agency. Automated intelligence for the curious, bespoke coaching for the ambitious.</p>
         </header>
 
         <section id="tools">
@@ -62,19 +62,19 @@
         <section id="training" style="margin-top: 4rem;">
             <div class="card-tag">// SECTION_02: THE_ACADEMY</div>
             <div class="news-grid">
-                <a href="https://cloud.google.com/learn/training/machinelearning-ai" target="_blank" class="news-card">
+                <a href="https://www.skills.google/paths/2336" target="_blank" class="news-card">
                     <h2 class="headline">Google AI Essentials</h2>
-                    <p class="summary">Foundational training designed specifically for non-technical professionals entering the AI space.</p>
+                    <p class="summary">A practical course to help you use AI to save time, clear your inbox, and boost productivity.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
-                <a href="https://learn.microsoft.com/en-us/ai/?tabs=business-technical-leader" target="_blank" class="news-card">
-                    <h2 class="headline">Microsoft AI Training</h2>
+                <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="news-card">
+                    <h2 class="headline">Microsoft Azure AI</h2>
                     <p class="summary">Strategic implementation of AI solutions within professional office environments and ecosystems.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
                 <a href="https://www.anthropic.com/learn" target="_blank" class="news-card">
-                    <h2 class="headline">Anthropic AI Training</h2>
-                    <p class="summary">Technical prompting and implementation guides for high-performance LLM deployment.</p>
+                    <h2 class="headline">Anthropic Learn</h2>
+                    <p class="summary">Educational resources and guides on the responsible deployment of Claude and LLM logic.</p>
                     <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
                 </a>
             </div>
@@ -86,14 +86,15 @@
             <p>I provide private, 1-1 guidance to help you master AI tools and secure your professional future. No hype, just mastery.</p>
             
             <form class="inquiry-form" action="https://formspree.io/f/mnjlrooz" method="POST">
-                <input type="email" name="email" placeholder="EMAIL_ADDRESS" required>
+                <input type="email" name="email" placeholder="YOUR_EMAIL_ADDRESS" required>
                 <select name="type" required>
-                    <option value="">HOW CAN I HELP?</option>
+                    <option value="" disabled selected>HOW CAN I HELP?</option>
                     <option value="1-1 Training">REQUEST 1-1 EMPOWERMENT TRAINING</option>
-                    <option value="Query">GENERAL SYSTEM QUERY</option>
+                    <option value="System Query">GENERAL SYSTEM QUERY</option>
+                    <option value="Collaboration">BUSINESS COLLABORATION</option>
                 </select>
-                <textarea name="msg" placeholder="YOUR CHALLENGE..." rows="4"></textarea>
-                <button type="submit" class="submit-btn">SUBMIT INQUIRY</button>
+                <textarea name="msg" placeholder="TELL ME ABOUT YOUR CHALLENGE..." rows="4" required></textarea>
+                <button type="submit" class="submit-btn">SUBMIT_INQUIRY</button>
             </form>
         </section>
 
@@ -109,7 +110,7 @@
     </main>
 
     <footer style="text-align:center; padding: 6rem 4rem; color: var(--text-dim); font-size: 0.8rem; border-top: 1px solid var(--glass-border);">
-        © 2026 TechTidy • Automated Intel Briefing • From Fear to Agency
+        © 2026 TechTidy • Automated Intel Briefing • Strategic Agency Active
     </footer>
 
     <script>
@@ -128,12 +129,10 @@
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
                 fullArchive = data.articles || [];
-                // Filtering out any broken entries from the API
                 const cleanArchive = fullArchive.filter(art => art.title && art.url);
                 renderNews(cleanArchive.slice(0, 6)); 
             } catch (e) { 
                 console.log(e);
-                container.innerHTML = "<p style='color:var(--text-dim)'>Recalibrating neural link...</p>";
             }
         }
 
