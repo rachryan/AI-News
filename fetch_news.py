@@ -1,46 +1,53 @@
-import requests, os, json
+import feedparser
+import json
+import os
 from datetime import datetime
 
-def fetch_ai_news():
-    api_key = os.getenv("NEWS_API_KEY")
-    if not api_key: return
+# --- CONFIGURATION: Add your favorite high-signal RSS feeds here ---
+FEEDS = {
+    "OpenAI": "https://openai.com/news/rss.xml",
+    "Anthropic": "https://www.anthropic.com/news/rss",
+    "Google AI": "https://blog.google/technology/ai/rss/",
+    "MIT Tech Review": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+    "The Verge AI": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"
+}
 
-    url = "https://newsapi.org/v2/everything"
-    params = {
-        "q": "artificial intelligence (tools OR productivity OR software)",
-        "language": "en",
-        "sortBy": "publishedAt",
-        "pageSize": 10, 
-        "apiKey": api_key
+def fetch_boutique_news():
+    combined_articles = []
+
+    for source_name, url in FEEDS.items():
+        print(f"Scanning {source_name}...")
+        feed = feedparser.parse(url)
+        
+        for entry in feed.entries[:3]:  # Take the top 3 from each source
+            # Extract image if available (logic varies by feed)
+            image_url = ""
+            if 'media_content' in entry:
+                image_url = entry.media_content[0]['url']
+            elif 'links' in entry:
+                for link in entry.links:
+                    if 'image' in link.get('type', ''):
+                        image_url = link.href
+
+            article = {
+                "title": entry.title,
+                "url": entry.link,
+                "urlToImage": image_url,
+                "description": entry.get('summary', '')[:150] + "...",
+                "source": source_name
+            }
+            combined_articles.append(article)
+
+    # Sort by date (if available) and limit to 30 for the archive
+    output = {
+        "last_updated": datetime.now().strftime("%B %d, %Y"),
+        "articles": combined_articles[:30]
     }
 
-    try:
-        response = requests.get(url, params=params)
-        new_articles = response.json().get('articles', [])
-
-        if os.path.exists("news.json"):
-            with open("news.json", "r", encoding="utf-8") as f:
-                try:
-                    data = json.load(f)
-                    old_news = data.get('articles', []) if isinstance(data, dict) else data
-                except: old_news = []
-        else: old_news = []
-
-        existing_urls = {article['url'] for article in old_news}
-        unique_new = [a for a in new_articles if a['url'] not in existing_urls and "Removed" not in a['title']]
-        
-        # Keep 30 for search, but we will only display 6 in the HTML
-        combined_news = (unique_new + old_news)[:30]
-
-        output = {
-            "last_updated": datetime.now().strftime("%B %d, %Y"),
-            "articles": combined_news
-        }
-
-        with open("news.json", "w", encoding="utf-8") as f:
-            json.dump(output, f, indent=4)
-            
-    except Exception as e: print(f"Error: {e}")
+    with open("news.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=4)
+    
+    print(f"Archive Refined: {output['last_updated']}")
 
 if __name__ == "__main__":
-    fetch_ai_news()
+    fetch_boutique_news()
