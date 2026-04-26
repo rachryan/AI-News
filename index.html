@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechTidy | AI Stack Strategy</title>
+    <title>TechTidy | AI News & Strategy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #2ecc71;
@@ -15,7 +15,9 @@
             --text: #1e293b;
             --header-bg: #0f172a;
             --border: #e2e8f0;
+            --sidebar-width: 320px;
         }
+
         [data-theme="dark"] {
             --bg: #0b0f1a;
             --card-bg: #161e2e;
@@ -24,43 +26,100 @@
             --border: #1f2937;
         }
 
-        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); margin: 0; transition: 0.3s; padding-bottom: 5rem; }
-        
-        /* UI Elements */
-        .theme-toggle { position: fixed; top: 20px; right: 20px; z-index: 1000; background: var(--primary); border: none; padding: 12px; border-radius: 50%; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-        
-        header { background: var(--header-bg); color: white; padding: 6rem 1rem; text-align: center; }
-        header h1 { font-size: 3.5rem; margin: 0; color: var(--primary); letter-spacing: -2px; }
-        #update-tag { opacity: 0.6; font-size: 0.9rem; margin-top: 10px; display: block; }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background: var(--bg); 
+            color: var(--text); 
+            margin: 0; 
+            transition: 0.3s;
+        }
 
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-        .section-title { text-align: center; margin: 5rem 0 2rem; font-size: 2.2rem; font-weight: 800; }
+        /* --- THEME TOGGLE --- */
+        .theme-toggle { position: fixed; bottom: 20px; right: 20px; z-index: 1000; background: var(--primary); border: none; padding: 12px; border-radius: 50%; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
 
-        /* --- THE REPLACEMENT BOARD --- */
-        .board { background: var(--card-bg); border-radius: 24px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 4rem; }
-        .board-row { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--border); }
-        .board-header { background: var(--primary); color: #0f172a; font-weight: 800; text-transform: uppercase; font-size: 0.8rem; padding: 1rem; }
-        .board-cell { padding: 1.5rem; display: flex; align-items: center; gap: 10px; }
-        .old { opacity: 0.6; text-decoration: line-through; }
-        .new { font-weight: 700; color: var(--primary); }
+        /* --- TOP HEADER --- */
+        header { 
+            background: var(--header-bg); 
+            color: white; 
+            padding: 3rem 1.5rem; 
+            text-align: left;
+            border-bottom: 4px solid var(--primary);
+        }
+        .header-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { font-size: 2.2rem; margin: 0; font-weight: 800; letter-spacing: -1.5px; color: var(--primary); }
+        #update-tag { opacity: 0.6; font-size: 0.8rem; }
 
-        /* --- SEARCH BAR --- */
-        .search-wrap { text-align: center; margin-bottom: 3rem; }
-        #search { padding: 1rem 1.5rem; width: 100%; max-width: 400px; border-radius: 50px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); font-size: 1rem; outline: none; transition: 0.3s; }
-        #search:focus { border-color: var(--primary); box-shadow: 0 0 0 4px rgba(46, 204, 113, 0.1); }
+        /* --- MAIN LAYOUT --- */
+        .layout { 
+            display: grid; 
+            grid-template-columns: 1fr var(--sidebar-width); 
+            gap: 2rem; 
+            max-width: 1200px; 
+            margin: 2rem auto; 
+            padding: 0 1.5rem; 
+        }
+
+        /* --- SEARCH --- */
+        .search-wrap { margin-bottom: 2rem; }
+        #search { 
+            width: 100%; 
+            padding: 1rem; 
+            border-radius: 12px; 
+            border: 1px solid var(--border); 
+            background: var(--card-bg); 
+            color: var(--text); 
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
 
         /* --- NEWS GRID --- */
-        #news-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-        .card { background: var(--card-bg); border-radius: 20px; overflow: hidden; border: 1px solid var(--border); transition: 0.3s; height: 100%; }
-        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
-        .card-img { width: 100%; height: 160px; object-fit: cover; }
-        .card-content { padding: 1.5rem; }
-        .card h3 { margin: 0; font-size: 1.1rem; line-height: 1.4; }
-        .card a { display: block; margin-top: 1rem; color: var(--primary); text-decoration: none; font-weight: 700; font-size: 0.8rem; }
+        #news-container { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 1.5rem; 
+        }
 
-        #subscribe { background: var(--header-bg); color: white; padding: 4rem 2rem; border-radius: 30px; text-align: center; margin-top: 6rem; }
-        .sub-input { padding: 12px; border-radius: 8px; border: none; width: 250px; margin-right: 10px; }
+        .card { 
+            background: var(--card-bg); 
+            border-radius: 16px; 
+            overflow: hidden; 
+            border: 1px solid var(--border); 
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover { transform: translateY(-4px); border-color: var(--primary); }
+        .card-img { width: 100%; height: 160px; object-fit: cover; }
+        .card-content { padding: 1.25rem; flex-grow: 1; }
+        .card h3 { margin: 0; font-size: 1.1rem; line-height: 1.3; font-weight: 700; }
+        .card a { display: block; margin-top: 1rem; color: var(--primary); text-decoration: none; font-weight: 700; font-size: 0.8rem; text-transform: uppercase; }
+
+        /* --- SIDEBAR / SWAP BOARD --- */
+        aside { position: sticky; top: 20px; align-self: start; }
+        .sidebar-box { 
+            background: var(--card-bg); 
+            border: 1px solid var(--border); 
+            border-radius: 16px; 
+            padding: 1.5rem; 
+            margin-bottom: 1.5rem; 
+        }
+        .sidebar-box h4 { margin-top: 0; font-size: 1rem; text-transform: uppercase; color: var(--primary); letter-spacing: 1px; }
+        
+        .swap-item { margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        .swap-old { opacity: 0.5; text-decoration: line-through; display: block; font-size: 0.8rem; }
+        .swap-new { font-weight: 700; display: block; color: var(--text); }
+
+        /* --- FOOTER & SUBSCRIBE --- */
+        .footer-cta { background: var(--header-bg); color: white; padding: 3rem; border-radius: 20px; text-align: center; margin-top: 4rem; grid-column: 1 / -1; }
+        .sub-input { padding: 12px; border-radius: 8px; border: none; width: 220px; margin-right: 10px; margin-bottom: 10px; }
         .sub-btn { background: var(--primary); padding: 12px 24px; border-radius: 8px; border: none; font-weight: 800; cursor: pointer; }
+
+        /* --- MOBILE RESPONSIVENESS --- */
+        @media (max-width: 900px) {
+            .layout { grid-template-columns: 1fr; }
+            aside { position: static; order: -1; }
+            header h1 { font-size: 1.8rem; }
+        }
     </style>
 </head>
 <body>
@@ -68,46 +127,60 @@
     <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
 
     <header>
-        <h1>✨ TechTidy</h1>
-        <p>Strategic AI updates to declutter your tech stack.</p>
-        <span id="update-tag">Syncing with AI archives...</span>
+        <div class="header-content">
+            <div>
+                <h1>✨ TechTidy</h1>
+                <span id="update-tag">Checking AI pulse...</span>
+            </div>
+        </div>
     </header>
 
-    <div class="container">
-        <h2 class="section-title">The Tidy Swap</h2>
-        <div class="board">
-            <div class="board-row">
-                <div class="board-header">Legacy Workflow</div>
-                <div class="board-header">Tidy AI Upgrade</div>
+    <div class="layout">
+        <main>
+            <div class="search-wrap">
+                <input type="text" id="search" placeholder="🔍 Search AI archive...">
             </div>
-            <div class="board-row">
-                <div class="board-cell old">Google Search / Blue Links</div>
-                <div class="board-cell new">➔ Perplexity AI</div>
+            
+            <div id="news-container">
+                <p style="text-align:center;">Organizing the latest updates...</p>
             </div>
-            <div class="board-row">
-                <div class="board-cell old">Stock Photo Hunting</div>
-                <div class="board-cell new">➔ Midjourney / DALL-E</div>
-            </div>
-            <div class="board-row">
-                <div class="board-cell old">Manual Meeting Notes</div>
-                <div class="board-cell new">➔ Fireflies / Otter.ai</div>
-            </div>
-        </div>
-
-        <div class="search-wrap">
-            <input type="text" id="search" placeholder="Search the AI archive...">
-        </div>
-
-        <main id="news-container">
-            <p style="text-align: center; grid-column: 1/-1;">Tidying up the articles...</p>
         </main>
 
-        <section id="subscribe">
-            <h2>Get the Friday Digest</h2>
+        <aside>
+            <div class="sidebar-box">
+                <h4>🔄 The Tidy Swap</h4>
+                <div class="swap-item">
+                    <span class="swap-old">Google Search</span>
+                    <span class="swap-new">➔ Perplexity AI</span>
+                </div>
+                <div class="swap-item">
+                    <span class="swap-old">Stock Images</span>
+                    <span class="swap-new">➔ Midjourney / DALL-E</span>
+                </div>
+                <div class="swap-item">
+                    <span class="swap-old">Meeting Minutes</span>
+                    <span class="swap-new">➔ Fireflies.ai</span>
+                </div>
+                <div class="swap-item" style="border:none;">
+                    <span class="swap-old">Manual Coding</span>
+                    <span class="swap-new">➔ Cursor / GitHub Copilot</span>
+                </div>
+            </div>
+
+            <div class="sidebar-box" style="background: var(--header-bg); color: white;">
+                <h4>⚡ Quick Tip</h4>
+                <p style="font-size: 0.85rem; opacity: 0.8;">"Clean up your browser tabs using AI extensions like Workona or OneTab to save 2GB of RAM."</p>
+            </div>
+        </aside>
+
+        <section class="footer-cta">
+            <h2>Weekly Tech Cleanup</h2>
+            <p>Get the curated AI toolkit in your inbox every Friday.</p>
             <form action="https://formspree.io/f/YOUR_ID" method="POST">
                 <input type="email" class="sub-input" placeholder="you@example.com" required>
                 <button type="submit" class="sub-btn">Join TechTidy</button>
             </form>
+            <p style="font-size: 0.7rem; opacity: 0.5; margin-top: 2rem;">© 2026 TechTidy • Stay Tidy</p>
         </section>
     </div>
 
@@ -127,8 +200,7 @@
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
                 
-                // Set the date
-                if(data.last_updated) updateTag.innerText = "Last Stack Cleanup: " + data.last_updated;
+                if(data.last_updated) updateTag.innerText = "Cleaned: " + data.last_updated;
                 
                 const articles = data.articles || [];
                 container.innerHTML = ''; 
@@ -137,16 +209,15 @@
                     const card = document.createElement('div');
                     card.className = 'card';
                     card.innerHTML = `
-                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="card-img">` : ''}
+                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="card-img" onerror="this.style.display='none'">` : ''}
                         <div class="card-content">
                             <h3>${article.title}</h3>
-                            <a href="${article.url}" target="_blank">DEPLOY UPDATE →</a>
+                            <a href="${article.url}" target="_blank">View Article →</a>
                         </div>
                     `;
                     container.appendChild(card);
                 });
 
-                // LIVE SEARCH LOGIC
                 document.getElementById('search').addEventListener('input', (e) => {
                     const term = e.target.value.toLowerCase();
                     document.querySelectorAll('.card').forEach(card => {
@@ -156,7 +227,7 @@
                 });
 
             } catch (e) {
-                container.innerHTML = '<p>The bot is currently tidying the archive. Refresh in a moment!</p>';
+                container.innerHTML = '<p>Building the archive...</p>';
             }
         }
         window.onload = loadNews;
