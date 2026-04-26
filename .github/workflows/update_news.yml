@@ -1,32 +1,40 @@
 name: Weekly AI News Update
+
 on:
   schedule:
-    - cron: '0 0 * * 5' # Every Friday at midnight
-  workflow_dispatch: # Allows you to run it manually for testing
+    - cron: '0 0 * * 5' # This runs every Friday at midnight
+  workflow_dispatch:      # This allows you to click "Run workflow" manually
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
       - name: Install dependencies
         run: pip install requests
+
       - name: Fetch News
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: python fetch_news.py
- - name: Commit and Push changes
+
+      - name: Commit and Push changes
         run: |
           git config --global user.name 'TechTidyBot'
           git config --global user.email 'bot@techtidy.com'
           git add news.json
-          # The next line checks if there are changes before committing
+          
+          # Check if there are actually changes to commit
           if git diff --quiet && git diff --staged --quiet; then
-            echo "No changes to news.json, skipping commit."
+            echo "No new news found today. Skipping commit."
           else
             git commit -m "Weekly News Update"
             git push
