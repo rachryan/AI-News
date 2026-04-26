@@ -4,6 +4,32 @@
         {
             "source": {
                 "id": null,
+                "name": "TheStreet"
+            },
+            "author": "Tobi Opeyemi Amure",
+            "title": "Nvidia is now worth more than every economy except two",
+            "description": "The first time I saw the number, I went back and checked it again. On Friday, Nvidia\u2019s stock closed up 4.3% at $208.27, lifting the company\u2019s market value...",
+            "url": "https://www.thestreet.com/markets/nvidia-is-now-worth-more-than-every-economy-except-two",
+            "urlToImage": "https://s.yimg.com/os/en/thestreet_881/4e5ee3f9c49ba2c426917bce296f9106",
+            "publishedAt": "2026-04-25T18:47:06Z",
+            "content": "The first time I saw the number, I went back and checked it again.\r\nOn Friday, Nvidias stock closed up 4.3% at $208.27, lifting the companys market value past $5 trillion for the first time ever, acc\u2026 [+8237 chars]"
+        },
+        {
+            "source": {
+                "id": "breitbart-news",
+                "name": "Breitbart News"
+            },
+            "author": "Amy Furr",
+            "title": "VIDEO \u2014 'Hiding in Plain Sight': Nebraska Middle School Teacher Accused of Creating AI Child Porn at Work",
+            "description": "A 47-year-old male middle school teacher is accused of using artificial intelligence (AI) to create child pornography while he was at work in Omaha, Nebraska.\nThe post VIDEO \u2014 \u2018Hiding in Plain Sight\u2019: Nebraska Middle School Teacher Accused of Creating AI Chil\u2026",
+            "url": "https://www.breitbart.com/education/2026/04/25/video-hiding-in-plain-sight-nebraska-middle-school-teacher-accused-of-creating-ai-child-porn-at-work/",
+            "urlToImage": "https://media.breitbart.com/media/2026/04/Matthew-Lund-640x335.png",
+            "publishedAt": "2026-04-25T18:37:25Z",
+            "content": "A 47-year-old male middle school teacher is accused of using artificial intelligence (AI) to create child pornography while he was at work in Omaha, Nebraska.\r\nThe suspect in the case was identified \u2026 [+2607 chars]"
+        },
+        {
+            "source": {
+                "id": null,
                 "name": "GlobeNewswire"
             },
             "author": "Bits Strategy",
