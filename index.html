@@ -16,7 +16,7 @@
     <nav class="pathfinder-nav">
         <div class="logo" style="font-weight:900; letter-spacing:-1px;">TECH<span style="color:var(--accent-color)">TIDY</span></div>
         <div style="display: flex; gap: 15px; align-items: center;">
-            <select class="nav-select" onchange="if(this.value) document.getElementById(this.value).scrollIntoView({behavior:'smooth'})">
+            <select class="nav-select" onchange="const el = document.getElementById(this.value); if(el) el.scrollIntoView({behavior:'smooth'})">
                 <option value="">PATHFINDER_MENU</option>
                 <option value="tools">01: THE_TOOLBOX</option>
                 <option value="training">02: THE_ACADEMY</option>
@@ -123,7 +123,7 @@
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
                 fullArchive = data.articles || [];
-                renderNews(fullArchive.slice(0, 6)); // Default view: 6 latest
+                renderNews(fullArchive.slice(0, 6)); 
             } catch (e) { console.log(e); }
         }
 
@@ -143,7 +143,6 @@
             });
         }
 
-        // Search logic that scans the ENTIRE archive
         document.getElementById('search').addEventListener('input', (e) => {
             const term = e.target.value.toLowerCase();
             if (!term) {
