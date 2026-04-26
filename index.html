@@ -3,68 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>AI News | The Future in 60 Seconds</title>
-    <meta name="description" content="The most important AI breakthroughs, filtered and summarized for busy humans.">
-    <meta property="og:title" content="AI News | The Future in 60 Seconds">
-    <meta property="og:description" content="Daily AI insights with ELI5 mode and sentiment tracking.">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-
-    <link rel="stylesheet" href="style.css">
-    
+    <title>TechTidy | AI News, Tools & Training</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4ade80;
+            --primary-soft: #f0fdf4;
+            --bg: #fcfdfd;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #f1f5f9;
+            --accent: #6366f1;
+        }
 
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+        [data-theme="dark"] {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --primary-soft: #14532d;
+        }
+
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg); color: var(--text-main); margin: 0; transition: 0.3s; line-height: 1.6; }
+        
+        nav { padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; position: sticky; top: 0; background: var(--bg); z-index: 100; }
+        .logo { font-weight: 800; font-size: 1.4rem; color: var(--text-main); text-decoration: none; }
+        .logo span { color: var(--primary); }
+
+        header { text-align: center; padding: 4rem 1rem; }
+        header h1 { font-size: 3.2rem; margin: 0; letter-spacing: -2px; }
+        .curator-note { max-width: 650px; margin: 2rem auto; padding: 1.5rem; background: var(--primary-soft); border-radius: 20px; border-left: 5px solid var(--primary); font-size: 0.95rem; text-align: left; }
+
+        .container { max-width: 1150px; margin: 0 auto; padding: 0 1.5rem; }
+        section { margin-bottom: 5rem; }
+        .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; border-bottom: 2px solid var(--primary-soft); padding-bottom: 10px; }
+
+        /* STRATEGY BOARD */
+        .board { background: var(--card-bg); border-radius: 24px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 4rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .board-item { padding: 1.5rem; border: 1px solid var(--border); }
+        .old-way { font-size: 0.8rem; text-decoration: line-through; opacity: 0.5; display: block; }
+        .new-way { font-weight: 700; color: var(--primary); display: block; font-size: 1.1rem; }
+
+        /* GRID COMPONENTS */
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .action-card { background: var(--card-bg); padding: 2rem; border-radius: 24px; border: 1px solid var(--border); text-decoration: none; color: inherit; transition: 0.3s; position: relative; }
+        .action-card:hover { transform: translateY(-5px); border-color: var(--primary); box-shadow: 0 15px 30px rgba(0,0,0,0.05); }
+        .start-badge { position: absolute; top: -10px; right: 20px; background: var(--accent); color: white; padding: 4px 12px; border-radius: 50px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; }
+
+        /* NEWS ARCHIVE */
+        .search-bar { width: 100%; max-width: 400px; padding: 0.8rem 1.2rem; border-radius: 50px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text-main); outline: none; }
+        #news-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+        .news-card { background: var(--card-bg); border-radius: 24px; border: 1px solid var(--border); overflow: hidden; transition: 0.3s; }
+        .news-img { width: 100%; height: 180px; object-fit: cover; }
+        .news-content { padding: 1.5rem; }
+        .news-link { color: var(--primary); font-weight: 700; font-size: 0.8rem; text-decoration: none; text-transform: uppercase; margin-top: 1rem; display: inline-block; }
+
+        footer { background: var(--primary-soft); padding: 4rem 1rem; border-radius: 40px 40px 0 0; text-align: center; }
+        .theme-btn { background: none; border: none; cursor: pointer; font-size: 1.2rem; }
+    </style>
 </head>
 <body>
-    <div class="glow-bg"></div>
-    
-    <header>
-        <nav>
-            <div class="logo">AI<span>NEWS</span></div>
-            
-            <div class="nav-right">
-                <div class="sentiment-tracker" title="Market & Tech Sentiment">
-                    <span class="label">SENTIMENT</span>
-                    <div class="meter"><div class="fill" id="sentiment-bar" style="width: 70%;"></div></div>
-                </div>
 
-                <div class="toggle-wrapper">
-                    <span class="toggle-label">ELI5</span>
-                    <label class="switch" aria-label="Toggle Simple Language Mode">
-                        <input type="checkbox" id="mode-toggle">
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-            </div>
-        </nav>
+    <nav>
+        <a href="#" class="logo">Tech<span>Tidy</span></a>
+        <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+    </nav>
+
+    <header>
+        <h1>AI doesn't have to be loud.</h1>
+        <div class="curator-note">
+            <b>👋 A Note from Rach</b><br>
+            "I've curated this hub to help you move from feeling overwhelmed to feeling empowered. No hype, just the tools and training that actually work."
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="badge">UPDATED DAILY</div>
-            <h1>The Intelligence <br><span class="gradient-text">Briefing.</span></h1>
-            <p class="subtitle">Cutting through the noise. AI news for people who value time.</p>
+    <div class="container">
+        
+        <section id="strategy">
+            <div class="section-header"><h2>The Tidy Swap</h2></div>
+            <div class="board">
+                <div class="board-item"><span class="old-way">Google Search</span><span class="new-way">➔ Perplexity AI</span></div>
+                <div class="board-item"><span class="old-way">Stock Image Hunting</span><span class="new-way">➔ Midjourney / DALL-E</span></div>
+                <div class="board-item"><span class="old-way">Manual Transcribing</span><span class="new-way">➔ Fireflies / Otter.ai</span></div>
+            </div>
         </section>
 
-        <section id="news-container" class="news-grid">
-            <div class="loader">Scanning the neural networks...</div>
+        <section id="tools">
+            <div class="section-header"><h2>Essential Tools</h2><span id="update-tag" style="font-size:0.8rem; opacity:0.6;">Syncing...</span></div>
+            <div class="grid-3">
+                <a href="https://perplexity.ai" target="_blank" class="action-card">
+                    <span class="start-badge">Start Here</span>
+                    <h3>Perplexity</h3>
+                    <p>Search reimagined. Answers with real-time sources.</p>
+                    <span class="news-link">Open Tool ➔</span>
+                </a>
+                <a href="https://chat.openai.com" target="_blank" class="action-card">
+                    <h3>ChatGPT</h3>
+                    <p>The standard for drafting, coding, and brainstorming.</p>
+                    <span class="news-link">Open Tool ➔</span>
+                </a>
+                <a href="https://claude.ai" target="_blank" class="action-card">
+                    <h3>Claude</h3>
+                    <p>Highly ethical AI for deep writing and analysis.</p>
+                    <span class="news-link">Open Tool ➔</span>
+                </a>
+            </div>
         </section>
-    </main>
+
+        <section id="training">
+            <div class="section-header"><h2>The Academy</h2></div>
+            <div class="grid-3">
+                <a href="https://cloud.google.com/learn/training/machine-learning-ai" target="_blank" class="action-card">
+                    <span class="start-badge">Free</span>
+                    <h3>Google AI Course</h3>
+                    <p>The best foundational path for absolute beginners.</p>
+                    <span class="news-link">Start Learning ➔</span>
+                </a>
+                <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/" target="_blank" class="action-card">
+                    <h3>Microsoft Path</h3>
+                    <p>Master AI specifically for your office and work apps.</p>
+                    <span class="news-link">Start Learning ➔</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="section-header">
+                <h2>Latest Archive</h2>
+                <input type="text" id="search" class="search-bar" placeholder="Search the AI archive...">
+            </div>
+            <div id="news-container">
+                <p style="text-align:center; grid-column: 1/-1;">Tidying up the latest news...</p>
+            </div>
+        </section>
+
+    </div>
 
     <footer>
-        <div class="footer-content">
-            <p>&copy; 2026 AI News. Built for the era of automation.</p>
-            <div class="footer-links">
-                <a href="https://github.com/rachryan/AI-News" target="_blank">Source</a>
-                <a href="#">About</a>
-            </div>
-        </div>
+        <h2>Join TechTidy</h2>
+        <form action="https://formspree.io/f/YOUR_ID" method="POST" style="margin: 2rem 0;">
+            <input type="email" placeholder="you@example.com" style="padding:12px; border-radius:8px; border:1px solid var(--border); width:240px; margin-bottom:10px;">
+            <button type="submit" style="background:var(--text-main); color:white; border:none; padding:12px 24px; border-radius:8px; font-weight:700; cursor:pointer;">Join Friday Update</button>
+        </form>
+        <p style="font-size:0.8rem; opacity:0.5;">© 2026 TechTidy Hub • Stay Tidy.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        function toggleTheme() {
+            const body = document.documentElement;
+            const target = body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            body.setAttribute('data-theme', target);
+            localStorage.setItem('theme', target);
+        }
+        if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+
+        async function loadNews() {
+            const container = document.getElementById('news-container');
+            const updateTag = document.getElementById('update-tag');
+            try {
+                const response = await fetch('./news.json?t=' + Date.now());
+                const data = await response.json();
+                if(data.last_updated) updateTag.innerText = "Updated: " + data.last_updated;
+                const articles = data.articles || [];
+                container.innerHTML = ''; 
+                articles.forEach(article => {
+                    const card = document.createElement('div');
+                    card.className = 'news-card';
+                    card.innerHTML = `
+                        ${article.urlToImage ? `<img src="${article.urlToImage}" class="news-img" onerror="this.style.display='none'">` : ''}
+                        <div class="news-content">
+                            <h3>${article.title}</h3>
+                            <a href="${article.url}" class="news-link" target="_blank">Why it matters ➔</a>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+                document.getElementById('search').addEventListener('input', (e) => {
+                    const term = e.target.value.toLowerCase();
+                    document.querySelectorAll('.news-card').forEach(card => {
+                        const text = card.innerText.toLowerCase();
+                        card.style.display = text.includes(term) ? 'block' : 'none';
+                    });
+                });
+            } catch (e) { container.innerHTML = '<p>Preparing the archive...</p>'; }
+        }
+        window.onload = loadNews;
+    </script>
 </body>
 </html>
