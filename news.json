@@ -3,6 +3,19 @@
     "articles": [
         {
             "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Kevin George",
+            "title": "'AI Can Write Code, But It Can't Climb A 12-Foot Ladder': Lowe's CEO Draws A Line \u2014 OpenAI Chair Is Not Convinced That AI Runs All Consumer Decisions",
+            "description": "Lowe\u2019s (NYSE:LOW) CEO Marvin Ellison is downplaying fears that AI technology would lead to huge job losses for the U.S. economy. As technology companies...",
+            "url": "https://finance.yahoo.com/sectors/technology/articles/ai-write-code-cant-climb-173116291.html",
+            "urlToImage": "https://s.yimg.com/os/en/benzinga_79/12176dc14688adf8646bff4f3d9681f2",
+            "publishedAt": "2026-04-25T17:31:16Z",
+            "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\r\nLowes (NYSE:LOW) CEO Marvin Ellison is downplaying fears that AI technology would lead to huge jo\u2026 [+11956 chars]"
+        },
+        {
+            "source": {
                 "id": "next-big-future",
                 "name": "Next Big Future"
             },
