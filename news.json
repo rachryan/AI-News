@@ -1,158 +1,187 @@
-[
-    {
-        "source": {
-            "id": "the-times-of-india",
-            "name": "The Times of India"
+{
+    "last_updated": "Apr 26, 2026",
+    "articles": [
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Jack Horgan-Jones",
+            "title": "Could Independent Ireland grow on back of fuel price protests?",
+            "description": "Party with four TDs, an MEP and 24 councillors draws support from conservative, traditionalist and right-leaning voters, polling indicates",
+            "url": "https://www.irishtimes.com/politics/2026/04/25/could-independent-ireland-grow-on-back-of-fuel-price-protests/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/PICOXXEHDQHCU7TLPJWS4YCQFU.JPG?smart=true&auth=46970bc8f1b2d9e8f66007b5703e73a5c7acb600f2d779c755edf55e4a873867&width=1200&height=630",
+            "publishedAt": "2026-04-25T05:00:00Z",
+            "content": "Ireland is Full is now mainstream, it was claimed in a video posted by anti-immigration activist Niall McConnell this week. \r\nThe video featured links to a petition against a planned mosque in Letter\u2026 [+8650 chars]"
         },
-        "author": "Trending Desk",
-        "title": "US tech giant Microsoft announces voluntary retirement: What is it, who is eligible and what is the math used in calculation?",
-        "description": "Microsoft's voluntary retirement: US tech company Microsoft has announced its first-ever voluntary retirement program and the scheme is open to around 7% of its US workforce. If an employee's age and years of service must add up to 70, then he/she is eligible\u2026",
-        "url": "https://economictimes.indiatimes.com/news/new-updates/us-tech-giant-microsoft-announces-voluntary-retirement-what-is-it-who-are-eligible-and-what-is-the-math-used-in-calculation/articleshow/130509222.cms",
-        "urlToImage": "https://img.etimg.com/thumb/msid-130509297,width-1200,height-630,imgsize-55472,overlay-economictimes/articleshow.jpg",
-        "publishedAt": "2026-04-25T06:05:49Z",
-        "content": "Microsoft, co-founded by Bill Gates, is giving voluntary retirement to around 7 percent of its US workforce and these numbers come around 8,750 people out of 125,000 American employees. This is the f\u2026 [+3034 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Naturalnews.com"
+        {
+            "source": {
+                "id": null,
+                "name": "BusinessLine"
+            },
+            "author": "Reuters",
+            "title": "Google to invest up to $40 billion in AI rival Anthropic",
+            "description": "Google plans to invest up to $40 billion in AI rival Anthropic, enhancing its partnership amid a competitive landscape.",
+            "url": "https://www.thehindubusinessline.com/info-tech/google-to-invest-up-to-40-billion-in-ai-rival-anthropic/article70904403.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/incoming/q1w2bs/article70904443.ece/alternates/LANDSCAPE_1200/2026-04-19T182800Z_1521613650_RC2EWJAYXBDS_RTRMADP_3_USA-ANTHROPIC.JPG",
+            "publishedAt": "2026-04-25T04:31:20Z",
+            "content": "Google-parent Alphabet will invest up to $40 billion in Anthropic, as the tech giant deepens its partnership with the artificial intelligence start-up that is also its rival in the global AI race.\r\nA\u2026 [+1638 chars]"
         },
-        "author": "Edison Reed",
-        "title": "Tesla Raises 2026 Capital Expenditure to Over $25 Billion, Shares Fall",
-        "description": "Introduction Tesla Inc. shares fell sharply Thursday, April 23, after the electric vehicle maker announced a significant increase in its capital expenditure plans for 2026 \u2013 raising investor concerns about its spending on unproven technology platforms. The co\u2026",
-        "url": "https://www.naturalnews.com/2026-04-25-tesla-raises-2026-capital-expenditure-shares-fall.html",
-        "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/04/tesla-capital-expenditure-stock-decline-1110-original.jpg",
-        "publishedAt": "2026-04-25T06:00:00Z",
-        "content": "Introduction\r\nTesla Inc. shares fell sharply Thursday, April 23, after the electric vehicle maker announced a significant increase in its capital expenditure plans for 2026 raising investor concerns \u2026 [+6020 chars]"
-    },
-    {
-        "source": {
-            "id": "the-times-of-india",
-            "name": "The Times of India"
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Trending Desk",
+            "title": "US tech giant Microsoft announces voluntary retirement: What is it, who is eligible and what is the math used in calculation?",
+            "description": "Microsoft's voluntary retirement: US tech company Microsoft has announced its first-ever voluntary retirement program and the scheme is open to around 7% of its US workforce. If an employee's age and years of service must add up to 70, then he/she is eligible\u2026",
+            "url": "https://economictimes.indiatimes.com/news/new-updates/us-tech-giant-microsoft-announces-voluntary-retirement-what-is-it-who-are-eligible-and-what-is-the-math-used-in-calculation/articleshow/130509222.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-130509297,width-1200,height-630,imgsize-55472,overlay-economictimes/articleshow.jpg",
+            "publishedAt": "2026-04-25T06:05:49Z",
+            "content": "Microsoft, co-founded by Bill Gates, is giving voluntary retirement to around 7 percent of its US workforce and these numbers come around 8,750 people out of 125,000 American employees. This is the f\u2026 [+3034 chars]"
         },
-        "author": "ET Online",
-        "title": "Explained | Why Anthropic\u2019s Mythos is spooking bankers and what it means for global finance",
-        "description": "Anthropic\u2019s Mythos AI is triggering global concern as banks and regulators warn it could enable faster, large-scale cyberattacks on financial systems.",
-        "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/what-is-anthropic-mythos-ai-cybersecurity-risks-banks-finance-sector/articleshow/130508987.cms",
-        "urlToImage": "https://img.etimg.com/thumb/msid-130508987,width-1200,height-630,imgsize-49868,overlay-economictimes/articleshow.jpg",
-        "publishedAt": "2026-04-25T05:49:43Z",
-        "content": "For a sector used to stress-testing everything from oil shocks to geopolitical conflicts, its not often that a piece of software becomes the biggest unknown in the room.But thats exactly whats happen\u2026 [+7266 chars]"
-    },
-    {
-        "source": {
-            "id": "the-irish-times",
-            "name": "The Irish Times"
+        {
+            "source": {
+                "id": null,
+                "name": "Naturalnews.com"
+            },
+            "author": "Edison Reed",
+            "title": "Tesla Raises 2026 Capital Expenditure to Over $25 Billion, Shares Fall",
+            "description": "Introduction Tesla Inc. shares fell sharply Thursday, April 23, after the electric vehicle maker announced a significant increase in its capital expenditure plans for 2026 \u2013 raising investor concerns about its spending on unproven technology platforms. The co\u2026",
+            "url": "https://www.naturalnews.com/2026-04-25-tesla-raises-2026-capital-expenditure-shares-fall.html",
+            "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/04/tesla-capital-expenditure-stock-decline-1110-original.jpg",
+            "publishedAt": "2026-04-25T06:00:00Z",
+            "content": "Introduction\r\nTesla Inc. shares fell sharply Thursday, April 23, after the electric vehicle maker announced a significant increase in its capital expenditure plans for 2026 raising investor concerns \u2026 [+6020 chars]"
         },
-        "author": "Jack Power",
-        "title": "Domestic jobs market facing artificial intelligence \u2018upheaval\u2019, says Taoiseach",
-        "description": "Miche\u00e1l Martin\u2019s comments come as Meta cuts 10% of global staff, about 8,000 workers",
-        "url": "https://www.irishtimes.com/politics/2026/04/25/domestic-jobs-market-facing-artificial-intelligence-upheaval-says-taoiseach/",
-        "urlToImage": "https://www.irishtimes.com/resizer/v2/CNYZLETBDYIJORVTY22T5XRE3Q.jpg?smart=true&auth=afa1dd48d3466503814d5bcdf8e78ba6fd95b0ee7fca66e19a47ebb136fa36d1&width=1200&height=630",
-        "publishedAt": "2026-04-25T05:00:00Z",
-        "content": "The Government is bracing for possible turbulence in the Republics tech sector as artificial intelligence (AI) threatens to cause significant upheaval to large parts of the Irish workforce in the com\u2026 [+3216 chars]"
-    },
-    {
-        "source": {
-            "id": "the-irish-times",
-            "name": "The Irish Times"
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "ET Online",
+            "title": "Explained | Why Anthropic\u2019s Mythos is spooking bankers and what it means for global finance",
+            "description": "Anthropic\u2019s Mythos AI is triggering global concern as banks and regulators warn it could enable faster, large-scale cyberattacks on financial systems.",
+            "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/what-is-anthropic-mythos-ai-cybersecurity-risks-banks-finance-sector/articleshow/130508987.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-130508987,width-1200,height-630,imgsize-49868,overlay-economictimes/articleshow.jpg",
+            "publishedAt": "2026-04-25T05:49:43Z",
+            "content": "For a sector used to stress-testing everything from oil shocks to geopolitical conflicts, its not often that a piece of software becomes the biggest unknown in the room.But thats exactly whats happen\u2026 [+7266 chars]"
         },
-        "author": "Mark Tighe",
-        "title": "Claims of tax evasion and wrongful use of athlete\u2019s bikini photos in \u2018toxic\u2019 Specsavers row",
-        "description": "Judge urges halt to \u2018war\u2019 between Ennis branch manager and Guernsey-based optician chain",
-        "url": "https://www.irishtimes.com/business/2026/04/25/claims-of-tax-evasion-and-wrongful-use-of-athletes-bikini-photos-in-toxic-specsavers-row/",
-        "urlToImage": "https://www.irishtimes.com/resizer/v2/AUZOESDQW5E7HPQBP23O5LGLC4.jpg?smart=true&auth=36146342b385d233aa6a2896527ee6e0f9ee9b75d3099a32ec4d1aede97058ed&width=1200&height=630",
-        "publishedAt": "2026-04-25T05:00:00Z",
-        "content": "A High Court judge has pleaded with Specsavers and the co-owner of its Ennis store to call off a war between the parties that involves a litany of legal cases. \r\nThe cases involve allegations of mult\u2026 [+7207 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Gizmodo.com"
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Jack Power",
+            "title": "Domestic jobs market facing artificial intelligence \u2018upheaval\u2019, says Taoiseach",
+            "description": "Miche\u00e1l Martin\u2019s comments come as Meta cuts 10% of global staff, about 8,000 workers",
+            "url": "https://www.irishtimes.com/politics/2026/04/25/domestic-jobs-market-facing-artificial-intelligence-upheaval-says-taoiseach/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/CNYZLETBDYIJORVTY22T5XRE3Q.jpg?smart=true&auth=afa1dd48d3466503814d5bcdf8e78ba6fd95b0ee7fca66e19a47ebb136fa36d1&width=1200&height=630",
+            "publishedAt": "2026-04-25T05:00:00Z",
+            "content": "The Government is bracing for possible turbulence in the Republics tech sector as artificial intelligence (AI) threatens to cause significant upheaval to large parts of the Irish workforce in the com\u2026 [+3216 chars]"
         },
-        "author": "Ece Yildirim",
-        "title": "Apple App Store Experiences Surge in New Apps Amid Vibe Coding Boom",
-        "description": "After years of gradual declines, the App Store finally saw a huge jump in new apps this past year.",
-        "url": "https://gizmodo.com/apple-app-store-experiences-surge-in-new-apps-amid-vibe-coding-boom-2000742653",
-        "urlToImage": "https://gizmodo.com/app/uploads/2026/04/shutterstock_2442151057-1200x675.jpg",
-        "publishedAt": "2026-04-06T10:00:39Z",
-        "content": "Apple\u2019s App Store saw 235,800 new apps in the first three months of 2026, according to new data published by The Information on Sunday, up 84% from the same time period last year.\r\nThe meteoric rise \u2026 [+2363 chars]"
-    },
-    {
-        "source": {
-            "id": "wired",
-            "name": "Wired"
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "Mark Tighe",
+            "title": "Claims of tax evasion and wrongful use of athlete\u2019s bikini photos in \u2018toxic\u2019 Specsavers row",
+            "description": "Judge urges halt to \u2018war\u2019 between Ennis branch manager and Guernsey-based optician chain",
+            "url": "https://www.irishtimes.com/business/2026/04/25/claims-of-tax-evasion-and-wrongful-use-of-athletes-bikini-photos-in-toxic-specsavers-row/",
+            "urlToImage": "https://www.irishtimes.com/resizer/v2/AUZOESDQW5E7HPQBP23O5LGLC4.jpg?smart=true&auth=36146342b385d233aa6a2896527ee6e0f9ee9b75d3099a32ec4d1aede97058ed&width=1200&height=630",
+            "publishedAt": "2026-04-25T05:00:00Z",
+            "content": "A High Court judge has pleaded with Specsavers and the co-owner of its Ennis store to call off a war between the parties that involves a litany of legal cases. \r\nThe cases involve allegations of mult\u2026 [+7207 chars]"
         },
-        "author": "Will Knight",
-        "title": "AI Could Democratize One of Tech's Most Valuable Resources",
-        "description": "AI is making it easier to design chips and optimize software for different silicon. Some startups envision a revolution in chipmaking.",
-        "url": "https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/",
-        "urlToImage": "https://media.wired.com/photos/69dea084bbe4a9ff56b3014b/191:100/w_1280,c_limit/AL-Lab-AI-Could-Democratize-One-of-Techs-Most-Valuable-Resources-Business.jpg",
-        "publishedAt": "2026-04-15T18:00:00Z",
-        "content": "Nvidia is the undisputed king of AI chips. But thanks to the AI it helped build, the champ could soon face growing competition.\r\nModern AI runs on Nvidia designs, a dynamic that has propelled the com\u2026 [+3700 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "NPR"
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Ece Yildirim",
+            "title": "Apple App Store Experiences Surge in New Apps Amid Vibe Coding Boom",
+            "description": "After years of gradual declines, the App Store finally saw a huge jump in new apps this past year.",
+            "url": "https://gizmodo.com/apple-app-store-experiences-surge-in-new-apps-amid-vibe-coding-boom-2000742653",
+            "urlToImage": "https://gizmodo.com/app/uploads/2026/04/shutterstock_2442151057-1200x675.jpg",
+            "publishedAt": "2026-04-06T10:00:39Z",
+            "content": "Apple\u2019s App Store saw 235,800 new apps in the first three months of 2026, according to new data published by The Information on Sunday, up 84% from the same time period last year.\r\nThe meteoric rise \u2026 [+2363 chars]"
         },
-        "author": "Martin Kaste",
-        "title": "Penalties stack up as AI spreads through the legal system",
-        "description": "Early scandals have not slowed lawyers' adoption of AI tools, even as court sanctions over fake legal briefs continue to rise.",
-        "url": "https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system",
-        "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3240x1823+0+304/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5d%2Ff9%2F3041fb8e4ef0b2a64f2cdc8f9c42%2Fcopy-1.JPG",
-        "publishedAt": "2026-04-03T09:00:00Z",
-        "content": "When it comes to using AI, it seems some lawyers just can't help themselves.\r\nLast year saw a rapid increase in court sanctions against attorneys for filing briefs containing errors generated by arti\u2026 [+5442 chars]"
-    },
-    {
-        "source": {
-            "id": "wired",
-            "name": "Wired"
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Will Knight",
+            "title": "AI Could Democratize One of Tech's Most Valuable Resources",
+            "description": "AI is making it easier to design chips and optimize software for different silicon. Some startups envision a revolution in chipmaking.",
+            "url": "https://www.wired.com/story/ai-could-democratize-one-of-techs-most-valuable-resources/",
+            "urlToImage": "https://media.wired.com/photos/69dea084bbe4a9ff56b3014b/191:100/w_1280,c_limit/AL-Lab-AI-Could-Democratize-One-of-Techs-Most-Valuable-Resources-Business.jpg",
+            "publishedAt": "2026-04-15T18:00:00Z",
+            "content": "Nvidia is the undisputed king of AI chips. But thanks to the AI it helped build, the champ could soon face growing competition.\r\nModern AI runs on Nvidia designs, a dynamic that has propelled the com\u2026 [+3700 chars]"
         },
-        "author": "Paresh Dave",
-        "title": "Anthropic Supply-Chain Risk Designation Halted By Judge",
-        "description": "A judge temporarily blocked the Trump administration's designation, clearing the way for Anthropic to keep doing business without the label starting next week.",
-        "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-injunction/",
-        "urlToImage": "https://media.wired.com/photos/69c5b0bd07d68ae7468ce59a/191:100/w_1280,c_limit/Apple-Supply-Chain-Risk-Business-2261514689.jpg",
-        "publishedAt": "2026-03-26T23:33:05Z",
-        "content": "Anthropic won a preliminary injunction barring the US Department of Defense from labeling it a supply-chain risk, potentially clearing the way for customers to resume working with the company. The ru\u2026 [+2867 chars]"
-    },
-    {
-        "source": {
-            "id": null,
-            "name": "Gizmodo.com"
+        {
+            "source": {
+                "id": null,
+                "name": "NPR"
+            },
+            "author": "Martin Kaste",
+            "title": "Penalties stack up as AI spreads through the legal system",
+            "description": "Early scandals have not slowed lawyers' adoption of AI tools, even as court sanctions over fake legal briefs continue to rise.",
+            "url": "https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system",
+            "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3240x1823+0+304/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5d%2Ff9%2F3041fb8e4ef0b2a64f2cdc8f9c42%2Fcopy-1.JPG",
+            "publishedAt": "2026-04-03T09:00:00Z",
+            "content": "When it comes to using AI, it seems some lawyers just can't help themselves.\r\nLast year saw a rapid increase in court sanctions against attorneys for filing briefs containing errors generated by arti\u2026 [+5442 chars]"
         },
-        "author": "Ece Yildirim",
-        "title": "Some Locals Are Using AI to Protest Against Data Centers",
-        "description": "Advocacy against data centers isn't necessarily all about being anti-AI.",
-        "url": "https://gizmodo.com/some-locals-are-using-ai-to-protest-against-data-centers-2000744027",
-        "urlToImage": "https://gizmodo.com/app/uploads/2026/04/GettyImages-1739395288-e1775661899240-1200x675.jpg",
-        "publishedAt": "2026-04-15T14:10:43Z",
-        "content": "The United States is in the middle of an unprecedented data center buildout that has especially hit rural communities living near ample empty land where tech companies see fit to plop down these mega\u2026 [+5231 chars]"
-    },
-    {
-        "source": {
-            "id": "business-insider",
-            "name": "Business Insider"
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Paresh Dave",
+            "title": "Anthropic Supply-Chain Risk Designation Halted By Judge",
+            "description": "A judge temporarily blocked the Trump administration's designation, clearing the way for Anthropic to keep doing business without the label starting next week.",
+            "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-injunction/",
+            "urlToImage": "https://media.wired.com/photos/69c5b0bd07d68ae7468ce59a/191:100/w_1280,c_limit/Apple-Supply-Chain-Risk-Business-2261514689.jpg",
+            "publishedAt": "2026-03-26T23:33:05Z",
+            "content": "Anthropic won a preliminary injunction barring the US Department of Defense from labeling it a supply-chain risk, potentially clearing the way for customers to resume working with the company. The ru\u2026 [+2867 chars]"
         },
-        "author": "Tom Carter",
-        "title": "Snap says it will lay off 16% of its global workforce. Read the memo it sent to staff.",
-        "description": "CEO Evan Spiegel said Snap would cut 1,000 employees, 16% of its global workforce, citing \"rapid advancements in artificial intelligence.\"",
-        "url": "https://www.businessinsider.com/snap-layoffs-ai-read-memo-snapchat-2026-4",
-        "urlToImage": "https://www.businessinsider.com/public/assets/logos/og-image-logo-social.png?v=2023-11",
-        "publishedAt": "2026-04-15T10:47:33Z",
-        "content": "Evan SpiegelBloomberg/Getty Images\r\n<ul><li>Snap is the latest tech company to announce layoffs.</li><li>The company behind Snapchat will cut 16% of its global workforce, according to a regulatory fi\u2026 [+3112 chars]"
-    },
-    {
-        "source": {
-            "id": "wired",
-            "name": "Wired"
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Ece Yildirim",
+            "title": "Some Locals Are Using AI to Protest Against Data Centers",
+            "description": "Advocacy against data centers isn't necessarily all about being anti-AI.",
+            "url": "https://gizmodo.com/some-locals-are-using-ai-to-protest-against-data-centers-2000744027",
+            "urlToImage": "https://gizmodo.com/app/uploads/2026/04/GettyImages-1739395288-e1775661899240-1200x675.jpg",
+            "publishedAt": "2026-04-15T14:10:43Z",
+            "content": "The United States is in the middle of an unprecedented data center buildout that has especially hit rural communities living near ample empty land where tech companies see fit to plop down these mega\u2026 [+5231 chars]"
         },
-        "author": "Dell Cameron, Louise Matsakis",
-        "title": "Iran Threatens to Start Attacking Major US Tech Firms on April 1",
-        "description": "Tech giants like Apple, Google, and Microsoft are among those on a target list released by Iran\u2019s Islamic Revolutionary Guard Corps.",
-        "url": "https://www.wired.com/story/iran-threatens-to-start-attacking-major-us-tech-firms-on-april-1/",
-        "urlToImage": "https://media.wired.com/photos/69cbf5d389cbdc32deb6bcdf/191:100/w_1280,c_limit/Trump_Iran_Biz_GettyImages-2267975852.jpg",
-        "publishedAt": "2026-03-31T21:25:12Z",
-        "content": "Irans Islamic Revolutionary Guard Corps warned Tuesday that it plans to begin attacking more than a dozen American companies across the Middle East on Wednesday in retaliation for the killing of Iran\u2026 [+3382 chars]"
-    }
-]
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "Tom Carter",
+            "title": "Snap says it will lay off 16% of its global workforce. Read the memo it sent to staff.",
+            "description": "CEO Evan Spiegel said Snap would cut 1,000 employees, 16% of its global workforce, citing \"rapid advancements in artificial intelligence.\"",
+            "url": "https://www.businessinsider.com/snap-layoffs-ai-read-memo-snapchat-2026-4",
+            "urlToImage": "https://www.businessinsider.com/public/assets/logos/og-image-logo-social.png?v=2023-11",
+            "publishedAt": "2026-04-15T10:47:33Z",
+            "content": "Evan SpiegelBloomberg/Getty Images\r\n<ul><li>Snap is the latest tech company to announce layoffs.</li><li>The company behind Snapchat will cut 16% of its global workforce, according to a regulatory fi\u2026 [+3112 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Dell Cameron, Louise Matsakis",
+            "title": "Iran Threatens to Start Attacking Major US Tech Firms on April 1",
+            "description": "Tech giants like Apple, Google, and Microsoft are among those on a target list released by Iran\u2019s Islamic Revolutionary Guard Corps.",
+            "url": "https://www.wired.com/story/iran-threatens-to-start-attacking-major-us-tech-firms-on-april-1/",
+            "urlToImage": "https://media.wired.com/photos/69cbf5d389cbdc32deb6bcdf/191:100/w_1280,c_limit/Trump_Iran_Biz_GettyImages-2267975852.jpg",
+            "publishedAt": "2026-03-31T21:25:12Z",
+            "content": "Irans Islamic Revolutionary Guard Corps warned Tuesday that it plans to begin attacking more than a dozen American companies across the Middle East on Wednesday in retaliation for the killing of Iran\u2026 [+3382 chars]"
+        }
+    ]
+}
