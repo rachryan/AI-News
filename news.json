@@ -1,6 +1,20 @@
 {
-    "last_updated": "April 28, 2026",
+    "last_updated": "April 29, 2026",
     "articles": [
+        {
+            "title": "Our commitment to community safety",
+            "url": "https://openai.com/index/our-commitment-to-community-safety",
+            "urlToImage": "",
+            "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety ex...",
+            "source": "OpenAI"
+        },
+        {
+            "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+            "url": "https://openai.com/index/openai-on-aws",
+            "urlToImage": "",
+            "description": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments....",
+            "source": "OpenAI"
+        },
         {
             "title": "OpenAI available at FedRAMP Moderate",
             "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
@@ -9,18 +23,11 @@
             "source": "OpenAI"
         },
         {
-            "title": "The next phase of the Microsoft OpenAI partnership",
-            "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
-            "urlToImage": "",
-            "description": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at sc...",
-            "source": "OpenAI"
-        },
-        {
-            "title": "An open-source spec for orchestration: Symphony",
-            "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
-            "urlToImage": "",
-            "description": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems\u2014boosting engineering output and red...",
-            "source": "OpenAI"
+            "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+            "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Translate_20th_hero_NC8a.max-600x600.format-webp.webp",
+            "description": "The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake toppe...",
+            "source": "Google AI"
         },
         {
             "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
@@ -34,13 +41,6 @@
             "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
             "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp",
             "description": "Black screen with illustrations including a laptop with document and email icons streaming out, a smiling person holding a phone and looking at a chec...",
-            "source": "Google AI"
-        },
-        {
-            "title": "Here\u2019s how our TPUs power increasingly demanding AI workloads.",
-            "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
-            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp",
-            "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\" />Learn how Google\u2019s TPUs...",
             "source": "Google AI"
         },
         {
