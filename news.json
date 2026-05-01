@@ -1,25 +1,25 @@
 {
-    "last_updated": "April 30, 2026",
+    "last_updated": "May 01, 2026",
     "articles": [
+        {
+            "title": "Introducing Advanced Account Security",
+            "url": "https://openai.com/index/advanced-account-security",
+            "urlToImage": "",
+            "description": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent a...",
+            "source": "OpenAI"
+        },
+        {
+            "title": "Where the goblins came from",
+            "url": "https://openai.com/index/where-the-goblins-came-from",
+            "urlToImage": "",
+            "description": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior....",
+            "source": "OpenAI"
+        },
         {
             "title": "Building the compute infrastructure for the Intelligence Age",
             "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
             "urlToImage": "",
             "description": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand....",
-            "source": "OpenAI"
-        },
-        {
-            "title": "Cybersecurity in the Intelligence Age",
-            "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-            "urlToImage": "",
-            "description": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and...",
-            "source": "OpenAI"
-        },
-        {
-            "title": "Our commitment to community safety",
-            "url": "https://openai.com/index/our-commitment-to-community-safety",
-            "urlToImage": "",
-            "description": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety ex...",
             "source": "OpenAI"
         },
         {
@@ -44,6 +44,13 @@
             "source": "Google AI"
         },
         {
+            "title": "This startup\u2019s new mechanistic interpretability tool lets you debug LLMs",
+            "url": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
+            "urlToImage": "",
+            "description": "The San Francisco\u2013based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adju...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Elon Musk and Sam Altman are going to court over OpenAI\u2019s future",
             "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
             "urlToImage": "",
@@ -55,13 +62,6 @@
             "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
             "urlToImage": "",
             "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. In February,...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Rebuilding the data stack for AI",
-            "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
-            "urlToImage": "",
-            "description": "Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is ...",
             "source": "MIT Tech Review"
         }
     ]
