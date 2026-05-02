@@ -1,5 +1,5 @@
 {
-    "last_updated": "May 01, 2026",
+    "last_updated": "May 02, 2026",
     "articles": [
         {
             "title": "Introducing Advanced Account Security",
@@ -44,24 +44,24 @@
             "source": "Google AI"
         },
         {
-            "title": "This startup\u2019s new mechanistic interpretability tool lets you debug LLMs",
-            "url": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
+            "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI\u2019s models",
+            "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
             "urlToImage": "",
-            "description": "The San Francisco\u2013based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adju...",
+            "description": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "Elon Musk and Sam Altman are going to court over OpenAI\u2019s future",
-            "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+            "title": "Cyber-Insecurity in the AI Era",
+            "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
             "urlToImage": "",
-            "description": "After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have swee...",
+            "description": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legac...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "The missing step between hype and profit",
-            "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+            "title": "Operationalizing AI for Scale and Sovereignty",
+            "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
             "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. In February,...",
+            "description": "Companies are taking control of their own data to tailor AI for their needs. The challenge lies in balancing ownership with the safe, trusted flow of ...",
             "source": "MIT Tech Review"
         }
     ]
