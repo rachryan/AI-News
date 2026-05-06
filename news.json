@@ -1,26 +1,33 @@
 {
-    "last_updated": "May 05, 2026",
+    "last_updated": "May 06, 2026",
     "articles": [
         {
-            "title": "How OpenAI delivers low-latency voice AI at scale",
-            "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+            "title": "GPT-5.5 Instant System Card",
+            "url": "https://openai.com/index/gpt-5-5-instant-system-card",
             "urlToImage": "",
-            "description": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking....",
+            "description": "...",
             "source": "OpenAI"
         },
         {
-            "title": "Introducing Advanced Account Security",
-            "url": "https://openai.com/index/advanced-account-security",
+            "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+            "url": "https://openai.com/index/gpt-5-5-instant",
             "urlToImage": "",
-            "description": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent a...",
+            "description": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls....",
             "source": "OpenAI"
         },
         {
-            "title": "Where the goblins came from",
-            "url": "https://openai.com/index/where-the-goblins-came-from",
+            "title": "New ways to buy ChatGPT ads",
+            "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
             "urlToImage": "",
-            "description": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior....",
+            "description": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools\u2014built to protect privacy and keep conversat...",
             "source": "OpenAI"
+        },
+        {
+            "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
+            "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\" />Google is partneri...",
+            "source": "Google AI"
         },
         {
             "title": "The latest AI news we announced in April 2026",
@@ -37,11 +44,11 @@
             "source": "Google AI"
         },
         {
-            "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
-            "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
-            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Translate_20th_hero_NC8a.max-600x600.format-webp.webp",
-            "description": "The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake toppe...",
-            "source": "Google AI"
+            "title": "A blueprint for using AI to strengthen democracy",
+            "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
+            "urlToImage": "",
+            "description": "Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping ...",
+            "source": "MIT Tech Review"
         },
         {
             "title": "Week one of the Musk v. Altman trial: What it was like in the room",
@@ -55,13 +62,6 @@
             "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
             "urlToImage": "",
             "description": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Cyber-Insecurity in the AI Era",
-            "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
-            "urlToImage": "",
-            "description": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legac...",
             "source": "MIT Tech Review"
         }
     ]
