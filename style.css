@@ -144,21 +144,43 @@ body {
 
 /* --- MOBILE RESPONSIVE FIXES --- */
 @media (max-width: 768px) {
-    .pathfinder-nav { padding: 0 1rem; }
+    /* 1. Force the Nav to fit everything */
+    .pathfinder-nav { 
+        padding: 0 1rem; 
+        gap: 5px;
+    }
     
+    .nav-logo { font-size: 1.2rem !important; } /* Shrink logo slightly to fit button */
+
+    /* 2. Force the Section to allow full width */
     .empower-section {
-        padding: 3rem 1.5rem !important;
+        padding: 2rem 1rem !important;
+        margin: 2rem 0 !important;
+        width: 100% !important;
     }
 
+    /* 3. The "Nuclear" Form Fix */
     .inquiry-form {
-        width: 100%;
-        max-width: 100%;
+        display: flex !important;
+        flex-direction: column !important; /* Forces vertical stacking */
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 1.5rem 0 0 0 !important;
+        gap: 12px !important;
     }
 
+    /* 4. Fix individual fields */
     .inquiry-form input, 
     .inquiry-form select, 
     .inquiry-form textarea {
-        font-size: 16px !important; /* Prevents iPhone zoom */
+        width: 100% !important;
+        font-size: 16px !important; /* Fixes the iPhone zoom bug */
         padding: 1rem !important;
+        display: block !important;
+    }
+
+    .submit-btn {
+        width: 100% !important;
+        margin-top: 10px;
     }
 }
