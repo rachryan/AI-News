@@ -55,8 +55,35 @@
             align-items: start;
         }
 
-        @media (max-width: 900px) {
-            .training-grid { grid-template-columns: 1fr; gap: 2rem; }
+        /* Mobile Optimization for Training Page */
+@media (max-width: 768px) {
+    .training-wrapper {
+        padding: 2rem 1rem; /* Less padding on small screens */
+    }
+
+    .training-grid {
+        grid-template-columns: 1fr; /* Force the stack */
+        gap: 2.5rem;
+    }
+
+    .value-prop h1 {
+        font-size: 2.8rem; /* Fit on mobile screen width */
+        text-align: center;
+    }
+
+    .value-prop p {
+        text-align: center;
+    }
+
+    .feature-item {
+        padding: 1.2rem;
+    }
+
+    .booking-embed {
+        height: 600px; /* Slightly shorter for mobile vertical space */
+        border-radius: 12px;
+    }
+}
         }
 
         .value-prop h1 {
