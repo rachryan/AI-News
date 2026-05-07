@@ -22,7 +22,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
-    <meta name='impact-site-verification' value='659e76bd-ad8c-4002-a0af-ea79caec3aa5'>
+    
+    <meta name="impact-site-verification" content="659e76bd-ad8c-4002-a0af-ea79caec3aa5">
 </head>
 <body>
 
@@ -31,6 +32,8 @@
     <nav class="pathfinder-nav">
         <div class="logo nav-logo">TECH<span>TIDY</span></div>
         <div style="display: flex; gap: 15px; align-items: center;">
+            <a href="training.html" class="nav-cta" style="background:var(--accent-color); color:white; padding: 8px 16px; border-radius: 5px; text-decoration:none; font-family:'JetBrains Mono'; font-size:0.7rem; font-weight:bold;">WORK_WITH_ME</a>
+            
             <select class="nav-select" onchange="if(this.value) { const target = document.getElementById(this.value); if(target) { target.scrollIntoView({behavior:'smooth', block:'start'}); } }">
                 <option value="">PATHFINDER_MENU</option>
                 <option value="tools">01: THE_TOOLBOX</option>
@@ -57,8 +60,7 @@
             
             <div id="weekly-prompt-card" class="news-card" style="grid-column: 1 / -1; border: 1px dashed var(--accent-color); background: rgba(112, 0, 255, 0.02); display: none; margin-bottom: 1.5rem;">
                 <div class="card-tag">// WEEKLY_POWER_PROMPT</div>
-                <div id="weekly-prompt-content">
-                    </div>
+                <div id="weekly-prompt-content"></div>
             </div>
 
             <div class="news-grid">
@@ -104,20 +106,25 @@
 
         <section id="empowerment" class="empower-section">
             <div class="card-tag">// SECTION_03: HUMAN_EMPOWERMENT</div>
-            <h2 style="font-size: clamp(1.8rem, 5vw, 2.5rem); margin-bottom: 1rem; font-weight: 900;">Out of Fear. Into Agency.</h2>
-            <p>I provide private, 1-1 guidance to help you master AI tools and secure your professional future. No hype, just mastery.</p>
-            
-            <form class="inquiry-form" action="https://formspree.io/f/mnjlrooz" method="POST">
-                <input type="email" name="email" placeholder="YOUR_EMAIL_ADDRESS" required>
-                <select name="type" required>
-                    <option value="" disabled selected>HOW CAN I HELP?</option>
-                    <option value="1-1 Training">REQUEST 1-1 EMPOWERMENT TRAINING</option>
-                    <option value="System Query">GENERAL SYSTEM QUERY</option>
-                    <option value="Collaboration">BUSINESS COLLABORATION</option>
-                </select>
-                <textarea name="msg" placeholder="TELL ME ABOUT YOUR CHALLENGE..." rows="4" required></textarea>
-                <button type="submit" class="submit-btn">SUBMIT_INQUIRY</button>
-            </form>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
+                <div>
+                    <h2 style="font-size: clamp(1.8rem, 5vw, 2.5rem); margin-bottom: 1rem; font-weight: 900;">Out of Fear. Into Agency.</h2>
+                    <p>Master AI tools and secure your professional future with a private session. No hype, just mastery.</p>
+                    <a href="training.html" class="nav-cta" style="display: inline-block; margin-top: 20px; background:var(--accent-color); color:white; padding: 12px 24px; border-radius: 5px; text-decoration:none; font-family:'JetBrains Mono'; font-weight:bold;">INITIALIZE_TRAINING ➔</a>
+                </div>
+                
+                <form class="inquiry-form" action="https://formspree.io/f/mnjlrooz" method="POST" style="margin-top: 0;">
+                    <div class="card-tag" style="margin-bottom: 15px;">// GENERAL_INQUIRIES</div>
+                    <input type="email" name="email" placeholder="YOUR_EMAIL_ADDRESS" required>
+                    <select name="type" required>
+                        <option value="" disabled selected>HOW CAN I HELP?</option>
+                        <option value="System Query">GENERAL SYSTEM QUERY</option>
+                        <option value="Collaboration">BUSINESS COLLABORATION</option>
+                    </select>
+                    <textarea name="msg" placeholder="TELL ME ABOUT YOUR CHALLENGE..." rows="4" required></textarea>
+                    <button type="submit" class="submit-btn">SUBMIT_INQUIRY</button>
+                </form>
+            </div>
         </section>
 
         <section id="news">
@@ -126,8 +133,7 @@
                 <input type="text" id="search" placeholder="FILTER_FULL_ARCHIVE..." 
                     style="background:transparent; border:none; border-bottom:1px solid var(--glass-border); color:var(--text-main); font-family:'JetBrains Mono'; padding:10px; width:100%; max-width:400px; outline:none;">
             </div>
-            <div id="news-container" class="news-grid">
-                </div>
+            <div id="news-container" class="news-grid"></div>
         </section>
     </main>
 
@@ -150,10 +156,8 @@
                 const response = await fetch('./prompt.json?t=' + Date.now());
                 if (!response.ok) return;
                 const data = await response.json();
-                
                 const card = document.getElementById('weekly-prompt-card');
                 const content = document.getElementById('weekly-prompt-content');
-                
                 if (data && card && content) {
                     content.innerHTML = `
                         <h2 class="headline">${data.title}</h2>
@@ -167,7 +171,6 @@
         }
 
         async function loadNews() {
-            const container = document.getElementById('news-container');
             try {
                 const response = await fetch('./news.json?t=' + Date.now());
                 const data = await response.json();
