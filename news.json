@@ -1,26 +1,33 @@
 {
-    "last_updated": "May 06, 2026",
+    "last_updated": "May 07, 2026",
     "articles": [
         {
-            "title": "GPT-5.5 Instant System Card",
-            "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+            "title": "Introducing ChatGPT Futures: Class of 2026",
+            "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
             "urlToImage": "",
-            "description": "...",
+            "description": "Meet the ChatGPT Futures Class of 2026\u201426 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is...",
             "source": "OpenAI"
         },
         {
-            "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-            "url": "https://openai.com/index/gpt-5-5-instant",
+            "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+            "url": "https://openai.com/index/singular-bank",
             "urlToImage": "",
-            "description": "GPT-5.5 Instant updates ChatGPT\u2019s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls....",
+            "description": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60\u201390 minutes daily on meeting prep, portfolio ana...",
             "source": "OpenAI"
         },
         {
-            "title": "New ways to buy ChatGPT ads",
-            "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+            "title": "Uber uses OpenAI to help people earn smarter and book faster",
+            "url": "https://openai.com/index/uber",
             "urlToImage": "",
-            "description": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools\u2014built to protect privacy and keep conversat...",
+            "description": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace...",
             "source": "OpenAI"
+        },
+        {
+            "title": "5 gardening tips you can try right in Search",
+            "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/01-Google_Gardening_Header.max-600x600.format-webp.webp",
+            "description": "An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of...",
+            "source": "Google AI"
         },
         {
             "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
@@ -34,13 +41,6 @@
             "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
             "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
             "description": "mp4 featuring an underwater video and a mobile AI video mockup....",
-            "source": "Google AI"
-        },
-        {
-            "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
-            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
-            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WebhooksGeminiAPI-hero.max-600x600.format-webp.webp",
-            "description": "Gemini API...",
             "source": "Google AI"
         },
         {
