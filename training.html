@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Empowerment Training | TechTidy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a0a0a;
+            --accent: #00ff88; /* Your TechTidy Green */
+            --glass: rgba(255, 255, 255, 0.05);
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .training-wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .back-nav {
+            margin-bottom: 2rem;
+        }
+
+        .back-btn {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.8rem;
+            border: 1px solid var(--accent);
+            padding: 5px 12px;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            background: var(--accent);
+            color: black;
+        }
+
+        .training-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        @media (max-width: 900px) {
+            .training-grid { grid-template-columns: 1fr; gap: 2rem; }
+        }
+
+        .value-prop h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 0.9;
+            margin-bottom: 1.5rem;
+            letter-spacing: -2px;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-item {
+            background: var(--glass);
+            border-left: 3px solid var(--accent);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .feature-item h3 {
+            margin: 0 0 0.5rem 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--accent);
+        }
+
+        .feature-item p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #ccc;
+        }
+
+        /* The Embed Container */
+        .booking-embed {
+            background: #ffffff; /* White background for the Google widget */
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            height: 700px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="training-wrapper">
+        <div class="back-nav">
+            <a href="index.html" class="back-btn">< RETURN_TO_INTEL</a>
+        </div>
+
+        <div class="training-grid">
+            <div class="value-prop">
+                <h1>AI<br>STRATEGY<br>SESSION</h1>
+                <p style="font-size: 1.2rem; color: #888; margin-bottom: 2.5rem;">60 Minutes. 1-on-1. Pure Implementation.</p>
+                
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <h3>01_WORKFLOW_AUDIT</h3>
+                        <p>We map your current manual tasks and identify exactly where AI can save you 5-10 hours per week.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>02_CUSTOM_PROMPT_BUILD</h3>
+                        <p>No generic templates. We build custom prompts live that handle your specific data and tone.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>03_TECH_STACK_TIDY</h3>
+                        <p>Stop paying for tools you don't need. I'll vet your subscriptions and streamline your toolkit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="booking-embed">
+                <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0lDIdfI0XF_3YfTc7WcPfT63RS2S6?gv=true" title="Booking Page"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
