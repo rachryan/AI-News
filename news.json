@@ -1,25 +1,25 @@
 {
-    "last_updated": "May 07, 2026",
+    "last_updated": "May 08, 2026",
     "articles": [
         {
-            "title": "Introducing ChatGPT Futures: Class of 2026",
-            "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+            "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+            "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
             "urlToImage": "",
-            "description": "Meet the ChatGPT Futures Class of 2026\u201426 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is...",
+            "description": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect criti...",
             "source": "OpenAI"
         },
         {
-            "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-            "url": "https://openai.com/index/singular-bank",
+            "title": "Parloa builds service agents customers want to talk to",
+            "url": "https://openai.com/index/parloa",
             "urlToImage": "",
-            "description": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60\u201390 minutes daily on meeting prep, portfolio ana...",
+            "description": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliab...",
             "source": "OpenAI"
         },
         {
-            "title": "Uber uses OpenAI to help people earn smarter and book faster",
-            "url": "https://openai.com/index/uber",
+            "title": "Advancing voice intelligence with new models in the API",
+            "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
             "urlToImage": "",
-            "description": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace...",
+            "description": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice exp...",
             "source": "OpenAI"
         },
         {
