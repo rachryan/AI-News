@@ -1,6 +1,13 @@
 {
-    "last_updated": "May 08, 2026",
+    "last_updated": "May 09, 2026",
     "articles": [
+        {
+            "title": "Running Codex safely at OpenAI",
+            "url": "https://openai.com/index/running-codex-safely",
+            "urlToImage": "",
+            "description": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent ado...",
+            "source": "OpenAI"
+        },
         {
             "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
             "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
@@ -16,11 +23,11 @@
             "source": "OpenAI"
         },
         {
-            "title": "Advancing voice intelligence with new models in the API",
-            "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-            "urlToImage": "",
-            "description": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice exp...",
-            "source": "OpenAI"
+            "title": "See what happens when creative legends use AI to make ads for small businesses.",
+            "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp",
+            "description": "black and white card with headshots of susan credle, jayonta jenkins and tiffany rolfe...",
+            "source": "Google AI"
         },
         {
             "title": "5 gardening tips you can try right in Search",
@@ -37,11 +44,11 @@
             "source": "Google AI"
         },
         {
-            "title": "The latest AI news we announced in April 2026",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
-            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp",
-            "description": "mp4 featuring an underwater video and a mobile AI video mockup....",
-            "source": "Google AI"
+            "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+            "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+            "urlToImage": "",
+            "description": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk\u2019s motivations for bringing the suit were under scrutiny. Last week, Musk t...",
+            "source": "MIT Tech Review"
         },
         {
             "title": "A blueprint for using AI to strengthen democracy",
@@ -55,13 +62,6 @@
             "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
             "urlToImage": "",
             "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Two of ...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI\u2019s models",
-            "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-            "urlToImage": "",
-            "description": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam...",
             "source": "MIT Tech Review"
         }
     ]
