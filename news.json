@@ -1,26 +1,33 @@
 {
-    "last_updated": "May 11, 2026",
+    "last_updated": "May 12, 2026",
     "articles": [
         {
-            "title": "Running Codex safely at OpenAI",
-            "url": "https://openai.com/index/running-codex-safely",
+            "title": "How ChatGPT adoption broadened in early 2026",
+            "url": "https://openai.com/signals/research/2026q1-update",
             "urlToImage": "",
-            "description": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent ado...",
+            "description": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption....",
             "source": "OpenAI"
         },
         {
-            "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-            "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+            "title": "How enterprises are scaling AI",
+            "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
             "urlToImage": "",
-            "description": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect criti...",
+            "description": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale....",
             "source": "OpenAI"
         },
         {
-            "title": "Parloa builds service agents customers want to talk to",
-            "url": "https://openai.com/index/parloa",
+            "title": "OpenAI Campus Network: Student club interest form",
+            "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
             "urlToImage": "",
-            "description": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliab...",
+            "description": "Join the OpenAI Campus Network\u2014connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community....",
             "source": "OpenAI"
+        },
+        {
+            "title": "The new AI-powered Google Finance is expanding to Europe.",
+            "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/UK_1920x1080.max-600x600.format-webp.webp",
+            "description": "A screenshot of the AI-powered experience on Google Finance....",
+            "source": "Google AI"
         },
         {
             "title": "See what happens when creative legends use AI to make ads for small businesses.",
@@ -37,31 +44,24 @@
             "source": "Google AI"
         },
         {
-            "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
-            "urlToImage": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp",
-            "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\" />Google is partneri...",
-            "source": "Google AI"
-        },
-        {
-            "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-            "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+            "title": "Three things in AI to watch, according to a Nobel-winning economist",
+            "url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
             "urlToImage": "",
-            "description": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk\u2019s motivations for bringing the suit were under scrutiny. Last week, Musk t...",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. A few months...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "A blueprint for using AI to strengthen democracy",
-            "url": "https://www.technologyreview.com/2026/05/05/1136843/ai-democracy-blueprint/",
+            "title": "Fostering breakthrough AI innovation through customer-back engineering",
+            "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
             "urlToImage": "",
-            "description": "Every few centuries, changes in how information moves reshape how societies govern themselves. The printing press spread vernacular literacy, helping ...",
+            "description": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey researc...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "Week one of the Musk v. Altman trial: What it was like in the room",
-            "url": "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/",
+            "title": "Implementing advanced AI technologies in finance",
+            "url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
             "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Two of ...",
+            "description": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgenc...",
             "source": "MIT Tech Review"
         }
     ]
