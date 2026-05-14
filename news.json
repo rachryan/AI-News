@@ -1,6 +1,13 @@
 {
-    "last_updated": "May 13, 2026",
+    "last_updated": "May 14, 2026",
     "articles": [
+        {
+            "title": "Building a safe, effective sandbox to enable Codex on Windows",
+            "url": "https://openai.com/index/building-codex-windows-sandbox",
+            "urlToImage": "",
+            "description": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restricti...",
+            "source": "OpenAI"
+        },
         {
             "title": "How finance teams use Codex",
             "url": "https://openai.com/academy/how-finance-teams-use-codex",
@@ -13,13 +20,6 @@
             "url": "https://openai.com/index/nvidia",
             "urlToImage": "",
             "description": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments....",
-            "source": "OpenAI"
-        },
-        {
-            "title": "What Parameter Golf taught us about AI-assisted research",
-            "url": "https://openai.com/index/what-parameter-golf-taught-us",
-            "urlToImage": "",
-            "description": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantizati...",
             "source": "OpenAI"
         },
         {
@@ -44,6 +44,13 @@
             "source": "Google AI"
         },
         {
+            "title": "AI chatbots are giving out people\u2019s real phone numbers",
+            "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
+            "urlToImage": "",
+            "description": "People report that their personal contact info was surfaced by Google AI\u2014and there\u2019s apparently no easy way to prevent it.&#160; A Redditor recently w...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Three things in AI to watch, according to a Nobel-winning economist",
             "url": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
             "urlToImage": "",
@@ -55,13 +62,6 @@
             "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
             "urlToImage": "",
             "description": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey researc...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Implementing advanced AI technologies in finance",
-            "url": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
-            "urlToImage": "",
-            "description": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgenc...",
             "source": "MIT Tech Review"
         }
     ]
