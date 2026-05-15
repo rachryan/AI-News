@@ -2,24 +2,24 @@
     "last_updated": "May 15, 2026",
     "articles": [
         {
+            "title": "A new personal finance experience in ChatGPT",
+            "url": "https://openai.com/index/personal-finance-chatgpt",
+            "urlToImage": "",
+            "description": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights an...",
+            "source": "OpenAI"
+        },
+        {
+            "title": "Sea's View on the Future of Agentic Software Development with Codex",
+            "url": "https://openai.com/index/sea-david-chen",
+            "urlToImage": "",
+            "description": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia....",
+            "source": "OpenAI"
+        },
+        {
             "title": "Work with Codex from anywhere",
             "url": "https://openai.com/index/work-with-codex-from-anywhere",
             "urlToImage": "",
             "description": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments....",
-            "source": "OpenAI"
-        },
-        {
-            "title": "Helping ChatGPT better recognize context in sensitive conversations",
-            "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-            "urlToImage": "",
-            "description": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely....",
-            "source": "OpenAI"
-        },
-        {
-            "title": "Building a safe, effective sandbox to enable Codex on Windows",
-            "url": "https://openai.com/index/building-codex-windows-sandbox",
-            "urlToImage": "",
-            "description": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restricti...",
             "source": "OpenAI"
         },
         {
@@ -44,6 +44,13 @@
             "source": "Google AI"
         },
         {
+            "title": "How Chinese short dramas became AI content machines",
+            "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
+            "urlToImage": "",
+            "description": "In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across he...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Data readiness for agentic AI in financial services",
             "url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
             "urlToImage": "",
@@ -55,13 +62,6 @@
             "url": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
             "urlToImage": "",
             "description": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: \u201cCapability now, control la...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "The shock of seeing your body used in deepfake porn",
-            "url": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
-            "urlToImage": "",
-            "description": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted...",
             "source": "MIT Tech Review"
         }
     ]
