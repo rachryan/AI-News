@@ -24,6 +24,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
     
     <meta name="impact-site-verification" content="659e76bd-ad8c-4002-a0af-ea79caec3aa5">
+
+    <style>
+        /* Modern Mobile Responsive Layout Fix for the Empowerment Grid Section */
+        .empower-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .empower-grid {
+                grid-template-columns: 1fr !important;
+                gap: 30px !important;
+            }
+            
+            .empower-section h2, .empower-section p {
+                text-align: center !important;
+            }
+            
+            .empower-grid div {
+                text-align: center !important;
+            }
+            
+            .inquiry-form {
+                width: 100% !important;
+                box-sizing: border-box;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -32,14 +62,16 @@
     <nav class="pathfinder-nav">
         <div class="logo nav-logo">TECH<span>TIDY</span></div>
         <div style="display: flex; gap: 15px; align-items: center;">
+            <a href="https://x.com/TechTidyAI" target="_blank" style="color: var(--text-dim); text-decoration: none; font-family: 'JetBrains Mono'; font-size: 0.8rem; letter-spacing: -0.5px;">[X_PROFILE]</a>
+            
             <a href="training.html" class="nav-cta" style="background:var(--accent-color); color:white; padding: 8px 16px; border-radius: 5px; text-decoration:none; font-family:'JetBrains Mono'; font-size:0.7rem; font-weight:bold;">WORK_WITH_ME</a>
             
             <select class="nav-select" onchange="if(this.value) { const target = document.getElementById(this.value); if(target) { target.scrollIntoView({behavior:'smooth', block:'start'}); } }">
-                <option value="">PATHFINDER_MENU</option>
-                <option value="tools">01: THE_TOOLBOX</option>
-                <option value="training">02: THE_ACADEMY</option>
-                <option value="empowerment">03: 1-1_EMPOWERMENT</option>
-                <option value="news">04: THE_ARCHIVE</option>
+                <option value="">CHOOSE_A_PATH</option>
+                <option value="tools">01: DAILY ESSENTIALS</option>
+                <option value="training">02: FREE TRAINING</option>
+                <option value="empowerment">03: PRIVATE STRATEGY</option>
+                <option value="news">04: INTEL ARCHIVE</option>
             </select>
             <button onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌓</button>
         </div>
@@ -48,15 +80,15 @@
     <main class="container">
         <header id="top" style="text-align: center; padding: 6rem 0 4rem;">
             <div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 2rem;">
-                <span style="font-family:'JetBrains Mono'; font-size:0.7rem; color:var(--text-dim);">SENTIMENT</span>
+                <span style="font-family:'JetBrains Mono'; font-size:0.7rem; color:var(--text-dim);">AI SENTIMENT MARKET</span>
                 <div class="meter"><div class="fill" id="sentiment-fill"></div></div>
             </div>
-            <h1 style="font-size: clamp(2.5rem, 8vw, 4.5rem); font-weight: 900; letter-spacing: -3px; margin-bottom: 1.5rem;">The Intelligence Briefing.</h1>
-            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">Bridging the gap between AI anxiety and agency. Automated intelligence for the curious, bespoke coaching for the ambitious.</p>
+            <h1 style="font-size: clamp(2.2rem, 7vw, 4.2rem); font-weight: 900; letter-spacing: -3px; margin-bottom: 1.5rem; line-height: 1.1;">Complex tech ➔ effortless daily systems.</h1>
+            <p style="color: var(--text-dim); max-width: 600px; margin: 0 auto; font-size: 1.1rem;">I simplify AI, tools, and productivity — no technical degree needed. Automated intelligence for the curious, bespoke coaching for the ambitious.</p>
         </header>
 
         <section id="tools">
-            <div class="card-tag">// SECTION_01: THE_TOOLBOX</div>
+            <div class="card-tag">// RECOMMENDATION_01: YOUR DAILY ESSENTIALS</div>
             
             <div id="weekly-prompt-card" class="news-card" style="grid-column: 1 / -1; border: 1px dashed var(--accent-color); background: rgba(112, 0, 255, 0.02); display: none; margin-bottom: 1.5rem;">
                 <div class="card-tag">// WEEKLY_POWER_PROMPT</div>
@@ -65,71 +97,73 @@
 
             <div class="news-grid">
                 <a href="https://perplexity.ai" target="_blank" class="news-card">
-                    <div class="badge">START HERE</div>
+                    <div class="badge" style="background: #00ff88; color: black;">REPLACE GOOGLE SEARCH</div>
                     <h2 class="headline">Perplexity</h2>
-                    <p class="summary">Verified AI search engine. The modern alternative to traditional browsing with real-time sources.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">INITIALIZE ➔</div>
+                    <p class="summary">Your verified AI search engine. Think of it as a research assistant that finds real-time answers with clear sources, entirely free of traditional search ad clutter.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">LAUNCH APP ➔</div>
                 </a>
                 <a href="https://chat.openai.com" target="_blank" class="news-card">
+                    <div class="badge">DAILY WRITING & LOGIC</div>
                     <h2 class="headline">ChatGPT</h2>
-                    <p class="summary">The industry standard for logic, creative drafting, and general problem solving across workflows.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">INITIALIZE ➔</div>
+                    <p class="summary">The ultimate companion for brainstorming, drafting professional emails, and mapping out complex thoughts. It's like having a brilliant editor on standby 24/7.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">LAUNCH APP ➔</div>
                 </a>
                 <a href="https://claude.ai" target="_blank" class="news-card">
+                    <div class="badge">DOCUMENT & DATA EXPERT</div>
                     <h2 class="headline">Claude</h2>
-                    <p class="summary">Advanced document analysis and human-centric writing styles. Exceptional for complex data parsing.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">INITIALIZE ➔</div>
+                    <p class="summary">Upload a messy spreadsheet, a long PDF, or an industry article. Claude analyzes it instantly and communicates back in a warm, completely human-like tone.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">LAUNCH APP ➔</div>
                 </a>
             </div>
         </section>
 
         <section id="training" style="margin-top: 4rem;">
-            <div class="card-tag">// SECTION_02: THE_ACADEMY</div>
+            <div class="card-tag">// RECOMMENDATION_02: FREE SELF-GUIDED LEARNING</div>
             <div class="news-grid">
                 <a href="https://www.skills.google/paths/2336" target="_blank" class="news-card">
                     <h2 class="headline">Google AI Training</h2>
-                    <p class="summary">Practical course designed by Google to help you use AI to save time and boost professional productivity.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
+                    <p class="summary">A practical, beginner-friendly course designed by Google to help you use everyday AI systems to save time and boost personal productivity.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">START FREE GOOGLE COURSE ➔</div>
                 </a>
                 <a href="https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/" target="_blank" class="news-card">
                     <h2 class="headline">Microsoft AI Training</h2>
-                    <p class="summary">Mastering AI implementation within the modern professional office ecosystem.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
+                    <p class="summary">Master the basics of AI safety and cloud implementation tools built natively into the modern professional workplace ecosystem.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">START FREE MICROSOFT COURSE ➔</div>
                 </a>
                 <a href="https://www.anthropic.com/learn" target="_blank" class="news-card">
                     <h2 class="headline">Anthropic Training</h2>
-                    <p class="summary">Educational resources and high-level guides on the responsible deployment of Claude and LLM logic.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">FREE_ACCESS ➔</div>
+                    <p class="summary">Excellent educational resources and high-level, clear guides on how to responsibly prompt and communicate with artificial intelligence.</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">START FREE ANTHROPIC COURSE ➔</div>
                 </a>
             </div>
         </section>
 
-<section id="empowerment" class="empower-section">
-    <div class="card-tag">// SECTION_03: HUMAN_EMPOWERMENT</div>
-    
-    <div class="empower-grid">
-        <div>
-            <h2 style="font-size: clamp(1.8rem, 5vw, 2.5rem); margin-bottom: 1rem; font-weight: 900;">Out of Fear. Into Agency.</h2>
-            <p>Master AI tools and secure your professional future with a private session. No hype, just mastery.</p>
-            <a href="training.html" class="nav-cta" style="display: inline-block; margin-top: 20px; background:var(--accent-color); color:white; padding: 12px 24px; border-radius: 5px; text-decoration:none; font-family:'JetBrains Mono'; font-weight:bold;">INITIALIZE_TRAINING ➔</a>
-        </div>
-        
-        <form class="inquiry-form" action="https://formspree.io/f/mnjlrooz" method="POST">
-            <div class="card-tag" style="margin-bottom: 15px;">// GENERAL_INQUIRIES</div>
-            <input type="email" name="email" placeholder="Enter Your Email Here" required>
-            <select name="type" required>
-                <option value="" disabled selected>HOW CAN I HELP?</option>
-                <option value="System Query">GENERAL SYSTEM QUERY</option>
-                <option value="Collaboration">BUSINESS COLLABORATION</option>
-            </select>
-            <textarea name="msg" placeholder="TELL ME ABOUT YOUR CHALLENGE..." rows="4" required></textarea>
-            <button type="submit" class="submit-btn">SUBMIT_INQUIRY</button>
-        </form>
-    </div>
-</section>
+        <section id="empowerment" class="empower-section">
+            <div class="card-tag">// RECOMMENDATION_03: ACCELERATE YOUR PROGRESS</div>
+            
+            <div class="empower-grid">
+                <div>
+                    <h2 style="font-size: clamp(1.8rem, 5vw, 2.5rem); margin-bottom: 1rem; font-weight: 900;">Stop fearing AI. Start mastering it.</h2>
+                    <p>Master these tools and secure your professional future with a private, personalized coaching session. No hype, just real skills.</p>
+                    <a href="training.html" class="nav-cta" style="display: inline-block; margin-top: 20px; background:var(--accent-color); color:white; padding: 12px 24px; border-radius: 5px; text-decoration:none; font-family:'JetBrains Mono'; font-weight:bold;">BOOK STRATEGY SESSION ➔</a>
+                </div>
+                
+                <form class="inquiry-form" action="https://formspree.io/f/mnjlrooz" method="POST">
+                    <div class="card-tag" style="margin-bottom: 15px;">// GENERAL_INQUIRIES</div>
+                    <input type="email" name="email" placeholder="Enter Your Email Here" required>
+                    <select name="type" required>
+                        <option value="" disabled selected>HOW CAN I HELP YOU?</option>
+                        <option value="System Query">GENERAL INQUIRY</option>
+                        <option value="Collaboration">BUSINESS PARTNERSHIP</option>
+                    </select>
+                    <textarea name="msg" placeholder="TELL ME ABOUT YOUR TECH CHALLENGES..." rows="4" required></textarea>
+                    <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
 
         <section id="news">
-            <div class="card-tag">// SECTION_04: INTEL_ARCHIVE</div>
+            <div class="card-tag">// SECTION_04: LATEST INTEL ARCHIVE</div>
             <div style="margin-bottom: 2rem;">
                 <input type="text" id="search" placeholder="FILTER_FULL_ARCHIVE..." 
                     style="background:transparent; border:none; border-bottom:1px solid var(--glass-border); color:var(--text-main); font-family:'JetBrains Mono'; padding:10px; width:100%; max-width:400px; outline:none;">
@@ -139,7 +173,7 @@
     </main>
 
     <footer style="text-align:center; padding: 6rem 4rem; color: var(--text-dim); font-size: 0.8rem; border-top: 1px solid var(--glass-border);">
-        © 2026 TechTidy • Automated Intel Briefing • Strategic Agency Active
+        © 2026 TechTidy • Automated Intel Briefing • Connect on X: <a href="https://x.com/TechTidyAI" target="_blank" style="color: var(--accent-color); text-decoration: none;">@TechTidyAI</a>
     </footer>
 
     <script>
@@ -173,7 +207,8 @@
 
         async function loadNews() {
             try {
-                const response = await fetch('./news.json?t=' + Date.now());
+                // Forced diagnostic version parameter to bypass old local network caches
+                const response = await fetch('./news.json?v=2&t=' + Date.now());
                 const data = await response.json();
                 fullArchive = data.articles || [];
                 const cleanArchive = fullArchive.filter(art => art.title && art.url);
