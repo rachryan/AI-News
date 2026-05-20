@@ -1,6 +1,20 @@
 {
-    "last_updated": "May 19, 2026",
+    "last_updated": "May 20, 2026",
     "articles": [
+        {
+            "title": "Enterprise AI roadblocks and roadmaps, security and physical AI: Day two at TechEx",
+            "url": "https://www.artificialintelligence-news.com/news/tech-ex-north-america-day-two-roundup-of-themes-issues-discussions/",
+            "urlToImage": "",
+            "description": "<p>Day two of TechEx North America has been more of a deeper, critical examination of AI in the enterprise, but with a optimistic bent. The AI and Big...",
+            "source": "AI News"
+        },
+        {
+            "title": "The Nvidia H200 China deal survived the Trump-Xi summit\u2013just not in the way anyone expected",
+            "url": "https://www.artificialintelligence-news.com/news/nvidia-h200-china-deal-stalled-trump-xi-summit-2026/",
+            "urlToImage": "",
+            "description": "<p>President Trump flew to Beijing, brought Jensen Huang along at the last minute, and left two days later, telling reporters that &#8220;something co...",
+            "source": "AI News"
+        },
         {
             "title": "AI is a matter of power, infrastructure and security: TechEx North America",
             "url": "https://www.artificialintelligence-news.com/news/techex-north-america-day-one-lessons-for-all-around-ai-and-more/",
@@ -16,18 +30,11 @@
             "source": "AI News"
         },
         {
-            "title": "Deloitte: Scale \u2018autonomous intelligence\u2019 for real growth",
-            "url": "https://www.artificialintelligence-news.com/news/deloitte-scale-autonomous-intelligence-for-real-growth/",
-            "urlToImage": "",
-            "description": "<p>Enterprise leaders must progress past generative applications and scale &#8220;autonomous intelligence&#8221; to capture real growth. Generating te...",
-            "source": "AI News"
-        },
-        {
-            "title": "Physical AI moves closer to factory floors as companies test humanoid robots",
-            "url": "https://www.artificialintelligence-news.com/news/physical-ai-humanoid-robots-factories/",
-            "urlToImage": "",
-            "description": "<p>British technology company Humanoid will deploy humanoid robots at factories operated by German industrial supplier Schaeffler, Reuters reported. T...",
-            "source": "AI News"
+            "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
+            "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
+            "urlToImage": "https://images.ctfassets.net/jdtwqhzvc2n1/1TD0Sl7Zq6nnBSZMK9FXpl/41ce2cc6da055da7647670c71ba8aa6b/Nuneybits_Vector_art_of_an_oversized_white_search_bar_rimmed_in_695cac3f-1536-4438-acc1-51c16e2ff51f.webp?w=300&q=30",
+            "description": "<p>For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking curs...",
+            "source": "VentureBeat AI"
         },
         {
             "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -48,13 +55,6 @@
             "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
             "urlToImage": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&q=30",
             "description": "<p>Alfred Wahlforss was running out of options. His startup, <a href=\"https://listenlabs.ai/\">Listen Labs</a>, needed to hire over 100 engineers, but ...",
-            "source": "VentureBeat AI"
-        },
-        {
-            "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-            "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-            "urlToImage": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&q=30",
-            "description": "<p><a href=\"https://www.salesforce.com/\">Salesforce</a> on Tuesday launched an entirely rebuilt version of <a href=\"https://slack.com/help/articles/20...",
             "source": "VentureBeat AI"
         },
         {
@@ -86,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "SandboxAQ brings its drug discovery models to Claude \u2014 no PhD in computing required",
-            "url": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+            "title": "Google just declared itself a contender in AI design at IO 2026",
+            "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
             "urlToImage": "",
-            "description": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigg...",
+            "description": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
-            "url": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+            "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+            "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
             "urlToImage": "",
-            "description": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of so...",
+            "description": "Google expands Gmail\u2019s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
-            "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+            "title": "How to use Google\u2019s new AI agents to go beyond your standard searches",
+            "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
             "urlToImage": "",
-            "description": "Elon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuit...",
+            "description": "Google is launching AI-powered \u201cinformation agents\u201d that can monitor topics in the background and proactively alert users to updates and changes....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Amazon\u2019s new Alexa+ powered feature can generate podcast episodes",
-            "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+            "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
+            "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
             "urlToImage": "",
-            "description": "Amazon\u2019s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform....",
+            "description": "Ocean, an agentic email security platform, claims its AI can thoroughly analyze the context of every incoming email to detect fraud and impersonation ...",
             "source": "TechCrunch AI"
         }
     ]
