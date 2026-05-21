@@ -1,6 +1,13 @@
 {
-    "last_updated": "May 20, 2026",
+    "last_updated": "May 21, 2026",
     "articles": [
+        {
+            "title": "Alibaba is designing AI chips around agents, and that changes what the race is actually about",
+            "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
+            "urlToImage": "",
+            "description": "<p>Alibaba has unveiled a new AI processor built specifically for AI agents, pairing the chip announcement with a multi-year silicon roadmap and a new...",
+            "source": "AI News"
+        },
         {
             "title": "Enterprise AI roadblocks and roadmaps, security and physical AI: Day two at TechEx",
             "url": "https://www.artificialintelligence-news.com/news/tech-ex-north-america-day-two-roundup-of-themes-issues-discussions/",
@@ -20,13 +27,6 @@
             "url": "https://www.artificialintelligence-news.com/news/techex-north-america-day-one-lessons-for-all-around-ai-and-more/",
             "urlToImage": "",
             "description": "<p>Although visitors to an event like TechEx North America will always want to see the cutting edge front and centre stage, the nuance and detail brou...",
-            "source": "AI News"
-        },
-        {
-            "title": "Amazon launches Alexa for Shopping as Rufus moves behind the scenes",
-            "url": "https://www.artificialintelligence-news.com/news/amazon-alexa-for-shopping-rufus-ai-assistant/",
-            "urlToImage": "",
-            "description": "<p>Amazon has introduced Alexa for Shopping, combining its Rufus shopping chatbot with Alexa+ across its app, website, and Echo Show devices. The assi...",
             "source": "AI News"
         },
         {
@@ -58,6 +58,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Roundtables: Inside the Musk v. Altman Trial",
+            "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
+            "urlToImage": "",
+            "description": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceiv...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Here\u2019s why Elon Musk lost his suit against OpenAI",
             "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
             "urlToImage": "",
@@ -79,38 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other\u2019s credibility. Now the jury will pick a side.",
-            "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+            "title": "Jensen Huang says he\u2019s found a \u2018brand new\u2019 $200B market for Nvidia",
+            "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
             "urlToImage": "",
-            "description": "Update: On Monday May 18, the jury sided with OpenAI, delivering an advisory verdict finding that Musk&#8217;s claims are barred by the statute of lim...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Google just declared itself a contender in AI design at IO 2026",
-            "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
-            "urlToImage": "",
-            "description": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners....",
+            "description": "The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
-            "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+            "title": "Anthropic says it\u2019s about to have its first profitable quarter",
+            "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
             "urlToImage": "",
-            "description": "Google expands Gmail\u2019s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details....",
+            "description": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "How to use Google\u2019s new AI agents to go beyond your standard searches",
-            "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+            "title": "Clouted wants to take the guesswork out of making short videos go viral",
+            "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
             "urlToImage": "",
-            "description": "Google is launching AI-powered \u201cinformation agents\u201d that can monitor topics in the background and proactively alert users to updates and changes....",
+            "description": "The video clipping startup raised a $7 million seed round led by Slow Ventures....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
-            "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+            "title": "xAI burned $6.4B last year \u2014 SpaceX\u2019s IPO filing shows why the spending is far from over",
+            "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
             "urlToImage": "",
-            "description": "Ocean, an agentic email security platform, claims its AI can thoroughly analyze the context of every incoming email to detect fraud and impersonation ...",
+            "description": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion \u2014 offering the first public look at Elon Musk's AI f...",
             "source": "TechCrunch AI"
         }
     ]
