@@ -1,34 +1,6 @@
 {
-    "last_updated": "May 21, 2026",
+    "last_updated": "May 22, 2026",
     "articles": [
-        {
-            "title": "Alibaba is designing AI chips around agents, and that changes what the race is actually about",
-            "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
-            "urlToImage": "",
-            "description": "<p>Alibaba has unveiled a new AI processor built specifically for AI agents, pairing the chip announcement with a multi-year silicon roadmap and a new...",
-            "source": "AI News"
-        },
-        {
-            "title": "Enterprise AI roadblocks and roadmaps, security and physical AI: Day two at TechEx",
-            "url": "https://www.artificialintelligence-news.com/news/tech-ex-north-america-day-two-roundup-of-themes-issues-discussions/",
-            "urlToImage": "",
-            "description": "<p>Day two of TechEx North America has been more of a deeper, critical examination of AI in the enterprise, but with a optimistic bent. The AI and Big...",
-            "source": "AI News"
-        },
-        {
-            "title": "The Nvidia H200 China deal survived the Trump-Xi summit\u2013just not in the way anyone expected",
-            "url": "https://www.artificialintelligence-news.com/news/nvidia-h200-china-deal-stalled-trump-xi-summit-2026/",
-            "urlToImage": "",
-            "description": "<p>President Trump flew to Beijing, brought Jensen Huang along at the last minute, and left two days later, telling reporters that &#8220;something co...",
-            "source": "AI News"
-        },
-        {
-            "title": "AI is a matter of power, infrastructure and security: TechEx North America",
-            "url": "https://www.artificialintelligence-news.com/news/techex-north-america-day-one-lessons-for-all-around-ai-and-more/",
-            "urlToImage": "",
-            "description": "<p>Although visitors to an event like TechEx North America will always want to see the cutting edge front and centre stage, the nuance and detail brou...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,6 +30,27 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Roundtables: Can AI Learn to Understand the World?",
+            "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+            "urlToImage": "",
+            "description": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recen...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "Scaling creativity in the age of AI",
+            "url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
+            "urlToImage": "",
+            "description": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always bee...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "Anthropic\u2019s Code with Claude showed off coding\u2019s future\u2014whether you like it or not",
+            "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
+            "urlToImage": "",
+            "description": "The vibes were strong at Code with Claude, Anthropic\u2019s two-day event for software developers in London that kicked off on May 19, the same day as Goog...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Roundtables: Inside the Musk v. Altman Trial",
             "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
             "urlToImage": "",
@@ -65,52 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Here\u2019s why Elon Musk lost his suit against OpenAI",
-            "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+            "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
+            "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
             "urlToImage": "",
-            "description": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow\u2014reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a re...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "What to expect from Google this week",
-            "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/",
-            "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. When Google ...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Inside Anduril and Meta\u2019s quest to make smart glasses for warfare",
-            "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/",
-            "urlToImage": "",
-            "description": "The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it\u2019s prototyping with Meta, including a v...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Jensen Huang says he\u2019s found a \u2018brand new\u2019 $200B market for Nvidia",
-            "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
-            "urlToImage": "",
-            "description": "The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts....",
+            "description": "Spotify is partnering with  Universal Music Group\ufffc to let Premium subscribers create AI-generated song covers and remixes, with participating artists ...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic says it\u2019s about to have its first profitable quarter",
-            "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+            "title": "Six search engines worth trying now that Google isn\u2019t really Google anymore",
+            "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/",
             "urlToImage": "",
-            "description": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter....",
+            "description": "Google is about to look really different, and if you're not a fan of the AI overview feature, then you're not going to like what's coming....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Clouted wants to take the guesswork out of making short videos go viral",
-            "url": "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
+            "title": "Trump delays AI security executive order, saying language \u2018could have been a blocker\u2019",
+            "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
             "urlToImage": "",
-            "description": "The video clipping startup raised a $7 million seed round led by Slow Ventures....",
+            "description": "President Trump delayed signing an executive order that would have required pre-release government security reviews of AI models, citing dissatisfacti...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "xAI burned $6.4B last year \u2014 SpaceX\u2019s IPO filing shows why the spending is far from over",
-            "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+            "title": "Spotify adds AI-powered Q&A and briefing generation features to podcasts",
+            "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
             "urlToImage": "",
-            "description": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion \u2014 offering the first public look at Elon Musk's AI f...",
+            "description": "Spotify will let you generate daily or weekly briefs based on your prompts...",
             "source": "TechCrunch AI"
         }
     ]
