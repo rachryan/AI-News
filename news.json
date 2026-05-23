@@ -1,6 +1,34 @@
 {
-    "last_updated": "May 22, 2026",
+    "last_updated": "May 23, 2026",
     "articles": [
+        {
+            "title": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
+            "url": "https://www.artificialintelligence-news.com/news/openai-singapore-ai-lab-imda-agentic-ai-framework/",
+            "urlToImage": "",
+            "description": "<p>OpenAI will open its first Applied AI Lab outside the US in Singapore. The lab is part of a new partnership with the Ministry of Digital Developmen...",
+            "source": "AI News"
+        },
+        {
+            "title": "China\u2019s AI just mapped its entire renewable energy grid. Here\u2019s why the rest of the world should pay attention",
+            "url": "https://www.artificialintelligence-news.com/news/ai-energy-grid-mapping-china/",
+            "urlToImage": "",
+            "description": "<p>Every major economy is staring at the same problem right now. Artificial intelligence is consuming electricity at a pace that grids were never desi...",
+            "source": "AI News"
+        },
+        {
+            "title": "Musk and Zuckerberg convinced Trump to scrap AI executive order",
+            "url": "https://www.artificialintelligence-news.com/news/trump-ai-executive-order-scrapped-musk-zuckerberg-china/",
+            "urlToImage": "",
+            "description": "<p>The ceremony was scheduled. The CEOs were on the guest list. And then it wasn&#8217;t happening. On Thursday, US President Donald Trump scrapped a ...",
+            "source": "AI News"
+        },
+        {
+            "title": "Nvidia\u2019s Vera chip is the US$200 billion bet Jensen Huang doesn\u2019t want you to overlook",
+            "url": "https://www.artificialintelligence-news.com/news/nvidia-vera-chip-200-billion-market/",
+            "urlToImage": "",
+            "description": "<p>The Nvidia Vera chip is rarely the headline when earnings beat estimates, but it should be. When Nvidia reported Q1 revenue of US$81.62 billion on ...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -30,6 +58,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Google I/O showed how the path for AI-driven science is shifting",
+            "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+            "urlToImage": "",
+            "description": "During Tuesday\u2019s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently \u201cstanding in the foothills of the si...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Roundtables: Can AI Learn to Understand the World?",
             "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
             "urlToImage": "",
@@ -51,38 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Roundtables: Inside the Musk v. Altman Trial",
-            "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
+            "title": "AI is being used to resurrect the voices of dead pilots",
+            "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
             "urlToImage": "",
-            "description": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceiv...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
-            "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
-            "urlToImage": "",
-            "description": "Spotify is partnering with  Universal Music Group\ufffc to let Premium subscribers create AI-generated song covers and remixes, with participating artists ...",
+            "description": "People used AI on a spectrogram image of cockpit recordings to reconstruct them, forcing the NTSB to temporarily block access to its docket system....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Six search engines worth trying now that Google isn\u2019t really Google anymore",
-            "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/",
+            "title": "Google goes for the glitter with disco-ball icons: \u2018Are y\u2019all sure you still want this?\u2019",
+            "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/",
             "urlToImage": "",
-            "description": "Google is about to look really different, and if you're not a fan of the AI overview feature, then you're not going to like what's coming....",
+            "description": "You can now disco ball-ify your entire Pixel home screen, says Google....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Trump delays AI security executive order, saying language \u2018could have been a blocker\u2019",
-            "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
+            "title": "How VCs and founders use inflated \u2018ARR\u2019 to crown AI startups",
+            "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
             "urlToImage": "",
-            "description": "President Trump delayed signing an executive order that would have required pre-release government security reviews of AI models, citing dissatisfacti...",
+            "description": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Spotify adds AI-powered Q&A and briefing generation features to podcasts",
-            "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/",
+            "title": "Elon Musk\u00a0can\u2019t\u00a0hear you over the sound of his\u00a0$1.75 trillion\u00a0IPO",
+            "url": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/",
             "urlToImage": "",
-            "description": "Spotify will let you generate daily or weekly briefs based on your prompts...",
+            "description": "The SpaceX S-1 is finally here, and the story it tells goes&#160;way further&#160;than rockets. The filing runs to 36 pages of risk factors alone, and...",
             "source": "TechCrunch AI"
         }
     ]
