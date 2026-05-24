@@ -1,5 +1,5 @@
 {
-    "last_updated": "May 23, 2026",
+    "last_updated": "May 24, 2026",
     "articles": [
         {
             "title": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
@@ -86,6 +86,20 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "Ferrari is using IBM\u2019s AI to create F1 superfans",
+            "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+            "urlToImage": "",
+            "description": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience....",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Elon Musk has given up on solar power (on Earth)",
+            "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/",
+            "urlToImage": "",
+            "description": "Elon Muks's xAI has gone all in on natural gas, while SpaceX is obsessed with orbital data centers. What happened to the \"solar-electric economy\" he p...",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "AI is being used to resurrect the voices of dead pilots",
             "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/",
             "urlToImage": "",
@@ -97,20 +111,6 @@
             "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/",
             "urlToImage": "",
             "description": "You can now disco ball-ify your entire Pixel home screen, says Google....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "How VCs and founders use inflated \u2018ARR\u2019 to crown AI startups",
-            "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-            "urlToImage": "",
-            "description": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "Elon Musk\u00a0can\u2019t\u00a0hear you over the sound of his\u00a0$1.75 trillion\u00a0IPO",
-            "url": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/",
-            "urlToImage": "",
-            "description": "The SpaceX S-1 is finally here, and the story it tells goes&#160;way further&#160;than rockets. The filing runs to 36 pages of risk factors alone, and...",
             "source": "TechCrunch AI"
         }
     ]
