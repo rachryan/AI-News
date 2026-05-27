@@ -1,34 +1,6 @@
 {
-    "last_updated": "May 26, 2026",
+    "last_updated": "May 27, 2026",
     "articles": [
-        {
-            "title": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
-            "url": "https://www.artificialintelligence-news.com/news/openai-singapore-ai-lab-imda-agentic-ai-framework/",
-            "urlToImage": "",
-            "description": "<p>OpenAI will open its first Applied AI Lab outside the US in Singapore. The lab is part of a new partnership with the Ministry of Digital Developmen...",
-            "source": "AI News"
-        },
-        {
-            "title": "China\u2019s AI just mapped its entire renewable energy grid. Here\u2019s why the rest of the world should pay attention",
-            "url": "https://www.artificialintelligence-news.com/news/ai-energy-grid-mapping-china/",
-            "urlToImage": "",
-            "description": "<p>Every major economy is staring at the same problem right now. Artificial intelligence is consuming electricity at a pace that grids were never desi...",
-            "source": "AI News"
-        },
-        {
-            "title": "Musk and Zuckerberg convinced Trump to scrap AI executive order",
-            "url": "https://www.artificialintelligence-news.com/news/trump-ai-executive-order-scrapped-musk-zuckerberg-china/",
-            "urlToImage": "",
-            "description": "<p>The ceremony was scheduled. The CEOs were on the guest list. And then it wasn&#8217;t happening. On Thursday, US President Donald Trump scrapped a ...",
-            "source": "AI News"
-        },
-        {
-            "title": "Nvidia\u2019s Vera chip is the US$200 billion bet Jensen Huang doesn\u2019t want you to overlook",
-            "url": "https://www.artificialintelligence-news.com/news/nvidia-vera-chip-200-billion-market/",
-            "urlToImage": "",
-            "description": "<p>The Nvidia Vera chip is rarely the headline when earnings beat estimates, but it should be. When Nvidia reported Q1 revenue of US$81.62 billion on ...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,6 +30,27 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Rethinking organizational design in the age of agentic AI",
+            "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+            "urlToImage": "",
+            "description": "Amid rapidly growing adoption of enterprise-level AI agents, there\u2019s a disconnect emerging between ambition and execution.&#160; Although 85% of organ...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "A reality check on the AI jobs hysteria",
+            "url": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
+            "urlToImage": "",
+            "description": "Haven\u2019t you heard? White-collar jobs are going away, decimated by AI. Waves of layoffs in the tech sector (most recently at Coinbase and Meta and Cisc...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "It\u2019s time to address the looming crisis in entry-level work.",
+            "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+            "urlToImage": "",
+            "description": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Google I/O showed how the path for AI-driven science is shifting",
             "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
             "urlToImage": "",
@@ -65,52 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Roundtables: Can AI Learn to Understand the World?",
-            "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+            "title": "DuckDuckGo installs are up 30% as users reject being \u2018force-fed\u2019 Google\u2019s AI Search",
+            "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
             "urlToImage": "",
-            "description": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recen...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Scaling creativity in the age of AI",
-            "url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
-            "urlToImage": "",
-            "description": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always bee...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Anthropic\u2019s Code with Claude showed off coding\u2019s future\u2014whether you like it or not",
-            "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
-            "urlToImage": "",
-            "description": "The vibes were strong at Code with Claude, Anthropic\u2019s two-day event for software developers in London that kicked off on May 19, the same day as Goog...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "What ClickUp\u2019s mass layoff tells us about the future of work",
-            "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
-            "urlToImage": "",
-            "description": "The nine-year-old startup is replacing hundreds of employees with thousands of AI agents....",
+            "description": "Google overhauled Search at I/O 2026, replacing blue links with AI agents. The backlash has been swift. DuckDuckGo app installs spiked 30% as users se...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "The pope\u2019s AI encyclical isn\u2019t really about AI",
-            "url": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
+            "title": "OpenRouter more than doubles valuation to $1.3B in a year",
+            "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
             "urlToImage": "",
-            "description": "Pope Leo XIV's first encyclical uses AI as a lens to diagnose older problems: concentrated power, eroding democracy, and a tech elite that shapes the ...",
+            "description": "OpenRouter has raised a $113 million Series B led by CapitalG. Its 5x growth in usage over six months indicates the multi-AI-model future is here....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Startup Battlefield 200 applications close in days: Apply before May 27",
-            "url": "https://techcrunch.com/2026/05/25/startup-battlefield-200-applications-close-in-days-apply-before-may-27/",
+            "title": "This startup is betting India\u2019s gig economy can train the world\u2019s robots",
+            "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
             "urlToImage": "",
-            "description": "The deadline to apply or nominate for Startup Battlefield 200 is May 27. This is your shot at VC access, global visibility, TechCrunch coverage, and $...",
+            "description": "Human Archive, a startup founded by UC Berkeley and Stanford researchers, is paying gig workers in India to wear camera-equipped caps and sensor devic...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "5 days left: Save up to $410 on TechCrunch Disrupt 2026 passes before prices increase",
-            "url": "https://techcrunch.com/2026/05/25/5-days-left-save-up-to-410-on-techcrunch-disrupt-2026-passes-before-prices-increase/",
+            "title": "Universal Music Group and TikTok renew agreement to combat unauthorized AI music",
+            "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
             "urlToImage": "",
-            "description": "Early Bird savings for TechCrunch Disrupt 2026 in San Francisco end May 29 at 11:59 p.m. PT. Register now to save up to $410 before prices increase....",
+            "description": "For years, UMG has pushed platforms, streaming services, and AI companies to implement stricter content moderation policies....",
             "source": "TechCrunch AI"
         }
     ]
