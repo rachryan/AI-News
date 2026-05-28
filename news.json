@@ -1,6 +1,34 @@
 {
-    "last_updated": "May 27, 2026",
+    "last_updated": "May 28, 2026",
     "articles": [
+        {
+            "title": "Google folds Display Ads into AI-first Demand Gen platform",
+            "url": "https://www.artificialintelligence-news.com/news/google-folds-display-ads-ai-first-demand-gen-platform/",
+            "urlToImage": "",
+            "description": "<p>Google is folding Display Ads into its AI-powered Demand Gen platform, marking the end of a long-standing digital advertising model. The Google Dis...",
+            "source": "AI News"
+        },
+        {
+            "title": "Exploring the Benefits of AI Bots for Forex Trading in Forex Markets",
+            "url": "https://www.artificialintelligence-news.com/news/exploring-the-benefits-of-ai-bots-for-forex-trading-in-forex-markets/",
+            "urlToImage": "",
+            "description": "<p>The foreign exchange market is really moving away from pure intuition and toward a space shaped by speed, data and precision. By using automated sy...",
+            "source": "AI News"
+        },
+        {
+            "title": "Autonomous AI systems test governance in physical environments",
+            "url": "https://www.artificialintelligence-news.com/news/autonomous-ai-systems-governance-physical-environments/",
+            "urlToImage": "",
+            "description": "<p>Autonomous AI systems are beginning to move beyond software environments and into warehouses, delivery networks, and public spaces. The development...",
+            "source": "AI News"
+        },
+        {
+            "title": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
+            "url": "https://www.artificialintelligence-news.com/news/openai-singapore-ai-lab-imda-agentic-ai-framework/",
+            "urlToImage": "",
+            "description": "<p>OpenAI will open its first Applied AI Lab outside the US in Singapore. The lab is part of a new partnership with the Ministry of Digital Developmen...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "DuckDuckGo installs are up 30% as users reject being \u2018force-fed\u2019 Google\u2019s AI Search",
-            "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+            "title": "Why Google\u2019s AI can\u2019t spell Google (or anything else)",
+            "url": "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
             "urlToImage": "",
-            "description": "Google overhauled Search at I/O 2026, replacing blue links with AI agents. The backlash has been swift. DuckDuckGo app installs spiked 30% as users se...",
+            "description": "Google is embarrassing itself, again....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenRouter more than doubles valuation to $1.3B in a year",
-            "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+            "title": "In more good news for Amazon, Snowflake signs $6B deal with AWS for AI CPU chips",
+            "url": "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/",
             "urlToImage": "",
-            "description": "OpenRouter has raised a $113 million Series B led by CapitalG. Its 5x growth in usage over six months indicates the multi-AI-model future is here....",
+            "description": "Snowflake has signed a new, enormous five-year deal with Amazon to secure chips for AI usage. Nvidia is once again being put on notice....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "This startup is betting India\u2019s gig economy can train the world\u2019s robots",
-            "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+            "title": "Payroll startup Remote says it grew revenue 50% per employee without adding headcount",
+            "url": "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/",
             "urlToImage": "",
-            "description": "Human Archive, a startup founded by UC Berkeley and Stanford researchers, is paying gig workers in India to wear camera-equipped caps and sensor devic...",
+            "description": "Payroll service provider Remote recently surpassed $300 million in annual recurring revenue (ARR) and became cash-flow positive, thanks to a 50% incre...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Universal Music Group and TikTok renew agreement to combat unauthorized AI music",
-            "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
+            "title": "Your SEO strategy is\u00a0optimized\u00a0for a search engine that no longer exists.",
+            "url": "https://techcrunch.com/podcast/your-seo-strategy-is-optimized-for-a-search-engine-that-no-longer-exists/",
             "urlToImage": "",
-            "description": "For years, UMG has pushed platforms, streaming services, and AI companies to implement stricter content moderation policies....",
+            "description": "Google I/O made it official: AI-generated answers are now front and&#160;center&#160;in search, and most brands have almost no visibility into how AI ...",
             "source": "TechCrunch AI"
         }
     ]
