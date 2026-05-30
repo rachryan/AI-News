@@ -1,6 +1,20 @@
 {
-    "last_updated": "May 29, 2026",
+    "last_updated": "May 30, 2026",
     "articles": [
+        {
+            "title": "Scaling safe enterprise AI with OpenAI governance frameworks",
+            "url": "https://www.artificialintelligence-news.com/news/scaling-safe-enterprise-ai-openai-governance-frameworks/",
+            "urlToImage": "",
+            "description": "<p>OpenAI\u2019s latest governance frameworks offer enterprise leaders a structured blueprint for scaling safe and compliant AI deployments globally. The a...",
+            "source": "AI News"
+        },
+        {
+            "title": "Anthropic releases Claude Opus 4.8",
+            "url": "https://www.artificialintelligence-news.com/news/anthropic-releases-claude-opus-4-8-news/",
+            "urlToImage": "",
+            "description": "<p>Anthropic has released Claude Opus 4.8, an upgrade to Claude Opus 4.7 that the company says brings improved results for coding, agent work, reasoni...",
+            "source": "AI News"
+        },
         {
             "title": "Google Pay preps for AI agents with Universal Commerce Protocol",
             "url": "https://www.artificialintelligence-news.com/news/google-pay-ai-agents-universal-commerce-protocol/",
@@ -13,20 +27,6 @@
             "url": "https://www.artificialintelligence-news.com/news/nba-ai-out-of-bounds-calls/",
             "urlToImage": "",
             "description": "<p>NBA Commissioner Adam Silver said the league plans to introduce an automated system for certain officiating decisions, including out-of-bounds call...",
-            "source": "AI News"
-        },
-        {
-            "title": "Google folds Display Ads into AI-first Demand Gen platform",
-            "url": "https://www.artificialintelligence-news.com/news/google-folds-display-ads-ai-first-demand-gen-platform/",
-            "urlToImage": "",
-            "description": "<p>Google is folding Display Ads into its AI-powered Demand Gen platform, marking the end of a long-standing digital advertising model. The Google Dis...",
-            "source": "AI News"
-        },
-        {
-            "title": "Exploring the Benefits of AI Bots for Forex Trading in Forex Markets",
-            "url": "https://www.artificialintelligence-news.com/news/exploring-the-benefits-of-ai-bots-for-forex-trading-in-forex-markets/",
-            "urlToImage": "",
-            "description": "<p>The foreign exchange market is really moving away from pure intuition and toward a space shaped by speed, data and precision. By using automated sy...",
             "source": "AI News"
         },
         {
@@ -58,6 +58,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "How the Pope\u2019s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+            "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+            "urlToImage": "",
+            "description": "Pope Leo XIV\u2019s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: \u201cTe...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "The AI Hype Index: AI gets booed in graduation season",
             "url": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
             "urlToImage": "",
@@ -79,38 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "It\u2019s time to address the looming crisis in entry-level work.",
-            "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+            "title": "Coders are refusing to work without AI\u00a0\u2014\u00a0and that could come back to bite them",
+            "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
             "urlToImage": "",
-            "description": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Glean\u2019s top line crosses $300M as AI budget-cutting becomes its major selling point",
-            "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
-            "urlToImage": "",
-            "description": "The enterprise AI search startup tripled its annual revenue even as tech giants entered the category....",
+            "description": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "The internet is being rebuilt for machines",
-            "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+            "title": "So you\u2019ve heard these AI terms and nodded along; let\u2019s fix that",
+            "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
             "urlToImage": "",
-            "description": "As AI agents move from experiments to production, AWS, Cloudflare, and others are redesigning cloud infrastructure for a future dominated by machine-g...",
+            "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases yo...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Asana acquires no-code agent-builder StackAI",
-            "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+            "title": "What happens when companies become too AI-pilled?",
+            "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
             "urlToImage": "",
-            "description": "Asana will incorporate StackAI into its growing suite of AI workflow tools....",
+            "description": "The people deciding that AI can replace your job are also the ones least likely to understand what your job\u00a0truly involves, according to Box founder A...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
-            "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+            "title": "After Nvidia\u2019s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+            "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
             "urlToImage": "",
-            "description": "Anthropic has closed a $65 billion Series H round at a $965 billion post-money valuation, marking what could be the AI startup's final private fundrai...",
+            "description": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining ...",
             "source": "TechCrunch AI"
         }
     ]
