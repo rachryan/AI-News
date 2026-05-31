@@ -1,34 +1,6 @@
 {
-    "last_updated": "May 30, 2026",
+    "last_updated": "May 31, 2026",
     "articles": [
-        {
-            "title": "Scaling safe enterprise AI with OpenAI governance frameworks",
-            "url": "https://www.artificialintelligence-news.com/news/scaling-safe-enterprise-ai-openai-governance-frameworks/",
-            "urlToImage": "",
-            "description": "<p>OpenAI\u2019s latest governance frameworks offer enterprise leaders a structured blueprint for scaling safe and compliant AI deployments globally. The a...",
-            "source": "AI News"
-        },
-        {
-            "title": "Anthropic releases Claude Opus 4.8",
-            "url": "https://www.artificialintelligence-news.com/news/anthropic-releases-claude-opus-4-8-news/",
-            "urlToImage": "",
-            "description": "<p>Anthropic has released Claude Opus 4.8, an upgrade to Claude Opus 4.7 that the company says brings improved results for coding, agent work, reasoni...",
-            "source": "AI News"
-        },
-        {
-            "title": "Google Pay preps for AI agents with Universal Commerce Protocol",
-            "url": "https://www.artificialintelligence-news.com/news/google-pay-ai-agents-universal-commerce-protocol/",
-            "urlToImage": "",
-            "description": "<p>Google Pay is overhauling its payment infrastructure for an impending wave of transactions from AI agents. The latest updates introduce the Univers...",
-            "source": "AI News"
-        },
-        {
-            "title": "NBA plans AI system for automatic out-of-bounds calls",
-            "url": "https://www.artificialintelligence-news.com/news/nba-ai-out-of-bounds-calls/",
-            "urlToImage": "",
-            "description": "<p>NBA Commissioner Adam Silver said the league plans to introduce an automated system for certain officiating decisions, including out-of-bounds call...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -86,31 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Coders are refusing to work without AI\u00a0\u2014\u00a0and that could come back to bite them",
-            "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+            "title": "SoftBank says it will invest up to \u20ac75 billion to build French data centers",
+            "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
             "urlToImage": "",
-            "description": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for...",
+            "description": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "So you\u2019ve heard these AI terms and nodded along; let\u2019s fix that",
-            "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+            "title": "\u2018What a joke\u2019: Github Copilot\u2019s new token-based billing spurs consternation among devs",
+            "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
             "urlToImage": "",
-            "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases yo...",
+            "description": "The golden age of Microsoft's Github Copilot appears to be at an end....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "What happens when companies become too AI-pilled?",
-            "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+            "title": "Meta is reportedly developing an AI pendant",
+            "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
             "urlToImage": "",
-            "description": "The people deciding that AI can replace your job are also the ones least likely to understand what your job\u00a0truly involves, according to Box founder A...",
+            "description": "Meta seems to be making big bets on AI-powered hardware....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "After Nvidia\u2019s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
-            "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+            "title": "I put Google\u2019s 24/7 AI assistant Gemini Spark to work, and it\u2019s actually pretty useful",
+            "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
             "urlToImage": "",
-            "description": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining ...",
+            "description": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it\u2019s unclear why Google made it a separate product....",
             "source": "TechCrunch AI"
         }
     ]
