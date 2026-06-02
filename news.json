@@ -1,6 +1,34 @@
 {
-    "last_updated": "June 01, 2026",
+    "last_updated": "June 02, 2026",
     "articles": [
+        {
+            "title": "The future of automated trading with the best forex robot reviews",
+            "url": "https://www.artificialintelligence-news.com/news/the-future-of-automated-trading-with-the-best-forex-robot-reviews/",
+            "urlToImage": "",
+            "description": "<p>Automation is becoming a bigger part of how financial markets are approached, and forex trading is one area where this is becoming easier to notice...",
+            "source": "AI News"
+        },
+        {
+            "title": "AI in video game development: How artificial intelligence is reshaping the industry",
+            "url": "https://www.artificialintelligence-news.com/news/ai-in-video-game-development/",
+            "urlToImage": "",
+            "description": "<p>A Google Cloud survey found that 90% of developers are already integrating AI into their daily work, and on Steam, 7,818 titles disclosed AI use in...",
+            "source": "AI News"
+        },
+        {
+            "title": "Scaling safe enterprise AI with OpenAI governance frameworks",
+            "url": "https://www.artificialintelligence-news.com/news/scaling-safe-enterprise-ai-openai-governance-frameworks/",
+            "urlToImage": "",
+            "description": "<p>OpenAI\u2019s latest governance frameworks offer enterprise leaders a structured blueprint for scaling safe and compliant AI deployments globally. The a...",
+            "source": "AI News"
+        },
+        {
+            "title": "Anthropic releases Claude Opus 4.8",
+            "url": "https://www.artificialintelligence-news.com/news/anthropic-releases-claude-opus-4-8-news/",
+            "urlToImage": "",
+            "description": "<p>Anthropic has released Claude Opus 4.8, an upgrade to Claude Opus 4.7 that the company says brings improved results for coding, agent work, reasoni...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Erin Brockovich takes aim at data center secrecy",
-            "url": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
+            "title": "Alphabet plans to raise $80B to pay for AI buildout",
+            "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
             "urlToImage": "",
-            "description": "Environmental activist Erin Brockovich has a new mission....",
+            "description": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company\u2019...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Making sense of the debate over AI psychosis",
-            "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+            "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+            "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
             "urlToImage": "",
-            "description": "On the latest episode of Equity, we debate whether tech CEOs are \"uniquely prone to AI psychosis.\"...",
+            "description": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could \u2014 and should \u2014 be big....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "SoftBank says it will invest up to \u20ac75 billion to build French data centers",
-            "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+            "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+            "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
             "urlToImage": "",
-            "description": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity....",
+            "description": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "\u2018What a joke\u2019: Github Copilot\u2019s new token-based billing spurs consternation among devs",
-            "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+            "title": "Water access is now a risk factor in SpaceX\u2019s IPO",
+            "url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
             "urlToImage": "",
-            "description": "The golden age of Microsoft's Github Copilot appears to be at an end....",
+            "description": "The company says it needs \"significant\" water resources to cool its data centers, and that access to abundant, affordable water is a challenge....",
             "source": "TechCrunch AI"
         }
     ]
