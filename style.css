@@ -117,9 +117,10 @@ body {
 /* The Grid Container for the Main Page */
 .empower-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 40px;
-    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .inquiry-form { display: flex; flex-direction: column; gap: 1rem; width: 100%; }
