@@ -1,34 +1,6 @@
 {
-    "last_updated": "June 10, 2026",
+    "last_updated": "June 11, 2026",
     "articles": [
-        {
-            "title": "How to sign PDFs easily online with a PDF signer",
-            "url": "https://www.artificialintelligence-news.com/news/how-to-sign-pdfs-easily-online-with-a-pdf-signer/",
-            "urlToImage": "",
-            "description": "<p>Signing PDFs has become an important task for businesses and individuals alike. Whether you&#8217;re handling contracts, legal agreements, or forms...",
-            "source": "AI News"
-        },
-        {
-            "title": "Autonomous AI Data Loss in DevOps: Building Efficient Defenses",
-            "url": "https://www.artificialintelligence-news.com/news/autonomous-ai-data-loss-in-devops/",
-            "urlToImage": "",
-            "description": "<p>Autonomous AI agents are altering the speed at which software is shipped. Unfortunately, they are also shrinking the time it takes for a mistake to...",
-            "source": "AI News"
-        },
-        {
-            "title": "Aviva deploys AI to stop \u00a3230M in sophisticated insurance fraud",
-            "url": "https://www.artificialintelligence-news.com/news/aviva-deploys-ai-stop-230m-sophisticated-insurance-fraud/",
-            "urlToImage": "",
-            "description": "<p>Aviva has uncovered a record \u00a3230 million in insurance fraud claims and is using AI tools to counter the growing problem. The battleground has chan...",
-            "source": "AI News"
-        },
-        {
-            "title": "Weis Markets adds Instacart AI-powered shopping carts to stores",
-            "url": "https://www.artificialintelligence-news.com/news/weis-markets-instacart-ai-powered-shopping-caper-carts/",
-            "urlToImage": "",
-            "description": "<p>Weis Markets is adding Instacart\u2019s AI-powered shopping carts, Caper Carts, to select stores in Pennsylvania, bringing digital coupons, loyalty feat...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -86,31 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Google just fired a warning shot in the AI subscription price wars",
-            "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+            "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+            "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
             "urlToImage": "",
-            "description": "Google just made it significantly cheaper to enjoy its budget AI subscription tier....",
+            "description": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic I...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "How Justin Ernest invested nearly $500M into hot startups without a traditional VC fund",
-            "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/",
+            "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
+            "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
             "urlToImage": "",
-            "description": "Instead of spending a year raising a formal venture fund, the Sabertooth VC founder used a captive network of LPs to invest in startups like Anthropic...",
+            "description": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Hey, Siri, here\u2019s what I actually want from AI",
-            "url": "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
+            "title": "\u2018AI-pilled\u2019 firms spend $7,500 per employee each month on AI",
+            "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
             "urlToImage": "",
-            "description": "I'm desperate for a personal AI assistant, but do I really want to become the kind of person who can't function without the friendly robot voice in my...",
+            "description": "The most AI-obsessed firms are spending roughly $7,500 monthly per employee on AI, per Ramp AI Index. That's not more than an engineer's salary \u2014 yet....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic\u2019s Fable 5 can make weirdly fun video games with the click of a button",
-            "url": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
+            "title": "How memory tools can make AI models worse",
+            "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
             "urlToImage": "",
-            "description": "Anthropic's Claude Fable 5 is going to be a big hit with the web's vibe coders....",
+            "description": "New research suggests that AI memory systems can degrade model performance and encourage sycophantic tendencies....",
             "source": "TechCrunch AI"
         }
     ]
