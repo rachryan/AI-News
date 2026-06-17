@@ -1,5 +1,5 @@
 {
-    "last_updated": "June 16, 2026",
+    "last_updated": "June 17, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -30,10 +30,17 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Want to get a data center online quickly? Give it some flex.",
+            "url": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
+            "urlToImage": "",
+            "description": "At the end of a tense and scoreless first half of a soccer match between the English men\u2019s team and rival Germany, millions of Brits let out a collect...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Why do South Koreans love AI so much?",
             "url": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/",
             "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. When I lande...",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. When I ...",
             "source": "MIT Tech Review"
         },
         {
@@ -51,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Five things you need to know about AI",
-            "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
+            "title": "Anthropic\u2019s latest feud with the Trump admin may actually help it, sales data suggests",
+            "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
             "urlToImage": "",
-            "description": "At SXSW London last week I gave a talk called \u201cFive things you need to know about AI,\u201d in which I shared what I think are the biggest themes in AI rig...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google\u2019s Israel, ICE ties",
-            "url": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
-            "urlToImage": "",
-            "description": "AI is once again at the heart of a college graduation protest \u2014 this time for the technology's use in Google's defense contracts....",
+            "description": "Anthropic's popularity with business users is growing so well that the latest beef with the government might actually boost it, data from Ramp suggest...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "The US government\u2019s Anthropic models ban was never about an AI jailbreak",
-            "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+            "title": "SpaceX valuation balloons to $2.6T, briefly passes Amazon",
+            "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
             "urlToImage": "",
-            "description": "The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the ...",
+            "description": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Meta\u2019s new \u2018AI Mode\u2019 on Facebook pulls from public info across its platforms",
-            "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+            "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+            "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
             "urlToImage": "",
-            "description": "Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race ...",
+            "description": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The l...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "SpaceX is public: Everything you need to know post-IPO",
-            "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+            "title": "Sixty percent of US consumers say \u2018AI\u2019 in brand messaging is a turnoff, survey finds",
+            "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
             "urlToImage": "",
-            "description": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX...",
+            "description": "WordPress VIP\u2019s latest survey suggests consumers are wary of AI-generated answers even as companies increasingly view AI search as an important referr...",
             "source": "TechCrunch AI"
         }
     ]
