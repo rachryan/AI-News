@@ -1,6 +1,34 @@
 {
-    "last_updated": "June 17, 2026",
+    "last_updated": "June 18, 2026",
     "articles": [
+        {
+            "title": "Google Cloud generative AI automates council planning operations",
+            "url": "https://www.artificialintelligence-news.com/news/google-cloud-generative-ai-automates-council-planning-operations/",
+            "urlToImage": "",
+            "description": "<p>Government ministries are deploying Google Cloud generative AI across municipal agencies to automate council planning operations. Public sector adm...",
+            "source": "AI News"
+        },
+        {
+            "title": "Insurers pivot AI strategy toward core risk underwriting",
+            "url": "https://www.artificialintelligence-news.com/news/insurers-pivot-ai-strategy-toward-core-risk-underwriting/",
+            "urlToImage": "",
+            "description": "<p>AI investments by insurers are now expected to generate tangible business value beyond mere efficiency. According to findings in the 2026 Evident A...",
+            "source": "AI News"
+        },
+        {
+            "title": "EU publishes its AI content labelling playbook ahead of the AI Act\u2019s August deadline",
+            "url": "https://www.artificialintelligence-news.com/news/ai-content-labelling-eu-code-of-practice/",
+            "urlToImage": "",
+            "description": "<p>The European Union has&#160;published&#160;its AI content labelling playbook, a voluntary Code of Practice meant to help companies meet transparenc...",
+            "source": "AI News"
+        },
+        {
+            "title": "AI Red Teaming Explained: What It Is and Why You Need It",
+            "url": "https://www.artificialintelligence-news.com/news/ai-red-teaming-explained-what-it-is-and-why-you-need-it/",
+            "urlToImage": "",
+            "description": "<p>With AI adoption accelerating, testing systems under adversarial conditions has become increasingly important. It enables organisations to identify...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Anthropic\u2019s latest feud with the Trump admin may actually help it, sales data suggests",
-            "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+            "title": "How to turn off AI in your Google Docs",
+            "url": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
             "urlToImage": "",
-            "description": "Anthropic's popularity with business users is growing so well that the latest beef with the government might actually boost it, data from Ramp suggest...",
+            "description": "Here's what you need to do to get those pesky \"write with Gemini\" pop-ups to go away....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "SpaceX valuation balloons to $2.6T, briefly passes Amazon",
-            "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
+            "title": "Roelof Botha joins SpaceX\u2019s board of directors",
+            "url": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/",
             "urlToImage": "",
-            "description": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday....",
+            "description": "The former Sequoia Capital leader is filling an \"existing vacancy\" on SpaceX's board, days after the company went public in the largest IPO ever....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
-            "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+            "title": "After unveiling ridiculously expensive AR glasses, Snap\u2019s stock takes a dive",
+            "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
             "urlToImage": "",
-            "description": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The l...",
+            "description": "Snap's long-awaited smart glasses debut hasn't exactly done wonders for the company's stock....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Sixty percent of US consumers say \u2018AI\u2019 in brand messaging is a turnoff, survey finds",
-            "url": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+            "title": "NEA\u2019s Tiffany Luck says enterprises are still figuring out their AI ROI",
+            "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
             "urlToImage": "",
-            "description": "WordPress VIP\u2019s latest survey suggests consumers are wary of AI-generated answers even as companies increasingly view AI search as an important referr...",
+            "description": "Tokenmaxxing&#160;was&#160;the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far&#160;as it w...",
             "source": "TechCrunch AI"
         }
     ]
