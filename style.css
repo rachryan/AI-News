@@ -285,6 +285,39 @@ header#top {
         font-size: clamp(2.2rem, 8vw, 3.5rem) !important;
         letter-spacing: -2px !important;
     }
+    /* HEADER / NAV - Mobile fixes */
+@media (max-width: 768px) {
+    .pathfinder-nav {
+        padding: 0 4%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    }
+   
+    .pathfinder-nav > div:last-child { /* targets the right-side flex container */
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;        /* changed to center for better mobile balance */
+        width: 100%;
+        margin-top: 8px;
+    }
+   
+    .nav-select {
+        font-size: 0.68rem;
+        padding: 8px 12px;
+        max-width: 170px;
+    }
+   
+    .nav-cta {
+        font-size: 0.68rem;
+        padding: 7px 14px;
+    }
+   
+    .nav-logo {
+        font-size: 1.4rem;
+    }
+}
 }
 
 /* General Button Centering */
