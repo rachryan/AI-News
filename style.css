@@ -169,7 +169,7 @@ body {
     flex-grow: 1; 
 }
 
-/* EMPOWERMENT SECTION - Fixed Centering & Mobile */
+/* EMPOWERMENT SECTION - Fixed Centering (desktop + mobile) */
 .empower-section {
     background: linear-gradient(145deg, rgba(112, 0, 255, 0.08), transparent);
     border: 1px solid var(--accent-color); 
@@ -180,20 +180,32 @@ body {
 
 .empower-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    grid-template-columns: 1fr;   /* single column = reliable centering */
+    gap: 30px;
     align-items: start;
     justify-content: center;
-    max-width: 1100px;
+    max-width: 680px;             /* tighter = better visual centering */
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
+.empower-grid > div {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Keep/adjust your existing mobile rules */
 @media (max-width: 768px) {
     .empower-grid {
         grid-template-columns: 1fr !important;
-        gap: 30px !important;
+        gap: 24px !important;
+        max-width: 100%;
+        padding: 0 0.5rem;
     }
-    .empower-section h2, .empower-section p, .empower-grid div {
+    .empower-section h2, 
+    .empower-section p, 
+    .empower-grid div {
         text-align: center !important;
     }
     .inquiry-form {
