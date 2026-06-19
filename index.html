@@ -32,35 +32,47 @@ content="summary_large_image">
     
     <meta name="impact-site-verification" content="659e76bd-ad8c-4002-a0af-ea79caec3aa5">
 
-    <style>
-        /* Modern Mobile Responsive Layout Fix for the Empowerment Grid Section */
+<style>
+    /* Improved Mobile & Desktop Fixes */
+    .empower-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: start;
+    }
+    @media (max-width: 768px) {
         .empower-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            align-items: center;
+            grid-template-columns: 1fr !important;
+            gap: 30px !important;
         }
+        .empower-section h2, .empower-section p, .empower-grid div {
+            text-align: center !important;
+        }
+        .inquiry-form {
+            width: 100% !important;
+            box-sizing: border-box;
+        }
+    }
 
-        @media (max-width: 768px) {
-            .empower-grid {
-                grid-template-columns: 1fr !important;
-                gap: 30px !important;
-            }
-            
-            .empower-section h2, .empower-section p {
-                text-align: center !important;
-            }
-            
-            .empower-grid div {
-                text-align: center !important;
-            }
-            
-            .inquiry-form {
-                width: 100% !important;
-                box-sizing: border-box;
-            }
+    /* Better Header Mobile Fit */
+    header#top {
+        padding: 4rem 20px 3rem !important;
+    }
+    @media (max-width: 768px) {
+        header#top {
+            padding: 3rem 15px 2rem !important;
         }
-    </style>
+        h1 {
+            font-size: clamp(2.2rem, 8vw, 3.5rem) !important;
+            letter-spacing: -2px !important;
+        }
+    }
+
+    /* Center buttons better */
+    .buttons, div[style*="display:flex"] {
+        justify-content: center !important;
+    }
+</style>
 </head>
 <body>
 
