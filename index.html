@@ -73,25 +73,21 @@ content="summary_large_image">
             
             <a href="training.html" class="nav-cta" style="background:var(--accent-color); color:white; padding: 8px 16px; border-radius: 5px; text-decoration:none; font-family:'JetBrains Mono'; font-size:0.7rem; font-weight:bold;">WORK_WITH_ME</a>
             
-            <select class="nav-select" onchange="if(this.value) { const target = document.getElementById(this.value); if(target) { target.scrollIntoView({behavior:'smooth', block:'start'}); } }">
-                <option value="">CHOOSE_A_PATH</option>
-                <option value="tools"> 
-                 01: AI TOOLS
-                 </option>
-                            
-                 <option value="training">
-                  02: LEARN AI
-                  </option>
-                            
-                 <option value="empowerment">
-                  03: WORK WITH ME
-                  </option>
-                            
-                 <option value="news">
-                 04: AI NEWS
-                </option>
-                
-            </select>
+            <select class="nav-select" onchange="if(this.value) { 
+    if(this.value === 'digital-confidence') { 
+        window.location.href = '/digital-confidence/'; 
+    } else { 
+        const target = document.getElementById(this.value); 
+        if(target) target.scrollIntoView({behavior:'smooth', block:'start'}); 
+    } 
+}">
+    <option value="">CHOOSE_A_PATH</option>
+    <option value="tools">01: AI TOOLS</option>
+    <option value="training">02: LEARN AI</option>
+    <option value="empowerment">03: WORK WITH ME</option>
+    <option value="news">04: AI NEWS</option>
+    <option value="digital-confidence">05: DIGITAL CONFIDENCE PROGRAM</option>
+</select>
             <button onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌓</button>
         </div>
     </nav>
@@ -244,7 +240,7 @@ content="summary_large_image">
        class="nav-cta">
        FREE DISCOVERY CALL →
     </a>
-
+    <a href="/digital-confidence/" class="nav-cta" style="background: transparent; border: 2px solid var(--accent-color); font-weight: bold;">NEW: Digital Confidence Program →</a>
     <a href="training.html"
        class="nav-cta">
        PAID STRATEGY SESSION →
@@ -252,7 +248,6 @@ content="summary_large_image">
 
 </div>
 
-</div>
 </div>
 
 <form class="inquiry-form"
