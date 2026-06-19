@@ -168,6 +168,19 @@ body {
     margin-bottom: 2rem; 
     flex-grow: 1; 
 }
+/* Force center the text + bullets inside the HOW I CAN HELP box */
+.empower-grid .card-tag + div ul,   /* targets the list directly after the inner card-tag */
+.empower-grid ul {
+    padding-left: 0 !important;
+    text-align: center !important;
+    list-style: none !important;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.empower-grid li {
+    margin-bottom: 0.75rem;
+    text-align: center !important;
+}
 
 /* EMPOWERMENT SECTION - Fixed Centering (desktop + mobile) */
 .empower-section {
