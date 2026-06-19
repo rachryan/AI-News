@@ -53,7 +53,28 @@ content="summary_large_image">
             box-sizing: border-box;
         }
     }
+/* Fix centering for empowerment section on desktop */
+.empower-grid {
+    justify-content: center;
+    align-items: start;
+}
 
+.empower-grid > div {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Make the inner card centered and nicer */
+.empower-grid div[style*="border:1px solid var(--glass-border)"] {
+    margin: 0 auto;
+    max-width: 520px;
+}
+
+/* Overall container improvement */
+.container {
+    max-width: 1100px !important;
+    padding: 0 30px;
+}
     /* Better Header Mobile Fit */
     header#top {
         padding: 4rem 20px 3rem !important;
