@@ -1,5 +1,5 @@
 {
-    "last_updated": "June 19, 2026",
+    "last_updated": "June 20, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -30,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "A startup claims it broke through a bottleneck that\u2019s holding back LLMs",
+            "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+            "urlToImage": "",
+            "description": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck t...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Want to get a data center online quickly? Give it some flex.",
             "url": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
             "urlToImage": "",
@@ -51,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Learning to lead in a hybrid human-AI enterprise",
-            "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+            "title": "Encryption, spyware, and now Mythos: History shows why cyber export control doesn\u2019t work",
+            "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
             "urlToImage": "",
-            "description": "As adoption of AI agents looks set to surge by as much as 300% in the next two years,\u00a0leadership teams are carefully considering the implications of a...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
-            "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
-            "urlToImage": "",
-            "description": "DeductiveAI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago....",
+            "description": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthr...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
-            "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+            "title": "Is the US government\u2019s Anthropic ban accidentally helping the brand?",
+            "url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
             "urlToImage": "",
-            "description": "Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the \u201cinference gold rush\" marches on....",
+            "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national s...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
-            "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+            "title": "The US banned Anthropic\u2019s Fable 5 release, but the numbers don\u2019t seem to care",
+            "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
             "urlToImage": "",
-            "description": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the social media company to...",
+            "description": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national s...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
-            "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+            "title": "Billionaire Ambani wants AI in every call, app, and home",
+            "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
             "urlToImage": "",
-            "description": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball i...",
+            "description": "Reliance is weaving AI into telecom services used by more than 500 million people....",
             "source": "TechCrunch AI"
         }
     ]
