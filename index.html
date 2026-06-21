@@ -57,7 +57,7 @@ content="summary_large_image">
     <option value="tools">01: AI TOOLS</option>
     <option value="training">02: LEARN AI</option>
     <option value="empowerment">03: WORK WITH ME</option>
-    <option value="news">04: AI NEWS</option>
+    <option value="news">04: LEARNING HUB</option>
     <option value="digital-confidence">05: DIGITAL CONFIDENCE PROGRAM</option>
 </select>
             <button onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌓</button>
@@ -111,7 +111,7 @@ content="summary_large_image">
         </header>
 
         <section id="tools">
-            <div class="card-tag">AL Tools Worth Using</div>
+            <div class="card-tag">AI Tools Worth Using</div>
             
             <div id="weekly-prompt-card" class="news-card" style="grid-column: 1 / -1; border: 1px dashed var(--accent-color); background: rgba(112, 0, 255, 0.02); display: none; margin-bottom: 1.5rem;">
                 <div class="card-tag">Weekly Power Prompt</div>
@@ -135,7 +135,7 @@ content="summary_large_image">
                     <div class="badge">Documents & Data</div>
                     <h2 class="headline">Claude</h2>
                     <p class="summary">Upload a messy spreadsheet, a long PDF, or an industry article. Claude analyzes it instantly and communicates back in a warm, completely human-like tone.</p>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">Launch Claude Webisite ➔</div>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top: auto;">Launch Claude Website ➔</div>
                 </a>
             </div>
         </section>
@@ -199,14 +199,14 @@ content="summary_large_image">
     </div>
 
     <!-- Contact Form – Full Width Below Grid -->
-    <form class="inquiry-form" action="https://formspree.io/f/mnjlrooz" method="POST" style="margin-top: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
+    <form id="contact" class="inquiry-form" action="https://formspree.io/f/mnjlrooz" method="POST" style="margin-top: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
         <div class="card-tag" style="margin-bottom:15px;">Let's Connect</div>
         
         <input type="email" name="email" placeholder="Enter Your Email" required>
         
         <select name="type" required>
             <option value="" disabled selected>What would you like help with?</option>
-            <option value="Confidence">Buildiing Digital Confidence</option>
+            <option value="Confidence">Building Digital Confidence</option>
             <option value="AI Basics">Learning AI for Everyday Life</option>
             <option value="Coaching">1-on-1 AI & Technology Coaching</option>
             <option value="Workflow">Simplify My Digital Workflows</option>
@@ -219,14 +219,52 @@ content="summary_large_image">
         
         <button type="submit" class="submit-btn">SEND MESSAGE</button>
     </form>
+
 </section>
-        <section id="news">
-            <div class="card-tag">Latest Insights</div>
-            <div style="margin-bottom: 2rem;">
-                <input type="text" id="search" placeholder="FILTER_FULL_ARCHIVE..." 
-                    style="background:transparent; border:none; border-bottom:1px solid var(--glass-border); color:var(--text-main); font-family:'JetBrains Mono'; padding:10px; width:100%; max-width:400px; outline:none;">
-            </div>
-            <div id="news-container" class="news-grid"></div>
+
+<section id="news">
+    <div class="card-tag">Practical Learning Hub</div>
+
+<div id="news-container" class="news-grid"> 
+
+<!-- Featured Insight --> 
+<div id="featured-insight"></div> 
+<!-- Evergreen --> 
+<div class="news-card"> 
+<div class="card-tag">Evergreen</div> 
+<h2 class="headline">Understanding AI Basics</h2> 
+<p class="summary"> 
+Learn what AI is, where it shows up, and how to start using it with confidence. 
+</p>
+ </div> 
+
+<div class="news-card"> 
+<div class="card-tag">Evergreen</div> 
+<h2 class="headline">Staying Safe Online</h2> 
+<p class="summary"> 
+Understand phishing, scams, passwords, and how to protect yourself online. </p> 
+</div> 
+
+<div class="news-card"> 
+<div class="card-tag">Evergreen</div> 
+<h2 class="headline">Simplify Your Digital Workflow</h2> 
+<p class="summary">
+ Practical systems for organizing files, emails, calendars, and reducing digital overwhelm. 
+</p> 
+</div> 
+<!-- PDF --> 
+<a href="/digital-confidence/digital-confidence-program-guide.pdf" target="_blank" class="news-card"> 
+<div class="card-tag">Resource</div> 
+<h2 class="headline">Digital Confidence Program Guide</h2> 
+<p class="summary"> 
+Download the full 8-week framework designed to build technology confidence. 
+</p> 
+<div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top:auto;"> Download Guide ➔ 
+    </div> 
+
+</a> 
+</div>
+
         </section>
     </main>
 
@@ -241,7 +279,7 @@ content="summary_large_image">
     <div style="margin-bottom: 1.25rem;">
         <a href="#empowerment" style="color: var(--text-dim); text-decoration: none; margin: 0 0.4rem;">How I Can Help</a> • 
         <a href="#tools" style="color: var(--text-dim); text-decoration: none; margin: 0 0.4rem;">Resources</a> • 
-        <a href="#news" style="color: var(--text-dim); text-decoration: none; margin: 0 0.4rem;">Latest Insights</a> • 
+        <a href="#news" style="color: var(--text-dim); text-decoration: none; margin: 0 0.4rem;">Learning Hub</a> • 
         <a href="#contact" style="color: var(--text-dim); text-decoration: none; margin: 0 0.4rem;">Send a Message</a>
     </div>
 
@@ -259,92 +297,80 @@ content="summary_large_image">
 
 </footer>
 
-    <script>
-        let fullArchive = [];
+<script>
+function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const target = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', target);
+    localStorage.setItem('theme', target);
+}
 
-        function toggleTheme() {
-            const current = document.documentElement.getAttribute('data-theme');
-            const target = current === 'light' ? 'dark' : 'light';
-            document.documentElement.setAttribute('data-theme', target);
-            localStorage.setItem('theme', target);
+async function loadWeeklyPrompt() {
+    try {
+        const response = await fetch('prompt.json');
+        if (!response.ok) throw new Error('prompt.json not found');
+
+        const data = await response.json();
+
+        const card = document.getElementById('weekly-prompt-card');
+        const content = document.getElementById('weekly-prompt-content');
+
+        if (data && card && content) {
+            content.innerHTML = `
+                <h2 class="headline">${data.title}</h2>
+                <p class="summary">"${data.text}" — <strong>${data.benefit}</strong></p>
+            `;
+            card.style.display = 'block';
         }
+    } catch (error) {
+        console.error("Prompt system offline:", error);
+    }
+}
 
-        async function loadWeeklyPrompt() {
-            try {
-                const response = await fetch('./prompt.json?t=' + Date.now());
-                if (!response.ok) return;
-                const data = await response.json();
-                const card = document.getElementById('weekly-prompt-card');
-                const content = document.getElementById('weekly-prompt-content');
-                if (data && card && content) {
-                    content.innerHTML = `
-                        <h2 class="headline">${data.title}</h2>
-                        <p class="summary">"${data.text}" — <strong>${data.benefit}</strong></p>
-                    `;
-                    card.style.display = 'block';
-                }
-            } catch (e) {
-                console.log("Prompt system offline.");
-            }
+async function loadFeaturedInsight() {
+    try {
+        const response = await fetch('featured.json');
+        if (!response.ok) throw new Error('featured.json not found');
+
+        const data = await response.json();
+
+        const container = document.getElementById('featured-insight');
+
+        if (data && container) {
+            container.innerHTML = `
+                <a href="${data.url}" target="_blank" class="news-card" style="grid-column: 1 / -1;">
+                    <div class="card-tag">Featured Insight</div>
+                    <h2 class="headline">${data.title}</h2>
+                    <p class="summary">${data.summary}</p>
+                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top:auto;">
+                        Read Full Insight ➔
+                    </div>
+                </a>
+            `;
         }
+    } catch (error) {
+        console.error("Featured insight unavailable:", error);
+    }
+}
 
-        async function loadNews() {
-            try {
-                // Forced diagnostic version parameter to bypass old local network caches
-                const response = await fetch('./news.json?v=2&t=' + Date.now());
-                const data = await response.json();
-                fullArchive = data.articles || [];
-                const cleanArchive = fullArchive.filter(art => art.title && art.url);
-                renderNews(cleanArchive.slice(0, 6)); 
-            } catch (e) { 
-                console.log(e);
-            }
+window.onload = () => {
+    loadWeeklyPrompt();
+    loadFeaturedInsight();
+
+    setTimeout(() => {
+        const bar = document.getElementById('sentiment-fill');
+        if (bar) {
+            bar.style.width = "82%";
         }
+    }, 500);
 
-        function renderNews(articles) {
-            const container = document.getElementById('news-container');
-            container.innerHTML = ''; 
-            articles.forEach((article, index) => {
-                const card = document.createElement('a');
-                card.href = article.url; card.target = "_blank"; card.className = 'news-card';
-                card.innerHTML = `
-                   <div class="card-tag">Latest Insight</div>
-                    ${article.urlToImage ? `
-                        <div style="width:100%; height:180px; overflow:hidden; border-radius:15px; margin-bottom:1rem; border:1px solid var(--glass-border);">
-                            <img src="${article.urlToImage}" 
-                                 style="width:100%; height:100%; object-fit:cover;" 
-                                 onerror="this.parentElement.style.display='none'">
-                        </div>
-                    ` : ''}
-                    <h2 class="headline">${article.title}</h2>
-                    <div style="color:var(--accent-color); font-weight:700; font-size:0.8rem; margin-top:auto;">Read Full Article ➔</div>
-                `;
-                container.appendChild(card);
-            });
-        }
-
-        document.getElementById('search').addEventListener('input', (e) => {
-            const term = e.target.value.toLowerCase();
-            if (!term) {
-                renderNews(fullArchive.slice(0, 6));
-                return;
-            }
-            const filtered = fullArchive.filter(art => 
-                (art.title && art.title.toLowerCase().includes(term)) || 
-                (art.description && art.description.toLowerCase().includes(term))
-            );
-            renderNews(filtered);
-        });
-
-        window.onload = () => {
-            loadNews();
-            loadWeeklyPrompt();
-            setTimeout(() => {
-                const bar = document.getElementById('sentiment-fill');
-                if(bar) bar.style.width = "82%";
-            }, 500);
-            if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light');
-        };
-    </script>
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+};
+</script>
 </body>
 </html>
+
+
