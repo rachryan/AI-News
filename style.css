@@ -319,4 +319,13 @@ body {
     .article-body h2 {
         font-size: 1.6rem;
     }
+    /* FORCE FONT OVERRIDE */
+body, h1, h2, h3, h4, h5, h6, p, div, span, a {
+    font-family: 'Inter', system-ui, sans-serif !important;
+}
+
+.headline, .nav-logo, article h1, article h2 {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    font-weight: 800 !important;
+}
 }
