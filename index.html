@@ -45,20 +45,13 @@ content="summary_large_image">
             
 <!-- <a href="training.html" class="nav-cta" style="background:var(--accent-color); color:white; padding: 8px 16px; border-radius: 5px; text-decoration:none; font-family:'JetBrains Mono'; font-size:0.7rem; font-weight:bold;">WORK_WITH_ME</a> -->
             
-            <select class="nav-select" onchange="if(this.value) { 
-    if(this.value === 'digital-confidence') { 
-        window.location.href = '/digital-confidence/'; 
-    } else { 
-        const target = document.getElementById(this.value); 
-        if(target) target.scrollIntoView({behavior:'smooth', block:'start'}); 
-    } 
-}">
-     <option value="#tools">01: AI TOOLS</option>
-     <option value="#training">02: GET STARTED</option>
-     <option value="#about">03: ABOUT RACHEL</option>
-     <option value="#empowerment">04: WORK WITH ME</option>
-     <option value="#news">05: LEARNING HUB</option>
-    
+ <select class="nav-select" onchange="location.href=this.value;">
+    <option selected>CHOOSE_A_PATH</option>
+    <option value="#tools">01: AI TOOLS</option>
+    <option value="#training">02: GET STARTED</option>
+    <option value="#about">03: ABOUT RACHEL</option>
+    <option value="#empowerment">04: WORK WITH ME</option>
+    <option value="#news">05: LEARNING HUB</option>
 </select>
             <button onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌓</button>
         </div>
