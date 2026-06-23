@@ -154,16 +154,28 @@ body {
 }
 
 .headline {
-    font-size: 1.4rem;
+    font-family: var(--font-heading) !important;
+    font-size: 2rem;
     font-weight: 800;
-    margin-bottom: 1rem;
-    line-height: 1.2;
+    line-height: 1.15;
+    letter-spacing: -0.03em !important;
+    text-transform: none !important;
+    color: var(--text-main);
 }
 
-.summary {
-    color: var(--text-dim);
-    font-size: 1rem;
+.summary,
+.article-body p,
+.news-card p {
+    font-family: var(--font-body) !important;
+    color: var(--text-body);
+    font-size: 1.05rem;
     line-height: 1.7;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+}
+
+.news-card *:not(.card-tag):not(.nav-cta) {
+    font-family: inherit;
 }
 
 /* EMPOWER SECTION */
