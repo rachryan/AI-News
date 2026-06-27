@@ -1,34 +1,6 @@
 {
-    "last_updated": "June 26, 2026",
+    "last_updated": "June 27, 2026",
     "articles": [
-        {
-            "title": "The math behind the OpenAI Jalape\u00f1o chip",
-            "url": "https://www.artificialintelligence-news.com/news/openai-jalapeno-chip-inference-economics/",
-            "urlToImage": "",
-            "description": "<p>OpenAI\u2019s financial trajectory hinges heavily on infrastructure costs, a reality that drove the development of the new custom OpenAI Jalape\u00f1o chip. ...",
-            "source": "AI News"
-        },
-        {
-            "title": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions",
-            "url": "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use/",
-            "urlToImage": "",
-            "description": "<p>Samsung Electronics is expanding employee access to ChatGPT Enterprise and Codex, giving staff wider use of AI tools for technical and non-technica...",
-            "source": "AI News"
-        },
-        {
-            "title": "Anthropic\u00a0drops \u2018workplace AI\u00a0agents\u2019\u00a0directly inside Slack",
-            "url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents/",
-            "urlToImage": "",
-            "description": "<p>Anthropic&#160;launched&#160;a beta version of its Claude Tag feature for Enterprise and Team tiers, shifting its chat model into shared Slack chan...",
-            "source": "AI News"
-        },
-        {
-            "title": "Omio scales travel product development using OpenAI models",
-            "url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models/",
-            "urlToImage": "",
-            "description": "<p>Omio integrates OpenAI models across its engineering operations to accelerate travel product development and launch booking interfaces. The multimo...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -86,31 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
-            "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+            "title": "Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
+            "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
             "urlToImage": "",
-            "description": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump adm...",
+            "description": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Patronus AI lands $50M to build \u2018digital worlds\u2019 that stress-test AI agents",
-            "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+            "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn\u2019t be the norm",
+            "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
             "urlToImage": "",
-            "description": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says....",
+            "description": "\u201cWe don\u2019t believe this kind of government access process should become the long-term default,\u201d says OpenAI. \u201cIt keeps the best tools from users, devel...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic\u2019s Claude is winning over paid consumers, a market owned by ChatGPT",
-            "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+            "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+            "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
             "urlToImage": "",
-            "description": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows....",
+            "description": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "General Intuition\u2019s $2.3B bet that video games can train AI agents for the real world",
-            "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+            "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+            "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
             "urlToImage": "",
-            "description": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something clos...",
+            "description": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice ...",
             "source": "TechCrunch AI"
         }
     ]
