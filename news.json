@@ -1,6 +1,34 @@
 {
-    "last_updated": "June 27, 2026",
+    "last_updated": "June 28, 2026",
     "articles": [
+        {
+            "title": "SAP aligns commerce data for AI personalisation",
+            "url": "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation/",
+            "urlToImage": "",
+            "description": "<p>SAP aligns fragmented commerce data structures to enable operational AI personalisation at the execution layer. Enterprise leadership routinely est...",
+            "source": "AI News"
+        },
+        {
+            "title": "The math behind the OpenAI Jalape\u00f1o chip",
+            "url": "https://www.artificialintelligence-news.com/news/openai-jalapeno-chip-inference-economics/",
+            "urlToImage": "",
+            "description": "<p>OpenAI\u2019s financial trajectory hinges heavily on infrastructure costs, a reality that drove the development of the new custom OpenAI Jalape\u00f1o chip. ...",
+            "source": "AI News"
+        },
+        {
+            "title": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions",
+            "url": "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use/",
+            "urlToImage": "",
+            "description": "<p>Samsung Electronics is expanding employee access to ChatGPT Enterprise and Codex, giving staff wider use of AI tools for technical and non-technica...",
+            "source": "AI News"
+        },
+        {
+            "title": "Anthropic\u00a0drops \u2018workplace AI\u00a0agents\u2019\u00a0directly inside Slack",
+            "url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents/",
+            "urlToImage": "",
+            "description": "<p>Anthropic&#160;launched&#160;a beta version of its Claude Tag feature for Enterprise and Team tiers, shifting its chat model into shared Slack chan...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
-            "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+            "title": "SoftBank\u2019s CEO isn\u2019t the only one with questions about Elon Musk\u2019s orbital data center hype",
+            "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
             "urlToImage": "",
-            "description": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees....",
+            "description": "Not everyone is buying Elon Musk\u2019s vision for orbital data centers....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn\u2019t be the norm",
-            "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+            "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+            "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
             "urlToImage": "",
-            "description": "\u201cWe don\u2019t believe this kind of government access process should become the long-term default,\u201d says OpenAI. \u201cIt keeps the best tools from users, devel...",
+            "description": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI\u2019s hardware team....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
-            "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+            "title": "The fittest founder in the room got cancer. Here\u2019s how he used AI to fight back.",
+            "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
             "urlToImage": "",
-            "description": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring....",
+            "description": "When confronted with cancer, Connor Christou fed everything tied tied to his regime \u2014 blood results, scan data, wearable output, journal entries \u2014 int...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-            "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+            "title": "Asian AI startups launch Mythos-like  models as Anthropic\u2019s export ban drags on",
+            "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
             "urlToImage": "",
-            "description": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice ...",
+            "description": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous mar...",
             "source": "TechCrunch AI"
         }
     ]
