@@ -1,34 +1,6 @@
 {
-    "last_updated": "June 28, 2026",
+    "last_updated": "June 29, 2026",
     "articles": [
-        {
-            "title": "SAP aligns commerce data for AI personalisation",
-            "url": "https://www.artificialintelligence-news.com/news/sap-aligns-commerce-data-for-ai-personalisation/",
-            "urlToImage": "",
-            "description": "<p>SAP aligns fragmented commerce data structures to enable operational AI personalisation at the execution layer. Enterprise leadership routinely est...",
-            "source": "AI News"
-        },
-        {
-            "title": "The math behind the OpenAI Jalape\u00f1o chip",
-            "url": "https://www.artificialintelligence-news.com/news/openai-jalapeno-chip-inference-economics/",
-            "urlToImage": "",
-            "description": "<p>OpenAI\u2019s financial trajectory hinges heavily on infrastructure costs, a reality that drove the development of the new custom OpenAI Jalape\u00f1o chip. ...",
-            "source": "AI News"
-        },
-        {
-            "title": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions",
-            "url": "https://www.artificialintelligence-news.com/news/samsung-chatgpt-enterprise-codex-employee-ai-use/",
-            "urlToImage": "",
-            "description": "<p>Samsung Electronics is expanding employee access to ChatGPT Enterprise and Codex, giving staff wider use of AI tools for technical and non-technica...",
-            "source": "AI News"
-        },
-        {
-            "title": "Anthropic\u00a0drops \u2018workplace AI\u00a0agents\u2019\u00a0directly inside Slack",
-            "url": "https://www.artificialintelligence-news.com/news/anthropic-slack-workplace-ai-agents/",
-            "urlToImage": "",
-            "description": "<p>Anthropic&#160;launched&#160;a beta version of its Claude Tag feature for Enterprise and Team tiers, shifting its chat model into shared Slack chan...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -86,6 +58,20 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "Ford rehires \u2018gray beard\u2019 engineers after AI falls short",
+            "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+            "urlToImage": "",
+            "description": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.\u201d...",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+            "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+            "urlToImage": "",
+            "description": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron....",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "SoftBank\u2019s CEO isn\u2019t the only one with questions about Elon Musk\u2019s orbital data center hype",
             "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
             "urlToImage": "",
@@ -97,20 +83,6 @@
             "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
             "urlToImage": "",
             "description": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI\u2019s hardware team....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "The fittest founder in the room got cancer. Here\u2019s how he used AI to fight back.",
-            "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
-            "urlToImage": "",
-            "description": "When confronted with cancer, Connor Christou fed everything tied tied to his regime \u2014 blood results, scan data, wearable output, journal entries \u2014 int...",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "Asian AI startups launch Mythos-like  models as Anthropic\u2019s export ban drags on",
-            "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-            "urlToImage": "",
-            "description": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous mar...",
             "source": "TechCrunch AI"
         }
     ]
