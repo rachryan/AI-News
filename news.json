@@ -1,5 +1,5 @@
 {
-    "last_updated": "June 29, 2026",
+    "last_updated": "June 30, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -30,6 +30,20 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "AI agents are not your \u201ccoworkers\u201d",
+            "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+            "urlToImage": "",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. Imagine comi...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "Agent confidence on the technical frontier",
+            "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
+            "urlToImage": "",
+            "description": "Enterprise investment in AI is booming. Gartner is calling 2026 an \u201cinflection year\u201d for organizations to align their AI projects with strategic busin...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Repositioning retail for the AI era",
             "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
             "urlToImage": "",
@@ -44,45 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "The $400 million machine powering the future of chipmaking",
-            "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+            "title": "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
+            "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
             "urlToImage": "",
-            "description": "Jos Benschop is climbing a ladder to get to the top of his newest machine.&#160; It\u2019s a bit of a schlep. The contraption is the size of a double-decke...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Three things to watch amid Anthropic\u2019s latest feud with the government",
-            "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
-            "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. For those of...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Ford rehires \u2018gray beard\u2019 engineers after AI falls short",
-            "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
-            "urlToImage": "",
-            "description": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.\u201d...",
+            "description": "Wix-owned vibe coding platform Base44 has started rolling out its own AI model \u2014 with hopes that it will eventually outperform frontier models....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
-            "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+            "title": "Gemini\u2019s personalized AI image generation is now free for US users",
+            "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
             "urlToImage": "",
-            "description": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron....",
+            "description": "Google is expanding Gemini\u2019s personalized AI image generation to eligible free users in the U.S., allowing the chatbot to create images based on your ...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "SoftBank\u2019s CEO isn\u2019t the only one with questions about Elon Musk\u2019s orbital data center hype",
-            "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+            "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
+            "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
             "urlToImage": "",
-            "description": "Not everyone is buying Elon Musk\u2019s vision for orbital data centers....",
+            "description": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-            "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+            "title": "South Korean tech giants commit over $550B to ease \u2018RAMageddon\u2019",
+            "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
             "urlToImage": "",
-            "description": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI\u2019s hardware team....",
+            "description": "The world's two largest memory chip companies vow to build more memory lab fabs as South Korea positions itself as an AI tech powerhouse country....",
             "source": "TechCrunch AI"
         }
     ]
