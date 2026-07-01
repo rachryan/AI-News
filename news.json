@@ -1,5 +1,5 @@
 {
-    "last_updated": "June 30, 2026",
+    "last_updated": "July 01, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -30,6 +30,20 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Claude Science is Anthropic\u2019s newest flagship product",
+            "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+            "urlToImage": "",
+            "description": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product inten...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "Agriculture is ready for AI, but its data isn\u2019t",
+            "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+            "urlToImage": "",
+            "description": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying t...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "AI agents are not your \u201ccoworkers\u201d",
             "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
             "urlToImage": "",
@@ -44,45 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Repositioning retail for the AI era",
-            "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+            "title": "Trump drops restrictions on Anthropic\u2019s Mythos and Fable models",
+            "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
             "urlToImage": "",
-            "description": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be fla...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "The emergence of the web data infrastructure layer for AI",
-            "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
-            "urlToImage": "",
-            "description": "AI is booming. New use cases are emerging each day. To capitalize on the technology\u2019s potential, enterprises require data at scale. In many cases, tho...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
-            "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
-            "urlToImage": "",
-            "description": "Wix-owned vibe coding platform Base44 has started rolling out its own AI model \u2014 with hopes that it will eventually outperform frontier models....",
+            "description": "Anthropic said it would begin restoring access to the Fable on July 1....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Gemini\u2019s personalized AI image generation is now free for US users",
-            "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+            "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+            "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
             "urlToImage": "",
-            "description": "Google is expanding Gemini\u2019s personalized AI image generation to eligible free users in the U.S., allowing the chatbot to create images based on your ...",
+            "description": "Wayve\u2019s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic and Gov. Newsom forge deal allowing California government to use Claude at half price",
-            "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+            "title": "OpenClaw is finally available on Android and iOS",
+            "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
             "urlToImage": "",
-            "description": "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival....",
+            "description": "The free open source agentic program is finally invading your phone....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "South Korean tech giants commit over $550B to ease \u2018RAMageddon\u2019",
-            "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+            "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+            "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
             "urlToImage": "",
-            "description": "The world's two largest memory chip companies vow to build more memory lab fabs as South Korea positions itself as an AI tech powerhouse country....",
+            "description": "EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million....",
             "source": "TechCrunch AI"
         }
     ]
