@@ -1,5 +1,5 @@
 {
-    "last_updated": "July 04, 2026",
+    "last_updated": "July 05, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -58,31 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "The only AI glossary you\u2019ll need this year",
-            "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+            "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+            "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
             "urlToImage": "",
-            "description": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases yo...",
+            "description": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Go...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "The browser wars aren\u2019t about search anymore \u2014 here are the best alternatives to Chrome and Safari",
-            "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+            "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+            "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
             "urlToImage": "",
-            "description": "We\u2019ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari....",
+            "description": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Mark Zuckerberg tells staff that AI agents haven\u2019t progressed as quickly as he\u2019d hoped",
-            "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+            "title": "Alibaba reportedly bans employees from using Claude Code",
+            "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
             "urlToImage": "",
-            "description": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated....",
+            "description": "Alibaba has reportedly classified Claude Code as high-risk software....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Jersey Mike\u2019s IPO illustrates how bad the AI hype has become",
-            "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+            "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+            "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
             "urlToImage": "",
-            "description": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold....",
+            "description": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to \u201cput frontier AI ...",
             "source": "TechCrunch AI"
         }
     ]
