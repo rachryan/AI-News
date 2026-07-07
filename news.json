@@ -1,34 +1,6 @@
 {
-    "last_updated": "July 06, 2026",
+    "last_updated": "July 07, 2026",
     "articles": [
-        {
-            "title": "Takeda signs US$600M AI drug discovery deal with Insilico",
-            "url": "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal/",
-            "urlToImage": "",
-            "description": "<p>Takeda has entered a strategic collaboration with Hong Kong-based Insilico Medicine to use AI in early-stage drug discovery across the Japanese pha...",
-            "source": "AI News"
-        },
-        {
-            "title": "NVIDIA BioNeMo accelerates Anthropic Claude Science",
-            "url": "https://www.artificialintelligence-news.com/news/nvidia-bionemo-accelerates-anthropic-claude-science/",
-            "urlToImage": "",
-            "description": "<p>Anthropic Claude Science now integrates the NVIDIA BioNeMo Agent Toolkit to accelerate computational life sciences research. Anthropic has launched...",
-            "source": "AI News"
-        },
-        {
-            "title": "Deploying retail AI to scale personalisation and customer insight",
-            "url": "https://www.artificialintelligence-news.com/news/deploying-retail-ai-to-scale-personalisation-customer-insight/",
-            "urlToImage": "",
-            "description": "<p>Optimising retail AI infrastructure drives the successful deployment of personalisation systems and real-time customer insight. Leaders are replaci...",
-            "source": "AI News"
-        },
-        {
-            "title": "Japan\u2019s answer to its worker shortage: An AI model for 10 million robots",
-            "url": "https://www.artificialintelligence-news.com/news/japan-ai-robots-2040-national-ai-model/",
-            "urlToImage": "",
-            "description": "<p>Japan&#8217;s AI robots plan just went from a talking point to a formal national strategy. This week, the government confirmed the numbers everyone...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Your family\u2019s $300 stake in OpenAI",
+            "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+            "urlToImage": "",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. OpenAI CEO S...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Achieving operational excellence with AI",
             "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
             "urlToImage": "",
@@ -79,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Claude Science is Anthropic\u2019s newest flagship product",
-            "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+            "title": "The \u2018first\u2019 AI-run ransomware attack still needed a human",
+            "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
             "urlToImage": "",
-            "description": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product inten...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Amazon will stop accepting new customers for Mechanical Turk",
-            "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
-            "urlToImage": "",
-            "description": "These may be the last days of Amazon\u2019s Mechanical Turk....",
+            "description": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose t...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
-            "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+            "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+            "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
             "urlToImage": "",
-            "description": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Go...",
+            "description": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-            "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+            "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+            "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
             "urlToImage": "",
-            "description": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves....",
+            "description": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Alibaba reportedly bans employees from using Claude Code",
-            "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+            "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta",
+            "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
             "urlToImage": "",
-            "description": "Alibaba has reportedly classified Claude Code as high-risk software....",
+            "description": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI....",
             "source": "TechCrunch AI"
         }
     ]
