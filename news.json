@@ -1,5 +1,5 @@
 {
-    "last_updated": "July 07, 2026",
+    "last_updated": "July 08, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -30,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "The foundational elements of AI architecture that IT leaders need to scale",
+            "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+            "urlToImage": "",
+            "description": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Your family\u2019s $300 stake in OpenAI",
             "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
             "urlToImage": "",
@@ -44,45 +51,38 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Teaching AI to run with the turbines",
-            "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+            "title": "Building the foundation for an autonomous enterprise",
+            "url": "https://www.technologyreview.com/2026/07/02/1138433/building-the-foundation-for-an-autonomous-enterprise/",
             "urlToImage": "",
             "description": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases a...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-            "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+            "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+            "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
             "urlToImage": "",
-            "description": "Let\u2019s start with a game. Open up your chatbot of choice\u2014Claude, ChatGPT, Gemini\u2014and type \u201cGive me a random number between 1 and 10.\u201d You\u2019re going to g...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "The \u2018first\u2019 AI-run ransomware attack still needed a human",
-            "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
-            "urlToImage": "",
-            "description": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose t...",
+            "description": "The new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
-            "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+            "title": "Why the rise of open source AI isn\u2019t hurting Anthropic \u2026 yet",
+            "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
             "urlToImage": "",
-            "description": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday....",
+            "description": "Open source models\u2019 success isn\u2019t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
-            "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+            "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
+            "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
             "urlToImage": "",
-            "description": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch....",
+            "description": "Microsoft is the latest Silicon Valley giant to cut back on its AI spending....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta",
-            "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+            "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+            "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
             "urlToImage": "",
-            "description": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI....",
+            "description": "The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team ident...",
             "source": "TechCrunch AI"
         }
     ]
