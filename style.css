@@ -1,4 +1,5 @@
 :root {
+    /* Colors */
     --bg-color: #050505;
     --card-bg: rgba(255, 255, 255, 0.05);
     --card-hover: rgba(255, 255, 255, 0.1);
@@ -6,8 +7,24 @@
     --accent-glow: rgba(112, 0, 255, 0.4);
     --text-main: #ffffff;
     --text-dim: #a1a1aa;
+    --text-body: var(--text-dim);
     --glass-border: rgba(255, 255, 255, 0.15);
+
+    /* Typography */
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Layout */
     --nav-height: 80px;
+
+    /* Border Radius */
+    --radius-small: 8px;
+    --radius-medium: 12px;
+    --radius-large: 28px;
+
+    /* Animation */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
 }
 
 [data-theme="light"] {
