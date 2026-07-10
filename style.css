@@ -17,6 +17,24 @@
     /* Layout */
     --nav-height: 80px;
 
+    /* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+    text-align: center;
+    padding: 6rem 0 4rem;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero-actions {
+    margin-top: 30px;
+}
+
     /* Border Radius */
     --radius-small: 8px;
     --radius-medium: 12px;
@@ -415,5 +433,5 @@ select:focus-visible {
         padding: 30px 20px;
     }
 }
-```
+
 
