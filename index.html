@@ -257,10 +257,30 @@ content="summary_large_image">
     <form id="contact" class="inquiry-form" action="https://formspree.io/f/mnjlrooz" method="POST" style="margin-top: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
         <div class="card-tag" style="margin-bottom:15px;">Let's Connect</div>
         
-        <input type="email" name="email" placeholder="Enter Your Email" required>
+<label for="email" class="sr-only">
+    Email Address
+</label>
+
+<input
+    id="email"
+    type="email"
+    name="email"
+    placeholder="Email address"
+    autocomplete="email"
+    required>
         
-        <select name="type" required>
-            <option value="" disabled selected>What would you like help with?</option>
+<label for="help-type" class="sr-only">
+    What would you like help with?
+</label>
+
+<select
+    id="help-type"
+    name="type"
+    required>
+    
+<option value="" selected disabled>
+    Select a topic...
+</option>
             <option value="Confidence">Building Digital Confidence</option>
             <option value="AI Basics">Learning AI for Everyday Life</option>
             <option value="Coaching">1-on-1 AI & Technology Coaching</option>
@@ -270,10 +290,21 @@ content="summary_large_image">
             <option value="Unsure">I'm Not Sure Yet</option>
         </select>
         
-        <textarea name="msg" rows="5" placeholder="Tell me a bit about what you need help with..." required></textarea>
-        
-        <button type="submit" class="submit-btn">SEND MESSAGE</button>
-    </form>
+<label for="message" class="sr-only">
+    Tell me about your project
+</label>
+
+<textarea
+    id="message"
+    name="msg"
+    rows="5"
+    placeholder="Tell me a bit about what you need help with..."
+    required>
+</textarea>
+
+<button type="submit" class="submit-btn">
+    SEND MESSAGE
+</button>
 
 </section>
 
