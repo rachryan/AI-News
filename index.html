@@ -51,7 +51,7 @@ content="summary_large_image">
     <option value="#training">GET STARTED</option>
     <option value="#empowerment">WORK WITH ME</option>
     <option value="/resources/ai-isnt-the-problem.html">FEATURED INSIGHT</option>
-    <option value="#news">06: LEARNING HUB</option>
+    <option value="#news">LEARNING HUB</option>
 </select>
             <button onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-size:1.2rem;">🌓</button>
         </div>
@@ -104,10 +104,19 @@ content="summary_large_image">
         <section id="tools">
             <div class="card-tag">AI Tools Worth Using</div>
             
-            <div id="weekly-prompt-card" class="news-card" style="grid-column: 1 / -1; border: 1px dashed var(--accent-color); background: rgba(112, 0, 255, 0.02); display: none; margin-bottom: 1.5rem;">
-                <div class="card-tag">Weekly Power Prompt</div>
-                <div id="weekly-prompt-content"></div>
-            </div>
+<div id="weekly-prompt-card"
+     class="news-card"
+     style="grid-column: 1 / -1; border: 1px dashed var(--accent-color); background: rgba(112, 0, 255, 0.02); display: none; margin-bottom: 1.5rem;">
+
+    <div class="card-tag">Weekly Power Prompt</div>
+
+    <p class="summary" style="margin:0.75rem 0 1.25rem 0;">
+        Copy, paste, and try this prompt in your favorite AI assistant. Adjust it to fit your own needs.
+    </p>
+
+    <div id="weekly-prompt-content"></div>
+
+</div>
 
             <div class="news-grid">
                 <a href="https://perplexity.ai" target="_blank" class="news-card">
@@ -281,11 +290,11 @@ content="summary_large_image">
 <option value="" selected disabled>
     Select a topic...
 </option>
-            <option value="Confidence">Building Digital Confidence</option>
-            <option value="AI Basics">Learning AI for Everyday Life</option>
-            <option value="Coaching">1-on-1 AI & Technology Coaching</option>
-            <option value="Workflow">Simplify My Digital Workflows</option>
-            <option value="Security">Staying Safe Online</option>
+            <option value="Confidence">Build confidence using AI</option>
+            <option value="AI Basics">Save time with smarter workflows</option>
+            <option value="Coaching">Get personalized technology coaching</option>
+            <option value="Workflow">Reduce digital overwhelm</option>
+            <option value="Security">Stay safer online</option>
             <option value="Training">Community or Team Training</option>
             <option value="Unsure">I'm Not Sure Yet</option>
         </select>
