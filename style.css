@@ -9,6 +9,7 @@
     --text-dim: #a1a1aa;
     --text-body: var(--text-dim);
     --glass-border: rgba(255, 255, 255, 0.15);
+    --input-bg: #111111;
 
     /* Typography */
     --font-heading: 'Inter', sans-serif;
@@ -54,6 +55,7 @@
     --text-dim: #64748b;
     --glass-border: #e2e8f0;
     --nav-bg: rgba(255, 255, 255, 0.92);
+    --input-bg: #ffffff;
 }
 
 /* RESET */
@@ -149,7 +151,7 @@ select:focus-visible {
 }
 
 .nav-select {
-    background: #111;
+    background: var(--input-bg);
     color: var(--text-main);
     border: 1px solid var(--accent-color);
     padding: 10px 15px;
