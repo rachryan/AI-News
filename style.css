@@ -159,7 +159,7 @@ select:focus-visible {
     color: var(--text-main);
     border: 1px solid var(--accent-color);
     padding: 10px 15px;
-    border-radius: 8px;
+    border-radius: var(--radius-small);
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
 }
