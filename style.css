@@ -17,9 +17,17 @@
     /* Layout */
     --nav-height: 80px;
 
-    /* =====================================================
-   HERO
-===================================================== */
+    /* Border Radius */
+    --radius-small: 8px;
+    --radius-medium: 12px;
+    --radius-large: 28px;
+
+    /* Animation */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}
+
+/* ---------- HERO ---------- */
 
 .hero {
     text-align: center;
@@ -33,16 +41,6 @@
 
 .hero-actions {
     margin-top: 30px;
-}
-
-    /* Border Radius */
-    --radius-small: 8px;
-    --radius-medium: 12px;
-    --radius-large: 28px;
-
-    /* Animation */
-    --transition-fast: 0.2s ease;
-    --transition-normal: 0.3s ease;
 }
 
 [data-theme="light"] {
