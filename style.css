@@ -244,6 +244,13 @@ select:focus-visible {
     font-family: inherit;
 }
 
+.card-link {
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: auto;
+}
+
 /* EMPOWER SECTION */
 
 .empower-section {
