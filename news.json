@@ -1,6 +1,34 @@
 {
-    "last_updated": "July 10, 2026",
+    "last_updated": "July 11, 2026",
     "articles": [
+        {
+            "title": "How to shrink the token budget without shrinking the team",
+            "url": "https://www.artificialintelligence-news.com/news/shrink-token-budget-not-team/",
+            "urlToImage": "",
+            "description": "<p>Jensen Huang has a test for whether an engineer is worth keeping, and it comes with a token budget attached. Speaking on the All-In Podcast at the ...",
+            "source": "AI News"
+        },
+        {
+            "title": "AWS GraphRAG deployment cuts drug research cycles by 87%",
+            "url": "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
+            "urlToImage": "",
+            "description": "<p>A recent AWS GraphRAG deployment reduced drug research and development cycles in pharmaceutical environments by 87 percent. This acceleration is ac...",
+            "source": "AI News"
+        },
+        {
+            "title": "NHS AI blood test could reduce invasive womb cancer checks",
+            "url": "https://www.artificialintelligence-news.com/news/nhs-ai-blood-test-womb-cancer-checks/",
+            "urlToImage": "",
+            "description": "<p>Several NHS hospitals are preparing to use an AI-powered blood test to help assess women referred for possible womb cancer before invasive checks a...",
+            "source": "AI News"
+        },
+        {
+            "title": "Insilico Medicine advances AI drug for IPF to Phase III trials",
+            "url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials/",
+            "urlToImage": "",
+            "description": "<p>Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeting idiopathic pulmonary fibrosis (IPF). This pr...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "OpenAI says GPT 5.6 is the \u2018preferred model\u2019 for Microsoft Copilot 365 amid breakup chatter",
-            "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+            "title": "Meta removes controversial AI feature on Instagram after backlash",
+            "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
             "urlToImage": "",
-            "description": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps....",
+            "description": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the c...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Fidji Simo steps down from OpenAI\u2019s no. 2 role",
-            "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+            "title": "Apple sues OpenAI over alleged trade secret theft",
+            "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
             "urlToImage": "",
-            "description": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected \u2014 a leadership vacu...",
+            "description": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenAI launches its new family of models with GPT-5.6",
-            "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+            "title": "Open source AI matters more than ever, according to Hugging Face\u2019s Clem Delangue",
+            "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
             "urlToImage": "",
-            "description": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity....",
+            "description": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in re...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "An AI agent startup just let its agent run its $100M fundraise",
-            "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+            "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+            "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
             "urlToImage": "",
-            "description": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round \u2014 proof, evidently, that the product actual...",
+            "description": "The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories....",
             "source": "TechCrunch AI"
         }
     ]
