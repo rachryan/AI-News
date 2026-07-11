@@ -141,7 +141,7 @@ select:focus-visible {
     font-weight: 900;
     font-size: 1.5rem;
     letter-spacing: -1px;
-    color: white;
+    color: var(--text-main);
 }
 
 .nav-logo span {
