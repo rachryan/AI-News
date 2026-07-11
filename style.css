@@ -138,7 +138,11 @@ select:focus-visible {
     border-bottom: 1px solid var(--glass-border);
     background: var(--nav-bg);
 }
-
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 .nav-logo {
     font-weight: 900;
     font-size: 1.5rem;
