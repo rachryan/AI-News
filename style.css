@@ -324,9 +324,9 @@ select:focus-visible {
     padding: 1.2rem;
     margin-bottom: 1rem;
     border-radius: 12px;
-    border: 1px solid var(--glass-border);
-    background: #111;
-    color: white;
+    border: 1px solid #d8dbe5;
+    background: var(--input-bg);
+    color: var(--text-main);
 }
 
 .submit-btn {
