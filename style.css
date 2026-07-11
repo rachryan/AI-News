@@ -159,6 +159,35 @@ select:focus-visible {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
 }
+.theme-toggle {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--input-bg);
+    color: var(--text-main);
+
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-small);
+
+    cursor: pointer;
+    font-size: 1rem;
+
+    transition: var(--transition-normal);
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent-color);
+    transform: scale(1.05);
+}
+
+.theme-toggle:focus-visible {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 3px;
+}
 
 .nav-cta {
     background: var(--accent-color);
