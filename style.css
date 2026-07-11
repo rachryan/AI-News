@@ -25,6 +25,8 @@
     /* Animation */
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
+
+    --nav-bg: rgba(5, 5, 5, 0.9);
 }
 
 /* ---------- HERO ---------- */
@@ -51,6 +53,7 @@
     --text-main: #0f172a;
     --text-dim: #64748b;
     --glass-border: #e2e8f0;
+    --nav-bg: rgba(255, 255, 255, 0.92);
 }
 
 /* RESET */
@@ -131,7 +134,7 @@ select:focus-visible {
     justify-content: space-between;
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--glass-border);
-    background: rgba(5, 5, 5, 0.9);
+    background: var(--nav-bg);
 }
 
 .nav-logo {
