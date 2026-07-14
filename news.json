@@ -1,34 +1,6 @@
 {
-    "last_updated": "July 13, 2026",
+    "last_updated": "July 14, 2026",
     "articles": [
-        {
-            "title": "How to shrink the token budget without shrinking the team",
-            "url": "https://www.artificialintelligence-news.com/news/shrink-token-budget-not-team/",
-            "urlToImage": "",
-            "description": "<p>Jensen Huang has a test for whether an engineer is worth keeping, and it comes with a token budget attached. Speaking on the All-In Podcast at the ...",
-            "source": "AI News"
-        },
-        {
-            "title": "AWS GraphRAG deployment cuts drug research cycles by 87%",
-            "url": "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/",
-            "urlToImage": "",
-            "description": "<p>A recent AWS GraphRAG deployment reduced drug research and development cycles in pharmaceutical environments by 87 percent. This acceleration is ac...",
-            "source": "AI News"
-        },
-        {
-            "title": "NHS AI blood test could reduce invasive womb cancer checks",
-            "url": "https://www.artificialintelligence-news.com/news/nhs-ai-blood-test-womb-cancer-checks/",
-            "urlToImage": "",
-            "description": "<p>Several NHS hospitals are preparing to use an AI-powered blood test to help assess women referred for possible womb cancer before invasive checks a...",
-            "source": "AI News"
-        },
-        {
-            "title": "Insilico Medicine advances AI drug for IPF to Phase III trials",
-            "url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials/",
-            "urlToImage": "",
-            "description": "<p>Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeting idiopathic pulmonary fibrosis (IPF). This pr...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "What Anthropic\u2019s latest AI discovery does\u2014and doesn\u2019t\u2014show",
+            "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+            "urlToImage": "",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. Anthropic\u2014cu...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Anthropic found a hidden space where Claude puzzles over concepts",
             "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
             "urlToImage": "",
@@ -79,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Achieving operational excellence with AI",
-            "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+            "title": "Uber\u2019s product chief on hotels, robotaxis, and why the company doesn\u2019t want to be \u201ceverything for everyone\u201d",
+            "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
             "urlToImage": "",
-            "description": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos\u2014a structured way...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "OpenAI bets on families as ChatGPT goes deeper into households",
-            "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-            "urlToImage": "",
-            "description": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting....",
+            "description": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationshi...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Meta removes controversial AI feature on Instagram after backlash",
-            "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+            "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+            "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
             "urlToImage": "",
-            "description": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the c...",
+            "description": "With the cash, the company aims to expand its world model offering and reach customers across geographies....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Apple sues OpenAI over alleged trade secret theft",
-            "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+            "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+            "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
             "urlToImage": "",
-            "description": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee....",
+            "description": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Open source AI matters more than ever, according to Hugging Face\u2019s Clem Delangue",
-            "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+            "title": "Satya Nadella has issued a shocking warning to companies using AI",
+            "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
             "urlToImage": "",
-            "description": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in re...",
+            "description": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valle...",
             "source": "TechCrunch AI"
         }
     ]
