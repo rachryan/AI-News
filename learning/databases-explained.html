@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Databases: Static vs. Dynamic Data | TechTidy</title>
+
+    <meta name="description" content="Learn what databases are, the difference between static and dynamic data, and how they're used in everyday software like Netflix, Amazon, banking apps, and Microsoft 365.">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.png">
+</head>
+
+<body>
+
+<main class="article-container">
+
+<header class="article-header">
+    <p class="article-category">Technology Fundamentals</p>
+    <h1>Understanding Databases: Static vs. Dynamic Data</h1>
+    <p class="article-intro">
+        Every time you open Netflix, check your bank balance, or add an item to your shopping cart,
+        you're interacting with a database. Understanding how databases work is one of the easiest
+        ways to understand modern software.
+    </p>
+</header>
+
+<section>
+
+<h2>What is a Database?</h2>
+
+<p>
+Think of a database as a giant digital filing cabinet.
+</p>
+
+<p>
+Instead of folders full of paper, it stores information in an organized way so software can quickly:
+</p>
+
+<ul>
+<li>Store information</li>
+<li>Find information</li>
+<li>Update information</li>
+<li>Delete information</li>
+</ul>
+
+<p>
+For example, when you log into Netflix, the database already knows:
+</p>
+
+<ul>
+<li>Your username</li>
+<li>Your password (encrypted)</li>
+<li>What you've watched</li>
+<li>Where you stopped watching</li>
+<li>Movies you might enjoy</li>
+</ul>
+
+<p>
+Without a database, every application would have to start from scratch every time you opened it.
+</p>
+
+</section>
+
+<section>
+
+<h2>Static vs. Dynamic Data</h2>
+
+<p>
+One of the easiest ways to understand software is to separate information into two categories:
+<strong>static</strong> and <strong>dynamic</strong>.
+</p>
+
+</section>
+
+<section>
+
+<h2>Static Data</h2>
+
+<p>
+Static data rarely changes. It's usually written once and displayed to everyone.
+</p>
+
+<p>Examples include:</p>
+
+<ul>
+<li>Company information</li>
+<li>About Us pages</li>
+<li>Contact details</li>
+<li>Privacy policies</li>
+<li>Product descriptions</li>
+<li>Help articles</li>
+</ul>
+
+<p>
+Imagine visiting a restaurant website.
+Everyone sees the same address, opening hours, and menu.
+That's static content.
+</p>
+
+</section>
+
+<section>
+
+<h2>Dynamic Data</h2>
+
+<p>
+Dynamic data changes constantly.
+It depends on who you are and what you're doing.
+</p>
+
+<p>Examples include:</p>
+
+<ul>
+<li>Your shopping cart</li>
+<li>Your bank balance</li>
+<li>Your email inbox</li>
+<li>Your playlists</li>
+<li>Your calendar</li>
+<li>Your social media feed</li>
+</ul>
+
+<p>
+Every user sees different information because the application retrieves it from a database in real time.
+</p>
+
+</section>
+
+<section>
+
+<h2>How Static and Dynamic Work Together</h2>
+
+<p>
+Imagine you're shopping online.
+</p>
+
+<h3>Static Content</h3>
+
+<ul>
+<li>Product photos</li>
+<li>Descriptions</li>
+<li>Shipping policies</li>
+<li>Store branding</li>
+</ul>
+
+<p>
+Everyone sees the same information.
+</p>
+
+<h3>Dynamic Content</h3>
+
+<ul>
+<li>Your name</li>
+<li>Your saved address</li>
+<li>Your wishlist</li>
+<li>Your order history</li>
+<li>Your shopping cart</li>
+</ul>
+
+<p>
+As soon as you sign in, the website becomes personalized by retrieving your information from a database.
+</p>
+
+</section>
+
+<section>
+
+<h2>What Happens When You Click "Add to Cart"?</h2>
+
+<ol>
+
+<li>You click the button.</li>
+
+<li>The website sends a request to the server.</li>
+
+<li>The database saves the item to your shopping cart.</li>
+
+<li>The updated cart is displayed almost instantly.</li>
+
+</ol>
+
+<p>
+What feels like magic is really software reading and writing information to a database in milliseconds.
+</p>
+
+</section>
+
+<section>
+
+<h2>Everyday Examples</h2>
+
+<table>
+
+<tr>
+<th>Application</th>
+<th>Static</th>
+<th>Dynamic</th>
+</tr>
+
+<tr>
+<td>Netflix</td>
+<td>Movie descriptions</td>
+<td>Your watch history</td>
+</tr>
+
+<tr>
+<td>Amazon</td>
+<td>Product pages</td>
+<td>Your shopping cart</td>
+</tr>
+
+<tr>
+<td>Spotify</td>
+<td>Artist information</td>
+<td>Your playlists</td>
+</tr>
+
+<tr>
+<td>Banking App</td>
+<td>Bank information</td>
+<td>Your account balance</td>
+</tr>
+
+<tr>
+<td>Facebook</td>
+<td>Company branding</td>
+<td>Your news feed</td>
+</tr>
+
+<tr>
+<td>Weather App</td>
+<td>App interface</td>
+<td>Current weather</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>Why This Matters</h2>
+
+<p>
+Understanding the difference between static and dynamic content makes software much easier to understand.
+Whether you're learning about websites, Microsoft 365, SharePoint, Power Platform, or AI, you'll see these concepts used everywhere.
+</p>
+
+<p>
+Once you recognize that static information is usually pre-written and dynamic information comes from a database, modern applications become much less mysterious.
+</p>
+
+</section>
+
+<section class="article-summary">
+
+<h2>Key Takeaways</h2>
+
+<ul>
+
+<li>A database stores information so software can quickly retrieve and update it.</li>
+
+<li>Static data changes very little and is the same for every visitor.</li>
+
+<li>Dynamic data changes constantly and is unique to each user.</li>
+
+<li>Almost every modern website and application uses both static and dynamic content together.</li>
+
+<li>Understanding databases is one of the foundational concepts behind modern technology.</li>
+
+</ul>
+
+</section>
+
+</main>
+
+</body>
+</html>
