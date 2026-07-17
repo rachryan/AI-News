@@ -50,7 +50,7 @@ Never write down to the reader.
 
 ---
 
-# The TechTidy Learning Framework™
+# The TechTidy Learning Framework
 
 Every educational lesson follows the same structure.
 
