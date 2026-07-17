@@ -50,3 +50,12 @@ When making changes:
 Every decision should support TechTidy's mission:
 
 > Help people build digital confidence through practical, approachable technology education.
+
+## Design Philosophy
+
+TechTidy is built around one principle:
+
+> Technology is already complicated.
+> Learning it shouldn't be.
+
+Every lesson, component, and feature should reduce complexity while maintaining technical accuracy.
