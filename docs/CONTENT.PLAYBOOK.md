@@ -1,13 +1,14 @@
 # TechTidy Content Playbook
 
-**Version:** 1.0  
+**Version:** 2.0  
+**Status:** Active  
 **Last Updated:** July 2026
 
 ---
 
 # Purpose
 
-The TechTidy Content Playbook defines the standards for creating educational content across the TechTidy platform.
+The TechTidy Content Playbook defines the editorial standards for every piece of educational content published on the TechTidy platform.
 
 Its purpose is to ensure every lesson is:
 
@@ -18,7 +19,7 @@ Its purpose is to ensure every lesson is:
 - Accessible
 - Actionable
 
-Every article should help readers build genuine digital confidence.
+Every lesson should help readers build genuine digital confidence.
 
 ---
 
@@ -41,7 +42,7 @@ TechTidy is written for:
 - Nonprofits
 - Educators
 - Public sector organizations
-- Professionals wanting practical technology skills
+- Professionals who want practical technology skills
 
 Assume readers are intelligent but may not have a technical background.
 
@@ -49,561 +50,421 @@ Never write down to the reader.
 
 ---
 
-# Writing Principles
+# The TechTidy Learning Framework™
 
-## Explain Before Defining
+Every educational lesson follows the same structure.
 
-Introduce an idea before using technical terminology.
-
-Example:
-
-❌
-
-Databases use CRUD operations.
-
-✅
-
-Every application needs a way to create, update, and delete information.
-These actions are commonly known as CRUD operations.
+Consistency reduces cognitive load and creates a recognizable learning experience.
 
 ---
 
-## Use Plain Language
+## 1. Why It Matters
 
-Prefer:
+Purpose:
 
-computer
-
-instead of
-
-workstation
-
-Prefer:
-
-website
-
-instead of
-
-web property
-
-Prefer:
-
-save
-
-instead of
-
-persist
-
----
-
-## One Idea Per Paragraph
-
-Large paragraphs create cognitive fatigue.
-
-Aim for:
-
-2–4 sentences.
-
----
-
-## Show Before Telling
-
-Whenever possible:
-
-Example
-
-↓
-
-Diagram
-
-↓
-
-Explanation
-
-instead of
-
-Long explanation
-
-↓
-
-Example
-
----
-
-## Be Practical
-
-Every lesson should answer:
-
-Why does this matter?
-
-How will I encounter this?
-
-How can I use it?
-
----
-
-# TechTidy Lesson Structure
-
-Every educational article follows the same format.
-
----
-
-## Hero
-
-Contains:
-
-- Category
-- Title
-- Summary
-- Reading Time
-- Difficulty
-- Last Updated
-
----
-
-## Introduction
+Establish relevance before introducing technical concepts.
 
 Answer:
 
-Why should I care?
+> Why should I care?
 
-Length:
+Guidelines:
 
-2–3 paragraphs.
-
----
-
-## Learning Objectives
-
-Readers should know exactly what they will learn.
-
-Example
-
-After this lesson you will understand:
-
-- What databases are
-- Static vs dynamic data
-- Real-world examples
-- Why it matters
+- 2–3 short paragraphs
+- Use everyday examples
+- Avoid unnecessary jargon
+- Build curiosity
 
 ---
 
-## Main Sections
+## 2. You'll Learn
 
-Each section should answer one question.
+Clearly state what readers will understand by the end of the lesson.
 
-Recommended order:
+Example:
 
+✓ What a database is
+
+✓ Static vs Dynamic Data
+
+✓ Why it matters
+
+✓ Where you'll encounter it
+
+Rules:
+
+- Maximum five bullets
+- Action-oriented
+- Beginner-friendly
+
+---
+
+## 3. Core Concepts
+
+The teaching portion of the lesson.
+
+Each section should follow a consistent structure.
+
+```
 Heading
+
+↓
 
 Explanation
 
+↓
+
 Example
+
+↓
 
 Diagram (optional)
 
-Callout (optional)
+↓
+
+Approved Callout (optional)
+```
+
+Approved callouts:
+
+- Definition
+- Tip
+- Warning
+- Example
 
 ---
 
-## Visual Support
+## 4. Real-World Application
 
-Whenever possible include:
+Bridge theory and practice.
 
-- Diagrams
-- Tables
-- Comparisons
-- Process flows
+Show readers where they will encounter the concept in everyday life.
+
+Possible formats:
+
+- Comparison table
 - Screenshots
-
-Avoid decorative imagery.
-
----
-
-## Summary
-
-Reinforce the main lesson.
-
-Avoid introducing new concepts.
+- Process flow
+- Timeline
+- Product examples
+- Before / After comparisons
 
 ---
 
-## Key Takeaways
+## 5. 💡 TechTidy Insight
 
-Required on every article.
+Every lesson includes one signature insight.
 
-Three to five concise points.
+Purpose:
+
+Help readers understand the bigger picture.
+
+This is not a tip.
+
+It is not a definition.
+
+It is the perspective readers should remember after finishing the lesson.
+
+Guidelines:
+
+- One insight only
+- 2–4 sentences
+- Focus on understanding rather than instruction
+
+---
+
+## 6. 🎯 Confidence Builder
+
+Help readers apply what they've learned immediately.
+
+Purpose:
+
+Transform knowledge into confidence.
+
+Examples:
+
+- Identify static and dynamic content on a favourite website.
+- Try the same AI prompt three different ways.
+- Review your password habits.
+
+Guidelines:
+
+- Takes less than five minutes
+- Requires no special software
+- Reinforces the lesson
+
+---
+
+## 7. Key Takeaways
+
+Summarize the lesson.
+
+Requirements:
+
+- Three to five concise bullets
+- No new information
+- Easy to scan
+
+---
+
+## 8. Continue Your Journey
+
+Guide readers to related lessons.
 
 Example:
 
-✓ Databases store information.
+→ Understanding APIs
 
-✓ Static data rarely changes.
+→ How Websites Work
 
-✓ Dynamic data changes frequently.
+→ Understanding the Cloud
 
----
+Purpose:
 
-## Continue Learning
-
-Link to:
-
-- Previous lesson
-- Next lesson
-- Related articles
-
-Learning should continue naturally.
+Encourage continuous learning through logical learning paths.
 
 ---
 
-# Recommended Article Length
+## 9. Optional Resource
 
-Quick Guide
+Only include when it genuinely supports the lesson.
 
-500–800 words
+Examples:
 
----
+- AI Quick Wins Cheat Sheet
+- Digital Confidence Playbook
+- Downloadable checklist
+- Newsletter
+- Workshop
 
-Standard Lesson
-
-1,000–1,800 words
-
----
-
-Deep Dive
-
-2,000–3,000 words
-
-Only when necessary.
-
-Never add length without adding value.
+Avoid unrelated promotional content.
 
 ---
 
-# Reading Level
+# Lesson Types
 
-Target:
+TechTidy supports four lesson types.
 
-Grade 8–10 reading level.
+## Quick Tip
 
-Avoid unnecessary jargon.
+Purpose:
 
-Explain acronyms the first time they appear.
+Share one practical takeaway.
 
-Example:
+Length:
 
-Multi-Factor Authentication (MFA)
-
-Microsoft Entra ID
-
-Application Programming Interface (API)
+300–600 words
 
 ---
 
-# Tone of Voice
+## Lesson
 
-The TechTidy voice is:
+Purpose:
 
-- Friendly
-- Calm
-- Professional
-- Encouraging
-- Practical
+Teach one concept clearly.
+
+Length:
+
+800–1,500 words
+
+---
+
+## Deep Dive
+
+Purpose:
+
+Explore more advanced topics.
+
+Length:
+
+1,500–3,000 words
+
+Only increase length when additional detail provides value.
+
+---
+
+## Reference Guide
+
+Purpose:
+
+Provide ongoing reference material.
+
+Examples:
+
+- Checklists
+- Keyboard shortcuts
+- Microsoft 365 guides
+- AI prompt libraries
+
+Length varies.
+
+---
+
+# Writing Standards
+
+Explain concepts before introducing technical terminology.
+
+Prefer plain language.
+
+Use one idea per paragraph.
+
+Write for curious beginners.
+
+Use examples frequently.
 
 Avoid:
 
 - Buzzwords
 - Fear tactics
-- Marketing language
 - Clickbait
-- Excessive hype
+- Marketing language
+- Unnecessary jargon
 
 ---
 
-# Code Examples
+# Visual Standards
 
-When using code:
-
-Explain:
-
-What it does.
-
-Why it matters.
-
-Keep examples short.
-
-Highlight only the important lines.
-
----
-
-# Diagrams
-
-Use diagrams when they improve understanding.
-
-Good examples:
-
-Architecture
-
-Flowchart
-
-Comparison
-
-Timeline
-
-Hierarchy
-
-Avoid unnecessary decoration.
-
----
-
-# Tables
-
-Use comparison tables whenever comparing concepts.
+Prefer visuals that teach.
 
 Examples:
 
-Cloud Storage vs Local Storage
+- Diagrams
+- Process flows
+- Comparison tables
+- Architecture diagrams
+- Screenshots
 
-OneDrive vs SharePoint
+Avoid decorative imagery.
 
-Password Manager vs Browser Passwords
-
-Static vs Dynamic Data
-
-Tables should remain concise.
-
----
-
-# Screenshots
-
-Screenshots should:
-
-- Be cropped
-- Highlight relevant areas
-- Include captions
-- Stay current
-
-Update screenshots when interfaces change.
-
----
-
-# Accessibility
-
-Every article must:
-
-- Use proper heading hierarchy
-- Include alt text
-- Avoid colour-only meaning
-- Support keyboard navigation
-- Meet WCAG AA colour contrast
-
-Accessibility is a requirement.
-
----
-
-# Internal Linking
-
-Every lesson should include links to:
-
-Related concepts
-
-Prerequisite lessons
-
-Next recommended lesson
-
-This creates learning pathways.
+Every image should improve understanding.
 
 ---
 
 # Metadata Standards
 
-Every article should contain:
+Every lesson includes:
 
-Category
+- Category
+- Difficulty
+- Reading Time
+- Author
+- Last Updated
+- SEO Description
 
-Difficulty
+---
 
-Reading Time
+# Internal Linking
 
-Author
+Every lesson should connect readers to:
 
-Last Updated
+- Related lessons
+- Prerequisite topics
+- Next recommended lesson
 
-SEO Description
+TechTidy should feel like a connected learning platform rather than a collection of individual articles.
 
-Keywords
+---
+
+# Accessibility
+
+Every lesson must:
+
+- Use proper heading hierarchy
+- Include descriptive alt text
+- Meet WCAG AA colour contrast
+- Avoid colour-only meaning
+- Support keyboard navigation
+
+Accessibility is a requirement.
 
 ---
 
 # SEO Guidelines
 
-Titles should clearly describe the topic.
-
-Prefer:
-
-Understanding APIs
-
-instead of
-
-Everything You Need to Know About APIs
+Use descriptive titles.
 
 Write naturally.
 
-Never keyword stuff.
+Avoid keyword stuffing.
 
----
-
-# Callouts
-
-Use only approved callout types.
-
-Definition
-
-Tip
-
-Example
-
-Warning
-
-Avoid creating new callout styles.
-
----
-
-# Images
-
-Every image must answer:
-
-Does this help someone understand the topic?
-
-If not, remove it.
-
----
-
-# Lesson Checklist
-
-Before publishing, verify:
-
-- Clear title
-- Strong introduction
-- Learning objectives included
-- Consistent headings
-- Practical examples
-- Helpful visuals
-- Key Takeaways
-- Continue Learning section
-- Metadata complete
-- Accessibility checked
-- Responsive layout verified
-- Proofread
+Keep URLs short and descriptive.
 
 ---
 
 # Publishing Workflow
 
 1. Select topic
-
 2. Research
-
 3. Create outline
-
 4. Write first draft
-
 5. Add examples
-
-6. Add visuals
-
+6. Create diagrams or visuals
 7. Review for clarity
-
-8. Accessibility check
-
+8. Accessibility review
 9. SEO review
-
 10. Publish
-
 11. Add internal links
-
 12. Share through newsletter and social media
-
----
-
-# Content Categories
-
-Technology Fundamentals
-
-Artificial Intelligence
-
-Security
-
-Microsoft 365
-
-Cloud Computing
-
-Power Platform
-
-Digital Productivity
-
-Practical Guides
-
-Business Technology
 
 ---
 
 # Content Lifecycle
 
-Every lesson should be reviewed at least once every 12 months.
+Review educational content every 12 months.
 
-Review for:
+Check for:
 
-Accuracy
+- Accuracy
+- Product changes
+- Outdated screenshots
+- Broken links
+- Better examples
 
-Broken links
+Update the "Last Updated" date whenever significant revisions are made.
 
-Outdated screenshots
+---
 
-Product changes
+# Editorial Checklist
 
-Improved examples
+Before publishing, confirm:
 
-Add "Last Updated" when significant revisions are made.
+- Clear title
+- Strong "Why It Matters"
+- "You'll Learn" section included
+- Logical lesson structure
+- Practical examples
+- Helpful visuals
+- One TechTidy Insight
+- One Confidence Builder
+- Key Takeaways
+- Continue Your Journey
+- Metadata complete
+- Accessibility reviewed
+- Responsive layout tested
+- Proofread
 
 ---
 
 # Success Criteria
 
-A successful TechTidy lesson should leave readers able to answer:
+Every lesson should enable readers to answer:
 
 - What is it?
 - Why does it matter?
-- Where will I use it?
+- Where will I encounter it?
+- How can I use it?
 - What should I remember?
 - Where do I go next?
 
-If readers can answer those questions confidently, the lesson has achieved its goal.
-
----
-
-# Editorial Standards
-
-When creating new content, always ask:
-
-- Is this useful?
-- Is it accurate?
-- Is it approachable?
-- Is it visually clear?
-- Is it consistent with the TechTidy Design System?
-- Would a beginner understand it?
-
-If the answer to any question is "no," revise before publishing.
+If readers can confidently answer those questions, the lesson has achieved its purpose.
 
 ---
 
 # The TechTidy Standard
 
-Every article should leave readers feeling:
+Every lesson should leave readers thinking:
 
-> **"I understand this now."**
-
-That is the measure of success.
+> **"I understand this now—and I know where I'll use it."**
 
 Technology will continue to evolve.
 
