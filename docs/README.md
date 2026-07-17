@@ -37,6 +37,14 @@ If you're new to the project, read these documents in order:
 
 ---
 
+When making changes:
+
+- Update the Style Guide if the visual language changes.
+- Update Components when new UI elements are introduced.
+- Update the Content Playbook when editorial standards evolve.
+- Update Project Standards when development practices change.
+- Update the Roadmap when priorities shift.
+
 ## Guiding Principle
 
 Every decision should support TechTidy's mission:
