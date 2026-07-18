@@ -1,34 +1,6 @@
 {
-    "last_updated": "July 17, 2026",
+    "last_updated": "July 18, 2026",
     "articles": [
-        {
-            "title": "Examining Google DeepMind\u2019s AI bioresilience push",
-            "url": "https://www.artificialintelligence-news.com/news/examining-google-deepmind-ai-bioresilience-push/",
-            "urlToImage": "",
-            "description": "<p>Google DeepMind and Isomorphic Labs outlined a bioresilience program to curb AI misuse in biology while aiding outbreak response. The two organisat...",
-            "source": "AI News"
-        },
-        {
-            "title": "Neko Health raises $700 million to expand AI body scans in the US",
-            "url": "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us/",
-            "urlToImage": "",
-            "description": "<p>Neko Health has raised $700 million to expand its AI body scans in the United States, starting with a clinic in New York. The company\u2019s preventive ...",
-            "source": "AI News"
-        },
-        {
-            "title": "Nokia\u2019s AI-RAN platform: a radio comeback that runs on NVIDIA",
-            "url": "https://www.artificialintelligence-news.com/news/nokia-ai-ran-platform-nvidia/",
-            "urlToImage": "",
-            "description": "<p>Nokia&#8217;s AI-RAN platform&#160;arrived&#160;on July 15 with a claim worth examining: that it is the industry&#8217;s first. The vendor says the...",
-            "source": "AI News"
-        },
-        {
-            "title": "AWS and Bluesight build AI for hospital 340B compliance",
-            "url": "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance/",
-            "urlToImage": "",
-            "description": "<p>AWS (Amazon Web Services) has explained how Bluesight developed Prism, an AI layer that connects hospital pharmacy and compliance data across its p...",
-            "source": "AI News"
-        },
         {
             "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
             "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
@@ -58,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "The risk of weather data sabotage is rising",
+            "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+            "urlToImage": "",
+            "description": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While the...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
             "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
             "urlToImage": "",
@@ -79,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "The foundational elements of AI architecture that IT leaders need to scale",
-            "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+            "title": "Vertu wants executives to pay $6,880 for an AI agent \u2014 here\u2019s how it actually performs",
+            "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
             "urlToImage": "",
-            "description": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Google Vids now lets you star in your own AI videos",
-            "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
-            "urlToImage": "",
-            "description": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered ...",
+            "description": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
-            "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+            "title": "Databricks hits $188B valuation, extending its run as AI\u2019s favorite second act",
+            "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
             "urlToImage": "",
-            "description": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt....",
+            "description": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Google\u2019s AI Mode now lets you link and interact with select apps",
-            "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+            "title": "The Zoom hack that says, \u2018Don\u2019t record me\u2019",
+            "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
             "urlToImage": "",
-            "description": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly....",
+            "description": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Yes, you can now order DoorDash from the command line",
-            "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+            "title": "Agility Robotics plants its flag in Tesla\u2019s backyard",
+            "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
             "urlToImage": "",
-            "description": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from...",
+            "description": "Agility is opening a new training center for its Digit robots in Fremont, California....",
             "source": "TechCrunch AI"
         }
     ]
