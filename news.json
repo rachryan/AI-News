@@ -1,6 +1,34 @@
 {
-    "last_updated": "July 18, 2026",
+    "last_updated": "July 19, 2026",
     "articles": [
+        {
+            "title": "Bunkerhill raises $55M to scale agentic AI across health systems",
+            "url": "https://www.artificialintelligence-news.com/news/bunkerhill-raises-55m-scale-agentic-ai-health-systems/",
+            "urlToImage": "",
+            "description": "<p>Bunkerhill Health has raised $55 million to scale its agentic AI platform, Carebricks. The closing of the company\u2019s Series B round, announced today...",
+            "source": "AI News"
+        },
+        {
+            "title": "Examining Google DeepMind\u2019s AI bioresilience push",
+            "url": "https://www.artificialintelligence-news.com/news/examining-google-deepmind-ai-bioresilience-push/",
+            "urlToImage": "",
+            "description": "<p>Google DeepMind and Isomorphic Labs outlined a bioresilience program to curb AI misuse in biology while aiding outbreak response. The two organisat...",
+            "source": "AI News"
+        },
+        {
+            "title": "Neko Health raises $700 million to expand AI body scans in the US",
+            "url": "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us/",
+            "urlToImage": "",
+            "description": "<p>Neko Health has raised $700 million to expand its AI body scans in the United States, starting with a clinic in New York. The company\u2019s preventive ...",
+            "source": "AI News"
+        },
+        {
+            "title": "Nokia\u2019s AI-RAN platform: a radio comeback that runs on NVIDIA",
+            "url": "https://www.artificialintelligence-news.com/news/nokia-ai-ran-platform-nvidia/",
+            "urlToImage": "",
+            "description": "<p>Nokia&#8217;s AI-RAN platform&#160;arrived&#160;on July 15 with a claim worth examining: that it is the industry&#8217;s first. The vendor says the...",
+            "source": "AI News"
+        },
         {
             "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
             "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
@@ -58,6 +86,20 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "Kimi: Threat or menace?",
+            "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+            "urlToImage": "",
+            "description": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"...",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Neil Rimer thinks the AI money is coming back out",
+            "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+            "urlToImage": "",
+            "description": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redi...",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "Vertu wants executives to pay $6,880 for an AI agent \u2014 here\u2019s how it actually performs",
             "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
             "urlToImage": "",
@@ -69,20 +111,6 @@
             "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
             "urlToImage": "",
             "description": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "The Zoom hack that says, \u2018Don\u2019t record me\u2019",
-            "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
-            "urlToImage": "",
-            "description": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?...",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "Agility Robotics plants its flag in Tesla\u2019s backyard",
-            "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
-            "urlToImage": "",
-            "description": "Agility is opening a new training center for its Digit robots in Fremont, California....",
             "source": "TechCrunch AI"
         }
     ]
