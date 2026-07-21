@@ -1,6 +1,20 @@
 {
-    "last_updated": "July 20, 2026",
+    "last_updated": "July 21, 2026",
     "articles": [
+        {
+            "title": "US public health agencies to test OpenAI and Anthropic AI models",
+            "url": "https://www.artificialintelligence-news.com/news/openai-anthropic-public-health-ai/",
+            "urlToImage": "",
+            "description": "<p>Public health departments across the United States will test generative AI tools under a new programme involving the Coalition for Health AI, OpenA...",
+            "source": "AI News"
+        },
+        {
+            "title": "Kimi K3 open-weight model: China\u2019s biggest AI is a bet on memory, not compute",
+            "url": "https://www.artificialintelligence-news.com/news/kimi-k3-open-weight-model-memory-compute-china/",
+            "urlToImage": "",
+            "description": "<p>Moonshot AI&#8217;s Kimi K3 open-weight model has been read almost entirely through its parameter count since it&#160;launchedon July 16. At 2.8 tr...",
+            "source": "AI News"
+        },
         {
             "title": "Bunkerhill raises $55M to scale agentic AI across health systems",
             "url": "https://www.artificialintelligence-news.com/news/bunkerhill-raises-55m-scale-agentic-ai-health-systems/",
@@ -13,20 +27,6 @@
             "url": "https://www.artificialintelligence-news.com/news/examining-google-deepmind-ai-bioresilience-push/",
             "urlToImage": "",
             "description": "<p>Google DeepMind and Isomorphic Labs outlined a bioresilience program to curb AI misuse in biology while aiding outbreak response. The two organisat...",
-            "source": "AI News"
-        },
-        {
-            "title": "Neko Health raises $700 million to expand AI body scans in the US",
-            "url": "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us/",
-            "urlToImage": "",
-            "description": "<p>Neko Health has raised $700 million to expand its AI body scans in the United States, starting with a clinic in New York. The company\u2019s preventive ...",
-            "source": "AI News"
-        },
-        {
-            "title": "Nokia\u2019s AI-RAN platform: a radio comeback that runs on NVIDIA",
-            "url": "https://www.artificialintelligence-news.com/news/nokia-ai-ran-platform-nvidia/",
-            "urlToImage": "",
-            "description": "<p>Nokia&#8217;s AI-RAN platform&#160;arrived&#160;on July 15 with a claim worth examining: that it is the industry&#8217;s first. The vendor says the...",
             "source": "AI News"
         },
         {
@@ -58,6 +58,20 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "China\u2019s AI models have Trump\u2019s AI world at war with itself",
+            "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+            "urlToImage": "",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over th...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "AI is more likely than humans to form biases when hiring",
+            "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+            "urlToImage": "",
+            "description": "The next time you apply for a job, AI may screen your r\u00e9sum\u00e9 before any human sees it. But there\u2019s good reason to question whether AI will judge you f...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "The risk of weather data sabotage is rising",
             "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
             "urlToImage": "",
@@ -72,45 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "What Anthropic\u2019s latest AI discovery does\u2014and doesn\u2019t\u2014show",
-            "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+            "title": "Anthropic\u2019s landmark $1.5B copyright settlement is approved",
+            "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
             "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. Anthropic\u2014cu...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-            "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-            "urlToImage": "",
-            "description": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what\u2019s really going on inside large language models as t...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "What to watch for after Jensen Huang\u2019s Japan visit",
-            "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
-            "urlToImage": "",
-            "description": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem....",
+            "description": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Can an Apple lawsuit derail OpenAI\u2019s hardware plans?",
-            "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+            "title": "Trump\u2019s latest AI czar has already resigned",
+            "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
             "urlToImage": "",
-            "description": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public....",
+            "description": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "\u2018Odyssey\u2019 director Christopher Nolan calls AI an obvious \u2018Trojan horse\u2019",
-            "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+            "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+            "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
             "urlToImage": "",
-            "description": "\"Everybody knows the Greeks are inside.\"...",
+            "description": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
-            "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+            "title": "AI\u2019s most important protocol is getting a little bit easier to use",
+            "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
             "urlToImage": "",
-            "description": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more....",
+            "description": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites a...",
             "source": "TechCrunch AI"
         }
     ]
