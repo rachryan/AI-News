@@ -1,6 +1,13 @@
 {
-    "last_updated": "July 22, 2026",
+    "last_updated": "July 23, 2026",
     "articles": [
+        {
+            "title": "SenseTime\u2019s Galaxy Project targets domestic AI chip scale-up",
+            "url": "https://www.artificialintelligence-news.com/news/sensetimes-galaxy-project-targets-domestic-ai-chip-scale-up/",
+            "urlToImage": "",
+            "description": "<p>SenseTime has launched the Galaxy Project, teaming with nearly 20 partners to scale domestic AI chip infrastructure in China. In a keynote titled \u2018...",
+            "source": "AI News"
+        },
         {
             "title": "Google\u2019s Gemini 3.6 Flash targets enterprise agent token costs",
             "url": "https://www.artificialintelligence-news.com/news/googles-gemini-3-6-flash-targets-enterprise-agent-token-costs/",
@@ -20,13 +27,6 @@
             "url": "https://www.artificialintelligence-news.com/news/bristol-myers-squibb-nvidia-ai-system-drug-discovery/",
             "urlToImage": "",
             "description": "<p>Bristol Myers Squibb is purchasing an Nvidia DGX SuperPOD built on the chipmaker\u2019s Vera Rubin architecture to support artificial intelligence use a...",
-            "source": "AI News"
-        },
-        {
-            "title": "Chinese open-weight models are cheap. Washington is deciding what that costs.",
-            "url": "https://www.artificialintelligence-news.com/news/chinese-open-weight-models-policy-risk/",
-            "urlToImage": "",
-            "description": "<p>Enterprises evaluating Chinese open-weight models this month face a question that has nothing to do with benchmarks: whether using one will still b...",
             "source": "AI News"
         },
         {
@@ -86,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Meta is testing an AI bedtime story app for people with no imagination",
-            "url": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/",
+            "title": "After shocking quarter, IBM insists that AI isn\u2019t killing the mainframe",
+            "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
             "urlToImage": "",
-            "description": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations....",
+            "description": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenAI says Hugging Face was breached by its pre-release models",
-            "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
+            "title": "Google justifies its massive AI spending with a booming cloud business",
+            "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
             "urlToImage": "",
-            "description": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry....",
+            "description": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
-            "url": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
+            "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic\u2019s Fable",
+            "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
             "urlToImage": "",
-            "description": "Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation....",
+            "description": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "AI and the rise of the universal entertainment app",
-            "url": "https://techcrunch.com/2026/07/21/ai-and-the-rise-of-the-universal-entertainment-app/",
+            "title": "How OpenAI\u2019s human mistake led to the AI-powered hack on Hugging Face",
+            "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
             "urlToImage": "",
-            "description": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it ea...",
+            "description": "OpenAI made a mistake setting up what it called a \u201chighly isolated\u201d testing environment and sandbox. According to cybersecurity experts, that human mi...",
             "source": "TechCrunch AI"
         }
     ]
