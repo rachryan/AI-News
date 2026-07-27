@@ -1,6 +1,34 @@
 {
-    "last_updated": "July 26, 2026",
+    "last_updated": "July 27, 2026",
     "articles": [
+        {
+            "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
+            "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
+            "urlToImage": "",
+            "description": "<p>Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (P...",
+            "source": "AI News"
+        },
+        {
+            "title": "OpenAI pushes ChatGPT into patient health records",
+            "url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records/",
+            "urlToImage": "",
+            "description": "<p>OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health data and medical records to the chatbot. Logge...",
+            "source": "AI News"
+        },
+        {
+            "title": "OpenAI Presence sells enterprise AI agents with engineers attached",
+            "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
+            "urlToImage": "",
+            "description": "<p>The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is...",
+            "source": "AI News"
+        },
+        {
+            "title": "Nvidia bets physical AI can solve healthcare robotics\u2019 data problem",
+            "url": "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem/",
+            "urlToImage": "",
+            "description": "<p>Nvidia&#8217;s new Medical Physics Simulation framework treats healthcare robots as physical AI systems that need embodied experience to learn, not...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "Are brain waves the next unlock for physical AI?",
+            "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+            "urlToImage": "",
+            "description": "Forget YouTube videos\u2014frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings....",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Making sense of the panic over Chinese AI",
+            "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+            "urlToImage": "",
+            "description": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street....",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Hugging Face CEO calls for \u2018radical transparency\u2019 after \u2018unprecedented\u2019 OpenAI hack",
+            "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+            "urlToImage": "",
+            "description": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"...",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others",
             "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
             "urlToImage": "",
             "description": "A running look \u2014 in reverse chronological order \u2014 at the bigger tech companies that have announced significant layoffs this year with AI as a stated f...",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "Librarians are hosting viral \u2018Avoiding AI\u2019 workshops for people who are fed up with Big Tech",
-            "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
-            "urlToImage": "",
-            "description": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "One fallen power line exposed a growing AI data center problem. Here\u2019s how to fix it.",
-            "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
-            "urlToImage": "",
-            "description": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "I tried out OpenAI\u2019s new AI keypad \u2014 which will be fun for some coders and slightly mystifying to everyone else",
-            "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
-            "urlToImage": "",
-            "description": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it....",
             "source": "TechCrunch AI"
         }
     ]
