@@ -1,6 +1,20 @@
 {
-    "last_updated": "July 27, 2026",
+    "last_updated": "July 28, 2026",
     "articles": [
+        {
+            "title": "How AI is shortening drug discovery timelines in China",
+            "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/",
+            "urlToImage": "",
+            "description": "<p>Insilico Medicine has reduced the time needed to produce some drug development candidates to about one year by combining artificial intelligence wi...",
+            "source": "AI News"
+        },
+        {
+            "title": "America\u2019s AI Investment Boom Is Reshaping the Economy",
+            "url": "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy/",
+            "urlToImage": "",
+            "description": "<p>America&#8217;s AI Investment Boom Is Reshaping the Economy Artificial intelligence has become one of the defining investment stories in the United...",
+            "source": "AI News"
+        },
         {
             "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
             "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
@@ -13,20 +27,6 @@
             "url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records/",
             "urlToImage": "",
             "description": "<p>OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health data and medical records to the chatbot. Logge...",
-            "source": "AI News"
-        },
-        {
-            "title": "OpenAI Presence sells enterprise AI agents with engineers attached",
-            "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
-            "urlToImage": "",
-            "description": "<p>The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is...",
-            "source": "AI News"
-        },
-        {
-            "title": "Nvidia bets physical AI can solve healthcare robotics\u2019 data problem",
-            "url": "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem/",
-            "urlToImage": "",
-            "description": "<p>Nvidia&#8217;s new Medical Physics Simulation framework treats healthcare robots as physical AI systems that need embodied experience to learn, not...",
             "source": "AI News"
         },
         {
@@ -58,59 +58,59 @@
             "source": "VentureBeat AI"
         },
         {
-            "title": "How AI helps scientists design the next generation of medicines",
-            "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+            "title": "OpenAI called the Hugging Face attack unprecedented. But we\u2019ve been here before.",
+            "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
             "urlToImage": "",
-            "description": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of...",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "Advancing next-gen AI with materials science innovation",
-            "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+            "title": "The path to artificial superintelligence",
+            "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
             "urlToImage": "",
-            "description": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale dat...",
+            "description": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth ph...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "China\u2019s AI models have Trump\u2019s AI world at war with itself",
-            "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+            "title": "Closing the data loop in AI-driven drug discovery",
+            "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
             "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over th...",
+            "description": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since th...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "AI is more likely than humans to form biases when hiring",
-            "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+            "title": "Building the enterprise environment for agentic AI",
+            "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
             "urlToImage": "",
-            "description": "The next time you apply for a job, AI may screen your r\u00e9sum\u00e9 before any human sees it. But there\u2019s good reason to question whether AI will judge you f...",
+            "description": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end ac...",
             "source": "MIT Tech Review"
         },
         {
-            "title": "Are brain waves the next unlock for physical AI?",
-            "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+            "title": "Anthropic\u2019s Dario Amodei responds: doesn\u2019t oppose open-weight models, but fears Chinese AI",
+            "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
             "urlToImage": "",
-            "description": "Forget YouTube videos\u2014frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings....",
+            "description": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Making sense of the panic over Chinese AI",
-            "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+            "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+            "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
             "urlToImage": "",
-            "description": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street....",
+            "description": "Companies without their own models \u2014 or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself \u2014 wi...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Hugging Face CEO calls for \u2018radical transparency\u2019 after \u2018unprecedented\u2019 OpenAI hack",
-            "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+            "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+            "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
             "urlToImage": "",
-            "description": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"...",
+            "description": "The issue appears to have originated from Claude\u2019s \u201cshare chat\u201d feature, which allows users to create links that enable anyone with the assigned URL v...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others",
-            "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+            "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+            "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
             "urlToImage": "",
-            "description": "A running look \u2014 in reverse chronological order \u2014 at the bigger tech companies that have announced significant layoffs this year with AI as a stated f...",
+            "description": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform....",
             "source": "TechCrunch AI"
         }
     ]
