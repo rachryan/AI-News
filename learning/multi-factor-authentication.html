@@ -1,3 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Factor Authentication Explained | TechTidy</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="glow-bg"></div>
+
+<nav class="pathfinder-nav">
+    <div class="logo nav-logo">
+        <a href="/" style="text-decoration:none; color:inherit;">
+            TECH<span>TIDY</span>
+        </a>
+    </div>
+</nav>
+
+<div class="article-back">
+    <a href="/learning/security.html">
+        ← Return to Security Fundamentals
+    </a>
+</div>
+
+<main class="container">
+
 <header class="page-hero">
 
     <div class="card-tag">SECURITY FUNDAMENTALS</div>
@@ -7,14 +41,10 @@
     </h1>
 
     <p class="summary">
-        Even the strongest password can be stolen. Multi-Factor Authentication
-        (MFA) adds an extra layer of protection by requiring a second step before
-        someone can access your account.
+        Passwords are important, but they're only one part of protecting your online accounts. Multi-Factor Authentication (MFA) adds a second layer of security, making it much harder for someone else to sign in—even if they know your password.
     </p>
 
 </header>
-
-
 
 <section class="news-card">
 
@@ -24,88 +54,61 @@
         In this guide
     </h2>
 
-    <p class="summary">
-        By the end of this lesson you'll understand:
-    </p>
-
     <ul style="max-width:700px; margin:30px auto; line-height:2;">
 
         <li>What Multi-Factor Authentication (MFA) is</li>
-
-        <li>Why passwords alone aren't always enough</li>
-
-        <li>The different types of authentication</li>
-
-        <li>How MFA protects your accounts</li>
-
-        <li>When you should enable MFA</li>
+        <li>Why passwords aren't enough on their own</li>
+        <li>The three types of authentication</li>
+        <li>Where you should enable MFA</li>
+        <li>Which MFA methods offer the best protection</li>
 
     </ul>
 
 </section>
 
-
-
 <section class="news-card">
 
-    <div class="card-tag">THE BASICS</div>
+    <div class="card-tag">WHAT IS MFA?</div>
 
     <h2 class="headline">
-        What Is Multi-Factor Authentication?
+        A Second Layer of Protection
     </h2>
 
     <p>
 
-        Multi-Factor Authentication (often shortened to <strong>MFA</strong>)
-        requires you to prove your identity using two or more methods before you
-        can sign in.
+        Multi-Factor Authentication (MFA) asks you to verify your identity using two or more methods before you can sign in.
 
     </p>
 
     <p>
 
-        Instead of relying only on your password, MFA asks for an additional
-        verification step. Even if someone knows your password, they usually can't
-        access your account without that second factor.
+        Even if someone steals your password, they usually can't access your account without the second verification step.
 
     </p>
 
 </section>
-
-
 
 <section class="news-card">
 
     <div class="card-tag">WHY IT MATTERS</div>
 
     <h2 class="headline">
-        Why Isn't a Password Enough?
+        Why Passwords Aren't Always Enough
     </h2>
 
     <p>
 
-        Passwords can be guessed, stolen in data breaches, or tricked out of people
-        through phishing scams.
+        Passwords can be guessed, stolen in data breaches, or obtained through phishing scams.
 
     </p>
 
     <p>
 
-        If someone discovers your password, they may be able to sign in as if they
-        were you.
-
-    </p>
-
-    <p>
-
-        MFA makes that much harder because the attacker also needs access to
-        something you physically have or something unique to you.
+        MFA helps stop attackers because knowing your password isn't enough—they also need access to your phone, security key, or biometric information.
 
     </p>
 
 </section>
-
-
 
 <section class="news-card">
 
@@ -115,17 +118,13 @@
         The Three Ways You Can Verify Your Identity
     </h2>
 
-    <p>
-        Most authentication methods fall into one of these three categories:
-    </p>
-
     <ul style="max-width:700px; margin:30px auto; line-height:2;">
 
-        <li><strong>Something you know</strong> – your password or PIN.</li>
+        <li><strong>🔑 Something you know</strong><br>Your password or PIN.</li>
 
-        <li><strong>Something you have</strong> – your phone, security key, or authenticator app.</li>
+        <li><strong>📱 Something you have</strong><br>Your phone, authenticator app, or security key.</li>
 
-        <li><strong>Something you are</strong> – your fingerprint, face, or other biometric information.</li>
+        <li><strong>👤 Something you are</strong><br>Your fingerprint or Face ID.</li>
 
     </ul>
 
@@ -135,21 +134,13 @@
 
         <p>
 
-            Imagine your house has two locks.
+            Imagine your front door has two locks instead of one. Even if someone copies your key, they still can't get inside without unlocking the second lock.
 
         </p>
 
         <p>
 
-            Even if someone copies your front door key, they still can't get inside
-            without the code to the second lock.
-
-        </p>
-
-        <p>
-
-            MFA works the same way by adding another barrier between attackers and
-            your account.
+            That's exactly what MFA does for your online accounts.
 
         </p>
 
@@ -157,19 +148,17 @@
 
 </section>
 
-
-
 <section class="news-card">
 
     <div class="card-tag">COMMON METHODS</div>
 
     <h2 class="headline">
-        How MFA Works in Everyday Life
+        How MFA Works
     </h2>
 
     <p>
 
-        Many websites and apps use MFA in one of these ways:
+        Depending on the website or app, your second verification might be:
 
     </p>
 
@@ -179,24 +168,52 @@
 
         <li>A code generated by an authenticator app.</li>
 
-        <li>A prompt asking you to approve the sign-in on your phone.</li>
+        <li>A notification asking you to approve the sign-in.</li>
 
-        <li>A fingerprint or Face ID check.</li>
+        <li>A fingerprint or Face ID.</li>
 
-        <li>A physical security key inserted into your device.</li>
+        <li>A physical security key.</li>
 
     </ul>
 
 </section>
 
+<section class="news-card">
 
+    <div class="card-tag">WHERE TO USE MFA</div>
+
+    <h2 class="headline">
+        Which Accounts Should You Protect?
+    </h2>
+
+    <p>
+
+        If you can only enable MFA on a few accounts, start with the ones that matter most.
+
+    </p>
+
+    <ul style="max-width:700px; margin:30px auto; line-height:2;">
+
+        <li>📧 Email</li>
+
+        <li>🏦 Banking</li>
+
+        <li>🔐 Password Manager</li>
+
+        <li>🛒 Shopping Accounts</li>
+
+        <li>📱 Social Media</li>
+
+    </ul>
+
+</section>
 
 <section class="news-card">
 
     <div class="card-tag">BEST PRACTICE</div>
 
     <h2 class="headline">
-        Which Type Is Best?
+        Which MFA Method Is Best?
     </h2>
 
     <p>
@@ -207,21 +224,11 @@
 
     <p>
 
-        However, security experts generally recommend using an authenticator app
-        or a physical security key instead of text messages whenever possible.
-
-    </p>
-
-    <p>
-
-        Text messages can still be intercepted in rare situations, while
-        authenticator apps generate codes directly on your device.
+        If you have a choice, security experts generally recommend using an authenticator app or a physical security key instead of text messages.
 
     </p>
 
 </section>
-
-
 
 <section class="news-card">
 
@@ -233,21 +240,19 @@
 
     <ul style="max-width:700px; margin:30px auto; line-height:2;">
 
-        <li>Passwords alone are not always enough.</li>
+        <li>Passwords alone aren't enough.</li>
 
         <li>MFA adds a second layer of protection.</li>
 
-        <li>Enable MFA on email, banking, shopping, and social media accounts.</li>
+        <li>Turn on MFA for your email first.</li>
 
-        <li>Authenticator apps are generally more secure than text messages.</li>
+        <li>Authenticator apps are generally the best everyday option.</li>
 
-        <li>The small extra step greatly improves your online security.</li>
+        <li>A few extra seconds during sign-in can greatly improve your security.</li>
 
     </ul>
 
 </section>
-
-
 
 <section class="news-card">
 
@@ -258,9 +263,7 @@
     </h2>
 
     <p class="summary">
-        Now that you know how to better protect your accounts, learn how to
-        recognize phishing emails, fake websites, and other online scams before
-        they can trick you.
+        Strong passwords and Multi-Factor Authentication work together to protect your accounts. Next, learn how to recognize phishing emails, fake websites, and other common online scams.
     </p>
 
     <div class="article-navigation">
@@ -276,3 +279,9 @@
     </div>
 
 </section>
+
+</main>
+
+</body>
+
+</html>
