@@ -26,7 +26,7 @@
 
 <div class="article-back">
     <a href="/learning/security.html">
-        ← Back to Security Fundamentals
+        ← Return to Security Fundamentals
     </a>
 </div>
 
@@ -41,10 +41,10 @@
     </h1>
 
     <p class="summary">
-        Every time you shop online, your payment travels through several security
-        checks in just a few seconds. Understanding what happens behind the scenes
-        can help you shop with confidence and recognize how businesses work
-        together to protect your payment information.
+        Buying something online takes only a few seconds, but your payment passes
+        through several security checks before it's approved. Understanding what
+        happens behind the scenes can help you shop with greater confidence and
+        better recognize how your payment information is protected.
     </p>
 
 </header>
@@ -53,83 +53,29 @@
 
 <section class="news-card">
 
-<div class="card-tag">WHAT YOU'LL LEARN</div>
+    <div class="card-tag">WHAT YOU'LL LEARN</div>
 
-<h2 class="headline">
-In this guide
-</h2>
+    <h2 class="headline">
+        In this guide
+    </h2>
 
-<p class="summary">
-By the end of this lesson you'll understand:
-</p>
+    <p class="summary">
+        By the end of this lesson you'll understand:
+    </p>
 
-<ul style="max-width:700px; margin:30px auto; line-height:2;">
+    <ul style="max-width:700px; margin:30px auto; line-height:2;">
 
-<li>What happens after you click <strong>Pay Now</strong></li>
+        <li>What happens after you click <strong>Pay Now</strong></li>
 
-<li>How your payment travels securely across the internet</li>
+        <li>How your payment is protected while travelling across the internet</li>
 
-<li>Why most businesses never store your credit card number</li>
+        <li>What payment processors actually do</li>
 
-<li>What encryption, tokenization, and PCI DSS actually mean</li>
+        <li>Why businesses usually don't store your credit card number</li>
 
-<li>Simple ways you can make online shopping even safer</li>
+        <li>What encryption, tokenization, and PCI DSS mean in plain English</li>
 
-</ul>
-
-</section>
-
-
-
-<section class="news-card">
-
-<div class="card-tag">THE BIG PICTURE</div>
-
-<h2 class="headline">
-What Happens When You Click "Pay Now"?
-</h2>
-
-<p>
-
-Many people imagine their credit card information goes directly from their
-computer to the online store.
-
-In reality, several different companies work together to process your payment
-securely.
-
-</p>
-
-<p>
-
-Your information is encrypted.
-
-It travels across a secure connection.
-
-A payment processor receives it.
-
-Your bank checks the transaction.
-
-The retailer receives an approval or decline.
-
-</p>
-
-<p>
-
-All of this usually happens in just a few seconds.
-
-</p>
-
-<div class="feature-card">
-
-<h3>Your payment journey</h3>
-
-<p>
-
-🛒 You → 🌐 Website → 💳 Payment Processor → 🏦 Your Bank → ✅ Approval
-
-</p>
-
-</div>
+    </ul>
 
 </section>
 
@@ -137,46 +83,44 @@ All of this usually happens in just a few seconds.
 
 <section class="news-card">
 
-<div class="card-tag">STEP 1</div>
+    <div class="card-tag">THE BIG PICTURE</div>
 
-<h2 class="headline">
-Your Information Is Encrypted
-</h2>
+    <h2 class="headline">
+        What Happens When You Click "Pay Now"?
+    </h2>
 
-<p>
+    <p>
 
-The moment you enter your credit card details, your browser begins protecting
-that information using a technology called <strong>encryption</strong>.
+        It might feel like your credit card information goes straight from your
+        computer to the online store.
 
-</p>
+    </p>
 
-<p>
+    <p>
 
-Encryption converts readable information into coded data that can only be read
-by the intended recipient.
+        In reality, several trusted systems work together to verify your payment,
+        protect your information, and make sure the money reaches the right place.
 
-If someone intercepted the data while it travelled across the internet, they
-wouldn't see your actual credit card number—they would only see unreadable data.
+    </p>
 
-</p>
+    <p>
 
-<div class="feature-card">
+        All of this normally happens in just a few seconds, often before you've
+        even finished reading the confirmation message on your screen.
 
-<h3>💡 Think of it like this</h3>
+    </p>
 
-<p>
+    <div class="feature-card">
 
-Imagine writing a letter in a secret code that only the recipient knows how to
-read.
+        <h3>Your payment journey</h3>
 
-Anyone who intercepted the letter could see it, but they wouldn't understand
-what it says.
+        <p>
 
-Encryption works much the same way.
+            🛒 You → 🌐 Website → 💳 Payment Processor → 🏦 Your Bank → ✅ Approval
 
-</p>
+        </p>
 
-</div>
+    </div>
 
 </section>
 
@@ -184,47 +128,100 @@ Encryption works much the same way.
 
 <section class="news-card">
 
-<div class="card-tag">STEP 2</div>
+    <div class="card-tag">STEP 1</div>
 
-<h2 class="headline">
-Your Payment Travels Over a Secure Connection
-</h2>
+    <h2 class="headline">
+        Your Information Is Encrypted
+    </h2>
 
-<p>
+    <p>
 
-Before your payment leaves your device, your browser checks that the website is
-using a secure connection.
+        The moment you enter your payment details, your browser begins protecting
+        them using a technology called <strong>encryption</strong>.
 
-</p>
+    </p>
 
-<p>
+    <p>
 
-Websites beginning with <strong>https://</strong> use encryption to protect the
-information travelling between your device and the website.
+        Encryption scrambles your information into coded data that only the
+        intended recipient can read. If someone intercepted the information while
+        it travelled across the internet, they wouldn't see your credit card
+        number—they'd only see meaningless data.
 
-</p>
+    </p>
 
-<p>
+    <div class="feature-card">
 
-Most browsers also display a padlock beside the website address.
+        <h3>💡 Think of it like this</h3>
 
-</p>
+        <p>
 
-<div class="feature-card">
+            Imagine sending a letter written in a secret language that only the
+            recipient understands.
 
-<h3>💡 Did You Know?</h3>
+        </p>
 
-<p>
+        <p>
 
-The padlock means your connection is encrypted.
+            Someone could intercept the letter, but without the key to decode it,
+            the message would be useless.
 
-It does <strong>not</strong> guarantee that the website itself is trustworthy.
+        </p>
 
-Fake websites can also use HTTPS, so always make sure you're shopping with a
-business you recognize.
+    </div>
 
-</p>
+</section>
 
-</div>
+
+
+<section class="news-card">
+
+    <div class="card-tag">STEP 2</div>
+
+    <h2 class="headline">
+        A Secure Connection Protects the Journey
+    </h2>
+
+    <p>
+
+        Before your payment information leaves your device, your browser confirms
+        that it's communicating over a secure connection.
+
+    </p>
+
+    <p>
+
+        Websites that begin with <strong>https://</strong> encrypt the information
+        travelling between your browser and the website, helping prevent others
+        from reading it while it's in transit.
+
+    </p>
+
+    <p>
+
+        Most browsers display a padlock icon beside the website address when this
+        secure connection is being used.
+
+    </p>
+
+    <div class="feature-card">
+
+        <h3>💡 Good to Know</h3>
+
+        <p>
+
+            A padlock means your connection is secure—it does <strong>not</strong>
+            guarantee that the website itself is legitimate.
+
+        </p>
+
+        <p>
+
+            Scam websites can also use HTTPS, so always check the website address
+            and make sure you're buying from a business you trust.
+
+        </p>
+
+    </div>
 
 </section>
