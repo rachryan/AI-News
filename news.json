@@ -1,6 +1,20 @@
 {
-    "last_updated": "July 28, 2026",
+    "last_updated": "July 29, 2026",
     "articles": [
+        {
+            "title": "Guardoc Health processes clinical documentation using Amazon Nova models",
+            "url": "https://www.artificialintelligence-news.com/news/guardoc-health-processes-clinical-documentation-using-amazon-nova-models/",
+            "urlToImage": "",
+            "description": "<p>Guardoc Health says it processes over one million clinical documents daily using Amazon Nova models through Bedrock. Bringing AI into clinical docu...",
+            "source": "AI News"
+        },
+        {
+            "title": "Armenia\u2019s AI Bet Is Not Chip Manufacturing. It Is Compute Sovereignty",
+            "url": "https://www.artificialintelligence-news.com/news/armenias-ai-bet-is-not-chip-manufacturing-it-is-compute-sovereignty/",
+            "urlToImage": "",
+            "description": "<p>Armenia is not a big country. It\u2019s not a wealthy country. It\u2019s not a famous country. And yet, it has become not only a consumer of different AI pro...",
+            "source": "AI News"
+        },
         {
             "title": "How AI is shortening drug discovery timelines in China",
             "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/",
@@ -13,20 +27,6 @@
             "url": "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy/",
             "urlToImage": "",
             "description": "<p>America&#8217;s AI Investment Boom Is Reshaping the Economy Artificial intelligence has become one of the defining investment stories in the United...",
-            "source": "AI News"
-        },
-        {
-            "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
-            "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
-            "urlToImage": "",
-            "description": "<p>Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (P...",
-            "source": "AI News"
-        },
-        {
-            "title": "OpenAI pushes ChatGPT into patient health records",
-            "url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records/",
-            "urlToImage": "",
-            "description": "<p>OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health data and medical records to the chatbot. Logge...",
             "source": "AI News"
         },
         {
@@ -58,6 +58,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Samsung\u2019s chip workers are jumping ship to rival SK Hynix",
+            "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+            "urlToImage": "",
+            "description": "Lee, an engineer at Samsung\u2019s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at h...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "OpenAI called the Hugging Face attack unprecedented. But we\u2019ve been here before.",
             "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
             "urlToImage": "",
@@ -79,38 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Building the enterprise environment for agentic AI",
-            "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+            "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+            "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
             "urlToImage": "",
-            "description": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end ac...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Anthropic\u2019s Dario Amodei responds: doesn\u2019t oppose open-weight models, but fears Chinese AI",
-            "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
-            "urlToImage": "",
-            "description": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities....",
+            "description": "The deal is Cyera's third acquisition this year....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Satya Nadella says companies that trust one AI for everything may not survive",
-            "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+            "title": "Bot-detection startup Spur nabs $200M from Insight",
+            "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
             "urlToImage": "",
-            "description": "Companies without their own models \u2014 or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself \u2014 wi...",
+            "description": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
-            "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+            "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
+            "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
             "urlToImage": "",
-            "description": "The issue appears to have originated from Claude\u2019s \u201cshare chat\u201d feature, which allows users to create links that enable anyone with the assigned URL v...",
+            "description": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP  gateway product and then opted to build one itself....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-            "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+            "title": "Sam Altman is ready to decelerate",
+            "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
             "urlToImage": "",
-            "description": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform....",
+            "description": "His change of position comes after \"the first security incident that I have felt very viscerally.\"...",
             "source": "TechCrunch AI"
         }
     ]
