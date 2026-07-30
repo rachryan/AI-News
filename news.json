@@ -1,34 +1,6 @@
 {
-    "last_updated": "July 29, 2026",
+    "last_updated": "July 30, 2026",
     "articles": [
-        {
-            "title": "Guardoc Health processes clinical documentation using Amazon Nova models",
-            "url": "https://www.artificialintelligence-news.com/news/guardoc-health-processes-clinical-documentation-using-amazon-nova-models/",
-            "urlToImage": "",
-            "description": "<p>Guardoc Health says it processes over one million clinical documents daily using Amazon Nova models through Bedrock. Bringing AI into clinical docu...",
-            "source": "AI News"
-        },
-        {
-            "title": "Armenia\u2019s AI Bet Is Not Chip Manufacturing. It Is Compute Sovereignty",
-            "url": "https://www.artificialintelligence-news.com/news/armenias-ai-bet-is-not-chip-manufacturing-it-is-compute-sovereignty/",
-            "urlToImage": "",
-            "description": "<p>Armenia is not a big country. It\u2019s not a wealthy country. It\u2019s not a famous country. And yet, it has become not only a consumer of different AI pro...",
-            "source": "AI News"
-        },
-        {
-            "title": "How AI is shortening drug discovery timelines in China",
-            "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/",
-            "urlToImage": "",
-            "description": "<p>Insilico Medicine has reduced the time needed to produce some drug development candidates to about one year by combining artificial intelligence wi...",
-            "source": "AI News"
-        },
-        {
-            "title": "America\u2019s AI Investment Boom Is Reshaping the Economy",
-            "url": "https://www.artificialintelligence-news.com/news/americas-ai-investment-boom-is-reshaping-the-economy/",
-            "urlToImage": "",
-            "description": "<p>America&#8217;s AI Investment Boom Is Reshaping the Economy Artificial intelligence has become one of the defining investment stories in the United...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "The AI Hype Index: Unsexy AI",
+            "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+            "urlToImage": "",
+            "description": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at ma...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Samsung\u2019s chip workers are jumping ship to rival SK Hynix",
             "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
             "urlToImage": "",
@@ -79,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Closing the data loop in AI-driven drug discovery",
-            "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+            "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+            "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
             "urlToImage": "",
-            "description": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since th...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-            "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
-            "urlToImage": "",
-            "description": "The deal is Cyera's third acquisition this year....",
+            "description": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Bot-detection startup Spur nabs $200M from Insight",
-            "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
+            "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+            "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
             "urlToImage": "",
-            "description": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots....",
+            "description": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
-            "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
+            "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+            "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
             "urlToImage": "",
-            "description": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP  gateway product and then opted to build one itself....",
+            "description": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Sam Altman is ready to decelerate",
-            "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
+            "title": "Zuckerberg says Meta\u2019s enterprise AI opportunity extends beyond agents",
+            "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
             "urlToImage": "",
-            "description": "His change of position comes after \"the first security incident that I have felt very viscerally.\"...",
+            "description": "On the company\u2019s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a \u201clarge enterprise opportunity\u201d spanning AI agents, APIs,...",
             "source": "TechCrunch AI"
         }
     ]
