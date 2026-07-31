@@ -1,5 +1,5 @@
 {
-    "last_updated": "July 30, 2026",
+    "last_updated": "July 31, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -30,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+            "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+            "urlToImage": "",
+            "description": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue ...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "The AI Hype Index: Unsexy AI",
             "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
             "urlToImage": "",
@@ -51,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "The path to artificial superintelligence",
-            "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
+            "title": "Anthropic says its own AI models breached three companies during security tests",
+            "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
             "urlToImage": "",
-            "description": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth ph...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-            "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
-            "urlToImage": "",
-            "description": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth...",
+            "description": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
-            "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
+            "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+            "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
             "urlToImage": "",
-            "description": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price....",
+            "description": "The former OpenAI researcher\u2019s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-            "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+            "title": "Reddit reports a solid quarter but shows signs of AI\u2019s impact",
+            "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/",
             "urlToImage": "",
-            "description": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about...",
+            "description": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Zuckerberg says Meta\u2019s enterprise AI opportunity extends beyond agents",
-            "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+            "title": "Investors love AI, as long as you\u2019re a cloud host",
+            "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
             "urlToImage": "",
-            "description": "On the company\u2019s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a \u201clarge enterprise opportunity\u201d spanning AI agents, APIs,...",
+            "description": "Amazon isn't slowing down on data center spending \u2014 but investors don't seem to mind....",
             "source": "TechCrunch AI"
         }
     ]
