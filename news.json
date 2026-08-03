@@ -1,6 +1,34 @@
 {
-    "last_updated": "August 02, 2026",
+    "last_updated": "August 03, 2026",
     "articles": [
+        {
+            "title": "OpenAI aligns safety practices with EU AI Act\u2019s GPAI Code",
+            "url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code/",
+            "urlToImage": "",
+            "description": "<p>OpenAI has outlined how it aligns safety, security, and transparency work with the EU AI Act&#8217;s GPAI Code as enforcement approaches. The compa...",
+            "source": "AI News"
+        },
+        {
+            "title": "Zuckerberg details Meta\u2019s personal AI superintelligence strategy",
+            "url": "https://www.artificialintelligence-news.com/news/zuckerberg-details-meta-personal-ai-superintelligence-strategy/",
+            "urlToImage": "",
+            "description": "<p>Mark Zuckerberg has published a WSJ op-ed that argues superintelligence must reach individuals, not just a handful of institutions. The Meta chief ...",
+            "source": "AI News"
+        },
+        {
+            "title": "How AI is Changing Linux VPS Security for Businesses",
+            "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-linux-vps-security-for-businesses/",
+            "urlToImage": "",
+            "description": "<p>Cybersecurity wasn&#8217;t really something small and mid-sized businesses worried about too much a few years back. That&#8217;s changed fast. Once...",
+            "source": "AI News"
+        },
+        {
+            "title": "OpenAI report links coding agents to faster science software builds",
+            "url": "https://www.artificialintelligence-news.com/news/openai-report-coding-agents-faster-science-software-builds/",
+            "urlToImage": "",
+            "description": "<p>OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes. The report documents projects...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,6 +86,13 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "Sam Altman and AI\u2019s decel debate",
+            "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+            "urlToImage": "",
+            "description": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"...",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "Judge denies xAI\u2019s request to block Minnesota ban on \u2018nudify\u2019 apps",
             "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
             "urlToImage": "",
@@ -76,13 +111,6 @@
             "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
             "urlToImage": "",
             "description": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "This $9 key physically locks your most addictive apps",
-            "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
-            "urlToImage": "",
-            "description": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone....",
             "source": "TechCrunch AI"
         }
     ]
