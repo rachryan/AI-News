@@ -1,5 +1,5 @@
 {
-    "last_updated": "August 05, 2026",
+    "last_updated": "August 06, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -58,31 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
-            "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+            "title": "Meta launches Muse Code, an AI agent for large code bases",
+            "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
             "urlToImage": "",
-            "description": "The purchase illustrates just how interconnected Elon Musk's universe of companies are....",
+            "description": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
-            "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+            "title": "Klaviyo acquires Elias Torres\u2019 Agency in full-circle reunion for tech founders",
+            "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
             "urlToImage": "",
-            "description": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that...",
+            "description": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic signs $10B deal with AI cloud startup Volta",
-            "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+            "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+            "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
             "urlToImage": "",
-            "description": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta....",
+            "description": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discove...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
-            "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+            "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+            "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
             "urlToImage": "",
-            "description": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories....",
+            "description": "Shopify says AI isn\u2019t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year...",
             "source": "TechCrunch AI"
         }
     ]
