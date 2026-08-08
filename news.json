@@ -1,6 +1,34 @@
 {
-    "last_updated": "August 07, 2026",
+    "last_updated": "August 08, 2026",
     "articles": [
+        {
+            "title": "Stanford Evo 2 AI model generates phages against E. coli",
+            "url": "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli/",
+            "urlToImage": "",
+            "description": "<p>Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed t...",
+            "source": "AI News"
+        },
+        {
+            "title": "How AI Is changing Instagram engagement without replacing the human touch",
+            "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/",
+            "urlToImage": "",
+            "description": "<p>Every post you see, every Reel that autoplays, and every \u2018Explore\u2019 page suggestion on Instagram is now decided by its AI system. With over three bi...",
+            "source": "AI News"
+        },
+        {
+            "title": "Alibaba tests new business model for Qwen open-source AI",
+            "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/",
+            "urlToImage": "",
+            "description": "<p>Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two peop...",
+            "source": "AI News"
+        },
+        {
+            "title": "Why health AI interfaces must adapt to user expertise",
+            "url": "https://www.artificialintelligence-news.com/news/why-health-ai-interfaces-must-adapt-to-user-expertise/",
+            "urlToImage": "",
+            "description": "<p>MIT researchers and collaborators found that AI explainability tools in the health sector can produce sharply different results depending on who us...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,31 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400",
-            "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+            "title": "OpenAI says it slowed Astra model development over security concerns",
+            "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
             "urlToImage": "",
-            "description": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker....",
+            "description": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and car...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "ChatGPT brings unlimited text chats to free users",
-            "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+            "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+            "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
             "urlToImage": "",
-            "description": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries....",
+            "description": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Na\u00efve raises $28.5M to automate the grunt work of setting up and running a company",
-            "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+            "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+            "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
             "urlToImage": "",
-            "description": "Taking vibe-coding a step further, Na\u00efve claims its infra can automate most of the work in setting up and running a business....",
+            "description": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, h...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
-            "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/",
+            "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+            "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
             "urlToImage": "",
-            "description": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they'll try literally anything else \u2014 even an AI matchmaker....",
+            "description": "Airbnb will debut a new AI-powered search experience with a toggle....",
             "source": "TechCrunch AI"
         }
     ]
