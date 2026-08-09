@@ -1,34 +1,6 @@
 {
-    "last_updated": "August 08, 2026",
+    "last_updated": "August 09, 2026",
     "articles": [
-        {
-            "title": "Stanford Evo 2 AI model generates phages against E. coli",
-            "url": "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli/",
-            "urlToImage": "",
-            "description": "<p>Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed t...",
-            "source": "AI News"
-        },
-        {
-            "title": "How AI Is changing Instagram engagement without replacing the human touch",
-            "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/",
-            "urlToImage": "",
-            "description": "<p>Every post you see, every Reel that autoplays, and every \u2018Explore\u2019 page suggestion on Instagram is now decided by its AI system. With over three bi...",
-            "source": "AI News"
-        },
-        {
-            "title": "Alibaba tests new business model for Qwen open-source AI",
-            "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/",
-            "urlToImage": "",
-            "description": "<p>Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two peop...",
-            "source": "AI News"
-        },
-        {
-            "title": "Why health AI interfaces must adapt to user expertise",
-            "url": "https://www.artificialintelligence-news.com/news/why-health-ai-interfaces-must-adapt-to-user-expertise/",
-            "urlToImage": "",
-            "description": "<p>MIT researchers and collaborators found that AI explainability tools in the health sector can produce sharply different results depending on who us...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -86,6 +58,20 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+            "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+            "urlToImage": "",
+            "description": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollu...",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "OpenAI acquires presentation startup NextSlide",
+            "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+            "urlToImage": "",
+            "description": "NextSlide says its team members are now working on ChatGPT....",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "OpenAI says it slowed Astra model development over security concerns",
             "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
             "urlToImage": "",
@@ -97,20 +83,6 @@
             "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
             "urlToImage": "",
             "description": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
-            "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-            "urlToImage": "",
-            "description": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, h...",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
-            "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
-            "urlToImage": "",
-            "description": "Airbnb will debut a new AI-powered search experience with a toggle....",
             "source": "TechCrunch AI"
         }
     ]
