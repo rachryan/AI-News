@@ -1,34 +1,6 @@
 {
-    "last_updated": "August 10, 2026",
+    "last_updated": "August 11, 2026",
     "articles": [
-        {
-            "title": "Stanford Evo 2 AI model generates phages against E. coli",
-            "url": "https://www.artificialintelligence-news.com/news/stanford-evo-2-ai-model-generates-phages-against-e-coli/",
-            "urlToImage": "",
-            "description": "<p>Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed t...",
-            "source": "AI News"
-        },
-        {
-            "title": "How AI Is changing Instagram engagement without replacing the human touch",
-            "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-instagram-engagement-without-replacing-the-human-touch/",
-            "urlToImage": "",
-            "description": "<p>Every post you see, every Reel that autoplays, and every \u2018Explore\u2019 page suggestion on Instagram is now decided by its AI system. With over three bi...",
-            "source": "AI News"
-        },
-        {
-            "title": "Alibaba tests new business model for Qwen open-source AI",
-            "url": "https://www.artificialintelligence-news.com/news/alibaba-qwen-open-source-ai-revenue-sharing/",
-            "urlToImage": "",
-            "description": "<p>Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two peop...",
-            "source": "AI News"
-        },
-        {
-            "title": "Why health AI interfaces must adapt to user expertise",
-            "url": "https://www.artificialintelligence-news.com/news/why-health-ai-interfaces-must-adapt-to-user-expertise/",
-            "urlToImage": "",
-            "description": "<p>MIT researchers and collaborators found that AI explainability tools in the health sector can produce sharply different results depending on who us...",
-            "source": "AI News"
-        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -58,6 +30,27 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "AI professors are negotiating the new realities of academic research",
+            "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+            "urlToImage": "",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "AI for science needs reasoning, not just data",
+            "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+            "urlToImage": "",
+            "description": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the \u201cfacts of physic...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "These startups are chasing the next big thing in LLMs",
+            "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+            "urlToImage": "",
+            "description": "MIT Technology Review\u2019s What\u2019s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the ...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Trump\u2019s AI protectionism has come for robotics",
             "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
             "urlToImage": "",
@@ -65,52 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Here\u2019s why AI agents lie and cheat to reach their goals",
-            "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+            "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+            "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
             "urlToImage": "",
-            "description": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what\u2019s coming next. You can rea...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-            "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-            "urlToImage": "",
-            "description": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue ...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "The AI Hype Index: Unsexy AI",
-            "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-            "urlToImage": "",
-            "description": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at ma...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-            "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-            "urlToImage": "",
-            "description": "The AI-focused hedge fund is still making some big bets....",
+            "description": "San Francisco's housing market is in trouble again....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic is turning Claude Code\u2019s auto mode on by default",
-            "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+            "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+            "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
             "urlToImage": "",
-            "description": "Programming with Claude Code will soon require even less human oversight....",
+            "description": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-            "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+            "title": "Mark Zuckerberg\u2019s AI manifesto is exactly why people don\u2019t like AI",
+            "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
             "urlToImage": "",
-            "description": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader....",
+            "description": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" sy...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "The AI safety test is becoming a safety risk",
-            "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+            "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+            "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
             "urlToImage": "",
-            "description": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, indu...",
+            "description": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice....",
             "source": "TechCrunch AI"
         }
     ]
