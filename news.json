@@ -1,5 +1,5 @@
 {
-    "last_updated": "August 11, 2026",
+    "last_updated": "August 12, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -58,31 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-            "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+            "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
+            "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
             "urlToImage": "",
-            "description": "San Francisco's housing market is in trouble again....",
+            "description": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
-            "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+            "title": "OpenAI launches ChatGPT desktop app for Linux",
+            "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
             "urlToImage": "",
-            "description": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it....",
+            "description": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Mark Zuckerberg\u2019s AI manifesto is exactly why people don\u2019t like AI",
-            "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+            "title": "Google\u2019s Gemini app surges to 1 billion users",
+            "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
             "urlToImage": "",
-            "description": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" sy...",
+            "description": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice fe...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
-            "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+            "title": "Brad Lightcap, OpenAI\u2019s longtime COO, is leaving to \u2018start something new\u2019",
+            "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
             "urlToImage": "",
-            "description": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice....",
+            "description": "One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance t...",
             "source": "TechCrunch AI"
         }
     ]
