@@ -1,5 +1,5 @@
 {
-    "last_updated": "August 12, 2026",
+    "last_updated": "August 13, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -30,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Scaling AI agents with trustworthy data",
+            "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+            "urlToImage": "",
+            "description": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives ...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "AI professors are negotiating the new realities of academic research",
             "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
             "urlToImage": "",
@@ -51,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Trump\u2019s AI protectionism has come for robotics",
-            "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+            "title": "Some Claude users are mad that Anthropic\u2019s new watermarks will catch them using it at their jobs, classes",
+            "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
             "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Humanoi...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
-            "url": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
-            "urlToImage": "",
-            "description": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment....",
+            "description": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenAI launches ChatGPT desktop app for Linux",
-            "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+            "title": "Amazon will train on Twitch streamers\u2019 content by default, unless they opt out",
+            "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
             "urlToImage": "",
-            "description": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems....",
+            "description": "\"If this was opt-in, nobody would opt in,\" Twitch CPO Mike Minton said on a livestream responding to user feedback. \"That's honestly the answer.\"...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Google\u2019s Gemini app surges to 1 billion users",
-            "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+            "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+            "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
             "urlToImage": "",
-            "description": "Google also shared numbers of how people are actually using the chatbot, with 63% of Gemini users talking directly to the assistant using the voice fe...",
+            "description": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Brad Lightcap, OpenAI\u2019s longtime COO, is leaving to \u2018start something new\u2019",
-            "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+            "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+            "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
             "urlToImage": "",
-            "description": "One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance t...",
+            "description": "At Ai4, three of the world's most respected AI experts \u2014 Geoffrey Hinton, Fei-Fei Li, and Andrew Ng \u2014 debated regulation, open source access, and how ...",
             "source": "TechCrunch AI"
         }
     ]
