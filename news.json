@@ -1,6 +1,34 @@
 {
-    "last_updated": "August 13, 2026",
+    "last_updated": "August 14, 2026",
     "articles": [
+        {
+            "title": "Okta targets AI agent token costs with MCP scoping",
+            "url": "https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping/",
+            "urlToImage": "",
+            "description": "<p>Okta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs. Each model call made by an AI agent can include ...",
+            "source": "AI News"
+        },
+        {
+            "title": "Google tests AMIE for clinical video consultations",
+            "url": "https://www.artificialintelligence-news.com/news/google-tests-amie-for-clinical-video-consultations/",
+            "urlToImage": "",
+            "description": "<p>Google\u2019s research medical AI system, AMIE (Video), conducted synchronous video consultations with professional patient actors and received clinical...",
+            "source": "AI News"
+        },
+        {
+            "title": "Novo Nordisk and AWS bring agentic AI into drug discovery",
+            "url": "https://www.artificialintelligence-news.com/news/novo-nordisk-ai-drug-discovery-aws/",
+            "urlToImage": "",
+            "description": "<p>Novo Nordisk is expanding its use of AWS artificial intelligence tools across drug discovery, including AI agents for target identification, therap...",
+            "source": "AI News"
+        },
+        {
+            "title": "How AI is changing the vulnerability response timeline",
+            "url": "https://www.artificialintelligence-news.com/news/how-ai-is-changing-the-vulnerability-response-timeline/",
+            "urlToImage": "",
+            "description": "<p>Artificial intelligence is giving security researchers new ways to examine code, trace unusual behaviour and identify flaws that conventional tools...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -30,6 +58,20 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+            "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+            "urlToImage": "",
+            "description": "The police-tech giant Flock is announcing today that it will change officers\u2019 access to its nationwide network of license plate readers, in an apparen...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "How kids feel about AI, in their own words",
+            "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+            "urlToImage": "",
+            "description": "When we set out to talk to kids about artificial intelligence, we thought we knew what we\u2019d hear. We expected some to tell us they were using it to ch...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "Scaling AI agents with trustworthy data",
             "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
             "urlToImage": "",
@@ -44,45 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "AI for science needs reasoning, not just data",
-            "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+            "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+            "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
             "urlToImage": "",
-            "description": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the \u201cfacts of physic...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "These startups are chasing the next big thing in LLMs",
-            "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-            "urlToImage": "",
-            "description": "MIT Technology Review\u2019s What\u2019s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the ...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Some Claude users are mad that Anthropic\u2019s new watermarks will catch them using it at their jobs, classes",
-            "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-            "urlToImage": "",
-            "description": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is....",
+            "description": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a m...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Amazon will train on Twitch streamers\u2019 content by default, unless they opt out",
-            "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+            "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+            "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
             "urlToImage": "",
-            "description": "\"If this was opt-in, nobody would opt in,\" Twitch CPO Mike Minton said on a livestream responding to user feedback. \"That's honestly the answer.\"...",
+            "description": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
-            "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+            "title": "OpenAI introduces \u2018Ultrafast,\u2019 a new mode that makes GPT-5.6 Sol work at 14x the speed",
+            "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
             "urlToImage": "",
-            "description": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation....",
+            "description": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "As AI safety concerns mount, three pioneers make the case for staying open",
-            "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+            "title": "IBM partners with OpenAI to bolster enterprise AI push",
+            "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
             "urlToImage": "",
-            "description": "At Ai4, three of the world's most respected AI experts \u2014 Geoffrey Hinton, Fei-Fei Li, and Andrew Ng \u2014 debated regulation, open source access, and how ...",
+            "description": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal....",
             "source": "TechCrunch AI"
         }
     ]
