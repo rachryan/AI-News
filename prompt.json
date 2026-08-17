@@ -1,5 +1,5 @@
 {
-    "title": "The 'Executive Logic' Filter",
-    "text": "Analyze the attached document and extract the 3 most controversial points and 2 immediate opportunities for my business.",
-    "benefit": "Best used with Claude 3.5 for high-level strategic parsing."
+    "title": "The 'Meeting Triage' Expert",
+    "text": "Based on this transcript, create a table of: 1. Decisions Made, 2. Owner Assigned, 3. Deadline. Flag any ambiguity.",
+    "benefit": "Turn a 60-minute mess into a 30-second action plan."
 }

@@ -1,5 +1,5 @@
 {
-    "last_updated": "August 16, 2026",
+    "last_updated": "August 17, 2026",
     "articles": [
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
@@ -58,31 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+            "urlToImage": "",
+            "description": "OpenRouter's CEO recently described the startup as Stripe for AI....",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Why people aren\u2019t buying Mark Zuckerberg\u2019s AI future",
+            "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+            "urlToImage": "",
+            "description": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg\u2019s vision....",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Anthropic CEO says AI backlash is \u2018fundamentally a crisis of trust\u2019",
+            "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+            "urlToImage": "",
+            "description": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI....",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
             "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
             "urlToImage": "",
             "description": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"...",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "Anthropic shares more details about how Claude\u2019s new watermarks will work",
-            "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-            "urlToImage": "",
-            "description": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?...",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "SpaceX officially closes its Cursor acquisition",
-            "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
-            "urlToImage": "",
-            "description": "AI coding startup Cursor is now officially a part of SpaceX....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "Google will now allow users to remove visible watermark from its AI generations",
-            "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-            "urlToImage": "",
-            "description": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file....",
             "source": "TechCrunch AI"
         }
     ]
