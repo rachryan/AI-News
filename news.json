@@ -1,6 +1,34 @@
 {
-    "last_updated": "August 18, 2026",
+    "last_updated": "August 19, 2026",
     "articles": [
+        {
+            "title": "OpenAI president urges enterprises to hasten AI security defences",
+            "url": "https://www.artificialintelligence-news.com/news/openai-president-urges-enterprises-hasten-ai-security-defences/",
+            "urlToImage": "",
+            "description": "<p>OpenAI president and co-founder Greg Brockman warns that enterprise security teams face a compressed timeline to adopt AI defences. Brockman has pu...",
+            "source": "AI News"
+        },
+        {
+            "title": "Alvys launches AI agents for freight TMS workflows",
+            "url": "https://www.artificialintelligence-news.com/news/alvys-ai-agents-freight-tms/",
+            "urlToImage": "",
+            "description": "<p>Freight software provider Alvys has launched an agentic AI platform that allows carriers and brokers to automate operational tasks directly within ...",
+            "source": "AI News"
+        },
+        {
+            "title": "Reading Zhipu\u2019s GLM-5.3 results past the headline number",
+            "url": "https://www.artificialintelligence-news.com/news/zhipu-glm-5-3-benchmarks-explained/",
+            "urlToImage": "",
+            "description": "<p>Zhipu&#8217;s&#160;release note&#160;for GLM-5.3 contains a sentence that did not make it into most of the coverage. Describing its own cybersecuri...",
+            "source": "AI News"
+        },
+        {
+            "title": "Samsung health AI models analyse wearable biosignal data",
+            "url": "https://www.artificialintelligence-news.com/news/samsung-health-ai-models-analyse-wearable-biosignal-data/",
+            "urlToImage": "",
+            "description": "<p>Samsung Research America\u2019s Digital Health Team has presented two AI foundation models designed to learn from wearable biosignals. The work centres ...",
+            "source": "AI News"
+        },
         {
             "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
             "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
@@ -30,10 +58,24 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "We still don\u2019t know how people are really using AI",
+            "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+            "urlToImage": "",
+            "description": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the d...",
+            "source": "MIT Tech Review"
+        },
+        {
+            "title": "AI\u2019s recursive self-improvement might not come so quickly after all",
+            "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+            "urlToImage": "",
+            "description": "The AI industry\u2019s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code,...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "What Flock\u2019s defenders are missing",
             "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
             "urlToImage": "",
-            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0sign up here. Flock, the p...",
+            "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Flock, ...",
             "source": "MIT Tech Review"
         },
         {
@@ -44,45 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Flock is tightening its rules in response to a growing surveillance backlash",
-            "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+            "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+            "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
             "urlToImage": "",
-            "description": "The police-tech giant Flock is announcing today that it will change officers\u2019 access to its nationwide network of license plate readers, in an apparen...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "How kids feel about AI, in their own words",
-            "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-            "urlToImage": "",
-            "description": "When we set out to talk to kids about artificial intelligence, we thought we knew what we\u2019d hear. We expected some to tell us they were using it to ch...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Anthropic\u2019s annualized revenue surges to $65B",
-            "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-            "urlToImage": "",
-            "description": "The model maker added $18 billion in annualized revenue in two months....",
+            "description": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "AI automation startup Relay shuts down, staff joins Google\u2019s Chrome team",
-            "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+            "title": "OpenAI institutes new safeguards after Hugging Face breach",
+            "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
             "urlToImage": "",
-            "description": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I\u2019ll have more to share soon,\" Jacob Bank, Relay found...",
+            "description": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security du...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-            "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+            "title": "Etched\u2019s valuation doubles to $21B in a month",
+            "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
             "urlToImage": "",
-            "description": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online....",
+            "description": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
-            "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+            "title": "Why Apple\u2019s camera-equipped AirPods may not be the \u2018pervert pods\u2019 consumers fear",
+            "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
             "urlToImage": "",
-            "description": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data cent...",
+            "description": "Apple\u2019s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos....",
             "source": "TechCrunch AI"
         }
     ]
