@@ -1,34 +1,6 @@
 {
-    "last_updated": "August 25, 2026",
+    "last_updated": "August 26, 2026",
     "articles": [
-        {
-            "title": "XPENG IRON humanoid robot draws record physical AI funding",
-            "url": "https://www.artificialintelligence-news.com/news/xpeng-iron-humanoid-robot-draws-record-physical-ai-funding/",
-            "urlToImage": "",
-            "description": "<p>XPENG&#8217;s physical AI unit has secured over $900 million at a $6.3 billion valuation to scale its IRON humanoid robot platform. The Chinese ele...",
-            "source": "AI News"
-        },
-        {
-            "title": "How AI coding tools are contributing to the popularity of JavaScript",
-            "url": "https://www.artificialintelligence-news.com/news/how-ai-coding-tools-are-contributing-to-the-popularity-of-javascript/",
-            "urlToImage": "",
-            "description": "<p>In August 2025, TypeScript became the most used language on GitHub. This was the largest shift in GitHub&#8217;s language rankings in the last ten ...",
-            "source": "AI News"
-        },
-        {
-            "title": "Amazon\u2019s Prime Air autonomous drones to reach 500 US cities",
-            "url": "https://www.artificialintelligence-news.com/news/amazons-prime-air-autonomous-drones-to-reach-500-us-cities/",
-            "urlToImage": "",
-            "description": "<p>Amazon plans to expand its Prime Air drone delivery service to nearly 500 cities and towns across the US by the end of 2026. That build-out amounts...",
-            "source": "AI News"
-        },
-        {
-            "title": "Stripe agrees to buy OpenRouter as AI model routing expands",
-            "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing/",
-            "urlToImage": "",
-            "description": "<p>Stripe has agreed to acquire OpenRouter, an AI model-routing platform that gives developers access to hundreds of models through a single interface...",
-            "source": "AI News"
-        },
         {
             "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
             "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
@@ -58,6 +30,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "I spent a day at a robot \u201ccarnival\u201d in Shanghai. Here\u2019s what I saw.",
+            "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+            "urlToImage": "",
+            "description": "Humanoid robots are having a moment in China. The popular machines are part of the country\u2019s strategy to bring artificial intelligence into daily life...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "How to encourage smarter AI use in the classroom",
             "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
             "urlToImage": "",
@@ -79,38 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "Unlocking hidden revenue streams with market models",
-            "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+            "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+            "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
             "urlToImage": "",
-            "description": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, wit...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
-            "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
-            "urlToImage": "",
-            "description": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"...",
+            "description": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-            "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
+            "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
+            "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
             "urlToImage": "",
-            "description": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135....",
+            "description": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vi...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Amjad Masad,\u00a0CEO\u00a0and co-founder\u00a0of\u00a0Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
-            "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
+            "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+            "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
             "urlToImage": "",
-            "description": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it....",
+            "description": "The company's new fundraising total now stands at $232 million....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Instinct\u2019s powerful AI assistant is raising privacy and security concerns",
-            "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+            "title": "Claude Cowork finally remembers what you told the app in chat",
+            "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
             "urlToImage": "",
-            "description": "Early testers are raving about what Instinct can do, but some say the AI assistant\u2019s sweeping access, broad terms and ability to act on users\u2019 behalf ...",
+            "description": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and ot...",
             "source": "TechCrunch AI"
         }
     ]
