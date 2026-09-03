@@ -1,6 +1,34 @@
 {
-    "last_updated": "September 02, 2026",
+    "last_updated": "September 03, 2026",
     "articles": [
+        {
+            "title": "Motional and MIT AI explains self-driving car decisions",
+            "url": "https://www.artificialintelligence-news.com/news/motional-and-mit-ai-explains-self-driving-car-decisions/",
+            "urlToImage": "",
+            "description": "<p>Motional and MIT researchers have built a system that lets self-driving cars explain their decisions in real-time, tackling the black-box problem i...",
+            "source": "AI News"
+        },
+        {
+            "title": "ChatGPT Ads passes $1B run rate in 200 days",
+            "url": "https://www.artificialintelligence-news.com/news/chatgpt-ads-passes-1b-run-rate-in-200-days/",
+            "urlToImage": "",
+            "description": "<p>ChatGPT Ads has hit $1 billion in annualised revenue run rate in under 200 days, and OpenAI is expanding self-service ads to new regions. Tens of t...",
+            "source": "AI News"
+        },
+        {
+            "title": "Why MCP servers are becoming AI\u2019s newest attack surface",
+            "url": "https://www.artificialintelligence-news.com/news/why-mcp-servers-are-becoming-ais-newest-attack-surface/",
+            "urlToImage": "",
+            "description": "<p>As AI adoption gathers pace, so does the evolution of the infrastructure that supports it. New standards and connectors keep appearing, and the one...",
+            "source": "AI News"
+        },
+        {
+            "title": "A quarter of Nvidia\u2019s business next year comes from labs it is financing",
+            "url": "https://www.artificialintelligence-news.com/news/nvidia-circular-financing-ai-labs/",
+            "urlToImage": "",
+            "description": "<p>Nvidia has put nearly US$50 billion into the AI labs that buy its chips, and has lined up commitments for more than $500 billion Colette Kress, the...",
+            "source": "AI News"
+        },
         {
             "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
             "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
@@ -30,6 +58,13 @@
             "source": "VentureBeat AI"
         },
         {
+            "title": "Facilitating AI integration with simplicity at scale",
+            "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+            "urlToImage": "",
+            "description": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-spe...",
+            "source": "MIT Tech Review"
+        },
+        {
             "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
             "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
             "urlToImage": "",
@@ -51,38 +86,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "AI models flub these intelligence tests. Can you fare any better?",
-            "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+            "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
+            "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
             "urlToImage": "",
-            "description": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puz...",
-            "source": "MIT Tech Review"
-        },
-        {
-            "title": "AfterQuery reportedly becomes Y Combinator\u2019s fastest-ever unicorn, now valued at $3.2B",
-            "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
-            "urlToImage": "",
-            "description": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million S...",
+            "description": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and\u00a0investors for practical conversations on wha...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenAI\u2019s Astra model is on the way \u2014 and very good at breaking into computer systems",
-            "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+            "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+            "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
             "urlToImage": "",
-            "description": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM....",
+            "description": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Google\u2019s Android update tackles motion sickness, accessibility, and more",
-            "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+            "title": "TechCrunch Disrupt 2026\u2019s new Real World AI Stage features Nvidia, robots, and extinct animals",
+            "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
             "urlToImage": "",
-            "description": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage ...",
+            "description": "On our new Real World AI stage, we\u2019ll be focusing on the intersection between the digital and physical, and all the ways we\u2019ll continue to see a blend...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Anthropic\u2019s new Fable release is cheaper, less restrictive",
-            "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+            "title": "OpenAI\u2019s new reasoning technique alarms AI safety experts",
+            "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
             "urlToImage": "",
-            "description": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards....",
+            "description": "OpenAI\u2019s new Astra model will use \u201crecurrent depth,\u201d a technique that allows the model to operate outside of the sequential thinking that characterize...",
             "source": "TechCrunch AI"
         }
     ]
