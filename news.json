@@ -1,6 +1,20 @@
 {
-    "last_updated": "September 03, 2026",
+    "last_updated": "September 04, 2026",
     "articles": [
+        {
+            "title": "OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
+            "url": "https://www.artificialintelligence-news.com/news/ai-last-mile-delivery-optimisation/",
+            "urlToImage": "",
+            "description": "<p>OneRail has launched an AI-powered delivery platform that uses Nvidia technology to help retailers, wholesalers, and distributors decide how indivi...",
+            "source": "AI News"
+        },
+        {
+            "title": "NVIDIA to acquire Hugging Face for $12.93B",
+            "url": "https://www.artificialintelligence-news.com/news/nvidia-to-acquire-hugging-face-for-12-93b/",
+            "urlToImage": "",
+            "description": "<p>NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model repository&#8217;s platform and infrastructure. The tra...",
+            "source": "AI News"
+        },
         {
             "title": "Motional and MIT AI explains self-driving car decisions",
             "url": "https://www.artificialintelligence-news.com/news/motional-and-mit-ai-explains-self-driving-car-decisions/",
@@ -14,48 +28,6 @@
             "urlToImage": "",
             "description": "<p>ChatGPT Ads has hit $1 billion in annualised revenue run rate in under 200 days, and OpenAI is expanding self-service ads to new regions. Tens of t...",
             "source": "AI News"
-        },
-        {
-            "title": "Why MCP servers are becoming AI\u2019s newest attack surface",
-            "url": "https://www.artificialintelligence-news.com/news/why-mcp-servers-are-becoming-ais-newest-attack-surface/",
-            "urlToImage": "",
-            "description": "<p>As AI adoption gathers pace, so does the evolution of the infrastructure that supports it. New standards and connectors keep appearing, and the one...",
-            "source": "AI News"
-        },
-        {
-            "title": "A quarter of Nvidia\u2019s business next year comes from labs it is financing",
-            "url": "https://www.artificialintelligence-news.com/news/nvidia-circular-financing-ai-labs/",
-            "urlToImage": "",
-            "description": "<p>Nvidia has put nearly US$50 billion into the AI labs that buy its chips, and has lined up commitments for more than $500 billion Colette Kress, the...",
-            "source": "AI News"
-        },
-        {
-            "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-            "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-            "urlToImage": "https://images.ctfassets.net/jdtwqhzvc2n1/5ScHW6mZ2rQr3EvsxrwooK/43df8725b6e12cd4bcf550bb7b3b1cb4/Gravitee_hero.jpg?w=300&q=30",
-            "description": "<p><i>Presented by Gravitee </i></p><hr /><p>Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on...",
-            "source": "VentureBeat AI"
-        },
-        {
-            "title": "When agents act on their own, governance has to live in the data layer",
-            "url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-            "urlToImage": "https://images.ctfassets.net/jdtwqhzvc2n1/9VRh8KJhBqcFviSV8ClXc/feea8ec8fe76ffa0bc5cdb3dd95e1492/EDB_hero.jpeg?w=300&q=30",
-            "description": "<p><i>Presented by EDB </i></p><hr /><p>As enterprises give AI agents more autonomy \u2014 the ability to plan, decide, and act across systems without a hu...",
-            "source": "VentureBeat AI"
-        },
-        {
-            "title": "Orchestration is the new challenge for CX in the age of AI agents",
-            "url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
-            "urlToImage": "https://images.ctfassets.net/jdtwqhzvc2n1/1RK5pjHAxWRLsDy5iAC3Iy/4f9c39b5925645c365440e487ffe2157/Tata_hero.jpg?w=300&q=30",
-            "description": "<p><i>Presented by Tata Communications </i></p><hr /><p>Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and dig...",
-            "source": "VentureBeat AI"
-        },
-        {
-            "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-            "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-            "urlToImage": "https://images.ctfassets.net/jdtwqhzvc2n1/14iDGoOPdfaOw0DODBNL9w/7f4d8c6b70797d9bf23a623cbfa3fea3/6ca16f96-3171-4f7e-8c89-f466a3901415.png?w=300&q=30",
-            "description": "<p>Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a fo...",
-            "source": "VentureBeat AI"
         },
         {
             "title": "Facilitating AI integration with simplicity at scale",
@@ -86,31 +58,31 @@
             "source": "MIT Tech Review"
         },
         {
-            "title": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
-            "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
+            "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+            "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
             "urlToImage": "",
-            "description": "The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and\u00a0investors for practical conversations on wha...",
+            "description": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
-            "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+            "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+            "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
             "urlToImage": "",
-            "description": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe....",
+            "description": "The high-profile startup's annual revenue run rate stands at over $100 million....",
             "source": "TechCrunch AI"
         },
         {
-            "title": "TechCrunch Disrupt 2026\u2019s new Real World AI Stage features Nvidia, robots, and extinct animals",
-            "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+            "title": "Abliteration.ai is making a business out of removing AI guardrails",
+            "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
             "urlToImage": "",
-            "description": "On our new Real World AI stage, we\u2019ll be focusing on the intersection between the digital and physical, and all the ways we\u2019ll continue to see a blend...",
+            "description": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ult...",
             "source": "TechCrunch AI"
         },
         {
-            "title": "OpenAI\u2019s new reasoning technique alarms AI safety experts",
-            "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+            "title": "Meta is paying to peek at how you use their latest AI model",
+            "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
             "urlToImage": "",
-            "description": "OpenAI\u2019s new Astra model will use \u201crecurrent depth,\u201d a technique that allows the model to operate outside of the sequential thinking that characterize...",
+            "description": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for use...",
             "source": "TechCrunch AI"
         }
     ]
