@@ -1,5 +1,5 @@
 {
-    "last_updated": "September 06, 2026",
+    "last_updated": "September 07, 2026",
     "articles": [
         {
             "title": "M&T Bank expands enterprise AI after years of technology overhaul",
@@ -58,6 +58,20 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+            "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+            "urlToImage": "",
+            "description": "Authors say publishers seem to be claiming more than their fair share of settlement payments....",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Travis Kalanick\u2019s Atoms might be getting into the robotaxi business",
+            "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+            "urlToImage": "",
+            "description": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"...",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
             "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
             "urlToImage": "",
@@ -69,20 +83,6 @@
             "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
             "urlToImage": "",
             "description": "The sheriff\u2019s office said the hikers \u201cwere advised by Gemini to bring far less food and water than their group required.\"...",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a framework\u2019 for more disclosure",
-            "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-            "urlToImage": "",
-            "description": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-            "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-            "urlToImage": "",
-            "description": "The round is being raised just months after the robot data startup exited from stealth....",
             "source": "TechCrunch AI"
         }
     ]
