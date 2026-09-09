@@ -1,379 +1,186 @@
 # TechTidy Project Roadmap
 
-**Version:** 1.0  
-**Last Updated:** July 2026
+**Version:** 2.0
+**Last updated:** September 2026
 
----
+## Purpose
 
-# Vision
+TechTidy is an independent community learning project that helps adults understand and use technology with greater confidence. It combines free plain-language resources, structured learning paths, and a facilitated Digital Confidence program.
 
-TechTidy exists to help individuals, small businesses, nonprofits, educators, and public sector organizations build digital confidence through practical technology education, AI guidance, and modern workplace solutions.
+The site also acts as a transparent professional case study in technical enablement, curriculum development, accessibility, technology adoption, and end-to-end digital delivery.
 
-This roadmap outlines the planned evolution of the TechTidy platform. It serves as a planning document rather than a strict schedule. Priorities may change as the project grows.
+This roadmap is evidence-led. Priorities should change when learner needs, community feedback, or maintenance capacity indicate a better direction.
 
----
+## Guiding principles
 
-# Project Goals
+Every proposed change should answer these questions:
 
-## Educate
+1. Does it solve a real learner or community need?
+2. Does it reduce unnecessary complexity?
+3. Can someone use the result without prior technical knowledge?
+4. Is it accessible, maintainable, and safe?
+5. Is there a clear way to learn whether it helped?
 
-Create clear, practical technology resources that reduce intimidation and increase confidence.
+If the answer is no, the change should be revised or dropped.
 
----
+## Current foundation
 
-## Empower
+### Community learning experience
 
-Provide tools, templates, and learning resources that help people become more self-sufficient.
+- ✅ Community-first homepage and language
+- ✅ Four-topic Learning Hub
+- ✅ Plain-language lesson format
+- ✅ Digital Confidence for the AI Era program framework
+- ✅ Curated external training library
+- ✅ Building TechTidy project case study
 
----
+### Technical foundation
 
-## Simplify
+- ✅ Responsive static site
+- ✅ Dark and light themes
+- ✅ Keyboard focus and semantic page structure
+- ✅ Git and GitHub version control
+- ✅ GitHub Pages custom-domain hosting
+- ✅ Formspree contact and program-interest forms
+- ✅ Google Analytics
+- ✅ Sitemap, canonical URLs, and crawler guidance
 
-Break down complex technology topics into approachable lessons without sacrificing accuracy.
-
----
-
-## Scale
-
-Build reusable systems that allow TechTidy to expand efficiently while maintaining consistency.
-
----
-
-# Current Status
-
-## Phase 1 — Foundation
-
-**Status:** In Progress
-
-### Branding
-
-- ✅ TechTidy visual identity
-- ✅ Logo and colour palette
-- ✅ Dark and Light themes
-
----
-
-### Website
-
-- ✅ Responsive layout
-- ✅ Navigation
-- ✅ Learning Hub
-- ✅ Contact page
-- ✅ Resource section
-- ✅ Training page
-
----
-
-### Documentation
-
-- ✅ STYLE-GUIDE.md
-- ✅ COMPONENTS.md
-- ✅ ROADMAP.md
-
----
-
-### Infrastructure
-
-- ✅ GitHub Pages
-- ✅ Git version control
-- ✅ Formspree
-- ✅ Buttondown Newsletter
-
----
-
-# Phase 2 — Learning Library
+## Priority 1 — Stabilize the learning experience
 
 **Status:** Active
 
-Expand the Learning Hub into a comprehensive digital confidence library.
+- Use consistent navigation and metadata across every page
+- Verify all internal links and article sequences
+- Improve mobile reading and keyboard navigation
+- Add clear previous, next, and return links where useful
+- Record a simple content-review date on learning resources
+- Test colour contrast, enlarged text, and reduced motion
+- Keep performance within a practical static-site budget
 
-## Technology Fundamentals
+## Priority 2 — Complete the learning paths
 
-- Understanding Computers
-- How the Internet Works
-- Understanding Websites
-- APIs Explained
-- Understanding Databases
-- Static vs Dynamic Content
-- Cloud Computing
-- DNS Explained
+**Status:** Active
 
----
+### Digital Productivity
 
-## Artificial Intelligence
+- Digital file organization
+- Email and calendar habits
+- Choosing the right tool for the task
+- Working with shared documents
+- Meeting and note-taking workflows
+- Responsible automation basics
 
-- AI Fundamentals
-- Prompt Engineering
-- AI Safety
-- Context Windows
-- Hallucinations
-- AI Privacy
-- Practical AI Workflows
-- Everyday AI
+### Technology Fundamentals
 
----
+- How the internet works
+- Websites and web applications
+- Networks explained
+- APIs in plain language
+- Backups and syncing
 
-## Security
+### AI Fundamentals
 
-- Password Security
-- Multi-Factor Authentication
-- Phishing
-- Identity Protection
-- Safe Browsing
+- AI privacy and sensitive information
+- Evaluating AI output
+- Choosing the right AI tool
+- Practical AI workflows
+
+### Security & Privacy
+
+- Device updates and backups
 - Public Wi-Fi
-- Backup Strategies
+- Identity protection
+- Privacy settings
 
----
+New lessons should only be added when they fill a clear gap in the learning sequence.
 
-## Microsoft 365
+## Priority 3 — Pilot the Digital Confidence program
 
-- OneDrive
-- SharePoint
-- Teams
-- Outlook
-- Planner
-- Power Automate
-- Copilot
+**Status:** Next
 
----
+- Confirm one community partner and learner group
+- Adapt examples to the community context
+- Define an accessible weekly delivery format
+- Prepare facilitator notes and participant handouts
+- Offer optional practice or support time
+- Establish consent and privacy expectations before any recording
+- Gather baseline and end-of-program confidence feedback
+- Document what should change before a second delivery
 
-## Power Platform
-
-- Power Automate
-- Power Apps
-- Dataverse
-- Power BI (Introduction)
-
----
-
-# Phase 3 — User Experience
+## Priority 4 — Build a useful feedback loop
 
 **Status:** Planned
 
-Improve navigation and learning experience.
+- Add a brief, optional learner-feedback method
+- Track which lessons lead people to a useful next step
+- Monitor program-guide downloads and community interest
+- Ask community partners about relevance, accessibility, and barriers
+- Review analytics without collecting unnecessary personal information
+- Publish improvements when feedback changes the learning design
 
-### Planned Features
-
-- Reading time indicator
-- Difficulty level
-- Last updated metadata
-- Table of contents
-- Search functionality
-- Related lessons
-- Previous / Next navigation
-- Breadcrumbs
-- Improved mobile navigation
-- Print-friendly articles
-
----
-
-# Phase 4 — Resources
+## Priority 5 — Create supporting resources
 
 **Status:** Planned
 
-Create downloadable resources that complement the Learning Hub.
+- Digital Confidence participant workbook
+- Facilitator guide
+- Online-safety checklist
+- Password and multi-factor authentication quick guide
+- AI privacy checklist
+- AI quick-wins reference card
+- Personal digital-toolkit worksheet
 
-## Guides
+Resources should be printable, readable on a phone, and usable independently after a session.
 
-- Digital Confidence Playbook
-- AI Quick Wins Cheat Sheet
-- Password Manager Guide
-- Microsoft 365 Starter Guide
-
----
-
-## Templates
-
-- AI Prompt Library
-- SOP Templates
-- Technology Checklists
-- IT Documentation Templates
-- Digital Workspace Setup Checklist
-
----
-
-## Downloads
-
-- PDFs
-- Checklists
-- Quick Reference Cards
-- Worksheets
-
----
-
-# Phase 5 — Newsletter
-
-**Status:** Planned
-
-Grow an engaged community through practical technology education.
-
-### Goals
-
-- Weekly technology insights
-- Monthly AI updates
-- New lesson notifications
-- Resource announcements
-- Practical tips
-
----
-
-# Phase 6 — Interactive Learning
+## Priority 6 — Add interaction only where it helps
 
 **Status:** Future
 
-Increase engagement through interactive content.
+Possible additions include:
 
-### Planned Features
+- Short knowledge checks
+- Interactive examples
+- Topic search
+- Estimated reading time
+- Printable lesson summaries
+- Optional progress tracking stored on the learner’s device
 
-- Interactive diagrams
-- Knowledge checks
-- Quizzes
-- Learning paths
-- Progress tracking
-- Search by topic
-- Bookmarks
-- Estimated completion time
+Member accounts, complex dashboards, and large platform features are intentionally deferred. They add privacy and maintenance costs that are not justified without demonstrated learner demand.
 
----
+## Success measures
 
-# Phase 7 — Business Services
+### Learner usefulness
 
-**Status:** Future
+- People can find an appropriate starting point
+- Learners move between related lessons instead of reaching a dead end
+- Feedback shows increased confidence or successful task completion
+- Resources remain understandable without facilitator support
 
-Expand TechTidy beyond educational content.
+### Community value
 
-## Consulting
+- Program-interest enquiries from suitable community organizations
+- A completed pilot with documented improvements
+- Repeat or referral interest based on participant experience
+- Materials adapted without losing the core learning principles
 
-- AI Readiness Assessments
-- Technology Reviews
-- Digital Workspace Optimization
-- Workflow Automation
+### Technical quality
 
----
+- No broken internal links
+- Forms and analytics remain functional after releases
+- Strong mobile readability and keyboard access
+- Fast page delivery with optimized assets
+- One clear and reversible deployment history
 
-## Training
+## Explicitly deprioritized
 
-- One-on-one coaching
-- Team workshops
-- AI training
-- Microsoft 365 training
-- Technology onboarding
+- A broad consulting-services catalogue
+- Sales-led homepage language
+- Publishing large volumes of disconnected content
+- Accounts, certificates, or gamification before learner demand exists
+- Features that require ongoing maintenance without clear community value
 
----
+## Long-term direction
 
-## Business Resources
+TechTidy should become a trusted, maintainable learning resource and a practical program that community partners can use to reduce digital exclusion.
 
-- Technology Playbooks
-- Team SOPs
-- AI Policies
-- Security Checklists
-
----
-
-# Phase 8 — Community
-
-**Status:** Future
-
-Build an engaged learning community.
-
-### Ideas
-
-- Discussion area
-- Ask TechTidy
-- Live Q&A sessions
-- Webinars
-- Community challenges
-
----
-
-# Phase 9 — Platform Growth
-
-**Status:** Long-Term
-
-Transform TechTidy into a comprehensive digital learning platform.
-
-Potential features include:
-
-- Member accounts
-- Saved progress
-- Learning dashboards
-- Certification paths
-- Video lessons
-- Interactive labs
-- Resource library
-- Searchable documentation
-- Mobile application
-
----
-
-# Technical Improvements
-
-Future enhancements include:
-
-- Performance optimization
-- Accessibility audits
-- SEO improvements
-- Structured data
-- Sitemap automation
-- RSS feed
-- Analytics dashboard
-- Content versioning
-
----
-
-# Success Metrics
-
-Measure progress through meaningful outcomes rather than feature count.
-
-## Website
-
-- Increased returning visitors
-- Longer session duration
-- Lower bounce rate
-- Faster page load times
-
----
-
-## Learning
-
-- Lessons completed
-- Resource downloads
-- Newsletter subscribers
-- Internal navigation between lessons
-
----
-
-## Business
-
-- Consulting enquiries
-- Workshop bookings
-- Resource sales
-- Community growth
-
----
-
-# Guiding Principles
-
-Every new feature should answer "yes" to the following questions:
-
-- Does it help someone build digital confidence?
-- Does it simplify technology?
-- Does it align with the TechTidy brand?
-- Will it be maintained over time?
-- Does it improve the learning experience?
-
-If the answer is "no," the feature should be reconsidered.
-
----
-
-# Long-Term Vision
-
-TechTidy aims to become a trusted educational platform that helps people confidently understand and use technology in their everyday lives.
-
-Success is not measured by the number of features, but by how effectively the platform helps people learn, solve problems, and feel more confident using technology.
-
-Technology changes constantly.
-
-TechTidy's mission remains the same:
-
-> **Make technology easier to understand, more practical to use, and less intimidating for everyone.**
+Success is not the number of pages or features. It is whether people leave with more understanding, stronger judgment, and greater confidence to take the next step themselves.

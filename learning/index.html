@@ -1,265 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9TF9JT3DVX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9TF9JT3DVX');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Free, plain-language learning paths covering online safety, AI, technology fundamentals, and digital productivity.">
     <title>Learning Hub | TechTidy</title>
 
-    <meta name="description"
-          content="Build your digital confidence with practical technology guides covering AI, cloud computing, databases, cybersecurity, productivity, and more.">
-
-    <link rel="stylesheet" href="../style.css">
-    <link rel="icon" href="../favicon.png">
+    <link rel="canonical" href="https://techtidy.ca/learning/">
+    <link rel="icon" href="/favicon-64.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css?v=20260909">
+    <script src="/site.js?v=20260909" defer></script>
 </head>
 
-<body>
+<body class="modern-page hub-page">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="glow-bg" aria-hidden="true"></div>
 
-<main class="container">
+    <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="/" aria-label="TechTidy home">TECH<span>TIDY</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-links">
+            <span class="sr-only">Open navigation</span><span aria-hidden="true">MENU</span>
+        </button>
+        <div class="site-nav-links" id="primary-links">
+            <a href="/learning/" aria-current="page">Learning Hub</a>
+            <a href="/digital-confidence/">Community Program</a>
+            <a href="/learning/building-techtidy.html">The Project</a>
+            <a href="/#about">About</a>
+            <a class="nav-pill" href="/#contact">Get in touch</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Switch to light mode" title="Change colour theme"><span aria-hidden="true">◐</span></button>
+    </nav>
 
-<!-- ==========================================
-     HERO
-=========================================== -->
+    <main id="main-content">
+        <header class="hub-hero section-shell">
+            <p class="eyebrow">Free, practical learning</p>
+            <h1>Learn one useful thing at a time.</h1>
+            <p>Choose the question that matters to you today. Every guide uses plain language, practical examples, and no assumed technical knowledge.</p>
+            <a class="button button-primary" href="#paths">Choose a learning path <span aria-hidden="true">↓</span></a>
+        </header>
 
-<section class="hero">
-
-    <div class="card-tag">
-        LEARNING HUB
-    </div>
-
-    <h1>
-        Build Your Digital Confidence
-    </h1>
-
-    <p class="hero-subtitle">
-        Practical learning paths that help you understand modern technology without the jargon. 
-        Build confidence through structured lessons, real-world examples, and practical explanations.
-    </p>
-
-    <div class="hero-actions">
-
-        <a href="#start"
-           class="nav-cta">
-            START WITH THE BASICS BELOW
-        </a>
-
-    </div>
-
-</section>
-
-<section>
-
-<div class="card-tag">
-LEARNING PATHS
-</div>
-
-<h2 class="headline">
-Choose a Learning Path
-</h2>
-
-<p class="summary" style="max-width:760px; margin-bottom:2.5rem;">
-Whether you're exploring artificial intelligence, building a stronger understanding of technology, or improving your online security, each learning path is designed to help you build confidence one lesson at a time.
-</p>
-
-<div class="learning-path-grid">
-
-    <!-- AI -->
-
-    <div class="learning-path-card">
-
-        <h3 class="learning-path-title">
-            AI Fundamentals
-        </h3>
-
-        <p class="learning-path-description">
-            Learn what artificial intelligence is, how to communicate with AI effectively, and how to use it responsibly in everyday life and work.
-        </p>
-
-        <div class="learning-divider"></div>
-
-        <p class="learning-path-label">
-            Current Lessons
-        </p>
-
-        <ul class="learning-path-list">
-            <li>Introduction to AI Fundamentals</li>
-            <li>Prompt Engineering Explained</li>
-            <li>Why AI Gets Things Wrong</li>
-        </ul>
-
-        <a href="/learning/ai.html"
-           class="learning-path-link">
-            Explore Learning Path →
-        </a>
-
-    </div>
-
-    <!-- Technology -->
-
-    <div class="learning-path-card">
-
-        <h3 class="learning-path-title">
-            Technology Fundamentals
-        </h3>
-
-        <p class="learning-path-description">
-            Understand the technologies that power modern websites, cloud services, databases, and applications.
-        </p>
-
-        <div class="learning-divider"></div>
-
-        <p class="learning-path-label">
-            Current Lessons
-        </p>
-
-        <ul class="learning-path-list">
-            <li>Cloud Computing Explained</li>
-            <li>Understanding Databases</li>
-        </ul>
-
-        <a href="/learning/technology.html"
-           class="learning-path-link">
-            Explore Learning Path →
-        </a>
-
-    </div>
-
-    <!-- Security -->
-
-    <div class="learning-path-card">
-
-        <h3 class="learning-path-title">
-            Security & Privacy
-        </h3>
-
-        <p class="learning-path-description">
-            Learn practical cybersecurity skills to help protect your accounts, devices, and personal information online.
-        </p>
-
-        <div class="learning-divider"></div>
-
-        <p class="learning-path-label">
-            Current Lessons
-        </p>
-
-        <ul class="learning-path-list">
-            <li>Security Fundamentals</li>
-            <li>Passwords</li>
-            <li>Multi-Factor Authentication</li>
-            <li>Spot Online Scams</li>
-            <li>Safe Online Shopping</li>
-            <li>Credit Card Security</li>
-            <li>What To Do If You've Been Hacked</li>
-        </ul>
-
-        <a href="/learning/security.html"
-           class="learning-path-link">
-            Explore Learning Path →
-        </a>
-
-    </div>
-
-</div>
-
-</section>
-<!-- ==========================================
-     EXPLORE
-=========================================== -->
-
-<section>
-
-    <div class="card-tag">
-        EXPLORE
-    </div>
-
-    <h2 class="headline">
-        Featured Articles & Case Studies
-    </h2>
-
-    <p class="summary">
-        Explore practical articles, real-world examples, and behind-the-scenes case studies that complement the learning paths.
-    </p>
-
-    <div class="news-grid">
-
-        <a href="ai-isnt-the-problem.html"
-           class="news-card">
-
-            <div class="card-tag">
-                AI
+        <section class="hub-section section-shell" id="paths" aria-labelledby="paths-title">
+            <div class="section-heading">
+                <div><p class="eyebrow">Four learning paths</p><h2 id="paths-title">Start with what you need</h2></div>
+                <p>You do not need to follow every lesson. Start anywhere, move at your own pace, and return when another question comes up.</p>
             </div>
 
-            <h2 class="headline">
-                AI Isn't the Problem
-            </h2>
+            <div class="path-grid">
+                <a class="path-card" href="/learning/security.html">
+                    <span class="path-number">01</span><p class="path-kicker">Protect yourself online</p>
+                    <h3>Security &amp; Privacy</h3>
+                    <p>Learn practical habits for stronger accounts, safer shopping, spotting scams, and responding after a hack.</p>
+                    <ul class="path-topics"><li>7 lessons</li><li>Beginner friendly</li><li>Practical checklists</li></ul>
+                    <span class="text-link">Explore Security &amp; Privacy <span aria-hidden="true">→</span></span>
+                </a>
 
-            <p class="summary">
-                A practical perspective on AI, human capability, and why technology should strengthen—not replace—critical thinking.
-            </p>
+                <a class="path-card" href="/learning/ai.html">
+                    <span class="path-number">02</span><p class="path-kicker">Use AI thoughtfully</p>
+                    <h3>AI Fundamentals</h3>
+                    <p>Understand what AI does, improve your prompts, recognize unreliable answers, and keep human judgment involved.</p>
+                    <ul class="path-topics"><li>3 lessons</li><li>Plain-language concepts</li><li>Responsible use</li></ul>
+                    <span class="text-link">Explore AI Fundamentals <span aria-hidden="true">→</span></span>
+                </a>
 
-            <div class="card-link">
-                Read Article →
+                <a class="path-card" href="/learning/technology.html">
+                    <span class="path-number">03</span><p class="path-kicker">Understand the systems</p>
+                    <h3>Technology Fundamentals</h3>
+                    <p>Make sense of cloud computing, databases, and the technologies working behind familiar digital services.</p>
+                    <ul class="path-topics"><li>2 lessons</li><li>Real-world examples</li><li>Concept first</li></ul>
+                    <span class="text-link">Explore Technology Fundamentals <span aria-hidden="true">→</span></span>
+                </a>
+
+                <a class="path-card path-card-accent" href="/learning/productivity.html">
+                    <span class="path-number">04</span><p class="path-kicker">Work with less friction</p>
+                    <h3>Digital Productivity</h3>
+                    <p>A growing path for organizing digital work, choosing useful tools, and creating simpler everyday workflows.</p>
+                    <ul class="path-topics"><li>In development</li><li>Workplace focused</li><li>Practical workflows</li></ul>
+                    <span class="text-link">Preview Digital Productivity <span aria-hidden="true">→</span></span>
+                </a>
             </div>
+        </section>
 
-        </a>
-
-        <a href="building-techtidy.html"
-           class="news-card">
-
-            <div class="card-tag">
-                CASE STUDY
+        <section class="hub-start-band" aria-labelledby="start-title">
+            <div class="section-shell">
+                <div class="section-heading">
+                    <div><p class="eyebrow">Not sure where to begin?</p><h2 id="start-title">Try one of these first</h2></div>
+                    <p>Three approachable guides that answer common questions without expecting you to know the terminology first.</p>
+                </div>
+                <div class="feature-grid hub-feature-grid">
+                    <a class="feature-card" href="/learning/introduction-to-AI-fundamentals.html">
+                        <p class="eyebrow">AI basics</p><h3>What is artificial intelligence?</h3>
+                        <p>A clear introduction to what AI is, where you already encounter it, and what it is not.</p>
+                        <span class="text-link">Read the introduction <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="feature-card" href="/learning/cybersecurity-made-simple.html">
+                        <p class="eyebrow">Online safety</p><h3>Cybersecurity made simple</h3>
+                        <p>Understand the basic habits that protect your accounts, devices, and personal information.</p>
+                        <span class="text-link">Learn the essentials <span aria-hidden="true">→</span></span>
+                    </a>
+                    <a class="feature-card" href="/learning/databases-explained.html">
+                        <p class="eyebrow">Technology basics</p><h3>What is a database?</h3>
+                        <p>See how websites and services store, change, and retrieve information using familiar examples.</p>
+                        <span class="text-link">Understand databases <span aria-hidden="true">→</span></span>
+                    </a>
+                </div>
             </div>
+        </section>
 
-            <h2 class="headline">
-                Building TechTidy
-            </h2>
-
-            <p class="summary">
-                See how TechTidy was built while learning Git, GitHub, HTML, CSS, JavaScript, UX, accessibility, and AI-assisted development.
-            </p>
-
-            <div class="card-link">
-                Read Case Study →
+        <section class="hub-method section-shell" aria-labelledby="method-title">
+            <div>
+                <p class="eyebrow">How the hub works</p>
+                <h2 id="method-title">Understanding before memorizing</h2>
             </div>
+            <ol>
+                <li><span>01</span><div><h3>Begin with the why</h3><p>Know what a concept helps you do and why it matters.</p></div></li>
+                <li><span>02</span><div><h3>Connect it to real life</h3><p>Use an example you already understand as the bridge to something new.</p></div></li>
+                <li><span>03</span><div><h3>Take one useful action</h3><p>Apply the learning while it is fresh and build confidence through practice.</p></div></li>
+            </ol>
+        </section>
 
-        </a>
+        <section class="hub-program-cta">
+            <div class="section-shell">
+                <p class="eyebrow">Want a guided learning experience?</p>
+                <h2>The Digital Confidence program connects the lessons into an eight-week journey.</h2>
+                <p>Designed for adults and community organizations that want a supportive, practical route from digital foundations to informed AI use.</p>
+                <a class="button button-primary" href="/digital-confidence/">Explore the community program <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+    </main>
 
-    </div>
-
-</section>
-
-<!-- ==========================================
-     WHY TECHTIDY
-=========================================== -->
-
-<section class="article-summary">
-
-    <h2>
-        Our Teaching Philosophy
-    </h2>
-
-    <p>
-        Technology changes quickly, but strong foundations don't.
-    </p>
-
-    <p>
-        My goal isn't simply to explain today's tools. It's to help you understand the ideas behind modern technology so you can adapt with confidence as technology continues to evolve.
-    </p>
-
-    <div class="hero-actions" style="margin-top:2rem;">
-
-        <a href="/"
-           class="nav-cta">
-
-            ← Back to TechTidy
-
-        </a>
-
-    </div>
-
-</section>
-
-</main>
-
+    <footer class="site-footer">
+        <div class="section-shell footer-layout">
+            <div><a class="brand" href="/">TECH<span>TIDY</span></a><p>Plain-language technology learning for real life.</p></div>
+            <nav aria-label="Footer navigation"><a href="/digital-confidence/">Community Program</a><a href="/learning/building-techtidy.html">Case Study</a><a href="/training.html">Free Training Library</a><a href="/#contact">Contact</a></nav>
+            <p>© <span data-current-year>2026</span> TechTidy</p>
+        </div>
+    </footer>
 </body>
 </html>
