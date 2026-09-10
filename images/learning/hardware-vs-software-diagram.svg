@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">Hardware and software work together</title>
+  <desc id="description">Hardware includes physical parts such as a screen, processor, storage, keyboard and camera. Software includes the operating system and applications. Together they let a person complete tasks such as joining a meeting, editing a document or sending an email.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16052f"/>
+      <stop offset="0.48" stop-color="#080a0f"/>
+      <stop offset="1" stop-color="#042938"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" rx="32" fill="url(#background)"/>
+  <rect x="34" y="34" width="1132" height="607" rx="28" fill="#0f131c" fill-opacity="0.94" stroke="#ffffff" stroke-opacity="0.15"/>
+
+  <text x="76" y="92" fill="#f7f8fc" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900">TECH<tspan fill="#a78bfa">TIDY</tspan></text>
+  <text x="76" y="150" fill="#f7f8fc" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">One device. Two working layers.</text>
+  <text x="76" y="187" fill="#abb4c5" font-family="Inter, Arial, sans-serif" font-size="20">Hardware provides the equipment. Software provides the instructions.</text>
+
+  <g>
+    <rect x="76" y="230" width="300" height="326" rx="22" fill="#151a25" stroke="#a78bfa" stroke-width="2"/>
+    <rect x="98" y="250" width="134" height="34" rx="17" fill="url(#purple)"/>
+    <text x="117" y="273" fill="#090a0e" font-family="monospace" font-size="16" font-weight="700">HARDWARE</text>
+    <text x="98" y="326" fill="#f7f8fc" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="750">Physical equipment</text>
+    <g fill="#abb4c5" font-family="Inter, Arial, sans-serif" font-size="20">
+      <text x="116" y="373">Screen and keyboard</text>
+      <text x="116" y="415">Processor and memory</text>
+      <text x="116" y="457">Storage and camera</text>
+      <text x="116" y="499">Cables and connections</text>
+    </g>
+    <g fill="#a78bfa">
+      <circle cx="99" cy="366" r="5"/><circle cx="99" cy="408" r="5"/>
+      <circle cx="99" cy="450" r="5"/><circle cx="99" cy="492" r="5"/>
+    </g>
+  </g>
+
+  <path d="M398 393h55" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <path d="m443 378 16 15-16 15" fill="none" stroke="#6b7280" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="477" y="230" width="300" height="326" rx="22" fill="#151a25" stroke="#42d3e8" stroke-width="2"/>
+    <rect x="499" y="250" width="134" height="34" rx="17" fill="url(#cyan)"/>
+    <text x="518" y="273" fill="#090a0e" font-family="monospace" font-size="16" font-weight="700">SOFTWARE</text>
+    <text x="499" y="326" fill="#f7f8fc" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="750">Digital instructions</text>
+    <g fill="#abb4c5" font-family="Inter, Arial, sans-serif" font-size="20">
+      <text x="517" y="373">Operating system</text>
+      <text x="517" y="415">Applications</text>
+      <text x="517" y="457">Web browser</text>
+      <text x="517" y="499">Built-in controls</text>
+    </g>
+    <g fill="#42d3e8">
+      <circle cx="500" cy="366" r="5"/><circle cx="500" cy="408" r="5"/>
+      <circle cx="500" cy="450" r="5"/><circle cx="500" cy="492" r="5"/>
+    </g>
+  </g>
+
+  <path d="M799 393h55" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <path d="m844 378 16 15-16 15" fill="none" stroke="#6b7280" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="878" y="230" width="246" height="326" rx="22" fill="#f7f8fc"/>
+    <rect x="900" y="250" width="116" height="34" rx="17" fill="#111827"/>
+    <text x="920" y="273" fill="#ffffff" font-family="monospace" font-size="16" font-weight="700">TOGETHER</text>
+    <text x="900" y="326" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="750">Useful tasks</text>
+    <g fill="#536072" font-family="Inter, Arial, sans-serif" font-size="20">
+      <text x="918" y="373">Join a meeting</text>
+      <text x="918" y="415">Edit a document</text>
+      <text x="918" y="457">Send an email</text>
+      <text x="918" y="499">Watch a video</text>
+    </g>
+    <g fill="#6d36e8">
+      <circle cx="901" cy="366" r="5"/><circle cx="901" cy="408" r="5"/>
+      <circle cx="901" cy="450" r="5"/><circle cx="901" cy="492" r="5"/>
+    </g>
+  </g>
+
+  <text x="76" y="604" fill="#a78bfa" font-family="monospace" font-size="17" font-weight="700">PHYSICAL PARTS</text>
+  <text x="465" y="604" fill="#42d3e8" font-family="monospace" font-size="17" font-weight="700">+ INSTRUCTIONS</text>
+  <text x="851" y="604" fill="#f7f8fc" font-family="monospace" font-size="17" font-weight="700">= WHAT YOU CAN DO</text>
+</svg>
