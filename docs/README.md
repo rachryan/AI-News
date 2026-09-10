@@ -17,10 +17,13 @@ If you're new to the project, read these documents in order:
 3. CONTENT-PLAYBOOK.md
    Understand how educational content is written.
 
-4. PROJECT-STANDARDS.md
+4. LESSON-QUALITY-CHECKLIST.md
+   Use the publishing gate for every instructional lesson.
+
+5. PROJECT-STANDARDS.md
    Learn development, repository, and coding standards.
 
-5. ROADMAP.md
+6. ROADMAP.md
    Explore planned features and long-term goals.
 
 ---
@@ -32,6 +35,7 @@ If you're new to the project, read these documents in order:
 | STYLE-GUIDE | Design language |
 | COMPONENTS | UI library |
 | CONTENT-PLAYBOOK | Editorial standards |
+| LESSON-QUALITY-CHECKLIST | Lesson publishing and quality gate |
 | PROJECT-STANDARDS | Development standards |
 | ROADMAP | Future direction |
 

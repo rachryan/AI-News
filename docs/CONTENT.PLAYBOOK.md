@@ -1,8 +1,10 @@
 # TechTidy Content Playbook
 
-**Version:** 2.0  
-**Status:** Active  
-**Last Updated:** July 2026
+**Version:** 2.1
+
+**Status:** Active
+
+**Last Updated:** September 2026
 
 ---
 
@@ -21,6 +23,17 @@ Its purpose is to ensure every lesson is:
 
 Every lesson should help readers build genuine digital confidence.
 
+## Official lesson production resources
+
+Use these two assets when creating or substantially revising an instructional lesson:
+
+- `templates/lesson-template.html` — the production HTML structure, metadata, accessibility landmarks, activity, knowledge check, and navigation pattern.
+- `docs/LESSON-QUALITY-CHECKLIST.md` — the required editorial, accessibility, safety, technical, and publishing review.
+
+The existing `templates/article-template.html` remains available for articles and insights. It is not the production template for instructional lessons.
+
+`learning/hardware-vs-software.html` is the reference implementation. The lesson template and quality checklist take precedence if an older example conflicts with them.
+
 ---
 
 # Content Philosophy
@@ -35,14 +48,13 @@ Readers should finish each lesson feeling more confident than when they started.
 
 # Audience
 
-TechTidy is written for:
+TechTidy is written primarily for adults who want a patient, practical route into everyday technology, online safety, and AI. This includes:
 
-- Individuals
-- Small businesses
-- Nonprofits
-- Educators
-- Public sector organizations
-- Professionals who want practical technology skills
+- People who feel technology has moved ahead without enough support
+- Older adults and newcomers navigating digital services
+- Community learners with different devices, experiences, and goals
+- Educators, nonprofits, libraries, and public-serving organizations supporting those learners
+- People who want practical technology skills without technical jargon
 
 Assume readers are intelligent but may not have a technical background.
 
@@ -55,6 +67,8 @@ Never write down to the reader.
 Every educational lesson follows the same structure.
 
 Consistency reduces cognitive load and creates a recognizable learning experience.
+
+On the published page, the lesson identity and “What You’ll Learn” outcomes appear first. The teaching sequence then establishes why the topic matters before introducing detail.
 
 ---
 
@@ -195,7 +209,20 @@ Guidelines:
 
 ---
 
-## 7. Key Takeaways
+## 7. Quick Knowledge Check
+
+Every instructional lesson includes two to four questions that test the stated learning outcomes.
+
+Requirements:
+
+- Focus on understanding or decisions, not trivia
+- Provide an answer and short explanation
+- Let learners review without penalty
+- Require no account or personal information
+
+---
+
+## 8. Key Takeaways
 
 Summarize the lesson.
 
@@ -207,7 +234,7 @@ Requirements:
 
 ---
 
-## 8. Continue Your Journey
+## 9. Continue Your Journey
 
 Guide readers to related lessons.
 
@@ -225,7 +252,7 @@ Encourage continuous learning through logical learning paths.
 
 ---
 
-## 9. Optional Resource
+## 10. Optional Resource
 
 Only include when it genuinely supports the lesson.
 
