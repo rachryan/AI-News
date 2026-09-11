@@ -99,6 +99,8 @@
           "inLanguage": "en-CA",
           "learningResourceType": "Lesson",
           "educationalLevel": "Beginner",
+          "timeRequired": "PT12M",
+          "teaches": ["What multi-factor authentication is", "How common factors differ", "How to respond to unexpected approval requests"],
           "provider": {
             "@type": "Organization",
             "name": "TechTidy",
@@ -106,8 +108,8 @@
           },
           "isPartOf": {
             "@type": "CollectionPage",
-            "@id": "https://techtidy.ca/learning/#webpage",
-            "name": "TechTidy Learning Hub"
+            "@id": "https://techtidy.ca/learning/security.html#webpage",
+            "name": "Security & Privacy"
           }
         }
       ]
@@ -119,9 +121,11 @@
 
 <body>
 
-<div class="glow-bg"></div>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
-<nav class="pathfinder-nav">
+<div class="glow-bg" aria-hidden="true"></div>
+
+<nav class="pathfinder-nav" aria-label="Site navigation">
     <div class="logo nav-logo">
         <a href="/" style="text-decoration:none; color:inherit;">
             TECH<span>TIDY</span>
@@ -129,17 +133,17 @@
     </div>
 </nav>
 
-<div class="article-back">
+<nav class="article-back" aria-label="Back to Security &amp; Privacy">
     <a href="/learning/security.html">
         ← Return to Security Fundamentals
     </a>
-</div>
+</nav>
 
-<main class="container">
+<main class="container" id="main-content">
 
 <header class="page-hero">
 
-    <div class="card-tag">SECURITY FUNDAMENTALS</div>
+    <div class="card-tag">SECURITY &amp; PRIVACY · LESSON 3</div>
 
     <h1 class="headline">
         Multi-Factor Authentication Explained
@@ -149,6 +153,7 @@
         Passwords are important, but they're only one part of protecting your online accounts. Multi-Factor Authentication (MFA) adds a second layer of security, making it much harder for someone else to sign in—even if they know your password.
     </p>
 
+<p class="article-meta">Beginner · About 12 minutes · Includes an activity and knowledge check</p>
 </header>
 
 <section class="news-card">
@@ -335,6 +340,9 @@
 
 </section>
 
+<section class="news-card"><div class="card-tag">TRY IT</div><h2 class="headline">Plan an MFA Setup</h2><p class="summary">Choose a fictional email account. List a preferred second factor and a safe place for recovery codes. Do not display or share real codes.</p><details><summary>Show an example</summary><p>An authenticator app as the second factor; recovery codes stored securely and separately from the signed-in device.</p></details></section>
+<figure><img src="/images/learning/pause-check-act-diagram.svg" alt="A calm security method with three steps: pause before reacting, check through a trusted route, and take the smallest safe action." width="1200" height="675"><figcaption class="article-meta">Pause before approving a sign-in, check that you initiated it, and deny unexpected requests.</figcaption></figure>
+<section class="news-card"><div class="card-tag">KNOWLEDGE CHECK</div><h2 class="headline">Check Your Understanding</h2><h3>What does MFA add?</h3><details><summary>Answer</summary><p>A separate proof of identity beyond the password.</p></details><h3>What should you do with an unexpected approval request?</h3><details><summary>Answer</summary><p>Deny it, then review the account through its official app or website.</p></details></section>
 <section class="news-card">
 
     <div class="card-tag">KEY TAKEAWAYS</div>
