@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Files and databases store information differently</title><desc id="desc">Individual files are shown on the left. Connected structured records that can be searched, sorted and updated are shown on the right.</desc>
+  <rect width="1200" height="675" rx="28" fill="#0b1220"/><text x="70" y="78" fill="#7dd3fc" font-family="Inter,Arial" font-size="30" font-weight="700">FILES</text><text x="650" y="78" fill="#86efac" font-family="Inter,Arial" font-size="30" font-weight="700">DATABASE</text>
+  <g fill="#17243a" stroke="#7dd3fc" stroke-width="3"><rect x="80" y="130" width="420" height="110" rx="16"/><rect x="80" y="275" width="420" height="110" rx="16"/><rect x="80" y="420" width="420" height="110" rx="16"/></g>
+  <g fill="#e5f6ff" font-family="Inter,Arial" font-size="26"><text x="120" y="195">Event-poster.pdf</text><text x="120" y="340">Workshop-photo.jpg</text><text x="120" y="485">Budget-sheet.xlsx</text></g>
+  <g fill="#17243a" stroke="#86efac" stroke-width="3"><rect x="650" y="130" width="470" height="88" rx="14"/><rect x="650" y="245" width="470" height="88" rx="14"/><rect x="650" y="360" width="470" height="88" rx="14"/></g>
+  <g fill="#edfff2" font-family="Inter,Arial" font-size="23"><text x="680" y="183">Record 101  |  Name  |  Status</text><text x="680" y="298">Record 102  |  Name  |  Status</text><text x="680" y="413">Record 103  |  Name  |  Status</text></g>
+  <g fill="#86efac" font-family="Inter,Arial" font-size="22" font-weight="700"><text x="670" y="510">SEARCH</text><text x="825" y="510">SORT</text><text x="945" y="510">UPDATE</text></g><text x="600" y="612" text-anchor="middle" fill="#cbd5e1" font-family="Inter,Arial" font-size="25">Different tools for different information needs</text>
+</svg>
