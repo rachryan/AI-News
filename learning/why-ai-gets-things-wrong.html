@@ -78,8 +78,8 @@ content="Learn why AI sometimes gives incorrect answers, what hallucinations are
             {
               "@type": "ListItem",
               "position": 2,
-              "name": "Learning Hub",
-              "item": "https://techtidy.ca/learning/"
+              "name": "AI Fundamentals",
+              "item": "https://techtidy.ca/learning/ai.html"
             },
             {
               "@type": "ListItem",
@@ -99,6 +99,8 @@ content="Learn why AI sometimes gives incorrect answers, what hallucinations are
           "inLanguage": "en-CA",
           "learningResourceType": "Lesson",
           "educationalLevel": "Beginner",
+          "timeRequired": "PT15M",
+          "teaches": ["Why AI produces plausible errors", "When to verify AI output", "How bias and consequences affect responsible use"],
           "provider": {
             "@type": "Organization",
             "name": "TechTidy",
@@ -106,8 +108,8 @@ content="Learn why AI sometimes gives incorrect answers, what hallucinations are
           },
           "isPartOf": {
             "@type": "CollectionPage",
-            "@id": "https://techtidy.ca/learning/#webpage",
-            "name": "TechTidy Learning Hub"
+            "@id": "https://techtidy.ca/learning/ai.html#webpage",
+            "name": "AI Fundamentals"
           }
         }
       ]
@@ -118,10 +120,11 @@ content="Learn why AI sometimes gives incorrect answers, what hallucinations are
 </head>
 
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
-<div class="glow-bg"></div>
+<div class="glow-bg" aria-hidden="true"></div>
 
-<nav class="pathfinder-nav">
+<nav class="pathfinder-nav" aria-label="Site navigation">
     <div class="logo nav-logo">
         <a href="/" style="text-decoration:none;color:inherit;">
             TECH<span>TIDY</span>
@@ -129,16 +132,16 @@ content="Learn why AI sometimes gives incorrect answers, what hallucinations are
     </div>
 </nav>
 
-<div class="article-back">
+<nav class="article-back" aria-label="Back to AI Fundamentals">
     <a href="/learning/ai.html">
         ← Back to AI Fundamentals
     </a>
-</div>
+</nav>
 
 <header class="article-header">
 
 <div class="card-tag">
-AI FUNDAMENTALS
+AI FUNDAMENTALS · LESSON 3
 </div>
 
 <h1>
@@ -149,9 +152,13 @@ Why AI Gets Things Wrong
 Artificial intelligence can produce remarkable results, but it isn't perfect. Understanding why AI sometimes makes mistakes—and knowing when to verify its answers—is one of the most important skills you can develop as an AI user.
 </p>
 
+<p class="article-meta">Beginner · About 15 minutes · Includes an activity and knowledge check</p>
+
 </header>
 
-<main class="article-body">
+<main class="article-body" id="main-content">
+
+<section><h2>What You’ll Learn</h2><ul><li>Why AI can produce plausible but incorrect information</li><li>What an AI hallucination is</li><li>When verification matters most</li><li>How bias and missing context can affect an answer</li></ul></section><hr>
 
 <section>
 
@@ -307,6 +314,8 @@ In reality, those are two different things.
 This habit alone will help you use AI much more responsibly.
 </p>
 
+<figure><img src="/images/learning/verify-ai-output-diagram.svg" alt="An AI answer moves through three checks: identify the consequence of an error, compare important claims with a reliable source, and keep a person responsible for the decision." width="1200" height="675"><figcaption class="article-meta">The higher the consequence of an error, the stronger the verification and human oversight should be.</figcaption></figure>
+
 </section>
 
 <hr>
@@ -392,7 +401,7 @@ Understanding this helps you evaluate responses more thoughtfully.
 
 <section>
 
-<h2>Try It Yourself</h2>
+<h2>Try It: Plan a Verification</h2>
 
 <div class="callout">
 
@@ -401,29 +410,27 @@ EXERCISE
 </div>
 
 <p>
-Open your favourite AI assistant and ask:
+Imagine an AI gives you this answer about a fictional town:
 </p>
 
 <blockquote>
-Name three scientific studies proving coffee extends lifespan.
+“Pine Harbour Library lends tools from every branch and never charges late fees.”
 </blockquote>
 
 <p>
-Next, ask:
+Before repeating the claim, identify what needs checking:
 </p>
 
 <blockquote>
-Can you provide links to those studies?
+Which branches lend tools? Are there eligibility rules? Is the no-fee policy current?
 </blockquote>
 
 <p>
-Finally, search for the studies yourself.
+Decide which source should be authoritative.
 </p>
 
 <p>
-Do they exist?
-Were they summarized accurately?
-Are they reputable?
+Because Pine Harbour is fictional, no real source can confirm the claim. In a real situation, check the library’s official website or contact the library directly—not a second AI-generated answer.
 </p>
 
 </div>
@@ -488,9 +495,11 @@ Use AI as a powerful guide—not as an unquestionable authority.
 
 <hr>
 
+<section><h2>Quick Knowledge Check</h2><h3>1. What is an AI hallucination?</h3><details><summary>Answer</summary><p>An invented or incorrect output presented as though it were reliable.</p></details><h3>2. Does a confident tone prove accuracy?</h3><details><summary>Answer</summary><p><strong>No.</strong> Tone and factual accuracy are separate.</p></details><h3>3. When should verification be strongest?</h3><details><summary>Answer</summary><p>When an error could affect health, rights, money, safety, employment or another important decision.</p></details></section><hr>
+
 <section>
 
-<h2>Key Takeaway</h2>
+<h2>What to Remember</h2>
 
 <div class="callout success">
 
@@ -523,16 +532,14 @@ Your judgment helps you work smarter.
 CONTINUE LEARNING
 </div>
 
-<h2>
-Build AI Confidence
-</h2>
+<h2>Next: Choosing the Right AI Tool</h2>
 
 <p>
-Understanding AI's limitations is just as important as understanding its capabilities. Return to the AI Fundamentals learning path to continue building practical AI skills.
+Accuracy is only one part of responsible use. Next, consider privacy, information sensitivity, approval and accountability.
 </p>
 
-<a href="/learning/ai.html" class="nav-cta">
-Back to AI Fundamentals →
+<a href="/learning/choosing-the-right-ai-tool.html" class="nav-cta">
+Continue to Lesson 4 →
 </a>
 
 </div>
