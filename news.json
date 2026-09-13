@@ -1,5 +1,5 @@
 {
-    "last_updated": "September 12, 2026",
+    "last_updated": "September 13, 2026",
     "articles": [
         {
             "title": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
@@ -30,7 +30,7 @@
             "source": "AI News"
         },
         {
-            "title": "Roundtables: AI\u2019s apocalypse crisis",
+            "title": "Roundtables: Could AI really kill us all?",
             "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
             "urlToImage": "",
             "description": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or...",
@@ -58,6 +58,20 @@
             "source": "MIT Tech Review"
         },
         {
+            "title": "OpenAI\u2019s Sam Altman says it would be \u2018ill-advised\u2019 to go public in 2026",
+            "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+            "urlToImage": "",
+            "description": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman....",
+            "source": "TechCrunch AI"
+        },
+        {
+            "title": "Anthropic CEO outlines plan to slow AI development",
+            "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+            "urlToImage": "",
+            "description": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?...",
+            "source": "TechCrunch AI"
+        },
+        {
             "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
             "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
             "urlToImage": "",
@@ -69,20 +83,6 @@
             "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
             "urlToImage": "",
             "description": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robus...",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "OpenAI\u2019s feud with mathematicians is only escalating",
-            "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-            "urlToImage": "",
-            "description": "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work....",
-            "source": "TechCrunch AI"
-        },
-        {
-            "title": "One week left to book your exhibit table at TechCrunch Disrupt 2026",
-            "url": "https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/",
-            "urlToImage": "",
-            "description": "Only one week left to secure your exhibit table. Tables are limited and can sell out before the September 18 deadline....",
             "source": "TechCrunch AI"
         }
     ]
