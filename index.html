@@ -288,6 +288,7 @@
                     <p>Community organizations, nonprofits, and teams can get in touch about workshops or the Digital Confidence program. Questions and feedback from individual learners are welcome too.</p>
                 </div>
                 <form class="inquiry-form contact-form" action="https://formspree.io/f/mnjlrooz" method="POST">
+                    <input class="form-honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
                     <label for="email">Email address</label>
                     <input id="email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required>
                     <label for="help-type">What would you like to discuss?</label>
@@ -301,6 +302,7 @@
                     </select>
                     <label for="message">Message</label>
                     <textarea id="message" name="msg" rows="5" placeholder="Tell me a little about what you have in mind" required></textarea>
+                    <p class="form-privacy-note">Formspree processes this submission and sends it to TechTidy. Please do not include passwords or sensitive personal information. <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener">Read Formspree’s privacy policy <span aria-hidden="true">↗</span></a>.</p>
                     <button class="button button-primary submit-button" type="submit">Send message <span aria-hidden="true">→</span></button>
                 </form>
             </div>
