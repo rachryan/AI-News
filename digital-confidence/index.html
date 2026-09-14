@@ -254,11 +254,13 @@
                 </div>
 
                 <form class="inquiry-form contact-form" action="https://formspree.io/f/mnjlrooz" method="POST">
+                    <input class="form-honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
                     <label for="program-email">Email address</label>
                     <input id="program-email" type="email" name="email" autocomplete="email" placeholder="you@example.com" required>
                     <label for="program-message">What are you interested in?</label>
                     <textarea id="program-message" name="message" rows="5" placeholder="Tell me whether you are interested as a learner or community organization"></textarea>
                     <input type="hidden" name="type" value="Digital Confidence Program interest">
+                    <p class="form-privacy-note">Formspree processes this submission and sends it to TechTidy. Please do not include passwords or sensitive personal information. <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener">Read Formspree’s privacy policy <span aria-hidden="true">↗</span></a>.</p>
                     <button class="button button-primary submit-button" type="submit">Send your interest <span aria-hidden="true">→</span></button>
                 </form>
             </div>
