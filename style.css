@@ -2141,6 +2141,23 @@ body.modern-page {
     color: var(--text-main);
 }
 
+.form-honeypot {
+    display: none !important;
+}
+
+.form-privacy-note {
+    margin: 0.25rem 0 1.25rem;
+    color: var(--text-dim);
+    font-size: 0.875rem;
+    line-height: 1.55;
+}
+
+.form-privacy-note a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
 .submit-btn {
     width: 100%;
     padding: 1.2rem;
