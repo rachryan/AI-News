@@ -964,6 +964,16 @@ body.modern-page {
     margin-top: 1.5rem;
 }
 
+.contact-email a {
+    color: var(--home-accent-bright);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+}
+
+.contact-email a:hover {
+    color: var(--home-text);
+}
+
 .contact-form {
     margin: 0;
     padding: 2rem;
